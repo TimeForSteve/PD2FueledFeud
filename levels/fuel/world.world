@@ -744,6 +744,30 @@
 				<entry key="unit_id" type="number" value="31"/>
 			</entry>
 		</entry>
+		<entry index="32" type="table">
+			<entry key="ai_editor_data" type="table">
+				<entry key="detection_mul" type="number" value="1"/>
+				<entry key="location_id" type="string" value="location_unknown"/>
+				<entry key="suspicion_mul" type="number" value="1"/>
+				<entry key="visibilty_exlude_filter" type="table">
+				</entry>
+				<entry key="visibilty_include_filter" type="table">
+				</entry>
+			</entry>
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="562.728 3722.96 0"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
+				<entry key="name_id" type="string" value="nav_surface_032"/>
+				<entry key="position" type="vector3" value="562.728 3722.96 0"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="32"/>
+			</entry>
+		</entry>
 	</entry>
 	<entry key="ai_nav_graphs" type="table">
 		<entry key="file" type="string" value="nav_manager_data"/>
@@ -760,17 +784,14 @@
 	<entry key="brush" type="table">
 		<entry key="file" type="string" value="massunit"/>
 		<entry key="preload_units" type="table">
-			<entry index="1" type="string" value="units/world/architecture/secret_stash/props/secret_stash_props_trash_3"/>
-			<entry index="2" type="string" value="units/world/brushes/trash/trash_brush_03"/>
-			<entry index="3" type="string" value="units/world/brushes/trash/trash_brush_04"/>
-			<entry index="4" type="string" value="units/world/brushes/trash/trash_brush_01"/>
-			<entry index="5" type="string" value="units/world/architecture/secret_stash/props/secret_stash_props_trash_2"/>
-			<entry index="6" type="string" value="units/world/brushes/trash/trash_brush_02"/>
-			<entry index="7" type="string" value="units/world/vegetation/brushes/train/tra_brush_garbage/tra_brush_garabage_crumblednewspaper"/>
-			<entry index="8" type="string" value="units/payday2/brushes/str_brush_trash/str_brush_trash_02"/>
-			<entry index="9" type="string" value="units/world/brushes/trash/trash_brush_05"/>
-			<entry index="10" type="string" value="units/payday2/brushes/str_brush_trash/str_brush_trash_05"/>
-			<entry index="11" type="string" value="units/payday2/brushes/str_brush_trash/str_brush_trash_03"/>
+			<entry index="1" type="string" value="units/world/brushes/trash/trash_brush_04"/>
+			<entry index="2" type="string" value="units/world/vegetation/brushes/train/tra_brush_garbage/tra_brush_garabage_crumblednewspaper"/>
+			<entry index="3" type="string" value="units/world/brushes/trash/trash_brush_01"/>
+			<entry index="4" type="string" value="units/world/brushes/trash/trash_brush_03"/>
+			<entry index="5" type="string" value="units/world/brushes/trash/trash_brush_02"/>
+			<entry index="6" type="string" value="units/world/vegetation/forest/zones/forest/brushes/fst_leaves_01/fst_leaves_01"/>
+			<entry index="7" type="string" value="units/payday2/nature/pnau/pnau_brush/pnau_brush_leafs/pnau_brush_leafs_01_b"/>
+			<entry index="8" type="string" value="units/payday2/nature/pnau/pnau_brush/pnau_brush_leafs/pnau_brush_leafs_01_a"/>
 		</entry>
 	</entry>
 	<entry key="camera_bookmarks" type="table">
@@ -835,18 +856,18 @@
 				<entry key="filter_list" type="table">
 					<entry index="1" type="string" value="cfd999417e8eb72d"/>
 					<entry index="2" type="string" value="cee9c44e4f1ef6e2"/>
-					<entry index="3" type="string" value="76078014daa529c8"/>
-					<entry index="4" type="string" value="e36a12365a151b14"/>
-					<entry index="5" type="string" value="6174ec93d0eeeacd"/>
+					<entry index="3" type="string" value="c6b3fa02d5ee12b1"/>
+					<entry index="4" type="string" value="ac403b8f792138ad"/>
+					<entry index="5" type="string" value="79632d2b8dab1c23"/>
 					<entry index="6" type="string" value="20458ffc6d388c0f"/>
-					<entry index="7" type="string" value="ac403b8f792138ad"/>
-					<entry index="8" type="string" value="fb725a62e7857072"/>
-					<entry index="9" type="string" value="48b53ca3bf280008"/>
+					<entry index="7" type="string" value="48b53ca3bf280008"/>
+					<entry index="8" type="string" value="e36a12365a151b14"/>
+					<entry index="9" type="string" value="76078014daa529c8"/>
 					<entry index="10" type="string" value="002c8c522e139b16"/>
-					<entry index="11" type="string" value="c6b3fa02d5ee12b1"/>
-					<entry index="12" type="string" value="457904ce74fa1005"/>
-					<entry index="13" type="string" value="79632d2b8dab1c23"/>
-					<entry index="14" type="string" value="fb96a0addd59b018"/>
+					<entry index="11" type="string" value="457904ce74fa1005"/>
+					<entry index="12" type="string" value="6174ec93d0eeeacd"/>
+					<entry index="13" type="string" value="fb96a0addd59b018"/>
+					<entry index="14" type="string" value="fb725a62e7857072"/>
 				</entry>
 				<entry key="height" type="number" value="560"/>
 				<entry key="name" type="string" value="none"/>
