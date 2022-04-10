@@ -1,0 +1,491 @@
+{
+  "asset": {
+    "copyright": "",
+    "generator": "SharpGLTF 1.0.0-alpha0022",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 1496,
+      "max": [
+        18.500015258789062,
+        29.000022888183594,
+        0.060158055275678635
+      ],
+      "min": [
+        -18.500015258789062,
+        -29.000022888183594,
+        -0.060158051550388336
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1496,
+      "max": [
+        0.99999427795410156,
+        0.99999773502349854,
+        1
+      ],
+      "min": [
+        -0.99989098310470581,
+        -0.99999994039535522,
+        -0.0064642578363418579
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1496,
+      "max": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "min": [
+        0.82745099067687988,
+        0.82745099067687988,
+        0.82745099067687988,
+        0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 1496,
+      "max": [
+        9.6350212097167969,
+        1.0007920265197754
+      ],
+      "min": [
+        -21.062410354614258,
+        -0.0019803047180175781
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5123,
+      "count": 3294,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 6588,
+      "componentType": 5123,
+      "count": 318,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 7224,
+      "componentType": 5123,
+      "count": 120,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 130,
+      "max": [
+        18.50029182434082,
+        29.000019073486328,
+        0.060153130441904068
+      ],
+      "min": [
+        -18.500312805175781,
+        -29.000019073486328,
+        -0.060153134167194366
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5123,
+      "count": 318,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 130,
+      "max": [
+        18.500303268432617,
+        29.000020980834961,
+        0.060153130441904068
+      ],
+      "min": [
+        -18.500303268432617,
+        -29.000020980834961,
+        -0.060153134167194366
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5123,
+      "count": 318,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 17952,
+      "byteOffset": 23936,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 17952,
+      "byteOffset": 41888,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 23936,
+      "byteStride": 16,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 17952,
+      "byteOffset": 59840,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 7464,
+      "byteOffset": 77792,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1560,
+      "byteOffset": 85256,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 636,
+      "byteOffset": 88376,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1560,
+      "byteOffset": 86816,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 636,
+      "byteOffset": 89012,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 89648,
+      "uri": "fuel_ext_road_driveway.bin"
+    }
+  ],
+  "materials": [
+    {
+      "name": "mat_ground_road"
+    },
+    {
+      "name": "mat_ground_road_decal_02"
+    },
+    {
+      "name": "mat_ground_road_decal_01"
+    },
+    {
+      "name": "lambert1"
+    },
+    {
+      "name": "Material: Default Material"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "g_lod0",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "COLOR_0": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        },
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "COLOR_0": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 5,
+          "material": 2
+        },
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "COLOR_0": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 6,
+          "material": 1
+        }
+      ]
+    },
+    {
+      "name": "c_mesh_mopp_01",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 7
+          },
+          "indices": 8
+        }
+      ]
+    },
+    {
+      "name": "dm_asphalt",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 9
+          },
+          "indices": 10
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "rp_flt_ext_ground_road_crossing_16m",
+      "children": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -84,
+        -60.0000038,
+        -4.99900125E-05,
+        1
+      ]
+    },
+    {
+      "name": "g_lod0",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -18.4999962,
+        -7.99999857,
+        -0.0600976348,
+        1
+      ],
+      "mesh": 0
+    },
+    {
+      "name": "snap_01",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -16,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "snap_02",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -21,
+        -17,
+        4.9429982E-05,
+        1
+      ]
+    },
+    {
+      "name": "snap_03",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -37,
+        1,
+        5.05599819E-05,
+        1
+      ]
+    },
+    {
+      "name": "snap_04",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -37,
+        -17,
+        5.05599819E-05,
+        1
+      ]
+    },
+    {
+      "name": "snap_05",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -21,
+        1,
+        5.05599819E-05,
+        1
+      ]
+    },
+    {
+      "name": "c_mesh_mopp_01",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -18.4997063,
+        -7.99999762,
+        -0.0601025522,
+        1
+      ],
+      "mesh": 1
+    },
+    {
+      "name": "dm_asphalt",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -18.4996967,
+        -7.99999762,
+        -0.0601025522,
+        1
+      ],
+      "mesh": 2
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

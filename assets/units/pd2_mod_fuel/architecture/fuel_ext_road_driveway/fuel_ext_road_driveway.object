@@ -1,0 +1,15 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_fuel/architecture/fuel_ext_road_driveway/fuel_ext_road_driveway" orientation_object="rp_fuel_ext_road_driveway" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_fuel_ext_road_driveway" />
+			<object name="c_mesh_mopp_01" collision_type="mesh_mopp" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="asphalt">
+		<decal_mesh name="dm_asphalt" enabled="true" material="asphalt" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_lod0" enabled="true" />
+	</graphics>
+</dynamic_object>

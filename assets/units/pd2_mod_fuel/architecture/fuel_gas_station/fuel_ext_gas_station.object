@@ -1,0 +1,119 @@
+<dynamic_object>
+    <diesel orientation_object="rp_res_ext_gas_building" materials="units/pd2_mod_fuel/architecture/fuel_gas_station/fuel_ext_gas_station" />
+    <sequence_manager file="units/pd2_mod_fuel/architecture/fuel_gas_station/fuel_ext_gas_station" />
+
+    <bodies>
+        <body enabled="true" template="window" name="static_window_01" >
+			<object name="e_window_01" />
+			<object name="c_box_window_01" collision_type="box" padding="-2.5"/>			
+        </body>
+        <body enabled="true" template="window" name="static_window_02" >
+			<object name="e_window_02" />
+			<object name="c_box_window_02" collision_type="box" padding="-2.5"/>			
+        </body>
+        <body enabled="true" template="window" name="static_window_03" >
+			<object name="e_window_03" />
+			<object name="c_box_window_03" collision_type="box" padding="-2.5"/>			
+        </body>
+        <body enabled="true" template="window" name="static_window_04" >
+			<object name="e_window_04" />
+			<object name="c_box_window_04" collision_type="box" padding="-2.5"/>			
+        </body>
+        <body enabled="true" template="window" name="static_window_05" >
+			<object name="e_window_05" />
+			<object name="c_box_window_05" collision_type="box" padding="-2.5"/>			
+        </body>
+		<body enabled="true" template="window" name="static_window_06" >
+			<object name="e_window_06" />
+			<object name="c_box_window_06" collision_type="box" padding="-2.5"/>			
+        </body>
+        <body enabled="true" template="window" name="static_window_07" >
+			<object name="e_window_07" />
+			<object name="c_box_window_07" collision_type="box" padding="-2.5"/>			
+        </body>
+		<body enabled="true" template="window" name="static_window_08" >
+			<object name="e_window_08" />
+			<object name="c_box_window_08" collision_type="box" padding="-2.5"/>			
+        </body>
+        <body enabled="true" template="window" name="static_window_09" >
+			<object name="e_window_09" />
+			<object name="c_box_window_09" collision_type="box" padding="-2.5"/>			
+        </body>
+		
+        <body enabled="true" template="static" name="static_body" >
+			<object name="rp_res_ext_gas_building" />
+			<object name="c_mesh_mopp_01" collision_type="mesh_mopp" />
+			<object name="c_mesh_mopp_02" collision_type="mesh_mopp" />
+			<object name="c_mesh_mopp_door" collision_type="mesh_mopp" />
+        </body>
+    </bodies>
+	
+	<decal_surfaces>
+		<decal_mesh name="dm_glass_01" enabled="true" material="glass_breakable"/>
+		<decal_mesh name="dm_glass_02" enabled="true" material="glass_breakable"/>
+		<decal_mesh name="dm_glass_03" enabled="true" material="glass_breakable"/>
+		<decal_mesh name="dm_glass_04" enabled="true" material="glass_breakable"/>
+		<decal_mesh name="dm_glass_05" enabled="true" material="glass_breakable"/>
+		<decal_mesh name="dm_glass_06" enabled="true" material="glass_breakable"/>
+		<decal_mesh name="dm_glass_07" enabled="true" material="glass_breakable"/>
+		<decal_mesh name="dm_glass_08" enabled="true" material="glass_breakable"/>
+		<decal_mesh name="dm_glass_09" enabled="true" material="glass_breakable"/>
+		
+		<decal_mesh name="dm_concrete" enabled="true" material="concrete"/>
+		<decal_mesh name="dm_tile" enabled="true" material="tile"/>
+	</decal_surfaces>
+
+    <graphics>
+		<lod_object name="lod_text_decals">
+			<object name="g_decals" enabled="true" >
+				<material materials="mat_ext_decals" max_distance="2000" />
+				<material materials="mat_ext_decals_lod" />
+			</object>
+		</lod_object>
+		<lod_object name="lod_int_extra">
+			<object name="g_int_extra_lod0" enabled="true" max_distance="1800" />
+			<object name="g_int_extra_lod1" enabled="true" />
+		</lod_object>
+		<lod_object name="lod_front_door">
+			<object name="g_door_lod0" enabled="true" max_distance="1000" />
+			<object name="g_door_lod1" enabled="true" />
+		</lod_object>
+		<lod_object name="lod_exterior">
+			<object name="g_vtxc" 	enabled="true" >
+				<material materials="mat_ext_wall" 			max_distance="3000" />
+				<material materials="mat_ext_wall_lod_1" 	max_distance="5000" />
+				<material materials="mat_ext_wall_lod_2" />				
+			</object>
+		</lod_object>
+		<object name="s_s" 		enabled="true" shadow_caster="true"/>
+		
+		<!-- Windows -->
+		<object name="g_window_01" enabled="true"/>
+		<object name="g_window_01_dmg" enabled="false"/>
+		
+
+		<object name="g_window_02" enabled="true"/>
+		<object name="g_window_02_dmg" enabled="false"/>
+		
+		<object name="g_window_03" enabled="true"/>
+		<object name="g_window_03_dmg" enabled="false"/>
+
+		<object name="g_window_08" enabled="true"/>
+		<object name="g_window_08_dmg" enabled="false"/>
+
+		<object name="g_window_09" enabled="true"/>
+		<object name="g_window_09_dmg" enabled="false"/>
+		
+		<object name="g_window_05" enabled="true"/>
+		<object name="g_window_04_dmg" enabled="false"/>
+		
+		<object name="g_window_04" enabled="true"/>
+		<object name="g_window_05_dmg" enabled="false"/>
+
+		<object name="g_window_06" enabled="true"/>
+		<object name="g_window_06_dmg" enabled="false"/>
+
+		<object name="g_window_07" enabled="true"/>
+		<object name="g_window_07_dmg" enabled="false"/>
+    </graphics>
+</dynamic_object>

@@ -1,13 +1,100 @@
 <table directory="assets">
-    
-    <!--ENV STUFF-->
 	<add from_db="true">
+		<!--Environment Stuff-->
 		<effect load="true" path="effects/particles/rain/raindrop_screen"/>
 		<effect load="true" path="effects/particles/rain/rain_only"/>
 		<effect load="true" path="effects/particles/rain/rain_01_a"/>
-        <effect load="true" path="effects/particles/rain/rain_glace_inside"/>
-		<scene  load="true" path="core/environments/skies/sky_1313_cloudy/sky_1313_cloudy"/>
-        <bnk    load="true" path="soundbanks/ambiences"/>
+		<effect load="true" path="effects/particles/rain/rain_glace_inside"/>
+		<bnk load="true" path="soundbanks/ambiences"/>
 		<material_config path="core/environments/skies/sky_1313_cloudy/sky_1313_cloudy"/>
+		<scene load="true" path="core/environments/skies/sky_1313_cloudy/sky_1313_cloudy"/>
+
+		<!--Assets I dont want BLE to fuck with-->
+		<unit path="units/payday2/vehicles/anim_vehicle_van_swat/anim_vehicle_van_swat"/>
+		<object path="units/payday2/vehicles/anim_vehicle_van_swat/anim_vehicle_van_swat"/>
+		<material_config path="units/payday2/vehicles/anim_vehicle_van_swat/anim_vehicle_van_swat"/>
+		<sequence_manager path="units/payday2/vehicles/anim_vehicle_van_swat/anim_vehicle_van_swat"/>
+		<effect load="true" path="effects/payday2/particles/flares/scene_flare_small_01"/>
+		<effect load="true" path="effects/payday2/particles/spotlight/scene_spotlight_01"/>
+		<unit path="units/payday2/vehicles/gen_vehicle_turret/gen_vehicle_turret"/>
+		<object path="units/payday2/vehicles/gen_vehicle_turret/gen_vehicle_turret"/>
+		<material_config path="units/payday2/vehicles/gen_vehicle_turret/gen_vehicle_turret"/>
+		<sequence_manager path="units/payday2/vehicles/gen_vehicle_turret/gen_vehicle_turret"/>
+		<unit path="units/payday2/vehicles/gen_vehicle_turret/spawn_turret_debris"/>
+		<object path="units/payday2/vehicles/gen_vehicle_turret/spawn_turret_debris"/>
+		<unit path="units/payday2/vehicles/gen_vehicle_turret/spawn_shield_front"/>
+		<object path="units/payday2/vehicles/gen_vehicle_turret/spawn_shield_front"/>
+		<effect load="true" path="effects/particles/weapons/flashlight/flashlight"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sentry_aftersmoke"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sentry_damage_smoke"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sentry_damage_smoke_med"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sentry_damage_smoke_large"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sparks/sparks_loop"/>
+		<effect load="true" path="effects/payday2/particles/weapons/big_762_auto"/>
+		<effect load="true" path="effects/payday2/particles/weapons/parts/combo_light_all"/>
+		<effect load="true" path="effects/payday2/particles/weapons/parts/distance_halo_big"/>
+		<effect load="true" path="effects/payday2/particles/weapons/shells/shell_556_lmg"/>
+		<effect load="true" path="effects/payday2/particles/weapons/shells/shell_link"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sentry_explosion"/>
+		<animation path="anims/car/van_swat_firestarter_1_arrive_1"/>
+		<animation path="anims/car/van_swat_firestarter_1_arrive_2"/>
+		<unit path="units/payday2/vehicles/gen_vehicle_turret/spawn_shield_upper"/>
+		<object path="units/payday2/vehicles/gen_vehicle_turret/spawn_shield_upper"/>
+		<bnk path="soundbanks/weapon_swatturret"/>
+		<unit path="units/payday2/vehicles/gen_vehicle_turret/bex_vehicle_turret"/>
+		<object path="units/payday2/vehicles/gen_vehicle_turret/bex_vehicle_turret"/>
+		<material_config path="units/payday2/vehicles/gen_vehicle_turret/bex_vehicle_turret"/>
+		<sequence_manager path="units/payday2/vehicles/gen_vehicle_turret/bex_vehicle_turret"/>
+		<unit path="units/payday2/vehicles/gen_vehicle_turret/bex_spawn_turret_debris"/>
+		<object path="units/payday2/vehicles/gen_vehicle_turret/bex_spawn_turret_debris"/>
+		<unit path="units/payday2/vehicles/gen_vehicle_turret/bex_spawn_shield_front"/>
+		<object path="units/payday2/vehicles/gen_vehicle_turret/bex_spawn_shield_front"/>
+		<unit path="units/payday2/vehicles/gen_vehicle_turret/bex_spawn_shield_upper"/>
+		<object path="units/payday2/vehicles/gen_vehicle_turret/bex_spawn_shield_upper"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<animation_def path="anims/units/swat_van/swat_van"/>
+		<animation_state_machine path="anims/units/swat_van/swat_van"/>
+		<animation_states path="anims/units/swat_van/std"/>
+		<animation_subset path="anims/units/swat_van/std"/>
+		<physic_effect path="physic_effects/push_sphere"/>
+
+		<unit path="units/payday2/characters/ene_cop_1/ene_cop_1"/>
+		<unit load="true" path="units/payday2/characters/ene_cop_1/ene_cop_1_husk"/>
+		<material_config path="units/payday2/characters/ene_cop_1/ene_cop_1"/>
+		<object path="units/payday2/characters/ene_cop_1/ene_cop_1"/>
+		
+		<unit path="units/payday2/characters/ene_cop_2/ene_cop_2"/>
+		<object path="units/payday2/characters/ene_cop_2/ene_cop_2"/>
+		<material_config path="units/payday2/characters/ene_cop_2/ene_cop_2"/>
+		<unit load="true" path="units/payday2/characters/ene_acc_cop_hat/ene_acc_cop_hat"/>
+		<object path="units/payday2/characters/ene_acc_cop_hat/ene_acc_cop_hat"/>
+		<material_config path="units/payday2/characters/ene_acc_cop_hat/ene_acc_cop_hat"/>
+		<unit load="true" path="units/payday2/characters/ene_cop_2/ene_cop_2_husk"/>
+	</add>
+	
+	<add>
+		<material_config path="units/pd2_mod_fuel/architecture/fuel_gas_station/fuel_ext_gas_station"/>
+		<model path="units/pd2_mod_fuel/architecture/fuel_gas_station/fuel_ext_gas_station"/>
+		<object path="units/pd2_mod_fuel/architecture/fuel_gas_station/fuel_ext_gas_station"/>
+		<unit path="units/pd2_mod_fuel/architecture/fuel_gas_station/fuel_ext_gas_station"/>
+	
+		<unit path="units/pd2_mod_fuel/architecture/fuel_gas_station/fuel_int_gas_station"/>
+		<object path="units/pd2_mod_fuel/architecture/fuel_gas_station/fuel_int_gas_station"/>
+		<model path="units/pd2_mod_fuel/architecture/fuel_gas_station/fuel_int_gas_station"/>
+		<material_config path="units/pd2_mod_fuel/architecture/fuel_gas_station/fuel_int_gas_station"/>
+		
+		<texture path="units/pd2_mod_fuel/architecture/fuel_gas_station/fuel_ext_gas_station_extra_df"/>
+		<texture path="units/pd2_mod_fuel/architecture/fuel_gas_station/res_prop_store_signs_df"/>
+	
+		<material_config path="units/pd2_mod_fuel/architecture/fuel_ext_road_driveway/fuel_ext_road_driveway"/>
+		<model path="units/pd2_mod_fuel/architecture/fuel_ext_road_driveway/fuel_ext_road_driveway"/>
+		<object path="units/pd2_mod_fuel/architecture/fuel_ext_road_driveway/fuel_ext_road_driveway"/>
+		<unit path="units/pd2_mod_fuel/architecture/fuel_ext_road_driveway/fuel_ext_road_driveway"/>
+		
+		<material_config path="units/pd2_mod_fuel/architecture/fuel_gas_station_ground/fuel_gas_station_ground"/>
+		<model path="units/pd2_mod_fuel/architecture/fuel_gas_station_ground/fuel_gas_station_ground"/>
+		<object path="units/pd2_mod_fuel/architecture/fuel_gas_station_ground/fuel_gas_station_ground"/>
+		<unit path="units/pd2_mod_fuel/architecture/fuel_gas_station_ground/fuel_gas_station_ground"/>
+		<sequence_manager path="units/pd2_mod_fuel/architecture/fuel_gas_station/fuel_ext_gas_station"/>
 	</add>
 </table>

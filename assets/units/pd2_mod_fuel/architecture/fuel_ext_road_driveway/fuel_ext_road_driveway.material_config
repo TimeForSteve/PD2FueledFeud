@@ -1,0 +1,19 @@
+<materials version="3">
+    <material name="mat_ground_road_decal_01" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:NORMALMAP:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/payday2/architecture/str/str_ext_marking_01_df"/>
+        <bump_normal_texture file="units/payday2/architecture/str/str_ext_marking_01_nm"/>
+        <variable value="0.054000001400709" type="scalar" name="alpha_ref"/>
+    </material>
+    <material name="mat_ground_road_decal_02" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:NORMALMAP:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/payday2/architecture/str/str_ext_marking_02_df"/>
+        <bump_normal_texture file="units/payday2/architecture/str/str_ext_marking_02_nm"/>
+        <variable value="0.054000001400709" type="scalar" name="alpha_ref"/>
+    </material>
+    <material name="mat_ground_road" render_template="generic:BLEND_DIFFUSE:BLEND_MASK_SEPERATE:BLEND_NORMAL:BLEND_SMOOTH:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/pd2_dlc_flat/architecture/flt_ext_ground_road/flt_ext_ground_road_blend_df"/>
+        <diffuse_layer0_texture file="units/pd2_dlc_flat/architecture/flt_ext_ground_road/flt_ext_ground_road_df"/>
+        <diffuse_layer1_texture file="units/pd2_dlc_flat/architecture/flt_ext_ground_road/flt_ext_ground_road_mask_df"/>
+        <bump_normal_texture file="units/pd2_dlc_flat/architecture/flt_ext_ground_road/flt_ext_ground_road_blend_nm"/>
+        <normal_layer0_texture file="units/pd2_dlc_flat/architecture/flt_ext_ground_road/flt_ext_ground_road_nm"/>
+    </material>
+</materials>

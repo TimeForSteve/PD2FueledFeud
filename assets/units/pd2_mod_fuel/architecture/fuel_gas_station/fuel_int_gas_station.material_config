@@ -1,0 +1,93 @@
+<materials version="3">
+    <material name="mat_int_ceiling" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc1/architecture/res_ext_gas_station/res_int_gas_ceiling_df"/>
+        <reflection_texture type="cubemap" file="units/payday2/cubemaps/cubemap_zero_df"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+        <bump_normal_texture file="units/pd2_dlc1/architecture/res_ext_gas_station/res_int_gas_ceiling_nm"/>
+    </material>
+    <material name="mat_int_ceiling_lod" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc1/architecture/res_ext_gas_station/res_int_gas_ceiling_df" mip="3"/>
+        <reflection_texture type="cubemap" file="units/payday2/cubemaps/cubemap_zero_df"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+        <bump_normal_texture file="units/pd2_dlc1/architecture/res_ext_gas_station/res_int_gas_ceiling_nm" mip="3"/>
+    </material>
+	
+    <material name="mat_int_extra" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/pd2_dlc1/architecture/res_ext_gas_station/res_ext_gas_building_extra_df"/>
+    </material>
+    <material name="mat_int_extra_lod" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/pd2_dlc1/architecture/res_ext_gas_station/res_ext_gas_building_extra_df" mip="4"/>
+    </material>
+	
+    <material name="mat_int_floor" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc1/architecture/res_ext_gas_station/res_int_gas_building_floor_df"/>
+        <reflection_texture type="cubemap" file="units/payday2/cubemaps/cubemap_zero_df"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+        <bump_normal_texture file="units/pd2_dlc1/architecture/res_ext_gas_station/res_int_gas_building_floor_nm"/>
+    </material>
+    <material name="mat_int_floor_lod" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc1/architecture/res_ext_gas_station/res_int_gas_building_floor_df" mip="7"/>
+        <reflection_texture type="cubemap" file="units/payday2/cubemaps/cubemap_zero_df"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+        <bump_normal_texture file="units/pd2_dlc1/architecture/res_ext_gas_station/res_int_gas_building_floor_nm" mip="7"/>
+    </material>
+	
+    <material name="mat_store_light" render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION" version="2">
+        <diffuse_texture file="units/payday2/architecture/com_int_mall_store/com_int_mall_store_lights_df"/>
+        <self_illumination_texture file="units/payday2/architecture/com_int_mall_store/com_int_mall_store_lights_il"/>
+        <variable value="reddot" type="scalar" name="il_multiplier"/>
+    </material>
+    <material name="mat_store_light_lod" render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION" version="2">
+        <diffuse_texture file="units/payday2/architecture/com_int_mall_store/com_int_mall_store_lights_df" mip="5"/>
+        <self_illumination_texture file="units/payday2/architecture/com_int_mall_store/com_int_mall_store_lights_il" mip="6"/>
+        <variable value="reddot" type="scalar" name="il_multiplier"/>
+    </material>
+	
+    <material name="mat_store_signs_01" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/pd2_dlc1/props/res_prop_store/res_prop_store_signs_df"/>
+    </material>
+    <material name="mat_store_signs_01_lod" render_template="generic:DIFFUSE_TEXTURE" version="2" >
+        <diffuse_texture file="units/pd2_dlc1/props/res_prop_store/res_prop_store_signs_df" mip="6"/>
+    </material>
+	
+	
+    <material name="mat_motel_tiles_01" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/pd2_dlc1/architecture/res_ext_gas_station/res_int_motel_tiles_01_df"/>
+        <bump_normal_texture file="units/pd2_dlc1/architecture/res_int_motel/res_int_motel_tiles_01_nm"/>
+        <reflection_texture file="units/payday2/cubemaps/cubemap_zero_df" type="cubemap"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material name="mat_motel_tiles_01_lod" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/pd2_dlc1/architecture/res_ext_gas_station/res_int_motel_tiles_01_df" mip="5"/>
+        <bump_normal_texture file="units/pd2_dlc1/architecture/res_int_motel/res_int_motel_tiles_01_nm" mip="5"/>
+        <reflection_texture file="units/payday2/cubemaps/cubemap_zero_df" type="cubemap"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+	
+	
+    <material name="mat_motel_wall_02" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc1/architecture/res_int_motel/res_int_motel_wall_02_df"/>
+        <bump_normal_texture file="units/pd2_dlc1/architecture/res_int_motel/res_int_motel_wall_02_nm"/>
+        <reflection_texture type="cubemap" file="units/payday2/cubemaps/cubemap_zero_df"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material name="mat_motel_wall_02_lod" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc1/architecture/res_int_motel/res_int_motel_wall_02_df" mip="5"/>
+        <bump_normal_texture file="units/pd2_dlc1/architecture/res_int_motel/res_int_motel_wall_02_nm"  mip="5"/>
+        <reflection_texture type="cubemap" file="units/payday2/cubemaps/cubemap_zero_df"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+	
+    <material name="mat_int_wall" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/pd2_dlc1/architecture/res_ext_gas_station/res_int_gas_building_wall_df"/>
+        <reflection_texture type="cubemap" file="units/payday2/cubemaps/cubemap_zero_df"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+        <bump_normal_texture file="units/pd2_dlc1/architecture/res_ext_gas_station/res_int_gas_building_wall_nm"/>
+    </material>
+    <material name="mat_int_wall_lod" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/pd2_dlc1/architecture/res_ext_gas_station/res_int_gas_building_wall_df" mip="4"/>
+        <reflection_texture type="cubemap" file="units/payday2/cubemaps/cubemap_zero_df"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+        <bump_normal_texture file="units/pd2_dlc1/architecture/res_ext_gas_station/res_int_gas_building_wall_nm" mip="4"/>
+    </material>
+</materials>
