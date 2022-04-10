@@ -1,0 +1,13 @@
+<table directory="assets">
+    
+    <!--ENV STUFF-->
+	<add from_db="true">
+		<effect load="true" path="effects/particles/rain/raindrop_screen"/>
+		<effect load="true" path="effects/particles/rain/rain_only"/>
+		<effect load="true" path="effects/particles/rain/rain_01_a"/>
+        <effect load="true" path="effects/particles/rain/rain_glace_inside"/>
+		<scene  load="true" path="core/environments/skies/sky_1313_cloudy/sky_1313_cloudy"/>
+        <bnk    load="true" path="soundbanks/ambiences"/>
+		<material_config path="core/environments/skies/sky_1313_cloudy/sky_1313_cloudy"/>
+	</add>
+</table>

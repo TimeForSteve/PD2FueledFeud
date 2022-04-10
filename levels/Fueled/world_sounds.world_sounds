@@ -1,0 +1,44 @@
+<generic_scriptdata type="table">
+	<entry key="ambience_enabled" type="boolean" value="true"/>
+	<entry key="default_ambience" type="string" value="ambience_ext_heavy_rain_storm_asphalt"/>
+	<entry key="default_environment" type="string" value="pd2_acoustics_outdoor_medium_echo"/>
+	<entry key="default_occasional" type="string" value="occasionals_silent"/>
+	<entry key="sound_area_emitters" type="table">
+	</entry>
+	<entry key="sound_emitters" type="table">
+		<entry index="1" type="table">
+			<entry key="emitter_event" type="string" value="emitter_rain_on_window_indoor"/>
+			<entry key="name" type="string" value="none"/>
+			<entry key="position" type="vector3" value="3406.1 83.1468 215.241"/>
+			<entry key="rotation" type="quaternion" value="0 0 0.422618 -0.906308"/>
+		</entry>
+		<entry index="2" type="table">
+			<entry key="emitter_event" type="string" value="emitter_rain_on_car"/>
+			<entry key="name" type="string" value="none"/>
+			<entry key="position" type="vector3" value="4175.66 1495.46 222.616"/>
+			<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+		</entry>
+		<entry index="3" type="table">
+			<entry key="emitter_event" type="string" value="emitter_rain_on_car"/>
+			<entry key="name" type="string" value="none"/>
+			<entry key="position" type="vector3" value="1426.2 1119.25 137.066"/>
+			<entry key="rotation" type="quaternion" value="0 0 -0.731354 -0.681998"/>
+		</entry>
+	</entry>
+	<entry key="sound_environments" type="table">
+		<entry index="1" type="table">
+			<entry key="ambience_event" type="string" value="ambience_ext_heavy_rain_storm_asphalt_softer"/>
+			<entry key="depth" type="number" value="920"/>
+			<entry key="environment" type="string" value="pd2_acoustics_indoor_small"/>
+			<entry key="height" type="number" value="360"/>
+			<entry key="name" type="string" value="none"/>
+			<entry key="position" type="vector3" value="3425 975 0"/>
+			<entry key="rotation" type="quaternion" value="0 0 0.707107 -0.707107"/>
+			<entry key="type" type="string" value="box"/>
+			<entry key="use_ambience" type="boolean" value="true"/>
+			<entry key="use_environment" type="boolean" value="true"/>
+			<entry key="use_occasional" type="boolean" value="false"/>
+			<entry key="width" type="number" value="1130"/>
+		</entry>
+	</entry>
+</generic_scriptdata>
