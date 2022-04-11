@@ -1,0 +1,16 @@
+<dynamic_object>
+    <diesel orientation_object="rp_battery" materials="units/pd2_mod_fuel/props/fuel_prop_battery/fuel_prop_battery" />
+    <sequence_manager file="units/pd2_mod_fuel/props/fuel_prop_battery/fuel_prop_battery" />
+    <bodies>
+        <body name="body_static" enabled="true" template="static">
+			<object name="c_battery" collision_type="mesh_mopp" />
+        </body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="c_battery" material="plastic" />
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_battery" />
+        <object enabled="false" name="g_battery_contour" />
+    </graphics>
+</dynamic_object>

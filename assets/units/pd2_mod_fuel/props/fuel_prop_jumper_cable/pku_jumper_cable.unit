@@ -1,0 +1,18 @@
+<unit type="kms" slot="1" >
+    <object file="units/pd2_mod_fuel/props/fuel_prop_jumper_cable/pku_jumper_cable" />
+    <network sync="spawn" />
+    <extensions>
+        <extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="interaction" class="SpecialEquipmentInteractionExt">
+			<var name="_special_equipment" value="fuel_jumper_cable" />
+			<var name="_remove_on_interact" value="false" />
+			<var name="tweak_data" value="fuel_jumper_cable" />
+			<var name="drop_in_sync_tweak_data" value="true" />
+			<var name="_interact_object" value="interact"/>
+			<var name="_ray_object_names" type="table" >
+				<var value="interact"/>
+			</var>
+		</extension>
+    </extensions>
+</unit>

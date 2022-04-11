@@ -15,6 +15,12 @@
 		<packages>
 			<value_node value="package_fuel"/>
 		</packages>
+		<interactions>
+			<interaction id="fuel_jumper_cable" based_on="stash_server_cord "/>
+		</interactions>
+		<hooks directory="hooks">
+			<hook file="equipmentstweakdata.lua" source_file="lib/tweak_data/equipmentstweakdata"/>
+		</hooks>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
 				<options merge_mode="add" mode="add"/>

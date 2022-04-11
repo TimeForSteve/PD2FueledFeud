@@ -1,0 +1,12 @@
+<dynamic_object>
+    <diesel orientation_object="rp_cable_pku" materials="units/pd2_mod_fuel/props/fuel_prop_jumper_cable/fuel_prop_jumper_cable" />
+    <sequence_manager file="units/pd2_mod_fuel/props/fuel_prop_jumper_cable/pku_jumper_cable" />
+    <bodies>
+        <body name="editor_body" enabled="true" template="editor">
+			<object name="c_hook" collision_type="box" />
+        </body>
+    </bodies>
+    <graphics>
+        <object enabled="true" name="g_g" />
+    </graphics>
+</dynamic_object>

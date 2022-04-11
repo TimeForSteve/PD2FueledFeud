@@ -1,0 +1,39 @@
+<dynamic_object>
+    <diesel orientation_object="rp_fuel_winch" materials="units/pd2_mod_fuel/props/fuel_prop_winch/fuel_prop_winch" />
+    <sequence_manager file="units/pd2_mod_fuel/props/fuel_prop_winch/fuel_prop_winch" />
+    <animations>
+    	<animation_group name="roll" enabled="false">
+    		<object name="anim_roll" />
+    	</animation_group>
+    </animations>
+    <bodies>
+        <body name="body_static" enabled="true" template="static">
+            <object name="rp_fuel_winch" />
+            <object name="c_box_01" collision_type="box" padding="-2.5" />
+            <object name="c_box_02" collision_type="box" padding="-2.5" />
+            <object name="c_box_03" collision_type="box" padding="-2.5" />
+            <object name="c_box_04" collision_type="box" padding="-2.5" />
+        </body>
+    </bodies>
+    <decal_surfaces default_material="metal">
+    	<decal_mesh name="dm_metal" enabled="true" material="metal" />
+    </decal_surfaces>
+    <effects>
+		<effect_spawner name="smoke" enabled="false" object="e_smoke" effect="effects/payday2/environment/drill_jammed" />
+	</effects>
+    <graphics>
+    	<graphic_group name="geometry" enabled="true" culling_object="bounding_box">
+            <lod_object name="lod_frame">
+                <object name="g_frame" 	enabled="true" >
+                    <material materials="mat_ext_wall" 			max_distance="800" />
+                    <material materials="mat_ext_wall_lod_1"  />			
+                </object>
+            </lod_object>
+        	<object name="g_winch" enabled="true" />
+        	<object name="g_wire_static" enabled="true" />
+            <object name="g_outline" enabled="false" />
+            <object name="g_outline_wire" enabled="false" />
+        	<object name="g_fuel_tube" enabled="false" />
+    	</graphic_group>
+    </graphics>
+</dynamic_object>

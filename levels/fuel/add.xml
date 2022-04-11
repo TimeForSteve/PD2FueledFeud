@@ -1624,8 +1624,201 @@
 		<unit path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile3a_4x8m_b"/>
 	</add>
 	<add from_db="true" path="units/payday2/architecture/lcm_b/lcm_b_ext_roof3_corner_8x8m_a" type="unit">
-		<unit path="units/payday2/architecture/lcm_b/lcm_b_ext_roof3_corner_8x8m_a"/>
-		<object path="units/payday2/architecture/lcm_b/lcm_b_ext_roof3_corner_8x8m_a"/>
 		<material_config path="units/payday2/architecture/lcm_b/lcm_b"/>
+		<object path="units/payday2/architecture/lcm_b/lcm_b_ext_roof3_corner_8x8m_a"/>
+		<unit path="units/payday2/architecture/lcm_b/lcm_b_ext_roof3_corner_8x8m_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_pent/equipment/pent_interactable_generator/pent_interactable_generator" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_dlc_pent/equipment/pent_interactable_generator/pent_interactable_generator"/>
+		<object path="units/pd2_dlc_pent/equipment/pent_interactable_generator/pent_interactable_generator"/>
+		<sequence_manager path="units/pd2_dlc_pent/equipment/pent_interactable_generator/pent_interactable_generator"/>
+		<unit path="units/pd2_dlc_pent/equipment/pent_interactable_generator/pent_interactable_generator"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dah/props/dah_prop_generator_a/dah_prop_generator_a" type="unit">
+		<material_config path="units/pd2_dlc_dah/props/dah_prop_generator_a/dah_prop_generator_a"/>
+		<object path="units/pd2_dlc_dah/props/dah_prop_generator_a/dah_prop_generator_a"/>
+		<unit path="units/pd2_dlc_dah/props/dah_prop_generator_a/dah_prop_generator_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_glace/props/glc_prop_construction_portablegenerator/glc_prop_construction_portablegenerator" type="unit">
+		<material_config path="units/pd2_dlc_glace/props/glc_prop_construction_portablegenerator/glc_prop_construction_portablegenerator"/>
+		<object path="units/pd2_dlc_glace/props/glc_prop_construction_portablegenerator/glc_prop_construction_portablegenerator"/>
+		<unit path="units/pd2_dlc_glace/props/glc_prop_construction_portablegenerator/glc_prop_construction_portablegenerator"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/ind_prop_mechanical_generator_diesel/ind_prop_mechanical_generator_diesel" type="unit">
+		<material_config path="units/payday2/props/ind_prop_mechanical_generator_diesel/ind_prop_mechanical_generator_diesel"/>
+		<object path="units/payday2/props/ind_prop_mechanical_generator_diesel/ind_prop_mechanical_generator_diesel"/>
+		<unit path="units/payday2/props/ind_prop_mechanical_generator_diesel/ind_prop_mechanical_generator_diesel"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_pent/props/pent_int_generator_jumpstart_handle/pent_int_jumpstart_handle" type="unit">
+		<material_config path="units/pd2_dlc_pent/props/pent_int_generator_jumpstart_handle/pent_int_jumpstart_handle"/>
+		<object path="units/pd2_dlc_pent/props/pent_int_generator_jumpstart_handle/pent_int_jumpstart_handle"/>
+		<sequence_manager path="units/pd2_dlc_pent/props/pent_int_generator_jumpstart_handle/pent_int_jumpstart_handle"/>
+		<unit path="units/pd2_dlc_pent/props/pent_int_generator_jumpstart_handle/pent_int_jumpstart_handle"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/secret_stash/props/secret_stash_stairs_elevator_hatch" type="unit">
+		<material_config path="units/world/architecture/secret_stash/secret_stash"/>
+		<object path="units/world/architecture/secret_stash/props/secret_stash_stairs_elevator_hatch"/>
+		<sequence_manager path="units/world/architecture/secret_stash/props/secret_stash_stairs_elevator_hatch"/>
+		<unit path="units/world/architecture/secret_stash/props/secret_stash_stairs_elevator_hatch"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_rvd/architecture/rvd_int/rvd_elevator/rvd_elevator_hatch" type="unit">
+		<material_config path="units/pd2_dlc_rvd/architecture/rvd_int/rvd_elevator/rvd_int_elevator"/>
+		<object path="units/pd2_dlc_rvd/architecture/rvd_int/rvd_elevator/rvd_elevator_hatch"/>
+		<unit path="units/pd2_dlc_rvd/architecture/rvd_int/rvd_elevator/rvd_elevator_hatch"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_miami/props/ind_prop_mechanical_circuitbreaker/ind_prop_mechanical_circuitbreaker" type="unit">
+		<material_config path="units/pd2_dlc_miami/props/ind_prop_mechanical_circuitbreaker/ind_prop_mechanical_circuitbreaker"/>
+		<object path="units/pd2_dlc_miami/props/ind_prop_mechanical_circuitbreaker/ind_prop_mechanical_circuitbreaker"/>
+		<sequence_manager path="units/pd2_dlc_miami/props/ind_prop_mechanical_circuitbreaker/ind_prop_mechanical_circuitbreaker"/>
+		<unit path="units/pd2_dlc_miami/props/ind_prop_mechanical_circuitbreaker/ind_prop_mechanical_circuitbreaker"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_miami/props/gen_prop_door_metal_magnetic/gen_prop_door_metal_magnetic" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_dlc_miami/props/gen_prop_door_metal_magnetic/gen_prop_door_metal_magnetic"/>
+		<object path="units/pd2_dlc_miami/props/gen_prop_door_metal_magnetic/gen_prop_door_metal_magnetic"/>
+		<sequence_manager path="units/pd2_dlc_miami/props/gen_prop_door_metal_magnetic/gen_prop_door_metal_magnetic"/>
+		<unit path="units/pd2_dlc_miami/props/gen_prop_door_metal_magnetic/gen_prop_door_metal_magnetic"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_ray_battery/des_prop_ray_battery" type="unit">
+		<material_config path="units/pd2_dlc_des/props/des_prop_ray_battery/des_prop_ray_battery"/>
+		<object path="units/pd2_dlc_des/props/des_prop_ray_battery/des_prop_ray_battery"/>
+		<sequence_manager path="units/pd2_dlc_des/props/des_prop_ray_battery/des_prop_ray_battery"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_ray_battery/des_prop_ray_battery"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_nails/props/nls_prop_methlab_lithiumbattery/nls_prop_methlab_lithiumbattery" type="unit">
+		<material_config path="units/pd2_dlc_nails/props/nls_prop_methlab_lithiumbattery/nls_prop_methlab_lithiumbattery"/>
+		<object path="units/pd2_dlc_nails/props/nls_prop_methlab_lithiumbattery/nls_prop_methlab_lithiumbattery"/>
+		<unit path="units/pd2_dlc_nails/props/nls_prop_methlab_lithiumbattery/nls_prop_methlab_lithiumbattery"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sand/props/sand_prop_torture_car_battery/sand_prop_torture_car_battery" type="unit">
+		<material_config path="units/pd2_dlc_sand/props/sand_prop_torture_car_battery/sand_prop_torture_car_battery"/>
+		<object path="units/pd2_dlc_sand/props/sand_prop_torture_car_battery/sand_prop_torture_car_battery"/>
+		<unit path="units/pd2_dlc_sand/props/sand_prop_torture_car_battery/sand_prop_torture_car_battery"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chill/props/chl_prop_garage_batterycharger/chl_prop_garage_batterycharger" type="unit">
+		<material_config path="units/pd2_dlc_chill/props/chl_prop_garage_batterycharger/chl_prop_garage_batterycharger"/>
+		<object path="units/pd2_dlc_chill/props/chl_prop_garage_batterycharger/chl_prop_garage_batterycharger"/>
+		<unit path="units/pd2_dlc_chill/props/chl_prop_garage_batterycharger/chl_prop_garage_batterycharger"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_old_hoxton/equipment/stn_interactable_computer_director/stn_interactable_computer_director" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<gui path="guis/timer_gui"/>
+		<material_config path="units/pd2_dlc_old_hoxton/equipment/stn_interactable_computer_director/stn_interactable_computer_director"/>
+		<object path="units/pd2_dlc_old_hoxton/equipment/stn_interactable_computer_director/stn_interactable_computer_director"/>
+		<sequence_manager path="units/pd2_dlc_old_hoxton/equipment/stn_interactable_computer_director/stn_interactable_computer_director"/>
+		<unit path="units/pd2_dlc_old_hoxton/equipment/stn_interactable_computer_director/stn_interactable_computer_director"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_old_hoxton/equipment/stn_interactable_computer_forensics/stn_interactable_computer_forensics" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<gui path="guis/timer_gui"/>
+		<material_config path="units/pd2_dlc_old_hoxton/equipment/stn_interactable_computer_forensics/stn_interactable_computer_forensics"/>
+		<object path="units/pd2_dlc_old_hoxton/equipment/stn_interactable_computer_forensics/stn_interactable_computer_forensics"/>
+		<sequence_manager path="units/pd2_dlc_old_hoxton/equipment/stn_interactable_computer_forensics/stn_interactable_computer_forensics"/>
+		<unit path="units/pd2_dlc_old_hoxton/equipment/stn_interactable_computer_forensics/stn_interactable_computer_forensics"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_old_hoxton/equipment/stn_interactable_computer_security/stn_interactable_computer_security" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<gui path="guis/timer_gui"/>
+		<material_config path="units/pd2_dlc_old_hoxton/equipment/stn_interactable_computer_security/stn_interactable_computer_security"/>
+		<object path="units/pd2_dlc_old_hoxton/equipment/stn_interactable_computer_security/stn_interactable_computer_security"/>
+		<sequence_manager path="units/pd2_dlc_old_hoxton/equipment/stn_interactable_computer_security/stn_interactable_computer_security"/>
+		<unit path="units/pd2_dlc_old_hoxton/equipment/stn_interactable_computer_security/stn_interactable_computer_security"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/str_prop_construction_portable_compressor/str_prop_construction_portable_compressor" type="unit">
+		<material_config path="units/payday2/props/str_prop_construction_portable_compressor/str_prop_construction_portable_compressor"/>
+		<object path="units/payday2/props/str_prop_construction_portable_compressor/str_prop_construction_portable_compressor"/>
+		<unit path="units/payday2/props/str_prop_construction_portable_compressor/str_prop_construction_portable_compressor"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_vit/props/vit_interactable_computer_monitor/vit_interactable_computer_monitor" type="unit">
+		<material_config path="units/pd2_dlc_vit/props/vit_interactable_computer_monitor/vit_interactable_computer_monitor"/>
+		<object path="units/pd2_dlc_vit/props/vit_interactable_computer_monitor/vit_interactable_computer_monitor"/>
+		<sequence_manager path="units/pd2_dlc_vit/props/vit_interactable_computer_monitor/vit_interactable_computer_monitor"/>
+		<unit path="units/pd2_dlc_vit/props/vit_interactable_computer_monitor/vit_interactable_computer_monitor"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_vit/props/vit_interactable_computer_monitor/vit_interactable_computer_monitor_firewall" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<gui path="guis/timer_gui"/>
+		<material_config path="units/pd2_dlc_vit/props/vit_interactable_computer_monitor/vit_interactable_computer_monitor"/>
+		<object path="units/pd2_dlc_vit/props/vit_interactable_computer_monitor/vit_interactable_computer_monitor_firewall"/>
+		<sequence_manager path="units/pd2_dlc_vit/props/vit_interactable_computer_monitor/vit_interactable_computer_monitor_firewall"/>
+		<unit path="units/pd2_dlc_vit/props/vit_interactable_computer_monitor/vit_interactable_computer_monitor_firewall"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_vit/props/vit_interactable_computer_monitor/vit_interactable_hack_gui_01" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<gui path="guis/timer_gui"/>
+		<material_config path="units/pd2_dlc_vit/props/vit_interactable_computer_monitor/vit_interactable_computer_monitor"/>
+		<object path="units/pd2_dlc_vit/props/vit_interactable_computer_monitor/vit_interactable_hack_gui_01"/>
+		<sequence_manager path="units/pd2_dlc_vit/props/vit_interactable_computer_monitor/vit_interactable_hack_gui_01"/>
+		<unit path="units/pd2_dlc_vit/props/vit_interactable_computer_monitor/vit_interactable_hack_gui_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_vr/equipment/bbv_interactable_lance_large/bbv_interactable_lance_large" type="unit">
+		<effect load="true" path="effects/payday2/environment/thermal_lance"/>
+		<effect load="true" path="effects/payday2/environment/parts/thermal_fire"/>
+		<effect load="true" path="effects/payday2/environment/parts/thermal_spark"/>
+		<gui path="guis/timer_gui"/>
+		<material_config path="units/pd2_dlc_vr/equipment/bbv_interactable_lance_large/bbv_interactable_lance_large"/>
+		<object path="units/pd2_dlc_vr/equipment/bbv_interactable_lance_large/bbv_interactable_lance_large"/>
+		<sequence_manager path="units/pd2_dlc_vr/equipment/bbv_interactable_lance_large/bbv_interactable_lance_large"/>
+		<unit path="units/pd2_dlc_vr/equipment/bbv_interactable_lance_large/bbv_interactable_lance_large"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_interiors/table_picnic" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_interiors/table_picnic"/>
+		<object path="units/pd2_dlc2/csgo_models/props_interiors/table_picnic"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_interiors/table_picnic"/>
+	</add>
+	<add from_db="true" path="units/payday2/equipment/gen_interactable_sec_safe_1x1/dest_sec_safe_1x1" type="unit">
+		<material_config path="units/payday2/equipment/gen_interactable_sec_safe_1x1/gen_interactable_sec_safe_1x1"/>
+		<object path="units/payday2/equipment/gen_interactable_sec_safe_1x1/dest_sec_safe_1x1"/>
+		<unit path="units/payday2/equipment/gen_interactable_sec_safe_1x1/dest_sec_safe_1x1"/>
+	</add>
+	<add from_db="true" path="units/payday2/equipment/gen_interactable_padlock/gen_interactable_padlock" type="unit">
+		<material_config path="units/payday2/equipment/gen_interactable_padlock/gen_interactable_padlock"/>
+		<object path="units/payday2/equipment/gen_interactable_padlock/gen_interactable_padlock"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_padlock/gen_interactable_padlock"/>
+		<unit path="units/payday2/equipment/gen_interactable_padlock/gen_interactable_padlock"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dah/props/dah_prop_desk_d/dah_prop_desk_d" type="unit">
+		<material_config path="units/pd2_dlc_dah/props/dah_prop_desk_d/dah_prop_desk_d"/>
+		<object path="units/pd2_dlc_dah/props/dah_prop_desk_d/dah_prop_desk_d"/>
+		<unit path="units/pd2_dlc_dah/props/dah_prop_desk_d/dah_prop_desk_d"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_casino/props/cas_prop_winch/cas_prop_winch_screw" type="unit">
+		<material_config path="units/pd2_dlc_casino/props/cas_prop_winch/cas_prop_winch_screw"/>
+		<object path="units/pd2_dlc_casino/props/cas_prop_winch/cas_prop_winch_screw"/>
+		<sequence_manager path="units/pd2_dlc_casino/props/cas_prop_winch/cas_prop_winch_screw"/>
+		<unit path="units/pd2_dlc_casino/props/cas_prop_winch/cas_prop_winch_screw"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chill/props/chl_prop_contruction_tool_electricalscrewdriver/chl_prop_contruction_tool_electricalscrewdriver" type="unit">
+		<material_config path="units/pd2_dlc_chill/props/chl_prop_contruction_tool_electricalscrewdriver/chl_prop_contruction_tool_electricalscrewdriver"/>
+		<object path="units/pd2_dlc_chill/props/chl_prop_contruction_tool_electricalscrewdriver/chl_prop_contruction_tool_electricalscrewdriver"/>
+		<unit path="units/pd2_dlc_chill/props/chl_prop_contruction_tool_electricalscrewdriver/chl_prop_contruction_tool_electricalscrewdriver"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chill/props/chl_prop_rule_board_screw/chl_prop_rule_board_screw" type="unit">
+		<material_config path="units/pd2_dlc_chill/props/chl_prop_rule_board_screw/chl_prop_rule_board_screw"/>
+		<object path="units/pd2_dlc_chill/props/chl_prop_rule_board_screw/chl_prop_rule_board_screw"/>
+		<unit path="units/pd2_dlc_chill/props/chl_prop_rule_board_screw/chl_prop_rule_board_screw"/>
+	</add>
+	<add from_db="true" path="units/world/props/tools/tools_screwdriver" type="unit">
+		<material_config path="units/world/props/tools/tools_screwdriver"/>
+		<object path="units/world/props/tools/tools_screwdriver"/>
+		<unit path="units/world/props/tools/tools_screwdriver"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_glace/props/glc_prop_construction_tool/glc_prop_contruction_tool_screwdriver_a" type="unit">
+		<material_config path="units/pd2_dlc_glace/props/glc_prop_construction_tool/glc_prop_contruction_tool_screwdriver_a"/>
+		<object path="units/pd2_dlc_glace/props/glc_prop_construction_tool/glc_prop_contruction_tool_screwdriver_a"/>
+		<unit path="units/pd2_dlc_glace/props/glc_prop_construction_tool/glc_prop_contruction_tool_screwdriver_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dark/props/drk_prop_winch_screws/drk_prop_winch_screw_left" type="unit">
+		<material_config path="units/pd2_dlc_dark/props/drk_prop_winch_screws/drk_prop_winch_screw"/>
+		<object path="units/pd2_dlc_dark/props/drk_prop_winch_screws/drk_prop_winch_screw_left"/>
+		<sequence_manager path="units/pd2_dlc_dark/props/drk_prop_winch_screws/drk_prop_winch_screw"/>
+		<unit path="units/pd2_dlc_dark/props/drk_prop_winch_screws/drk_prop_winch_screw_left"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dark/props/drk_prop_winch_screws/drk_prop_winch_screw_right" type="unit">
+		<unit path="units/pd2_dlc_dark/props/drk_prop_winch_screws/drk_prop_winch_screw_right"/>
+		<object path="units/pd2_dlc_dark/props/drk_prop_winch_screws/drk_prop_winch_screw_right"/>
+		<material_config path="units/pd2_dlc_dark/props/drk_prop_winch_screws/drk_prop_winch_screw"/>
+		<sequence_manager path="units/pd2_dlc_dark/props/drk_prop_winch_screws/drk_prop_winch_screw"/>
 	</add>
 </table>
