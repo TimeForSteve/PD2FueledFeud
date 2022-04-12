@@ -1884,8 +1884,18 @@
 		<unit path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x3m"/>
 	</add>
 	<add from_db="true" path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x1m" type="unit">
-		<unit path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x1m"/>
-		<object path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x1m"/>
 		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x1m"/>
+		<unit path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x1m"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/com_int_basement/com_int_basement_garage_parkingline_a" type="unit">
+		<material_config path="units/payday2/architecture/com_int_basement/com_int_basement_garage_parkingline"/>
+		<object path="units/payday2/architecture/com_int_basement/com_int_basement_garage_parkingline_a"/>
+		<unit path="units/payday2/architecture/com_int_basement/com_int_basement_garage_parkingline_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/com_int_basement/com_int_basement_garage_parkingline_c_6m" type="unit">
+		<unit path="units/payday2/architecture/com_int_basement/com_int_basement_garage_parkingline_c_6m"/>
+		<object path="units/payday2/architecture/com_int_basement/com_int_basement_garage_parkingline_c_6m"/>
+		<material_config path="units/payday2/architecture/com_int_basement/com_int_basement_garage_parkingline"/>
 	</add>
 </table>

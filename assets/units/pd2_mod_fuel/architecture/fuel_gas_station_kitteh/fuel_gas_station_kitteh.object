@@ -1,0 +1,29 @@
+<dynamic_object>
+    <diesel orientation_object="rp_root" materials="units/pd2_mod_fuel/architecture/fuel_gas_station_kitteh/fuel_gas_station_kitteh" />
+	<sequence_manager file="units/pd2_mod_fuel/architecture/fuel_gas_station_kitteh/fuel_gas_station_kitteh" />
+
+	<animations>
+		<animation_group name="boop" enabled="false" >
+			<object name="anim_head" />
+		</animation_group>
+	</animations>
+	
+    <bodies>
+        <body name="body_head" enabled="true" template="static">
+            <object name="c_head" collision_type="sphere" padding="-2.5" />
+        </body>
+        <body name="body_static" enabled="true" template="static">
+            <object name="c_box" collision_type="box" padding="-2.5" />
+        </body>
+    </bodies>
+
+    <decal_surfaces default_material="metal">
+    	<decal_mesh name="g_body" enabled="true" material="metal" />
+        <decal_mesh name="g_head" enabled="true" material="metal" />
+    </decal_surfaces>
+	
+    <graphics>
+        <object enabled="true" name="g_head" />
+        <object enabled="true" name="g_body" />
+    </graphics>
+</dynamic_object>
