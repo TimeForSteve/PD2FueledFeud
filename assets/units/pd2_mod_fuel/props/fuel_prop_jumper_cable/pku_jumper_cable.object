@@ -7,6 +7,12 @@
         </body>
     </bodies>
     <graphics>
-        <object enabled="true" name="g_g" />
+        <lod_object name="lod_cable">
+            <object name="g_cable" 	enabled="true" >
+                <material materials="mtr_cable_contour" max_distance="260" />
+                <material materials="mtr_cable"  />			
+            </object>
+        </lod_object>
+        <object enabled="true" name="g_hook" />
     </graphics>
 </dynamic_object>
