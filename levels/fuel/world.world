@@ -179,7 +179,7 @@
 				</entry>
 			</entry>
 			<entry key="unit_data" type="table">
-				<entry key="_prev_pos" type="vector3" value="-123.406 800.313 -11.7063"/>
+				<entry key="_prev_pos" type="vector3" value="-92.402 1083.58 -11.7063"/>
 				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
 				<entry key="continent" type="string" value="editor_only"/>
 				<entry key="instance_data" type="boolean" value="false"/>
@@ -187,7 +187,7 @@
 				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
 				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
 				<entry key="name_id" type="string" value="nav_surface_009"/>
-				<entry key="position" type="vector3" value="-123.406 800.313 -11.7063"/>
+				<entry key="position" type="vector3" value="-92.402 1083.58 -11.7063"/>
 				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 				<entry key="unit_id" type="number" value="9"/>
 			</entry>
@@ -768,6 +768,54 @@
 				<entry key="unit_id" type="number" value="32"/>
 			</entry>
 		</entry>
+		<entry index="33" type="table">
+			<entry key="ai_editor_data" type="table">
+				<entry key="detection_mul" type="number" value="1"/>
+				<entry key="location_id" type="string" value="location_unknown"/>
+				<entry key="suspicion_mul" type="number" value="1"/>
+				<entry key="visibilty_exlude_filter" type="table">
+				</entry>
+				<entry key="visibilty_include_filter" type="table">
+				</entry>
+			</entry>
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="2701.59 -272.456 468"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
+				<entry key="name_id" type="string" value="nav_surface_033"/>
+				<entry key="position" type="vector3" value="2701.59 -272.456 468"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="33"/>
+			</entry>
+		</entry>
+		<entry index="34" type="table">
+			<entry key="ai_editor_data" type="table">
+				<entry key="detection_mul" type="number" value="1"/>
+				<entry key="location_id" type="string" value="location_unknown"/>
+				<entry key="suspicion_mul" type="number" value="1"/>
+				<entry key="visibilty_exlude_filter" type="table">
+				</entry>
+				<entry key="visibilty_include_filter" type="table">
+				</entry>
+			</entry>
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-927.671 -1392 379.626"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
+				<entry key="name_id" type="string" value="nav_surface_034"/>
+				<entry key="position" type="vector3" value="-927.671 -1392 379.626"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="34"/>
+			</entry>
+		</entry>
 	</entry>
 	<entry key="ai_nav_graphs" type="table">
 		<entry key="file" type="string" value="nav_manager_data"/>
@@ -785,13 +833,13 @@
 		<entry key="file" type="string" value="massunit"/>
 		<entry key="preload_units" type="table">
 			<entry index="1" type="string" value="units/world/brushes/trash/trash_brush_04"/>
-			<entry index="2" type="string" value="units/world/vegetation/brushes/train/tra_brush_garbage/tra_brush_garabage_crumblednewspaper"/>
-			<entry index="3" type="string" value="units/world/brushes/trash/trash_brush_01"/>
-			<entry index="4" type="string" value="units/world/brushes/trash/trash_brush_03"/>
-			<entry index="5" type="string" value="units/world/brushes/trash/trash_brush_02"/>
-			<entry index="6" type="string" value="units/world/vegetation/forest/zones/forest/brushes/fst_leaves_01/fst_leaves_01"/>
-			<entry index="7" type="string" value="units/payday2/nature/pnau/pnau_brush/pnau_brush_leafs/pnau_brush_leafs_01_b"/>
-			<entry index="8" type="string" value="units/payday2/nature/pnau/pnau_brush/pnau_brush_leafs/pnau_brush_leafs_01_a"/>
+			<entry index="2" type="string" value="units/world/vegetation/forest/zones/forest/brushes/fst_leaves_01/fst_leaves_01"/>
+			<entry index="3" type="string" value="units/world/vegetation/brushes/train/tra_brush_garbage/tra_brush_garabage_crumblednewspaper"/>
+			<entry index="4" type="string" value="units/world/brushes/trash/trash_brush_01"/>
+			<entry index="5" type="string" value="units/world/brushes/trash/trash_brush_03"/>
+			<entry index="6" type="string" value="units/world/brushes/trash/trash_brush_02"/>
+			<entry index="7" type="string" value="units/world/architecture/secret_stash/props/secret_stash_props_trash_2"/>
+			<entry index="8" type="string" value="units/world/architecture/secret_stash/props/secret_stash_props_trash_5"/>
 		</entry>
 	</entry>
 	<entry key="camera_bookmarks" type="table">

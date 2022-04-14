@@ -1,0 +1,22 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_fuel/props/fuel_prop_generator/fuel_prop_generator" orientation_object="rp_fuel_prop_generator" />
+	<sequence_manager file="units/pd2_mod_fuel/props/fuel_prop_generator/fuel_prop_generator" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_fuel_prop_generator" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="glass_unbreakable">
+		<decal_mesh name="dm_glass_unbreakable" enabled="true" material="glass_unbreakable" />
+		<decal_mesh name="dm_metal" enabled="true" material="metal" />
+	</decal_surfaces>
+	<graphics>
+		<lod_object name="lod_g">
+			<object name="g_lod0" enabled="true" max_distance="1500"/>
+			<object name="g_lod2" enabled="true"/>
+		</lod_object>
+		<object name="g_lod1" enabled="false" />
+		<object name="s_s" enabled="true" shadow_caster="true" />
+	</graphics>
+</dynamic_object>

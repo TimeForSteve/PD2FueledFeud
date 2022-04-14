@@ -1,0 +1,24 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_fuel/pickups/fuel_pku_generator/fuel_pku_generator" orientation_object="rp_fuel_pku_generator" />
+	 <sequence_manager file="units/pd2_mod_fuel/pickups/fuel_pku_generator/fuel_pku_generator" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_fuel_pku_generator" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="glass_unbreakable">
+		<decal_mesh name="dm_glass_unbreakable" enabled="true" material="glass_unbreakable" />
+		<decal_mesh name="dm_metal" enabled="true" material="metal" />
+	</decal_surfaces>
+	<graphics>
+		<lod_object name="lod_g">
+			<object name="g_lod2" enabled="true">
+				<material materials="mat_generator_contour"	max_distance="250" />
+				<material materials="mat_generator" max_distance="1500" />	
+				<material materials="mat_generator_lod"/>
+			</object>
+		</lod_object>
+		<object name="s_s" enabled="true" shadow_caster="true" />
+	</graphics>
+</dynamic_object>
