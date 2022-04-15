@@ -39,8 +39,8 @@
 		<entry index="6" type="table">
 			<entry key="emitter_event" type="string" value="emitter_rain_on_car"/>
 			<entry key="name" type="string" value="none"/>
-			<entry key="position" type="vector3" value="3098.47 -141.055 468"/>
-			<entry key="rotation" type="quaternion" value="0 0 -0.333807 -0.942641"/>
+			<entry key="position" type="vector3" value="2972.52 -145.812 468"/>
+			<entry key="rotation" type="quaternion" value="1.90378e-008 5.31889e-008 -0.333807 -0.942641"/>
 		</entry>
 		<entry index="7" type="table">
 			<entry key="emitter_event" type="string" value="emitter_rain_on_car"/>
@@ -72,6 +72,18 @@
 			<entry key="position" type="vector3" value="-829.947 369.072 196.723"/>
 			<entry key="rotation" type="quaternion" value="0 0 -0.25038 -0.968148"/>
 		</entry>
+		<entry index="12" type="table">
+			<entry key="emitter_event" type="string" value="emitter_rain_on_car"/>
+			<entry key="name" type="string" value="none"/>
+			<entry key="position" type="vector3" value="-998.038 -1341.16 377.626"/>
+			<entry key="rotation" type="quaternion" value="0 0 -0.333807 -0.942641"/>
+		</entry>
+		<entry index="13" type="table">
+			<entry key="emitter_event" type="string" value="emitter_rain_on_car"/>
+			<entry key="name" type="string" value="none"/>
+			<entry key="position" type="vector3" value="3294.02 -2177.53 980.347"/>
+			<entry key="rotation" type="quaternion" value="0.666548 0.236037 -0.236037 -0.666548"/>
+		</entry>
 	</entry>
 	<entry key="sound_environments" type="table">
 		<entry index="1" type="table">
@@ -87,6 +99,20 @@
 			<entry key="use_environment" type="boolean" value="true"/>
 			<entry key="use_occasional" type="boolean" value="false"/>
 			<entry key="width" type="number" value="1330"/>
+		</entry>
+		<entry index="2" type="table">
+			<entry key="ambience_event" type="string" value="ambience_ext_heavy_rain_storm_asphalt_softer"/>
+			<entry key="depth" type="number" value="1110"/>
+			<entry key="environment" type="string" value="pd2_acoustics_indoor_small"/>
+			<entry key="height" type="number" value="760"/>
+			<entry key="name" type="string" value="none"/>
+			<entry key="position" type="vector3" value="4009 -1731 -13"/>
+			<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+			<entry key="type" type="string" value="box"/>
+			<entry key="use_ambience" type="boolean" value="true"/>
+			<entry key="use_environment" type="boolean" value="true"/>
+			<entry key="use_occasional" type="boolean" value="false"/>
+			<entry key="width" type="number" value="1540"/>
 		</entry>
 	</entry>
 </generic_scriptdata>
