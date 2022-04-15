@@ -19,7 +19,7 @@
 				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
 				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
 				<entry key="name_id" type="string" value="nav_surface_001"/>
-				<entry key="position" type="vector3" value="1029.56 2045.31 -12.0199"/>
+				<entry key="position" type="vector3" value="529.56 2045.31 -12.0199"/>
 				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 				<entry key="unit_id" type="number" value="1"/>
 			</entry>
@@ -755,7 +755,7 @@
 				</entry>
 			</entry>
 			<entry key="unit_data" type="table">
-				<entry key="_prev_pos" type="vector3" value="562.728 3722.96 0"/>
+				<entry key="_prev_pos" type="vector3" value="643.172 4020.96 0"/>
 				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
 				<entry key="continent" type="string" value="world"/>
 				<entry key="instance_data" type="boolean" value="false"/>
@@ -763,7 +763,7 @@
 				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
 				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
 				<entry key="name_id" type="string" value="nav_surface_032"/>
-				<entry key="position" type="vector3" value="562.728 3722.96 0"/>
+				<entry key="position" type="vector3" value="643.172 4020.96 0"/>
 				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 				<entry key="unit_id" type="number" value="32"/>
 			</entry>
@@ -888,6 +888,54 @@
 				<entry key="unit_id" type="number" value="37"/>
 			</entry>
 		</entry>
+		<entry index="38" type="table">
+			<entry key="ai_editor_data" type="table">
+				<entry key="detection_mul" type="number" value="1"/>
+				<entry key="location_id" type="string" value="location_unknown"/>
+				<entry key="suspicion_mul" type="number" value="1"/>
+				<entry key="visibilty_exlude_filter" type="table">
+				</entry>
+				<entry key="visibilty_include_filter" type="table">
+				</entry>
+			</entry>
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="2595.3 4671.06 0"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
+				<entry key="name_id" type="string" value="nav_surface_038"/>
+				<entry key="position" type="vector3" value="2595.3 4671.06 0"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="38"/>
+			</entry>
+		</entry>
+		<entry index="39" type="table">
+			<entry key="ai_editor_data" type="table">
+				<entry key="detection_mul" type="number" value="1"/>
+				<entry key="location_id" type="string" value="location_unknown"/>
+				<entry key="suspicion_mul" type="number" value="1"/>
+				<entry key="visibilty_exlude_filter" type="table">
+				</entry>
+				<entry key="visibilty_include_filter" type="table">
+				</entry>
+			</entry>
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-402.865 3330.61 1302.39"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
+				<entry key="name_id" type="string" value="nav_surface_039"/>
+				<entry key="position" type="vector3" value="-402.865 3330.61 1302.39"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="39"/>
+			</entry>
+		</entry>
 	</entry>
 	<entry key="ai_nav_graphs" type="table">
 		<entry key="file" type="string" value="nav_manager_data"/>
@@ -923,6 +971,19 @@
 	</entry>
 	<entry key="environment" type="table">
 		<entry key="cubemap_gizmos" type="table">
+			<entry index="1" type="table">
+				<entry key="continent" type="string" value="world"/>
+				<entry key="cubemap" type="table">
+				</entry>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/cubemap_gizmo/cubemap_gizmo"/>
+				<entry key="name_id" type="string" value="cubemap_gizmo_001"/>
+				<entry key="position" type="vector3" value="0 2030 600"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="40"/>
+			</entry>
 		</entry>
 		<entry key="dome_occ_shapes" type="table">
 		</entry>
