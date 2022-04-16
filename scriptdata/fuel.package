@@ -6,6 +6,8 @@
 		<effect load="true" path="effects/particles/rain/rain_glace_inside"/>
 		<bnk load="true" path="soundbanks/ambiences"/>
 		<material_config path="core/environments/skies/sky_1313_cloudy/sky_1313_cloudy"/>
+		<scene load="true" path="core/environments/skies/sky_1313_cloudy/sky_1313_cloudy"/>
+
 		<unit path="units/payday2/vehicles/anim_vehicle_van_swat/anim_vehicle_van_swat"/>
 		<object path="units/payday2/vehicles/anim_vehicle_van_swat/anim_vehicle_van_swat"/>
 		<material_config path="units/payday2/vehicles/anim_vehicle_van_swat/anim_vehicle_van_swat"/>
@@ -48,70 +50,82 @@
 		<unit path="units/payday2/vehicles/gen_vehicle_turret/bex_spawn_shield_upper"/>
 		<object path="units/payday2/vehicles/gen_vehicle_turret/bex_spawn_shield_upper"/>
 		<bnk path="soundbanks/regular_sfx"/>
+
 		<unit path="units/payday2/characters/ene_cop_1/ene_cop_1"/>
 		<unit load="true" path="units/payday2/characters/ene_cop_1/ene_cop_1_husk"/>
 		<material_config path="units/payday2/characters/ene_cop_1/ene_cop_1"/>
 		<object path="units/payday2/characters/ene_cop_1/ene_cop_1"/>
 		<unit path="units/payday2/characters/ene_cop_2/ene_cop_2"/>
 		<object path="units/payday2/characters/ene_cop_2/ene_cop_2"/>
+
 		<material_config path="units/payday2/characters/ene_cop_2/ene_cop_2"/>
 		<unit load="true" path="units/payday2/characters/ene_acc_cop_hat/ene_acc_cop_hat"/>
 		<object path="units/payday2/characters/ene_acc_cop_hat/ene_acc_cop_hat"/>
 		<material_config path="units/payday2/characters/ene_acc_cop_hat/ene_acc_cop_hat"/>
 		<unit load="true" path="units/payday2/characters/ene_cop_2/ene_cop_2_husk"/>
+
 		<unit path="units/payday2/characters/civ_female_casual_1/civ_female_casual_1"/>
 		<unit load="true" path="units/payday2/characters/civ_female_casual_1/civ_female_casual_1_husk"/>
 		<material_config path="units/payday2/characters/civ_female_casual_1/civ_female_casual_1"/>
 		<object path="units/payday2/characters/civ_female_casual_1/civ_female_casual_1"/>
+
 		<unit path="units/payday2/characters/civ_male_casual_2/civ_male_casual_2"/>
 		<unit load="true" path="units/payday2/characters/civ_male_casual_2/civ_male_casual_2_husk"/>
 		<material_config path="units/payday2/characters/civ_male_casual_2/civ_male_casual_2"/>
 		<object path="units/payday2/characters/civ_male_casual_2/civ_male_casual_2"/>
+
 		<animation_def path="anims/units/swat_van/swat_van"/>
 		<animation_state_machine path="anims/units/swat_van/swat_van"/>
 		<animation_states path="anims/units/swat_van/std"/>
 		<animation_subset path="anims/units/swat_van/std"/>
 		<physic_effect path="physic_effects/push_sphere"/>
-		<scene load="true" path="core/environments/skies/sky_1313_cloudy/sky_1313_cloudy"/>
 	</add>
 	<add>
 		<material_config path="units/payday2/vehicles/bnk_vehicle_car_police_anim_1/bnk_vehicle_car_police_anim_1"/>
+
 		<material_config path="units/pd2_mod_fuel/architecture/fuel_gas_station/fuel_ext_gas_station"/>
 		<model path="units/pd2_mod_fuel/architecture/fuel_gas_station/fuel_ext_gas_station"/>
 		<object path="units/pd2_mod_fuel/architecture/fuel_gas_station/fuel_ext_gas_station"/>
 		<unit path="units/pd2_mod_fuel/architecture/fuel_gas_station/fuel_ext_gas_station"/>
+		<sequence_manager path="units/pd2_mod_fuel/architecture/fuel_gas_station/fuel_ext_gas_station"/>
+		<texture path="units/pd2_mod_fuel/architecture/fuel_gas_station/fuel_ext_gas_station_extra_df"/>
+
 		<unit path="units/pd2_mod_fuel/architecture/fuel_gas_station/fuel_int_gas_station"/>
 		<object path="units/pd2_mod_fuel/architecture/fuel_gas_station/fuel_int_gas_station"/>
 		<model path="units/pd2_mod_fuel/architecture/fuel_gas_station/fuel_int_gas_station"/>
 		<material_config path="units/pd2_mod_fuel/architecture/fuel_gas_station/fuel_int_gas_station"/>
-		<texture path="units/pd2_mod_fuel/architecture/fuel_gas_station/fuel_ext_gas_station_extra_df"/>
 		<texture path="units/pd2_mod_fuel/architecture/fuel_gas_station/res_prop_store_signs_df"/>
+
 		<material_config path="units/pd2_mod_fuel/architecture/fuel_ext_road_driveway/fuel_ext_road_driveway"/>
 		<model path="units/pd2_mod_fuel/architecture/fuel_ext_road_driveway/fuel_ext_road_driveway"/>
 		<object path="units/pd2_mod_fuel/architecture/fuel_ext_road_driveway/fuel_ext_road_driveway"/>
 		<unit path="units/pd2_mod_fuel/architecture/fuel_ext_road_driveway/fuel_ext_road_driveway"/>
+
 		<material_config path="units/pd2_mod_fuel/architecture/fuel_gas_station_ground/fuel_gas_station_ground"/>
 		<model path="units/pd2_mod_fuel/architecture/fuel_gas_station_ground/fuel_gas_station_ground"/>
 		<object path="units/pd2_mod_fuel/architecture/fuel_gas_station_ground/fuel_gas_station_ground"/>
 		<unit path="units/pd2_mod_fuel/architecture/fuel_gas_station_ground/fuel_gas_station_ground"/>
-		<sequence_manager path="units/pd2_mod_fuel/architecture/fuel_gas_station/fuel_ext_gas_station"/>
+
 		<material_config path="units/pd2_mod_fuel/architecture/fuel_gas_station_kitteh/fuel_gas_station_kitteh"/>
 		<model path="units/pd2_mod_fuel/architecture/fuel_gas_station_kitteh/fuel_gas_station_kitteh"/>
 		<object path="units/pd2_mod_fuel/architecture/fuel_gas_station_kitteh/fuel_gas_station_kitteh"/>
 		<unit path="units/pd2_mod_fuel/architecture/fuel_gas_station_kitteh/fuel_gas_station_kitteh"/>
 		<sequence_manager path="units/pd2_mod_fuel/architecture/fuel_gas_station_kitteh/fuel_gas_station_kitteh"/>
+		
 		<material_config path="units/pd2_mod_fuel/props/fuel_prop_winch/fuel_prop_winch"/>
 		<model path="units/pd2_mod_fuel/props/fuel_prop_winch/fuel_prop_winch"/>
 		<object path="units/pd2_mod_fuel/props/fuel_prop_winch/fuel_prop_winch"/>
 		<unit path="units/pd2_mod_fuel/props/fuel_prop_winch/fuel_prop_winch"/>
 		<sequence_manager path="units/pd2_mod_fuel/props/fuel_prop_winch/fuel_prop_winch"/>
 		<texture path="units/pd2_mod_fuel/props/fuel_prop_winch/fuel_prop_winch_df"/>
+
 		<material_config path="units/pd2_mod_fuel/props/fuel_prop_battery/fuel_prop_battery"/>
 		<model path="units/pd2_mod_fuel/props/fuel_prop_battery/fuel_prop_battery"/>
 		<object path="units/pd2_mod_fuel/props/fuel_prop_battery/fuel_prop_battery"/>
 		<unit path="units/pd2_mod_fuel/props/fuel_prop_battery/fuel_prop_battery"/>
 		<sequence_manager path="units/pd2_mod_fuel/props/fuel_prop_battery/fuel_prop_battery"/>
 		<texture path="units/pd2_mod_fuel/props/fuel_prop_battery/fuel_prop_battery_df"/>
+
 		<material_config path="units/pd2_mod_fuel/props/fuel_prop_jumper_cable/fuel_prop_jumper_cable"/>
 		<model path="units/pd2_mod_fuel/props/fuel_prop_jumper_cable/fuel_prop_jumper_cable"/>
 		<object path="units/pd2_mod_fuel/props/fuel_prop_jumper_cable/fuel_prop_jumper_cable"/>
@@ -122,11 +136,13 @@
 		<object path="units/pd2_mod_fuel/props/fuel_prop_jumper_cable/pku_jumper_cable"/>
 		<unit path="units/pd2_mod_fuel/props/fuel_prop_jumper_cable/pku_jumper_cable"/>
 		<sequence_manager path="units/pd2_mod_fuel/props/fuel_prop_jumper_cable/pku_jumper_cable"/>
+
 		<material_config path="units/pd2_mod_fuel/props/fuel_prop_generator/fuel_prop_generator"/>
 		<model path="units/pd2_mod_fuel/props/fuel_prop_generator/fuel_prop_generator"/>
 		<object path="units/pd2_mod_fuel/props/fuel_prop_generator/fuel_prop_generator"/>
 		<unit path="units/pd2_mod_fuel/props/fuel_prop_generator/fuel_prop_generator"/>
 		<sequence_manager path="units/pd2_mod_fuel/props/fuel_prop_generator/fuel_prop_generator"/>
+
 		<material_config path="units/pd2_mod_fuel/pickups/fuel_pku_generator/fuel_pku_generator"/>
 		<model path="units/pd2_mod_fuel/pickups/fuel_pku_generator/fuel_pku_generator"/>
 		<object path="units/pd2_mod_fuel/pickups/fuel_pku_generator/fuel_pku_generator"/>
