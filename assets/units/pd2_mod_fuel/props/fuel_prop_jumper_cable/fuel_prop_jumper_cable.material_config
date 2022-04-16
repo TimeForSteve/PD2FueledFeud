@@ -6,13 +6,13 @@
     <material name="mtr_cable_contour" render_template="generic:CONTOUR:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE" version="2">
         <diffuse_texture file="units/pd2_mod_fuel/props/fuel_prop_jumper_cable/fuel_prop_jumper_cable_df"/>
         <reflection_texture file="environments/cubemaps/cubemap_gold" type="cubemap"/>
-        <variable value="0 1 0" type="vector3" name="contour_color"/>
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
         <variable value="0" type="scalar" name="contour_opacity"/>
     </material>
     <material name="mtr_contour" render_template="generic:ALPHA_MASKED:CONTOUR:DIFFUSE_TEXTURE:OPACITY_TEXTURE" version="2">
         <diffuse_texture file="units/white_df"/>
-        <variable value="0 1 0" type="vector3" name="contour_color"/>
-        <variable value="1" type="scalar" name="contour_opacity"/>
+        <variable value="1 0.5 0" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
         <opacity_texture file="units/transparent_op"/>
     </material>
 </materials>

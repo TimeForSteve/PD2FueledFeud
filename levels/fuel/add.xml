@@ -2255,6 +2255,13 @@
 		<object path="units/payday2/architecture/ind/ind_ext_roof_4x8m_a"/>
 		<unit path="units/payday2/architecture/ind/ind_ext_roof_4x8m_a"/>
 	</add>
+	<add from_db="true" path="units/payday2/pickups/gen_pku_money/gen_pku_money" type="unit">
+		<effect load="true" path="effects/payday2/particles/grab/grab_money"/>
+		<material_config path="units/payday2/pickups/gen_pku_money/gen_pku_money"/>
+		<object path="units/payday2/pickups/gen_pku_money/gen_pku_money"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_money/gen_pku_money"/>
+		<unit path="units/payday2/pickups/gen_pku_money/gen_pku_money"/>
+	</add>
 	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_wall_4m_c" type="unit">
 		<material_config path="units/payday2/architecture/mkp/mkp"/>
 		<object path="units/payday2/architecture/mkp/mkp_int_wall_4m_c"/>
