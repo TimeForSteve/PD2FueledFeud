@@ -1,7 +1,4 @@
 <table min_lib_ver="4.5" name="FueledFeud">
-	<instance id="fuel_garage_door">
-		<packages/>
-	</instance>
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
 	</Localization>
@@ -9,6 +6,9 @@
 		<carry based_on="winch_part" id="fuel_generator" name_id="hud_carry_fuel_generator"/>
 	</LootBags>
 	<Package file="scriptdata/fuel.package" id="package_fuel" unload_on_restart="true"/>
+	<instance id="fuel_garage_door">
+		<packages/>
+	</instance>
 	<level ai_group_type="America" briefing_dialog="" ghost_bonus="0.06" id="fuel" intro_event="" max_bags="24" player_style="generic">
 		<assets>
 			<asset name="ammo_bag"/>
@@ -22,7 +22,7 @@
 			<interaction based_on="stash_server_cord" id="fuel_jumper_cable" sound_done="PENT_Pickup_CargoStrap"/>
 			<interaction based_on="hold_pickup_lance" id="fuel_hold_pickup_generator" interact_distance="200"/>
 			<interaction based_on="born_plug_in_powercord " equipment_consume="true" equipment_text_id="hud_int_requires_jumper_cable" id="fuel_use_jumper_cable" special_equipment="fuel_jumper_cable"/>
-			<interaction based_on="huge_lance" id="fuel_repair_winch" special_equipment="fuel_winch_part" timer="10" equipment_consume="true" equipment_text_id="hud_int_equipment_no_winch_part"/>
+			<interaction based_on="huge_lance" equipment_consume="true" equipment_text_id="hud_int_equipment_no_winch_part" id="fuel_repair_winch" special_equipment="fuel_winch_part" timer="10"/>
 		</interactions>
 		<outro_event>
 			<value_node value=""/>
@@ -31,6 +31,7 @@
 			<value_node value="package_fuel"/>
 			<value_node value="levels/instances/unique/sand/sand_container_fireworks/world/world"/>
 			<value_node value="levels/instances/unique/sand/sand_container_fireworks/world/world"/>
+			<value_node value="levels/instances/unique/pet_planedrop/world/world"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
