@@ -4,6 +4,7 @@
 		<effect load="true" path="effects/particles/rain/rain_only"/>
 		<effect load="true" path="effects/particles/rain/rain_01_a"/>
 		<effect load="true" path="effects/particles/rain/rain_glace_inside"/>
+		<effect load="true" path="effects/payday2/environment/hatch_sparks"/>
 		<bnk load="true" path="soundbanks/ambiences"/>
 		<material_config path="core/environments/skies/sky_1313_cloudy/sky_1313_cloudy"/>
 		<scene load="true" path="core/environments/skies/sky_1313_cloudy/sky_1313_cloudy"/>
@@ -119,6 +120,12 @@
 		<unit path="units/pd2_mod_fuel/props/fuel_prop_winch/fuel_prop_winch"/>
 		<sequence_manager path="units/pd2_mod_fuel/props/fuel_prop_winch/fuel_prop_winch"/>
 		<texture path="units/pd2_mod_fuel/props/fuel_prop_winch/fuel_prop_winch_df"/>
+
+		<material_config path="units/pd2_mod_fuel/props/fuel_prop_winch_cable/fuel_prop_winch_cable"/>
+		<model path="units/pd2_mod_fuel/props/fuel_prop_winch_cable/fuel_prop_winch_cable"/>
+		<object path="units/pd2_mod_fuel/props/fuel_prop_winch_cable/fuel_prop_winch_cable"/>
+		<unit path="units/pd2_mod_fuel/props/fuel_prop_winch_cable/fuel_prop_winch_cable"/>
+		<sequence_manager path="units/pd2_mod_fuel/props/fuel_prop_winch_cable/fuel_prop_winch_cable"/>
 
 		<material_config path="units/pd2_mod_fuel/props/fuel_prop_battery/fuel_prop_battery"/>
 		<model path="units/pd2_mod_fuel/props/fuel_prop_battery/fuel_prop_battery"/>

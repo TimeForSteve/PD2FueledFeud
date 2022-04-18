@@ -1,0 +1,62 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name="'straining_pause'" triggable="true">
+			<sound action="'play'" event="'winch_straining_off'" source="'snd_cable_strain'"/>
+		</sequence>
+		<sequence editable_state="true" name="'straining_resume'" triggable="true">
+			<sound action="'play'" event="'winch_straining_on'" source="'snd_cable_strain'" start_time="0.3"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_pull_cable'" triggable="true">
+			<animation_group enabled="true" from="0/30" name="'anim_cable'" to="30/30"/>
+			<object enabled="true" name="'g_hatch_undamaged'"/>
+			<object enabled="false" name="'g_hatch_damaged'"/>
+			<body enabled="true" name="'body_undamaged_hatch'"/>
+			<body enabled="false" name="'body_damaged_hatch'"/>
+			<decal_mesh enabled="true" name="'dm_hatch_undamaged'"/>
+			<decal_mesh enabled="false" name="'dm_hatch_damaged'"/>
+			<sound action="'play'" event="'winch_straining_on'" source="'snd_cable_strain'"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_release_hatch'" triggable="true">
+			<object enabled="false" name="'g_hatch_undamaged'"/>
+			<animation_group enabled="true" from="0/30" name="'anim'" to="120/30" speed="0.7/>
+			<body enabled="false" name="'body_undamaged_hatch'"/>
+			<body enabled="true" name="'body_damaged_hatch'"/>
+			<decal_mesh enabled="false" name="'dm_hatch_undamaged'"/>
+			<decal_mesh enabled="true" name="'dm_hatch_damaged'"/>
+			<sound action="'play'" event="'winch_straining_off'" source="'snd_cable_strain'"/>
+			<sound action="'play'" event="'winch_hatch_open'" object="'anim_hatch'"/>
+			<sound action="'play'" event="'winch_hatch_drag'" source="'snd_cable_strain'" start_time="0.5"/>
+			<effect name="'effects/payday2/environment/hatch_sparks'" parent="object( 'e_sparks_1' )" position="v()" start_time="0.5"/>
+			<effect name="'effects/payday2/environment/hatch_sparks'" parent="object( 'e_sparks_2' )" position="v()" start_time="0.5"/>
+			<object enabled="true" name="'g_hatch_damaged'"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_vis_hide_cable'" triggable="true">
+			<graphic_group visibility="false" name="'grp_cable'"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_vis_show_cable'" triggable="true">
+			<graphic_group visibility="true" name="'grp_cable'"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_vis_show_hatch'" triggable="true">
+			<graphic_group name="'grp_hatch'" visibility="true"/>
+			<body enabled="true" name="'body_undamaged_hatch'"/>
+			<decal_mesh enabled="true" name="'dm_hatch_undamaged'"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_vis_hide_hatch'" triggable="true">
+			<graphic_group name="'grp_hatch'" visibility="false"/>
+			<body enabled="false" name="'body_undamaged_hatch'"/>
+			<body enabled="false" name="'body_damaged_hatch'"/>
+			<decal_mesh enabled="false" name="'dm_hatch_undamaged'"/>
+			<decal_mesh enabled="false" name="'dm_hatch_damaged'"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_interaction_disabled'" triggable="true">
+			<interaction enabled="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_interaction_enabled'" triggable="true">
+			<interaction enabled="true"/>
+		</sequence>
+		<sequence name="'interact'">
+			<sound action="'play'" event="'winch_connect'" object="'anim_hatch'"/>
+			<run_sequence name="'state_vis_show_cable'"/>
+		</sequence>
+	</unit>
+</table>

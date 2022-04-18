@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<unit type="hlm" slot="1">
+	<network sync="spawn"/>
+	<object file="units/pd2_mod_fuel/props/fuel_prop_winch_cable/fuel_prop_winch_cable" />
+	<dependencies>
+		<depends_on bnk="soundbanks/regular_sfx" />
+		<depends_on effect="effects/payday2/environment/hatch_sparks" />
+	</dependencies>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="interaction" class="UseInteractionExt">
+			<var name="tweak_data" value="chca_connect_winch_hook" />
+			<var name="_interact_object" value="anim_hatch"/>
+			<var name="drop_in_sync_tweak_data" value="true" />
+		</extension>
+	</extensions>
+	<!-- Create a sound source from an object in maya -->
+	<sounds>
+		<default_soundsource source="anim_hatch"/>
+		<soundsource name="snd_cable_strain" source="anim_hatch" /> <!-- Creates a sound source based on the source location -->
+	</sounds>
+</unit>
