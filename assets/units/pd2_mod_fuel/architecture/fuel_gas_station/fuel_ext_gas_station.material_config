@@ -10,10 +10,10 @@
 	
 	<!-- -->
     <material version="2" render_template="generic:DIFFUSE_TEXTURE" name="mat_int_extra">
-        <diffuse_texture file="units/pd2_dlc1/architecture/res_ext_gas_station/res_ext_gas_building_extra_df"/>
+        <diffuse_texture file="units/pd2_mod_fuel/architecture/fuel_gas_station/fuel_ext_gas_station_extra_df"/>
     </material>
     <material version="2" render_template="generic:DIFFUSE_TEXTURE" name="mat_int_extra_lod">
-        <diffuse_texture file="units/pd2_dlc1/architecture/res_ext_gas_station/res_ext_gas_building_extra_df" mip="4"/>
+        <diffuse_texture file="units/pd2_mod_fuel/architecture/fuel_gas_station/fuel_ext_gas_station_extra_df" mip="4"/>
     </material>
 	
 	
@@ -57,6 +57,6 @@
 	
 	<!-- res_prop_store materials -->
     <material version="2" render_template="generic:DIFFUSE_TEXTURE" name="mat_store_signs_01">
-        <diffuse_texture file="units/pd2_dlc1/props/res_prop_store/res_prop_store_signs_df"/>
+        <diffuse_texture file="units/pd2_mod_fuel/architecture/fuel_gas_station/fuel_prop_store_signs_df"/>
     </material>
 </materials>
