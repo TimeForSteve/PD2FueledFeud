@@ -2738,51 +2738,87 @@
 		<object path="units/payday2/characters/ene_gang_black_3/ene_gang_black_3"/>
 		<sequence_manager path="units/payday2/characters/ragdoll"/>
 	</add>
-	<add from_db="true" path="units/payday2/vehicles/anim_vehicle_van_swat/anim_vehicle_van_swat" type="unit">
-		<unit path="units/payday2/vehicles/anim_vehicle_van_swat/anim_vehicle_van_swat"/>
-		<object path="units/payday2/vehicles/anim_vehicle_van_swat/anim_vehicle_van_swat"/>
-		<material_config path="units/payday2/vehicles/anim_vehicle_van_swat/anim_vehicle_van_swat"/>
-		<sequence_manager path="units/payday2/vehicles/anim_vehicle_van_swat/anim_vehicle_van_swat"/>
-		<animation_def path="anims/units/swat_van/swat_van"/>
-		<animation_subset path="anims/units/swat_van/std"/>
-		<effect load="true" path="effects/payday2/particles/flares/scene_flare_small_01"/>
-		<animation_state_machine path="anims/units/swat_van/swat_van"/>
-		<animation_states path="anims/units/swat_van/std"/>
-		<effect load="true" path="effects/payday2/particles/spotlight/scene_spotlight_01"/>
-		<unit path="units/payday2/vehicles/gen_vehicle_turret/gen_vehicle_turret"/>
-		<object path="units/payday2/vehicles/gen_vehicle_turret/gen_vehicle_turret"/>
-		<material_config path="units/payday2/vehicles/gen_vehicle_turret/gen_vehicle_turret"/>
-		<sequence_manager path="units/payday2/vehicles/gen_vehicle_turret/gen_vehicle_turret"/>
-		<unit path="units/payday2/vehicles/gen_vehicle_turret/spawn_turret_debris"/>
-		<object path="units/payday2/vehicles/gen_vehicle_turret/spawn_turret_debris"/>
-		<unit path="units/payday2/vehicles/gen_vehicle_turret/spawn_shield_front"/>
-		<object path="units/payday2/vehicles/gen_vehicle_turret/spawn_shield_front"/>
-		<effect load="true" path="effects/particles/weapons/flashlight/flashlight"/>
-		<effect load="true" path="effects/payday2/particles/explosions/sentry_aftersmoke"/>
-		<effect load="true" path="effects/payday2/particles/explosions/sentry_damage_smoke"/>
-		<effect load="true" path="effects/payday2/particles/explosions/sentry_damage_smoke_med"/>
-		<effect load="true" path="effects/payday2/particles/explosions/sentry_damage_smoke_large"/>
-		<effect load="true" path="effects/payday2/particles/explosions/sparks/sparks_loop"/>
-		<effect load="true" path="effects/payday2/particles/weapons/big_762_auto"/>
-		<effect load="true" path="effects/payday2/particles/weapons/parts/combo_light_all"/>
-		<effect load="true" path="effects/payday2/particles/weapons/parts/distance_halo_big"/>
-		<effect load="true" path="effects/payday2/particles/weapons/shells/shell_556_lmg"/>
-		<effect load="true" path="effects/payday2/particles/weapons/shells/shell_link"/>
-		<effect load="true" path="effects/payday2/particles/explosions/sentry_explosion"/>
-		<unit path="units/payday2/vehicles/gen_vehicle_turret/spawn_shield_upper"/>
-		<object path="units/payday2/vehicles/gen_vehicle_turret/spawn_shield_upper"/>
-		<physic_effect path="physic_effects/push_sphere"/>
-		<bnk path="soundbanks/weapon_swatturret"/>
-		<unit path="units/payday2/vehicles/gen_vehicle_turret/bex_vehicle_turret"/>
-		<object path="units/payday2/vehicles/gen_vehicle_turret/bex_vehicle_turret"/>
-		<material_config path="units/payday2/vehicles/gen_vehicle_turret/bex_vehicle_turret"/>
-		<sequence_manager path="units/payday2/vehicles/gen_vehicle_turret/bex_vehicle_turret"/>
-		<unit path="units/payday2/vehicles/gen_vehicle_turret/bex_spawn_turret_debris"/>
-		<object path="units/payday2/vehicles/gen_vehicle_turret/bex_spawn_turret_debris"/>
-		<unit path="units/payday2/vehicles/gen_vehicle_turret/bex_spawn_shield_front"/>
-		<object path="units/payday2/vehicles/gen_vehicle_turret/bex_spawn_shield_front"/>
-		<unit path="units/payday2/vehicles/gen_vehicle_turret/bex_spawn_shield_upper"/>
-		<object path="units/payday2/vehicles/gen_vehicle_turret/bex_spawn_shield_upper"/>
-		<bnk path="soundbanks/regular_sfx"/>
+	<add from_db="true" path="units/pd2_dlc_jolly/equipment/gen_plant_c4/gen_plant_c4" type="unit">
+		<material_config path="units/pd2_dlc_jolly/equipment/gen_plant_c4/gen_plant_c4"/>
+		<object path="units/pd2_dlc_jolly/equipment/gen_plant_c4/gen_plant_c4"/>
+		<sequence_manager path="units/pd2_dlc_jolly/equipment/gen_plant_c4/gen_plant_c4"/>
+		<unit path="units/pd2_dlc_jolly/equipment/gen_plant_c4/gen_plant_c4"/>
+	</add>
+	<add from_db="true" path="units/equipment/c4_charge/c4_mission_door" type="unit">
+		<material_config path="units/equipment/c4_charge/c4_mission_door"/>
+		<object path="units/equipment/c4_charge/c4_mission_door"/>
+		<sequence_manager path="units/equipment/c4_charge/c4_mission_door"/>
+		<unit path="units/equipment/c4_charge/c4_mission_door"/>
+	</add>
+	<add from_db="true" path="units/equipment/c4_charge/c4_plantable" type="unit">
+		<material_config path="units/equipment/c4_charge/c4_plantable"/>
+		<object path="units/equipment/c4_charge/c4_plantable"/>
+		<sequence_manager path="units/equipment/c4_charge/c4_plantable"/>
+		<unit path="units/equipment/c4_charge/c4_plantable"/>
+	</add>
+	<add from_db="true" path="units/pd2_mcmansion/props/mcm_prop_drone/mcm_prop_drone" type="unit">
+		<material_config path="units/pd2_mcmansion/props/mcm_prop_drone/mcm_prop_drone"/>
+		<object path="units/pd2_mcmansion/props/mcm_prop_drone/mcm_prop_drone"/>
+		<unit path="units/pd2_mcmansion/props/mcm_prop_drone/mcm_prop_drone"/>
+	</add>
+	<add from_db="true" path="units/world/brushes/grafitti/brush_poster_12" type="unit">
+		<material_config path="units/world/brushes/grafitti/grafitti_tag_1"/>
+		<object path="units/world/brushes/grafitti/brush_poster_12"/>
+		<unit path="units/world/brushes/grafitti/brush_poster_12"/>
+	</add>
+	<add from_db="true" path="units/world/brushes/grafitti/brush_poster_02" type="unit">
+		<material_config path="units/world/brushes/grafitti/grafitti_tag_1"/>
+		<object path="units/world/brushes/grafitti/brush_poster_02"/>
+		<unit path="units/world/brushes/grafitti/brush_poster_02"/>
+	</add>
+	<add from_db="true" path="units/world/brushes/grafitti/brush_poster_07" type="unit">
+		<material_config path="units/world/brushes/grafitti/grafitti_tag_1"/>
+		<object path="units/world/brushes/grafitti/brush_poster_07"/>
+		<unit path="units/world/brushes/grafitti/brush_poster_07"/>
+	</add>
+	<add from_db="true" path="units/world/brushes/grafitti/brush_poster_08" type="unit">
+		<material_config path="units/world/brushes/grafitti/grafitti_tag_1"/>
+		<object path="units/world/brushes/grafitti/brush_poster_08"/>
+		<unit path="units/world/brushes/grafitti/brush_poster_08"/>
+	</add>
+	<add from_db="true" path="units/world/brushes/grafitti/brush_poster_10" type="unit">
+		<material_config path="units/world/brushes/grafitti/grafitti_tag_1"/>
+		<object path="units/world/brushes/grafitti/brush_poster_10"/>
+		<unit path="units/world/brushes/grafitti/brush_poster_10"/>
+	</add>
+	<add from_db="true" path="units/world/brushes/grafitti/brush_poster_05" type="unit">
+		<material_config path="units/world/brushes/grafitti/grafitti_tag_1"/>
+		<object path="units/world/brushes/grafitti/brush_poster_05"/>
+		<unit path="units/world/brushes/grafitti/brush_poster_05"/>
+	</add>
+	<add from_db="true" path="units/world/brushes/grafitti/brush_poster_06" type="unit">
+		<material_config path="units/world/brushes/grafitti/grafitti_tag_1"/>
+		<object path="units/world/brushes/grafitti/brush_poster_06"/>
+		<unit path="units/world/brushes/grafitti/brush_poster_06"/>
+	</add>
+	<add from_db="true" path="units/world/brushes/grafitti/brush_poster_03" type="unit">
+		<material_config path="units/world/brushes/grafitti/grafitti_tag_1"/>
+		<object path="units/world/brushes/grafitti/brush_poster_03"/>
+		<unit path="units/world/brushes/grafitti/brush_poster_03"/>
+	</add>
+	<add from_db="true" path="units/world/brushes/grafitti/brush_poster_09" type="unit">
+		<material_config path="units/world/brushes/grafitti/grafitti_tag_1"/>
+		<object path="units/world/brushes/grafitti/brush_poster_09"/>
+		<unit path="units/world/brushes/grafitti/brush_poster_09"/>
+	</add>
+	<add from_db="true" path="units/world/brushes/grafitti/brush_poster_04" type="unit">
+		<material_config path="units/world/brushes/grafitti/grafitti_tag_1"/>
+		<object path="units/world/brushes/grafitti/brush_poster_04"/>
+		<unit path="units/world/brushes/grafitti/brush_poster_04"/>
+	</add>
+	<add from_db="true" path="units/world/brushes/grafitti/brush_poster_01" type="unit">
+		<material_config path="units/world/brushes/grafitti/grafitti_tag_1"/>
+		<object path="units/world/brushes/grafitti/brush_poster_01"/>
+		<unit path="units/world/brushes/grafitti/brush_poster_01"/>
+	</add>
+	<add from_db="true" path="units/world/brushes/grafitti/brush_poster_11" type="unit">
+		<unit path="units/world/brushes/grafitti/brush_poster_11"/>
+		<object path="units/world/brushes/grafitti/brush_poster_11"/>
+		<material_config path="units/world/brushes/grafitti/grafitti_tag_1"/>
 	</add>
 </table>
