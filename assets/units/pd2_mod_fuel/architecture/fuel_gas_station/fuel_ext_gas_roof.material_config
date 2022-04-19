@@ -1,0 +1,26 @@
+<materials version="3">
+    <material name="shadow_caster" render_template="shadow_caster_only" version="2"/>
+    <material name="mat_gas_station" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_mod_fuel/architecture/fuel_gas_station/fuel_ext_gas_station_df"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_slaughter_01"/>
+        <bump_normal_texture file="units/pd2_mod_fuel/architecture/fuel_gas_station/fuel_ext_gas_station_nm"/>
+    </material>
+    <material name="mat_gas_station_lod_1" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_mod_fuel/architecture/fuel_gas_station/fuel_ext_gas_station_df" mip="4"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_slaughter_01"/>
+        <bump_normal_texture file="units/pd2_mod_fuel/architecture/fuel_gas_station/fuel_ext_gas_station_nm" mip="4"/>
+    </material>
+    <material version="2" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:SELF_ILLUMINATION" name="mat_gas_station_il">
+        <diffuse_texture file="units/pd2_mod_fuel/architecture/fuel_gas_station/fuel_ext_gas_station_df"/>
+        <reflection_texture file="environments/cubemaps/cubemap_slaughter_01" type="cubemap"/>
+        <bump_normal_texture file=""units/pd2_mod_fuel/architecture/fuel_gas_station/fuel_ext_gas_station_nm"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+        <self_illumination_texture file="units/pd2_mod_fuel/architecture/fuel_gas_station/fuel_ext_gas_station_df"/>
+        <variable value="desklight" type="scalar" name="il_multiplier"/>
+    </material>
+    <material name="mat_motel_big_sign_glow" decal_material="sheet_metal" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:DOUBLE_SIDED:VIEW_ANGLE_FALLOFF_OP" version="2">
+        <diffuse_texture file="units/pd2_dlc1/architecture/res_ext_motel/res_ext_motel_big_sign_glow_df"/>
+        <variable value="0.8600999712944" type="scalar" name="falloff_exp"/>
+        <variable value="monitor" type="scalar" name="intensity"/>
+    </material>
+</materials>
