@@ -2423,13 +2423,19 @@
 		<unit path="units/payday2/architecture/ind/ind_ext_dock_bld/dock_door_01"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_rvd/equipment/rvd_interactable_saw_no_jam/rvd_interactable_saw_no_jam" type="unit">
-		<unit path="units/pd2_dlc_rvd/equipment/rvd_interactable_saw_no_jam/rvd_interactable_saw_no_jam"/>
-		<object path="units/pd2_dlc_glace/equipment/gen_interactable_saw_no_jam/gen_interactable_saw_no_jam"/>
-		<material_config path="units/equipment/apartment_saw/apartment_saw"/>
-		<sequence_manager path="units/pd2_dlc_glace/equipment/gen_interactable_saw_no_jam/gen_interactable_saw_no_jam"/>
-		<gui path="guis/timer_gui"/>
-		<bnk path="soundbanks/regular_sfx"/>
 		<effect load="true" path="effects/particles/equipment/vault_drill/drill_active"/>
 		<effect load="true" path="effects/particles/equipment/apartment_saw/saw_active"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<gui path="guis/timer_gui"/>
+		<material_config path="units/equipment/apartment_saw/apartment_saw"/>
+		<object path="units/pd2_dlc_glace/equipment/gen_interactable_saw_no_jam/gen_interactable_saw_no_jam"/>
+		<sequence_manager path="units/pd2_dlc_glace/equipment/gen_interactable_saw_no_jam/gen_interactable_saw_no_jam"/>
+		<unit path="units/pd2_dlc_rvd/equipment/rvd_interactable_saw_no_jam/rvd_interactable_saw_no_jam"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_pent/equipment/pent_interactable_car_platform/pent_interactable_car_platform" type="unit">
+		<unit path="units/pd2_dlc_pent/equipment/pent_interactable_car_platform/pent_interactable_car_platform"/>
+		<object path="units/pd2_dlc_pent/equipment/pent_interactable_car_platform/pent_interactable_car_platform"/>
+		<material_config path="units/pd2_dlc_pent/equipment/pent_interactable_car_platform/pent_interactable_car_platform"/>
+		<sequence_manager path="units/pd2_dlc_pent/equipment/pent_interactable_car_platform/pent_interactable_car_platform"/>
 	</add>
 </table>
