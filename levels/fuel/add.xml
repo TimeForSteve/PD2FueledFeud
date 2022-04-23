@@ -2508,8 +2508,46 @@
 		<unit path="units/wire/wire_01"/>
 	</add>
 	<add from_db="true" path="units/wire/wire_short" type="unit">
-		<unit path="units/wire/wire_short"/>
-		<object path="units/wire/wire_short"/>
 		<material_config path="units/wire/wire_01"/>
+		<object path="units/wire/wire_short"/>
+		<unit path="units/wire/wire_short"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/architecture/are_int_basement/are_int_basement" type="unit">
+		<material_config path="units/pd2_dlc_arena/architecture/are_int_basement/are_int_basement"/>
+		<object path="units/pd2_dlc_arena/architecture/are_int_basement/are_int_basement"/>
+		<unit path="units/pd2_dlc_arena/architecture/are_int_basement/are_int_basement"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc1/architecture/res_int_motel/res_int_motel_basement_wall_4m" type="unit">
+		<material_config path="units/pd2_dlc1/architecture/res_int_motel/res_int_motel_basement_main"/>
+		<object path="units/pd2_dlc1/architecture/res_int_motel/res_int_motel_basement_wall_4m"/>
+		<unit path="units/pd2_dlc1/architecture/res_int_motel/res_int_motel_basement_wall_4m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_uno/architecture/uno_int/uno_int_tunnel_03/uno_int_tunnel_03" type="unit">
+		<effect load="true" path="effects/payday2/particles/flares/indoor_lamp_v8"/>
+		<effect load="true" path="effects/payday2/particles/fire/small_candle_fire"/>
+		<effect load="true" path="effects/payday2/particles/flares/candle_light_flare"/>
+		<material_config path="units/pd2_dlc_uno/architecture/mesh/uno_main_mesh"/>
+		<object path="units/pd2_dlc_uno/architecture/uno_int/uno_int_tunnel_03/uno_int_tunnel_03"/>
+		<sequence_manager path="units/pd2_dlc_uno/architecture/uno_int/uno_int_tunnel_03/uno_int_tunnel_03"/>
+		<unit path="units/pd2_dlc_uno/architecture/uno_int/uno_int_tunnel_03/uno_int_tunnel_03"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_uno/architecture/uno_int/uno_int_tunnel_02/uno_int_tunnel_02" type="unit">
+		<effect load="true" path="effects/payday2/particles/flares/indoor_lamp_v8"/>
+		<effect load="true" path="effects/payday2/particles/fire/small_candle_fire"/>
+		<effect load="true" path="effects/payday2/particles/flares/candle_light_flare"/>
+		<material_config path="units/pd2_dlc_uno/architecture/mesh/uno_main_mesh"/>
+		<object path="units/pd2_dlc_uno/architecture/uno_int/uno_int_tunnel_02/uno_int_tunnel_02"/>
+		<sequence_manager path="units/pd2_dlc_uno/architecture/uno_int/uno_int_tunnel_02/uno_int_tunnel_02"/>
+		<unit path="units/pd2_dlc_uno/architecture/uno_int/uno_int_tunnel_02/uno_int_tunnel_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_uno/architecture/mesh/uno_main_mesh" type="unit">
+		<material_config path="units/pd2_dlc_uno/architecture/mesh/uno_main_mesh"/>
+		<object path="units/pd2_dlc_uno/architecture/mesh/uno_main_mesh"/>
+		<unit path="units/pd2_dlc_uno/architecture/mesh/uno_main_mesh"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_uno/architecture/mesh/uno_wall" type="unit">
+		<unit path="units/pd2_dlc_uno/architecture/mesh/uno_wall"/>
+		<object path="units/pd2_dlc_uno/architecture/mesh/uno_wall"/>
+		<material_config path="units/pd2_dlc_uno/architecture/mesh/uno_main_mesh"/>
 	</add>
 </table>
