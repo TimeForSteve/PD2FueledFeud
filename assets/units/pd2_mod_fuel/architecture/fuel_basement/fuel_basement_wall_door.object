@@ -1,0 +1,17 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_fuel/architecture/fuel_basement/fuel_basement" orientation_object="rp_fuel_basement_wall_door" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_fuel_basement_wall_door" />
+			<object name="c_box_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_03" collision_type="box" padding="-2.5"/>
+		</body>
+	</bodies>
+	<decal_surfaces default_material="concrete">
+		<decal_mesh name="g_door" enabled="true" material="concrete" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_door" enabled="true"/>
+	</graphics>
+</dynamic_object>

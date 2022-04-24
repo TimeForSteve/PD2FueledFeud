@@ -1,0 +1,17 @@
+<unit type="res" slot="1">
+	<object file="units/pd2_mod_fuel/architecture/fuel_basement/fuel_basement_wall_explosion" />
+	<dependencies>
+		<depends_on effect="effects/payday2/particles/explosions/shapecharger_explosion" />
+		<depends_on effect="effects/payday2/particles/explosions/trail_explosion" />
+	</dependencies>
+	<network sync="spawn"/>
+	<extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+        <extension name="damage" class="UnitDamage" />
+	</extensions>
+
+	<sounds>
+		<default_soundsource source="e_explode"/>
+		<soundsource name="sound_explosion" source="e_explode" />
+	</sounds>
+</unit>

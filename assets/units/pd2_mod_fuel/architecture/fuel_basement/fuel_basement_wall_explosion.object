@@ -1,0 +1,52 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_fuel/architecture/fuel_basement/fuel_basement" orientation_object="rp_fuel_basement_wall_explosion" />
+	    <sequence_manager file="units/pd2_mod_fuel/architecture/fuel_basement/fuel_basement_wall_explosion" />
+    <animations>
+    	<animation_group name="destroy" enabled="false">
+    		<object name="a_debris_01" />
+			<object name="a_debris_02" />
+			<object name="a_debris_03" />
+			<object name="a_debris_04" />
+			<object name="a_debris_05" />
+			<object name="a_debris_06" />
+			<object name="a_debris_07" />
+			<object name="a_debris_08" />
+			<object name="a_debris_09" />
+			<object name="a_debris_10" />
+    	</animation_group>
+    </animations>
+	<bodies>
+		<body name="body_whole" enabled="true" template="static">
+			<object name="rp_fuel_basement_wall_explosion" />
+			<object name="c_whole" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_destroyed" enabled="false" template="static">
+			<object name="rp_fuel_basement_wall_explosion" />
+			<object name="c_destroyed_01" collision_type="box" padding="-2.5"/>
+			<object name="c_destroyed_02" collision_type="box" padding="-2.5"/>
+			<object name="c_destroyed_03" collision_type="box" padding="-2.5"/>
+			<object name="c_destroyed_04" collision_type="box" padding="-2.5"/>
+			<object name="c_mesh_destroyed" collision_type="mesh_mopp"/>
+		</body>
+	</bodies>
+	<decal_surfaces default_material="concrete">
+		<decal_mesh name="g_whole" enabled="true" material="concrete" />
+		<decal_mesh name="g_destroyed" enabled="false" material="concrete" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_whole" enabled="true"/>
+		<object name="g_destroyed" enabled="false"/>
+		<graphic_group name="g_debris" enabled="false">
+			<object name="g_debris_01" enabled="true"/>
+			<object name="g_debris_02" enabled="true"/>
+			<object name="g_debris_03" enabled="true"/>
+			<object name="g_debris_04" enabled="true"/>
+			<object name="g_debris_05" enabled="true"/>
+			<object name="g_debris_06" enabled="true"/>
+			<object name="g_debris_07" enabled="true"/>
+			<object name="g_debris_08" enabled="true"/>
+			<object name="g_debris_09" enabled="true"/>
+			<object name="g_debris_10" enabled="true"/>
+		</graphic_group>
+	</graphics>
+</dynamic_object>
