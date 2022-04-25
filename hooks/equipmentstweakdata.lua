@@ -1,4 +1,4 @@
-Hooks:PostHook( EquipmentsTweakData, "init", "pal_real_custom_equipments", function(self, tweak_data)
+Hooks:PostHook( EquipmentsTweakData, "init", "fuel_custom_equipment", function(self, tweak_data)
 
 	self.specials.fuel_jumper_cable = {
 		sync_possession = true,
