@@ -2,6 +2,9 @@
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
 	</Localization>
+	<LootBags>
+		<carry based_on="winch_part" id="fuel_generator" name_id="hud_carry_fuel_generator"/>
+	</LootBags>
 	<Package file="scriptdata/fuel.package" id="package_fuel" unload_on_restart="true"/>
 	<instance id="fuel_garage_door">
 		<packages/>
@@ -18,9 +21,6 @@
 			<special id="fuel_jumper_cable" sync_possession="true" icon="equipment_electrical"/>
 			<special id="fuel_winch_part" sync_possession="true" icon="equipment_drillfix"/>
 		</equipments>
-		<lootbags>
-			<carry based_on="winch_part" id="fuel_generator" name_id="hud_carry_fuel_generator"/>
-		</lootbags>
 		<outro_event>
 			<value_node value=""/>
 		</outro_event>
