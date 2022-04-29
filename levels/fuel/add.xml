@@ -3002,8 +3002,56 @@
 		<unit path="units/world/props/mansion/man_prop_int_brass_bowl/man_prop_int_brass_bowl"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_flat/props/flt_prop_apartment_microwave/flt_prop_apartment_microwave" type="unit">
-		<unit path="units/pd2_dlc_flat/props/flt_prop_apartment_microwave/flt_prop_apartment_microwave"/>
-		<object path="units/pd2_dlc_flat/props/flt_prop_apartment_microwave/flt_prop_apartment_microwave"/>
 		<material_config path="units/pd2_dlc_flat/props/flt_prop_apartment_microwave/flt_prop_apartment_microwave"/>
+		<object path="units/pd2_dlc_flat/props/flt_prop_apartment_microwave/flt_prop_apartment_microwave"/>
+		<unit path="units/pd2_dlc_flat/props/flt_prop_apartment_microwave/flt_prop_apartment_microwave"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_born/props/bor_prop_duct_tape/bor_duct_tape" type="unit">
+		<material_config path="units/pd2_dlc_born/props/bor_prop_duct_tape/bor_duct_tape"/>
+		<object path="units/pd2_dlc_born/props/bor_prop_duct_tape/bor_duct_tape"/>
+		<unit path="units/pd2_dlc_born/props/bor_prop_duct_tape/bor_duct_tape"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_bph/props/bph_prop_dangertape/bph_prop_dangertape" type="unit">
+		<material_config path="units/pd2_dlc_bph/props/bph_prop_dangertape/bph_prop_dangertape"/>
+		<object path="units/pd2_dlc_bph/props/bph_prop_dangertape/bph_prop_dangertape"/>
+		<unit path="units/pd2_dlc_bph/props/bph_prop_dangertape/bph_prop_dangertape"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chill/props/chl_prop_tape_recorder/chl_prop_tape_01" type="unit">
+		<material_config path="units/pd2_dlc_chill/props/chl_prop_tape_recorder/chl_prop_tape_recorder"/>
+		<object path="units/pd2_dlc_chill/props/chl_prop_tape_recorder/chl_prop_tape_01"/>
+		<unit path="units/pd2_dlc_chill/props/chl_prop_tape_recorder/chl_prop_tape_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_bex/props/bex_prop_cassette_tape/bex_prop_cassette_tape" type="unit">
+		<material_config path="units/pd2_dlc_bex/props/bex_prop_cassette_tape/bex_prop_cassette_tape"/>
+		<object path="units/pd2_dlc_bex/props/bex_prop_cassette_tape/bex_prop_cassette_tape"/>
+		<sequence_manager path="units/pd2_dlc_bex/props/bex_prop_cassette_tape/bex_prop_cassette_tape"/>
+		<unit path="units/pd2_dlc_bex/props/bex_prop_cassette_tape/bex_prop_cassette_tape"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_bex/props/bex_prop_tape_holder/bex_prop_tape_holder" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_dlc_bex/props/bex_prop_tape_holder/bex_prop_tape_holder"/>
+		<object path="units/pd2_dlc_bex/props/bex_prop_tape_holder/bex_prop_tape_holder"/>
+		<sequence_manager path="units/pd2_dlc_bex/props/bex_prop_tape_holder/bex_prop_tape_holder"/>
+		<unit path="units/pd2_dlc_bex/props/bex_prop_tape_holder/bex_prop_tape_holder"/>
+	</add>
+	<add from_db="true" path="units/lights/light_omni_shadow_projection_01/light_omni_shadow_projection_01" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/lights/light_omni_shadow_projection_01/light_omni_shadow_projection_01"/>
+		<unit path="units/lights/light_omni_shadow_projection_01/light_omni_shadow_projection_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_drive/architecture/ind_concrete_wall_02/ind_concrete_wall_02" type="unit">
+		<material_config path="units/pd2_dlc_drive/architecture/ind_concrete_wall_02/ind_concrete_wall_02"/>
+		<object path="units/pd2_dlc_drive/architecture/ind_concrete_wall_02/ind_concrete_wall_02"/>
+		<unit path="units/pd2_dlc_drive/architecture/ind_concrete_wall_02/ind_concrete_wall_02"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/cdr/cdr_int_cinder_wall_2x3m_a" type="unit">
+		<material_config path="units/payday2/architecture/cdr/cdr_int"/>
+		<object path="units/payday2/architecture/cdr/cdr_int_cinder_wall_2x3m_a"/>
+		<unit path="units/payday2/architecture/cdr/cdr_int_cinder_wall_2x3m_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/cdr/cdr_int_cinder_wall_trim_2x1m_a" type="unit">
+		<unit path="units/payday2/architecture/cdr/cdr_int_cinder_wall_trim_2x1m_a"/>
+		<object path="units/payday2/architecture/cdr/cdr_int_cinder_wall_trim_2x1m_a"/>
+		<material_config path="units/payday2/architecture/cdr/cdr_int"/>
 	</add>
 </table>

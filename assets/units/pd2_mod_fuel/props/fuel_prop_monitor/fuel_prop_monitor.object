@@ -1,0 +1,23 @@
+<dynamic_object>
+    <diesel orientation_object="rp_fuel_prop_monitor" materials="units/pd2_mod_fuel/props/fuel_prop_monitor/fuel_prop_monitor" />
+		<sequence_manager file="units/pd2_mod_fuel/props/fuel_prop_monitor/fuel_prop_monitor" />	
+    <animations>
+		<animation_group name="anim" enabled="false">
+			<object name="anim_mascot" />
+		</animation_group>
+	</animations>
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+            <object collision_type="convex" name="c_convex_01" />
+        </body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_plastic" material="plastic" />
+        <decal_mesh enabled="true" name="g_screen" material="glass" />
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_g" />
+        <object enabled="false" name="g_screen" />
+        <object enabled="false" name="g_mascot" />
+    </graphics>
+</dynamic_object>

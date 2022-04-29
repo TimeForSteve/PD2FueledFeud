@@ -14,7 +14,8 @@
 		<interactions>
 			<interaction based_on="stash_server_cord" id="fuel_jumper_cable" sound_done="PENT_Pickup_CargoStrap"/>
 			<interaction based_on="hold_pickup_lance" id="fuel_hold_pickup_generator" interact_distance="200"/>
-			<interaction based_on="born_plug_in_powercord " equipment_consume="true" equipment_text_id="hud_int_requires_jumper_cable" id="fuel_use_jumper_cable" special_equipment="fuel_jumper_cable"/>
+			<interaction based_on="born_plug_in_powercord" equipment_consume="true" equipment_text_id="hud_int_requires_jumper_cable" id="fuel_use_jumper_cable" special_equipment="fuel_jumper_cable"/>
+			<interaction based_on="bex_take_cupprint" equipment_consume="true" equipment_text_id="hud_interact_take_fingerprint" id="fuel_use_tape" special_equipment="tape"/>
 			<interaction based_on="huge_lance" equipment_consume="true" equipment_text_id="hud_int_equipment_no_winch_part" id="fuel_repair_winch" special_equipment="fuel_winch_part" timer="10"/>
 		</interactions>
 		<equipments>
@@ -32,6 +33,9 @@
 			<value_node value="levels/instances/shared/ilija_the_sniper/world_sounds"/>
 			<value_node value="levels/instances/shared/ilija_the_sniper/world"/>
 		</packages>
+		<sounds auto_pause="true" directory="assets/vo" dont_store_float="true">
+			<sound id="katoil_branding" stop_id="katoil_branding_stop" path="katoil_branding.ogg" loop="true"/>
+		</sounds>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
 				<options merge_mode="add" mode="add"/>
