@@ -1,10 +1,8 @@
 <table>
 	<unit>
-		<sequence editable_state="true" name=" 'hallway_lvl1' " triggable="true">
-			<material_config name=" 'units/payday2/props/are_prop_backstage_monitor/are_prop_backstage_monitor_2' "/>
-		</sequence>
 		<sequence editable_state="true" name=" 'state_screen_off' " triggable="true">
-			<sound action="'play'" event="'tv_switch_off'"/>
+			<sound action="'play'" event="'tv_switch_on'" source="'snd'"/>
+			<sound action="'play'" event="'tv_switch_off'" source="'snd'" start_time="60/30"/>
 			<animation_group enabled="false" name="'anim'"/>
 			<object enabled="false" name="'g_screen'"/>
 			<object enabled="false" name="'g_mascot'"/>
