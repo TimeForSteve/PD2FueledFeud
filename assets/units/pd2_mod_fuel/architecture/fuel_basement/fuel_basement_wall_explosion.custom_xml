@@ -26,5 +26,11 @@
 			<decal_mesh enabled="true" name="'g_whole'"/>
 			<decal_mesh enabled="false" name="'g_destroyed'"/>
 		</sequence>
+		<sequence editable_state="true" name="'wall_1'" triggable="true">
+			<material_config name="'units/pd2_mod_fuel/architecture/fuel_basement/fuel_basement'"/>
+		</sequence>
+		<sequence editable_state="true" name="'wall_2'" triggable="true">
+			<material_config name="'units/pd2_mod_fuel/architecture/fuel_basement/fuel_basement_wall_explosion'"/>
+		</sequence>
 	</unit>
 </table>

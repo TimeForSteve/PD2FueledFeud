@@ -1,0 +1,22 @@
+<table directory="assets">
+	<add from_db="true" path="units/dev_tools/level_tools/door_blocker/door_blocker" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/door_blocker/door_blocker"/>
+		<unit path="units/dev_tools/level_tools/door_blocker/door_blocker"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/door_blocker/door_blocker_1m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/door_blocker/door_blocker_1m"/>
+		<unit path="units/dev_tools/level_tools/door_blocker/door_blocker_1m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/door_blocker/door_blocker_4x1" type="unit">
+		<unit path="units/dev_tools/level_tools/door_blocker/door_blocker_4x1"/>
+		<object path="units/dev_tools/level_tools/door_blocker/door_blocker_4x1"/>
+		<material_config path="core/material_configs/hub_elements"/>
+	</add>
+</table>
