@@ -12,10 +12,9 @@
         <diffuse_texture file="units/pd2_mod_fuel/props/fuel_prop_monitor/fuel_prop_monitor_mascot_df"/>
         <variable value="flashlight" type="scalar" name="intensity"/>
     </material>
-     <material name="mat_effect" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:DIFFUSE0_UVANIM:VIEW_ANGLE_FALLOFF_OP" version="2">
+     <material name="mat_effect" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:DIFFUSE0_UVANIM" version="2">
         <diffuse_texture file="units/pd2_mod_fuel/props/fuel_prop_monitor/fuel_prop_monitor_effect_df"/>
         <variable value="0 -0.15 0" type="vector3" name="uv0_speed"/>
-        <variable value="0.6600999712944" type="scalar" name="falloff_exp"/>
         <variable value="monitor" type="scalar" name="intensity"/>
     </material>
 </materials>

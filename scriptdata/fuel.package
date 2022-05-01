@@ -126,6 +126,10 @@
 		<object path="units/payday2/vehicles/gen_vehicle_turret/bex_spawn_shield_front"/>
 		<unit path="units/payday2/vehicles/gen_vehicle_turret/bex_spawn_shield_upper"/>
 		<object path="units/payday2/vehicles/gen_vehicle_turret/bex_spawn_shield_upper"/>
+
+		<effect load="true" path="effects/payday2/particles/smoke_trail/smoke_trail_wanker_car_no_windup"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<material_config path="units/payday2/mockup/occluder_plane"/>
 	</add>
 	
 	<add>
@@ -137,6 +141,10 @@
 
 		<texture path="units/pd2_mod_fuel/architecture/fuel_gas_station/fuel_prop_gas_price_sign_df"/>
 		<texture path="units/pd2_mod_fuel/architecture/fuel_gas_station/fuel_prop_gas_price_sign_il"/>
+
+		<model path="units/pd2_mod_fuel/mockup/occluder_fuel"/>
+		<object path="units/pd2_mod_fuel/mockup/occluder_fuel"/>
+		<unit path="units/pd2_mod_fuel/mockup/occluder_fuel"/>
 
 		<material_config path="units/pd2_mod_fuel/architecture/fuel_gas_station/fuel_ext_gas_station"/>
 		<model path="units/pd2_mod_fuel/architecture/fuel_gas_station/fuel_ext_gas_station"/>
@@ -244,5 +252,11 @@
 		<object path="units/pd2_mod_fuel/pickups/fuel_pku_generator/fuel_pku_generator"/>
 		<unit path="units/pd2_mod_fuel/pickups/fuel_pku_generator/fuel_pku_generator"/>
 		<sequence_manager path="units/pd2_mod_fuel/pickups/fuel_pku_generator/fuel_pku_generator"/>
+
+		<material_config path="units/pd2_mod_fuel/vehicles/fps_vehicle_suv_fuel/fps_vehicle_suv_fuel"/>
+		<model path="units/pd2_mod_fuel/vehicles/fps_vehicle_suv_fuel/fps_vehicle_suv_fuel"/>
+		<object path="units/pd2_mod_fuel/vehicles/fps_vehicle_suv_fuel/fps_vehicle_suv_fuel"/>
+		<unit path="units/pd2_mod_fuel/vehicles/fps_vehicle_suv_fuel/fps_vehicle_suv_fuel"/>
+		<sequence_manager path="units/pd2_mod_fuel/vehicles/fps_vehicle_suv_fuel/fps_vehicle_suv_fuel"/>
 	</add>
 </table>

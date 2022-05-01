@@ -451,22 +451,6 @@
 		<sequence_manager path="units/pd2_dlc_pex/props/pex_prop_door_mexican_police_station/pex_prop_door_mexican_police_station"/>
 		<unit path="units/pd2_dlc_pex/props/pex_prop_door_mexican_police_station/pex_prop_door_mexican_police_station"/>
 	</add>
-	<add from_db="true" path="units/pd2_dlc_pex/vehicles/fps_vehicle_suv_pex/fps_vehicle_suv_pex" type="unit">
-		<material_config path="units/pd2_dlc_pex/vehicles/fps_vehicle_suv_pex/fps_vehicle_suv_pex"/>
-		<effect load="true" path="effects/payday2/particles/vehicle/vehicle_damage_small_smoke"/>
-		<effect load="true" path="effects/payday2/particles/vehicle/vehicle_damage_big_smoke"/>
-		<effect load="true" path="effects/particles/dest/bridge_heli_smoke"/>
-		<effect load="true" path="effects/particles/dest/circle_puffs"/>
-		<effect load="true" path="effects/payday2/particles/smoke_trail/smoke_trail_wanker_car_no_windup"/>
-		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
-		<animation_def path="anims/units/pex_suv_and_heli/pex_suv_and_heli"/>
-		<animation_state_machine path="anims/units/pex_suv_and_heli/pex_suv_and_heli"/>
-		<animation_states path="anims/units/pex_suv_and_heli/std"/>
-		<animation_subset path="anims/units/pex_suv_and_heli/std"/>
-		<object path="units/pd2_dlc_pex/vehicles/fps_vehicle_suv_pex/fps_vehicle_suv_pex"/>
-		<sequence_manager path="units/pd2_dlc_pex/vehicles/fps_vehicle_suv_pex/fps_vehicle_suv_pex"/>
-		<unit path="units/pd2_dlc_pex/vehicles/fps_vehicle_suv_pex/fps_vehicle_suv_pex"/>
-	</add>
 	<add from_db="true" path="units/pd2_dlc_flat/architecture/flt_facade/flt_facade_04_10m" type="unit">
 		<material_config path="units/pd2_dlc_flat/architecture/flt_facade/flt_facade_04_10m"/>
 		<object path="units/pd2_dlc_flat/architecture/flt_facade/flt_facade_04_10m"/>
@@ -633,11 +617,6 @@
 		<object path="units/pd2_dlc_flat/props/flt_props_graffiti/flt_props_graffiti_big_03"/>
 		<unit path="units/pd2_dlc_flat/props/flt_props_graffiti/flt_props_graffiti_big_03"/>
 	</add>
-	<add from_db="true" path="units/pd2_dlc_flat/props/flt_props_graffiti/flt_props_graffiti_big_01" type="unit">
-		<material_config path="units/pd2_dlc_flat/props/flt_props_graffiti/flt_props_graffiti"/>
-		<object path="units/pd2_dlc_flat/props/flt_props_graffiti/flt_props_graffiti_big_01"/>
-		<unit path="units/pd2_dlc_flat/props/flt_props_graffiti/flt_props_graffiti_big_01"/>
-	</add>
 	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_vehicles/cara_95sedan_wrecked" type="unit">
 		<material_config path="units/pd2_dlc2/csgo_models/props_vehicles/cara_95sedan_wrecked"/>
 		<object path="units/pd2_dlc2/csgo_models/props_vehicles/cara_95sedan_wrecked"/>
@@ -718,11 +697,6 @@
 		<material_config path="units/pd2_dlc_brb/props/brb_prop_sign_busstop/brb_prop_sign_busstop"/>
 		<object path="units/pd2_dlc_brb/props/brb_prop_sign_busstop/brb_prop_sign_busstop"/>
 		<unit path="units/pd2_dlc_brb/props/brb_prop_sign_busstop/brb_prop_sign_busstop"/>
-	</add>
-	<add from_db="true" path="units/vehicles/taxi/low/vehicle_taxi_low" type="unit">
-		<material_config path="units/vehicles/taxi/low/vehicle_taxi_low"/>
-		<object path="units/vehicles/taxi/low/vehicle_taxi_low"/>
-		<unit path="units/vehicles/taxi/low/vehicle_taxi_low"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc2/csgo_models/props/de_vostok/vostok_magazine_rack01" type="unit">
 		<material_config path="units/pd2_dlc2/csgo_models/props/de_vostok/vostok_magazine_rack01"/>
@@ -2828,11 +2802,6 @@
 		<material_config path="units/payday2/props/gen_prop_weapon_case/gen_prop_weapon_case"/>
 		<object path="units/payday2/props/gen_prop_weapon_case/gen_prop_weapon_case_2x1_open"/>
 		<unit path="units/payday2/props/gen_prop_weapon_case/gen_prop_weapon_case_2x1_open"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_aru/props/aru_prop_weapons/aru_prop_ching_rifle" type="unit">
-		<material_config path="units/pd2_dlc_aru/props/aru_prop_weapons/aru_prop_ching_rifle"/>
-		<object path="units/pd2_dlc_aru/props/aru_prop_weapons/aru_prop_ching_rifle"/>
-		<unit path="units/pd2_dlc_aru/props/aru_prop_weapons/aru_prop_ching_rifle"/>
 	</add>
 	<add from_db="true" path="units/dev_tools/level_tools/navigation_splitter_1m" type="unit">
 		<material_config path="core/material_configs/hub_elements"/>

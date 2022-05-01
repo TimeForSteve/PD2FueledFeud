@@ -1,0 +1,29 @@
+<dynamic_object>
+	<diesel materials="units/payday2/mockup/occluder_plane" orientation_object="rp_occluder_fuel" />
+	<bodies>
+		<body name="static_body" enabled="true" template="editor">
+			<object name="rp_occluder_fuel" />
+			<object collision_type="box" enabled="true" name="oc_plane_01"/>
+		</body>
+	</bodies>
+	<occluders>
+        <occluder name="oc_plane_01" />
+		<occluder name="oc_plane_02" />
+		<occluder name="oc_plane_03" />
+		<occluder name="oc_plane_04" />
+		<occluder name="oc_plane_05" />
+		<occluder name="oc_plane_06" />
+		<occluder name="oc_plane_07" />
+		<occluder name="oc_plane_08" />
+    </occluders>
+    <graphics>
+		<object name="oc_plane_01" enabled="true"/>
+		<object name="oc_plane_02" enabled="true"/>
+		<object name="oc_plane_03" enabled="true"/>
+		<object name="oc_plane_04" enabled="true"/>
+		<object name="oc_plane_05" enabled="true"/>
+		<object name="oc_plane_06" enabled="true"/>
+		<object name="oc_plane_07" enabled="true"/>
+		<object name="oc_plane_08" enabled="true"/>
+    </graphics>
+</dynamic_object>

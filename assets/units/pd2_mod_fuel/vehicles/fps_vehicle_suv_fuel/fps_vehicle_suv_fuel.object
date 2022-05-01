@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/pd2_mod_fuel/vehicles/fps_vehicle_suv_fuel/fps_vehicle_suv_fuel" orientation_object="rp_fuel_vehicle_suv" />
+	<sequence_manager file="units/pd2_mod_fuel/vehicles/fps_vehicle_suv_fuel/fps_vehicle_suv_fuel" />
+
+	<animations>
+		<animation_group name="anim_door" enabled="false">
+				<object name="anim_door" />
+		</animation_group>
+		<animation_group name="anim_trunk" enabled="false">
+				<object name="anim_hinges" />
+				<object name="anim_trunk" />
+		</animation_group>
+		<animation_group name="anim_wheels" enabled="false">
+				<object name="anim_tire_front" />
+				<object name="anim_tire_rear" />
+		</animation_group>
+	</animations>
+
+	<bodies>
+		<body name="static_body" enabled="false" template="animated_no_ray">
+			<object name="rp_fuel_vehicle_suv" />
+			<object name="c_box" collision_type="box" />
+		</body>
+		<body name="body_vehicle" enabled="true" template="animated" >
+			<object name="anim_body" />
+			<object name="c_mesh_mopp" collision_type="mesh_mopp" padding="-2.5"/>
+		</body>
+		<body name="body_trunk" enabled="true" template="animated" >
+			<object name="anim_trunk" />
+			<object name="c_box_trunk" collision_type="box" padding="-2.5"/>
+		</body>
+	</bodies>
+
+	 <effects>
+		<effect_spawner name="car_exhaust_01" enabled="false" object="e_effect_01" effect="effects/payday2/particles/smoke_trail/smoke_trail_wanker_car_no_windup" />
+		<effect_spawner name="car_exhaust_02" enabled="false" object="e_effect_02" effect="effects/payday2/particles/smoke_trail/smoke_trail_wanker_car_no_windup" />
+	</effects>
+
+	<decal_surfaces default_material="metal">
+		<decal_mesh name="dm_vehicle" 				enabled="true" material="metal_chassis" />
+		<decal_mesh name="g_glass"	 				enabled="true" material="glass" />
+	</decal_surfaces>
+
+	<graphics>
+		<object name="g_lootbag_1" 		enabled="false" />
+		<object name="g_lootbag_2" 		enabled="false" />
+		<object name="g_lootbag_3" 		enabled="false" />
+		<object name="g_lootbag_4" 		enabled="false" />
+		<object name="g_lootbag_5" 		enabled="false" />
+		<object name="g_lootbag_6" 		enabled="false" />
+		<graphic_group name="grp_vehicle" enabled="true" culling_object="c_culling">
+			<lod_object name="lod_vehicle_body">
+				<object name="g_vehicle_body" enabled="true">
+					<material materials="mtr_vehicle" max_distance="2500"/>
+					<material materials="mtr_vehicle_lod"/>
+				</object>
+			</lod_object>
+			<lod_object name="lod_vehicle_grill">
+				<object name="g_grill" enabled="true">
+					<material materials="mat_bex_suv_grill" max_distance="2500"/>
+					<material materials="mat_bex_suv_grill_lod"/>
+				</object>
+			</lod_object>
+			<lod_object name="lod_vehicle_door">
+				<object name="g_door_driver" enabled="true">
+					<material materials="mtr_vehicle" max_distance="2500"/>
+					<material materials="mtr_vehicle_lod"/>
+				</object>
+			</lod_object>
+			<lod_object name="lod_vehicle_trunk">
+				<object name="g_trunk" enabled="true">
+					<material materials="mtr_vehicle" max_distance="2500"/>
+					<material materials="mtr_vehicle_lod"/>
+				</object>
+			</lod_object>
+			<lod_object name="lod_tire_front_left">
+				<object name="g_tire_front_left" enabled="true" max_distance="2500" />
+				<object name="g_tire_front_left_lod1" enabled="true"/>
+			</lod_object>
+			<lod_object name="lod_tire_front_right">
+				<object name="g_tire_front_right" enabled="true" max_distance="2500" />
+				<object name="g_tire_front_right_lod1" enabled="true"/>
+			</lod_object>
+			<lod_object name="lod_tire_rear_left">
+				<object name="g_tire_rear_left" enabled="true" max_distance="2500" />
+				<object name="g_tire_rear_left_lod1" enabled="true"/>
+			</lod_object>
+			<lod_object name="lod_tire_rear_right">
+				<object name="g_tire_rear_right" enabled="true" max_distance="2500" />
+				<object name="g_tire_rear_right_lod1" enabled="true"/>
+			</lod_object>
+			<object name="g_mullplan" 				enabled="true"/>
+			<object name="g_glass" 					enabled="true" shadow_caster="false" />
+			<object name="g_glass_right" 			enabled="true" shadow_caster="false" />
+			<object name="g_glass_interior" 		enabled="true" shadow_caster="false" />
+			<object name="g_glass_trunk" 			enabled="true" shadow_caster="false" />
+			<object name="g_interior" 				enabled="false"/>
+			<object name="g_trunk_llining" 			enabled="false"/>
+			<object name="g_interior_door" 			enabled="false"/>
+			<object name="g_hinges" 				enabled="true"/>
+			<object name="g_pistons" 				enabled="true"/>
+			<object name="s_vehicle" 				enabled="true" shadow_caster="true" />
+			<object name="s_wheels" 				enabled="true" shadow_caster="true" />
+			<object name="g_door_glass" 			enabled="true"/>
+		</graphic_group>
+	</graphics>
+</dynamic_object>

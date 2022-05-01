@@ -1,0 +1,136 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name="'play_smoke_effect'" triggable="true">
+			<effect_spawner enabled="true" name="'car_exhaust_01'"/>
+			<effect_spawner enabled="true" name="'car_exhaust_02'"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_open_door'" triggable="true">
+			<object enabled="true" name="'g_interior'"/>
+			<object enabled="true" name="'g_trunk_llining'"/>
+			<object enabled="true" name="'g_interior_door'"/>
+			<animation_group enabled="true" from="0/30" name="'anim_door'" to="100/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_open_trunk'" triggable="true">
+			<animation_group enabled="true" from="0/30" name="'anim_trunk'" to="60/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_close_trunk'" triggable="true">
+			<animation_group enabled="true" from="60/30" name="'anim_trunk'" speed="-1" to="0/30"/>
+		</sequence>
+		<sequence editable_state="false" name="'not_driving'" triggable="false">
+			<interaction enabled="true"/>
+			<body enabled="false" name="'body_chassis'"/>
+			<slot slot="39"/>
+		</sequence>
+		<sequence editable_state="false" name="'driving'" triggable="false">
+			<interaction enabled="true"/>
+			<body enabled="true" name="'body_chassis'"/>
+			<body enabled="false" name="'body_vehicle'"/>
+			<body enabled="false" name="'body_trunk'"/>
+			<slot slot="39"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_interaction_enabled'" triggable="true">
+			<interaction enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_interaction_disabled'" triggable="true">
+			<interaction enabled="false"/>
+		</sequence>
+		<variables>
+			<var_bag value="0"/>
+		</variables>
+		<filter name="'filter_bag_0'">
+			<check value="vars.var_bag == 0"/>
+		</filter>
+		<filter name="'filter_bag_1'">
+			<check value="vars.var_bag == 1"/>
+		</filter>
+		<filter name="'filter_bag_2'">
+			<check value="vars.var_bag == 2"/>
+		</filter>
+		<filter name="'filter_bag_3'">
+			<check value="vars.var_bag == 3"/>
+		</filter>
+		<filter name="'filter_bag_4'">
+			<check value="vars.var_bag == 4"/>
+		</filter>
+		<filter name="'filter_bag_5'">
+			<check value="vars.var_bag == 5"/>
+		</filter>
+		<sequence editable_state="true" name="'state_add_loot_bag'" triggable="true">
+			<run_sequence filter="'filter_bag_5'" name="'int_seq_grow_loot_bag_06'"/>
+			<run_sequence filter="'filter_bag_4'" name="'int_seq_grow_loot_bag_05'"/>
+			<run_sequence filter="'filter_bag_3'" name="'int_seq_grow_loot_bag_04'"/>
+			<run_sequence filter="'filter_bag_2'" name="'int_seq_grow_loot_bag_03'"/>
+			<run_sequence filter="'filter_bag_1'" name="'int_seq_grow_loot_bag_02'"/>
+			<run_sequence filter="'filter_bag_0'" name="'int_seq_grow_loot_bag_01'"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_reset_loot_bag'" triggable="true">
+			<object enabled="false" name="'g_lootbag_1'"/>
+			<object enabled="false" name="'g_lootbag_2'"/>
+			<object enabled="false" name="'g_lootbag_3'"/>
+			<object enabled="false" name="'g_lootbag_4'"/>
+			<object enabled="false" name="'g_lootbag_5'"/>
+			<object enabled="false" name="'g_lootbag_6'"/>
+			<set_variables var_bag="0"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_grow_loot_bag_01'" triggable="false">
+			<object enabled="true" name="'g_lootbag_1'"/>
+			<object enabled="false" name="'g_lootbag_2'"/>
+			<object enabled="false" name="'g_lootbag_3'"/>
+			<object enabled="false" name="'g_lootbag_4'"/>
+			<object enabled="false" name="'g_lootbag_5'"/>
+			<object enabled="false" name="'g_lootbag_6'"/>
+			<set_variables var_bag="1"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_grow_loot_bag_02'" triggable="false">
+			<object enabled="true" name="'g_lootbag_1'"/>
+			<object enabled="true" name="'g_lootbag_2'"/>
+			<object enabled="false" name="'g_lootbag_3'"/>
+			<object enabled="false" name="'g_lootbag_4'"/>
+			<object enabled="false" name="'g_lootbag_5'"/>
+			<object enabled="false" name="'g_lootbag_6'"/>
+			<set_variables var_bag="2"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_grow_loot_bag_03'" triggable="false">
+			<object enabled="true" name="'g_lootbag_1'"/>
+			<object enabled="true" name="'g_lootbag_2'"/>
+			<object enabled="true" name="'g_lootbag_3'"/>
+			<object enabled="false" name="'g_lootbag_4'"/>
+			<object enabled="false" name="'g_lootbag_5'"/>
+			<object enabled="false" name="'g_lootbag_6'"/>
+			<set_variables var_bag="3"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_grow_loot_bag_04'" triggable="false">
+			<object enabled="true" name="'g_lootbag_1'"/>
+			<object enabled="true" name="'g_lootbag_2'"/>
+			<object enabled="true" name="'g_lootbag_3'"/>
+			<object enabled="true" name="'g_lootbag_4'"/>
+			<object enabled="false" name="'g_lootbag_5'"/>
+			<object enabled="false" name="'g_lootbag_6'"/>
+			<set_variables var_bag="4"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_grow_loot_bag_05'" triggable="false">
+			<object enabled="true" name="'g_lootbag_1'"/>
+			<object enabled="true" name="'g_lootbag_2'"/>
+			<object enabled="true" name="'g_lootbag_3'"/>
+			<object enabled="true" name="'g_lootbag_4'"/>
+			<object enabled="true" name="'g_lootbag_5'"/>
+			<object enabled="false" name="'g_lootbag_6'"/>
+			<set_variables var_bag="5"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_grow_loot_bag_06'" triggable="false">
+			<object enabled="true" name="'g_lootbag_1'"/>
+			<object enabled="true" name="'g_lootbag_2'"/>
+			<object enabled="true" name="'g_lootbag_3'"/>
+			<object enabled="true" name="'g_lootbag_4'"/>
+			<object enabled="true" name="'g_lootbag_5'"/>
+			<object enabled="true" name="'g_lootbag_6'"/>
+			<set_variables var_bag="6"/>
+		</sequence>
+		<sequence editable_state="true" name="'mull_plane_enable'" triggable="true">
+			<object enabled="true" name="'g_mullplan'"/>
+		</sequence>
+		<sequence editable_state="true" name="'mull_plane_disable'" triggable="true">
+			<object enabled="false" name="'g_mullplan'"/>
+		</sequence>
+	</unit>
+</table>
