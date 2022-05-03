@@ -144,7 +144,6 @@
 				<value_node value="100182"/>
 				<value_node value="100183"/>
 				<value_node value="100184"/>
-				<value_node value="100192"/>
 				<value_node value="100413"/>
 				<value_node value="100415"/>
 				<value_node value="100416"/>
@@ -431,6 +430,7 @@
 		<table continent="world" folder="levels/instances/mods/FueledFeud/fuel_manhole/world" index_size="250" name="fuel_manhole_001" position="2730 893 -10" rotation="0 0 -1 4.37114e-008" script="default" start_index="750"/>
 		<table continent="world" folder="levels/instances/mods/FueledFeud/fuel_manhole/world" index_size="250" name="fuel_manhole_002" position="200 1024 -10" rotation="-0 0 -0 -1" script="default" start_index="1000"/>
 		<table continent="world" folder="levels/instances/mods/FueledFeud/fuel_manhole/world" index_size="250" name="fuel_manhole_003" position="400 -790 -10" rotation="-0 0 -0 -1" script="default" start_index="1250"/>
+		<table continent="world" folder="levels/instances/mods/FueledFeud/fuel_freezer/world" index_size="250" mission_placed="true" name="fuel_freezer" position="1110 20 4000" rotation="0 0 -0.707107 -0.707107" script="default" start_index="1500"/>
 	</instances>
 	<statics>
 		<table>
@@ -879,9 +879,6 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="2491.01 -704.997 179.746" _prev_rot="0 0 -0.707105 -0.707108" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="291.001 154.998 179.746" local_rot="0 0 0.707105 0.707108" material="units/pd2_dlc1/props/res_prop_store_beer/res_prop_store_beer_six_b" material_variation="units/pd2_dlc1/props/res_prop_store_beer/res_prop_store_beer_six_b" name="units/pd2_dlc1/props/res_prop_store_beer/res_prop_store_beer_six" name_id="res_prop_store_beer_six_a_012" position="2491.01 -704.997 167.746" rotation="0 0 -0.707105 -0.707108" unit_id="100184"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="1538 1241 -484.4" _prev_rot="0 0 0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_open_door" name="units/pd2_dlc_pex/props/pex_prop_door_mexican_police_station/pex_prop_door_mexican_police_station" name_id="pex_prop_door_mexican_police_station_001" position="1538 1241 -484.4" rotation="0 0 0.707107 -0.707107" unit_id="100192"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-167.581 300 14" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="550 0 0" local_rot="0 0 0 1" name="units/pd2_dlc1/architecture/res_ext_gas_station/res_prop_gas_barrier_a" name_id="res_prop_gas_barrier_a_003" position="-167.581 300 3" rotation="0 0 -0.707107 -0.707107" unit_id="100447"/>
@@ -4585,9 +4582,6 @@
 			<unit_data _prev_pos="1000 250 -485" _prev_rot="0 0 0.707107 -0.707107" continent="world" hide_on_projection_light="true" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/world/architecture/hospital/props/chair_cafeteria/hospital_office_chair_briefing" name_id="hospital_office_chair_briefing_001" position="1000 250 -485" rotation="0 0 0.707107 -0.707107" unit_id="101106"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-64 375 -485" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_open_door" name="units/pd2_dlc_pex/props/pex_prop_door_mexican_police_station/pex_prop_door_mexican_police_station" name_id="pex_prop_door_mexican_police_station_002" position="-64 375 -485" rotation="-0 0 -0 -1" unit_id="101107"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="69 -1389 -485" _prev_rot="0 0 1 -0" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="200 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/res_int/res_int_corridor_wall_2m" name_id="res_int_corridor_wall_2m_035" position="42 -1389 -485" rotation="0 0 1 -0" unit_id="101111"/>
 		</table>
 		<table>
@@ -4948,9 +4942,6 @@
 			<unit_data _prev_pos="1898 -626 -486.8" _prev_rot="0 0 1 -4.37114e-008" continent="world" disable_on_ai_graph="true" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_fuel/architecture/fuel_basement/fuel_basement_wall_4m" name_id="fuel_basement_wall_4m_011" position="1898 -626 -486.8" rotation="0 0 1 -4.37114e-008" unit_id="101223"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="1688 1224 -484.4" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_fuel/architecture/fuel_basement/fuel_basement_wall_door" name_id="fuel_basement_wall_door_001" position="1688 1224 -484.4" rotation="0 0 0.707107 -0.707107" unit_id="101229"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="1415 1035 -350" _prev_rot="-0 0 -0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_060" only_visible_in_editor="true" position="1457 1035 -350" rotation="-0 0 -0 -1" unit_id="101230">
 				<lights>
 					<table clipping_values="10000 -10000 0" color="0.584314 0.639216 0.556863" enabled="true" falloff_exponent="1" far_range="380" multiplier="@IDbca13ba1d306f87b@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
@@ -5020,28 +5011,13 @@
 			<unit_data _prev_pos="524 485 -487" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/gen_prop_plywood/gen_prop_plywood_v3" name_id="gen_prop_plywood_v3_001" position="524 485 -487" rotation="-0.5 -0.5 0.5 -0.5" unit_id="101446"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-52 524 -484.4" _prev_rot="0 0 0 -1" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 2.60001" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_fuel/architecture/fuel_basement/fuel_basement_wall_door" name_id="fuel_basement_wall_door_002" position="-52 524 -484.4" rotation="0 0 0 -1" unit_id="101447"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="-52 524 -487" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_fuel/architecture/fuel_basement/fuel_basement_wall_4m" name_id="fuel_basement_wall_4m_014" position="-52 524 -487" rotation="0 0 0.707107 -0.707107" unit_id="101448"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="148 -576 -487" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 -2.60001" local_rot="0 0 -0.707107 0.707107" name="units/pd2_mod_fuel/architecture/fuel_basement/fuel_basement_wall_4m" name_id="fuel_basement_wall_4m_015" position="148 -576 -487" rotation="0 0 0.707107 -0.707107" unit_id="101449"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="148 -576 -484.4" _prev_rot="0 0 0 -1" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_fuel/architecture/fuel_basement/fuel_basement_wall_door" name_id="fuel_basement_wall_door_003" position="148 -576 -484.4" rotation="0 0 0 -1" unit_id="101450"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="136 -725 -485" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-12 -149 -0.600006" local_rot="0 0 0 1" mesh_variation="state_open_door" name="units/pd2_dlc_pex/props/pex_prop_door_mexican_police_station/pex_prop_door_mexican_police_station" name_id="pex_prop_door_mexican_police_station_005" position="136 -725 -485" rotation="0 0 0 -1" unit_id="101451"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="2298 -1576 -484.4" _prev_rot="0 0 1 8.9407e-008" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 2.60001" local_rot="-0 0 -0.707107 -0.707107" name="units/pd2_mod_fuel/architecture/fuel_basement/fuel_basement_wall_door" name_id="fuel_basement_wall_door_004" position="2298 -1476 -484.4" rotation="0 0 1 8.9407e-008" unit_id="101108"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="2298 -1576 -487" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_fuel/architecture/fuel_basement/fuel_basement_wall_4m" name_id="fuel_basement_wall_4m_016" position="2298 -1476 -487" rotation="0 0 -0.707107 -0.707107" unit_id="101452"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="2310 -1427 -485" _prev_rot="0 0 1 -8.9407e-008" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="149 -12 2" local_rot="0 0 -0.707107 -0.707107" mesh_variation="state_open_door" name="units/pd2_dlc_pex/props/pex_prop_door_mexican_police_station/pex_prop_door_mexican_police_station" name_id="pex_prop_door_mexican_police_station_006" position="2310 -1327 -485" rotation="0 0 1 -8.9407e-008" unit_id="101453"/>
+			<unit_data _prev_pos="2298 -1476 -487" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_fuel/architecture/fuel_basement/fuel_basement_wall_4m" name_id="fuel_basement_wall_4m_016" position="2298 -1476 -487" rotation="0 0 -0.707107 -0.707107" unit_id="101452"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="1898 -626 -484.4" _prev_rot="0 0 0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_fuel/architecture/fuel_basement/fuel_basement_wall_door" name_id="fuel_basement_wall_door_005" position="1898 -626 -484.4" rotation="0 0 0.707107 -0.707107" unit_id="101119"/>
@@ -5408,18 +5384,6 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="2895 1150 -430" _prev_rot="0 0 0.996195 0.0871559" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/equipment/gen_interactable_weapon_case_2x1/gen_interactable_weapon_case_2x1" name_id="gen_interactable_weapon_case_2x1_002" position="2895 650 -430" rotation="0 0 0.996195 0.0871559" unit_id="101579"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="1484 1241 -484" _prev_rot="0 0 0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="disable_interaction" name="units/pd2_dlc_pex/props/pex_prop_silent_door_breach/pex_prop_silent_door_breach" name_id="pex_prop_silent_door_breach_001" position="1484 1241 -484" rotation="0 0 0.707107 -0.707107" unit_id="101580"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-64 321 -484" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="disable_interaction" name="units/pd2_dlc_pex/props/pex_prop_silent_door_breach/pex_prop_silent_door_breach" name_id="pex_prop_silent_door_breach_002" position="-64 321 -484" rotation="0 0 0 -1" unit_id="101581"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="136 -779 -484" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="disable_interaction" name="units/pd2_dlc_pex/props/pex_prop_silent_door_breach/pex_prop_silent_door_breach" name_id="pex_prop_silent_door_breach_003" position="136 -779 -484" rotation="0 0 0 -1" unit_id="101582"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="2310 -1373 -484" _prev_rot="0 0 1 8.9407e-008" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="203 -12 3" local_rot="-0 0 -0.707107 -0.707107" mesh_variation="disable_interaction" name="units/pd2_dlc_pex/props/pex_prop_silent_door_breach/pex_prop_silent_door_breach" name_id="pex_prop_silent_door_breach_004" position="2310 -1273 -484" rotation="0 0 1 8.9407e-008" unit_id="101583"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="1022 1225 -484" _prev_rot="0 0 1 3.1665e-007" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/com_prop_janitor_shelf/com_prop_janitor_shelf" name_id="com_prop_janitor_shelf_004" position="1022 1225 -484" rotation="0 0 1 3.1665e-007" unit_id="101584"/>
