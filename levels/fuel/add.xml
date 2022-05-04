@@ -2925,9 +2925,30 @@
 		<unit path="units/pd2_dlc_rvd/equipment/rvd_interactable_saw_no_jam/rvd_interactable_saw_no_jam"/>
 	</add>
 	<add from_db="true" path="units/world/props/suburbia_manhole/suburbia_manhole" type="unit">
-		<unit path="units/world/props/suburbia_manhole/suburbia_manhole"/>
-		<object path="units/world/props/suburbia_manhole/suburbia_manhole"/>
 		<material_config path="units/equipment/garden_tap_interactive/main_water_valve_suburbia_contour"/>
+		<object path="units/world/props/suburbia_manhole/suburbia_manhole"/>
 		<sequence_manager path="units/world/props/suburbia_manhole/suburbia_manhole"/>
+		<unit path="units/world/props/suburbia_manhole/suburbia_manhole"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sah/props/sah_prop_hacking_device/sah_prop_hacking_device" type="unit">
+		<material_config path="units/pd2_dlc_sah/props/sah_prop_hacking_device/sah_prop_hacking_device"/>
+		<object path="units/pd2_dlc_sah/props/sah_prop_hacking_device/sah_prop_hacking_device"/>
+		<sequence_manager path="units/pd2_dlc_sah/props/sah_prop_hacking_device/sah_prop_hacking_device"/>
+		<unit path="units/pd2_dlc_sah/props/sah_prop_hacking_device/sah_prop_hacking_device"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_pent/props/pent_prop_hacking_device/pent_prop_hacking_device" type="unit">
+		<effect load="true" path="effects/particles/equipment/vault_drill/drill_active"/>
+		<effect load="true" path="effects/particles/equipment/vault_drill/drill_jammed"/>
+		<gui path="guis/timer_gui"/>
+		<material_config path="units/pd2_dlc_vit/props/vit_prop_hacking_device/vit_prop_hacking_device"/>
+		<object path="units/pd2_dlc_pent/props/pent_prop_hacking_device/pent_prop_hacking_device"/>
+		<sequence_manager path="units/pd2_dlc_pent/props/pent_prop_hacking_device/pent_prop_hacking_device"/>
+		<unit path="units/pd2_dlc_pent/props/pent_prop_hacking_device/pent_prop_hacking_device"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_pex/props/pex_prop_hacking_device/pex_prop_hacking_device" type="unit">
+		<unit path="units/pd2_dlc_pex/props/pex_prop_hacking_device/pex_prop_hacking_device"/>
+		<object path="units/pd2_dlc_pex/props/pex_prop_hacking_device/pex_prop_hacking_device"/>
+		<material_config path="units/pd2_dlc_pex/props/pex_prop_hacking_device/pex_prop_hacking_device"/>
+		<sequence_manager path="units/pd2_dlc_pex/props/pex_prop_hacking_device/pex_prop_hacking_device"/>
 	</add>
 </table>
