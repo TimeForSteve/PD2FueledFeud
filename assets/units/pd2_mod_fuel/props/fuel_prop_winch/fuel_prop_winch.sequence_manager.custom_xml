@@ -70,7 +70,7 @@
 		</sequence>
 		<sequence editable_state="true" name="'set_jammed'" triggable="true">
 			<run_sequence name="'pause_anim'"/>
-			<sound action="'play'" event="'drill_jam'" source="'snd'"/>
+			<sound action="'play'" event="'buzz_saw_jam'" source="'snd'"/>
 			<effect_spawner enabled="true" name="'smoke'"/>
 		</sequence>
 		<sequence editable_state="true" name="'pause_anim'" triggable="true">
@@ -79,7 +79,7 @@
 		</sequence>
 		<sequence editable_state="true" name="'resume_anim'" triggable="true">
 			<animation_group enabled="true" name="'roll'" speed="0.1" to="240/30"/>
-			<sound action="'play'" event="'drill_end'" source="'snd'"/>
+			<sound action="'play'" event="'buzz_saw_end'" source="'snd'"/>
 			<sound action="'play'" event="'winch_start'" source="'snd'"/>
 			<effect_spawner enabled="false" name="'smoke'"/>
 		</sequence>

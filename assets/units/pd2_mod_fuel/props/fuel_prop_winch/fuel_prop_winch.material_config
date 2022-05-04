@@ -4,7 +4,7 @@
         <bump_normal_texture file="units/pd2_dlc_bex/vehicles/anim_vehicle_suv_bex/bex_vehicle_car_suv_fbi_grill_nm"/>
         <reflection_texture type="cube" global_texture="current_global_texture"/>
     </material>
-    <material version="2" render_template="generic:ALPHA_MASKED:CONTOUR:DIFFUSE_TEXTURE:OPACITY_TEXTURE" name="mat_contour">
+    <material version="2" render_template="generic:ALPHA_MASKED:CONTOUR:DIFFUSE_TEXTURE:OPACITY_TEXTURE" unique="true" name="mat_contour">
         <diffuse_texture file="units/white_df"/>
         <variable value="0 1 0" type="vector3" name="contour_color"/>
         <variable value="1" type="scalar" name="contour_opacity"/>
