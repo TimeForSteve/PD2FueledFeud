@@ -2946,9 +2946,36 @@
 		<unit path="units/pd2_dlc_pent/props/pent_prop_hacking_device/pent_prop_hacking_device"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_pex/props/pex_prop_hacking_device/pex_prop_hacking_device" type="unit">
-		<unit path="units/pd2_dlc_pex/props/pex_prop_hacking_device/pex_prop_hacking_device"/>
-		<object path="units/pd2_dlc_pex/props/pex_prop_hacking_device/pex_prop_hacking_device"/>
 		<material_config path="units/pd2_dlc_pex/props/pex_prop_hacking_device/pex_prop_hacking_device"/>
+		<object path="units/pd2_dlc_pex/props/pex_prop_hacking_device/pex_prop_hacking_device"/>
 		<sequence_manager path="units/pd2_dlc_pex/props/pex_prop_hacking_device/pex_prop_hacking_device"/>
+		<unit path="units/pd2_dlc_pex/props/pex_prop_hacking_device/pex_prop_hacking_device"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/dev/are_gen_square_goal_marker_2_4x4_35/are_gen_square_goal_marker_2_4x4_35" type="unit">
+		<material_config path="units/pd2_dlc_arena/dev/are_gen_square_goal_marker_2_4x4_35/are_gen_square_goal_marker_2_4x4_35"/>
+		<object path="units/pd2_dlc_arena/dev/are_gen_square_goal_marker_2_4x4_35/are_gen_square_goal_marker_2_4x4_35"/>
+		<sequence_manager path="units/pd2_dlc_arena/dev/are_gen_square_goal_marker_2_4x4_35/are_gen_square_goal_marker_2_4x4_35"/>
+		<unit path="units/pd2_dlc_arena/dev/are_gen_square_goal_marker_2_4x4_35/are_gen_square_goal_marker_2_4x4_35"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chca/props/chca_prop_grilles/chca_prop_grilles" type="unit">
+		<material_config path="units/pd2_dlc_chca/props/chca_prop_grilles/chca_prop_grilles"/>
+		<object path="units/pd2_dlc_chca/props/chca_prop_grilles/chca_prop_grilles"/>
+		<sequence_manager path="units/pd2_dlc_chca/props/chca_prop_grilles/chca_prop_grilles"/>
+		<unit path="units/pd2_dlc_chca/props/chca_prop_grilles/chca_prop_grilles"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/secret_stash/props/secret_stash_vent_1" type="unit">
+		<material_config path="units/world/architecture/secret_stash/props/secret_stash_props_rooftop_1_inst"/>
+		<object path="units/world/architecture/secret_stash/props/secret_stash_vent_1"/>
+		<unit path="units/world/architecture/secret_stash/props/secret_stash_vent_1"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/secret_stash/props/secret_stash_vent_7" type="unit">
+		<material_config path="units/world/architecture/secret_stash/props/secret_stash_props_rooftop_1"/>
+		<object path="units/world/architecture/secret_stash/props/secret_stash_vent_7"/>
+		<physic_effect path="physic_effects/push_sphere"/>
+		<sequence_manager path="units/world/architecture/secret_stash/props/secret_stash_vent_7"/>
+		<unit path="units/world/architecture/secret_stash/props/secret_stash_vent_7"/>
+	</add>
+	<add from_db="true" path="effects/payday2/environment/gas_damage_area" type="effect">
+		<effect load="true" path="effects/payday2/environment/gas_damage_area"/>
 	</add>
 </table>

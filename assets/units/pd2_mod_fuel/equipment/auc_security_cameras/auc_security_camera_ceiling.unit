@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<unit type="auc" slot="1">
+	<object file="units/pd2_mod_fuel/equipment/auc_security_cameras/auc_security_camera_ceiling" />
+	<network sync="spawn"/>
+
+	<dependencies>
+		<depends_on effect="effects/particles/dest/security_camera_dest" />
+	</dependencies>
+
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" 	class="UnitDamage" />
+		<extension name="base" class="SecurityCamera" >
+			<var name="security_camera" value="true" />
+		</extension>
+		<extension name="interaction" class="SecurityCameraInteractionExt">
+			<var name="tweak_data" value="sc_tape_loop" />
+			<var name="_interact_object" value="interact" />
+			<var name="_ray_object_names" type="table" >
+				<var value="interact"/>
+			</var>
+		</extension>
+		<extension name="contour" class="ContourExt" />
+		<extension name="attention" class="AIAttentionObject" >
+			<var name="_attention_obj_name" value="attention" />
+		</extension>
+	</extensions>
+
+	<sounds>
+		<default_soundsource source="rp_gen_equipment_security_camera"/>
+    	<soundsource name="snd" source="snd" />
+    </sounds>
+</unit>

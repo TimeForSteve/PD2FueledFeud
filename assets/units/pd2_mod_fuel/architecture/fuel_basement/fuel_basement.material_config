@@ -33,5 +33,11 @@
 	<material name="mtr_decal_blast" render_template="decal:DIFFUSE_TEXTURE" version="2">
         <diffuse_texture file="units/payday2/architecture/gen/gen_wall_destruction/gen_wall_destruction_explosion_decals_df"/>
     </material>
+	<material name="secret_stash_props_rooftop_1" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/world/architecture/secret_stash/props_textures/secret_stash_props_rooftop_1_df"/>
+        <bump_normal_texture file="units/world/architecture/secret_stash/props_textures/secret_stash_props_rooftop_1_nm"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_secret_stash_ext"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
 	<material name="shadow_caster" version="2" render_template="shadow_caster_only"/>
 </materials>

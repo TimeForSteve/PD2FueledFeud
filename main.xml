@@ -11,6 +11,10 @@
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
 	</Localization>
+	<Hooks directory="hooks">
+		<hook file="guitweakdata.lua" source_file="lib/tweak_data/guitweakdata"/>
+	</Hooks>
+	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="yaeger" name_id="contact_yaeger_name" package="packages/contact_bain"/>
 	<Package file="scriptdata/fuel.package" id="package_fuel" unload_on_restart="true"/>
 	<level ai_group_type="America" briefing_dialog="" ghost_bonus="0.06" id="fuel" intro_event="" max_bags="24" player_style="generic">
 		<assets/>

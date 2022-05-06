@@ -1,0 +1,68 @@
+<table>
+	<unit>
+		<body name="'body_camera_glass'">
+			<endurance bullet="1" explosion="1" melee="0.5">
+				<run_sequence name="'stop'"/>
+			</endurance>
+		</body>
+		<body name="'body_ball_dynamic'">
+			<endurance collision="1">
+				<run_sequence name="'thunk'"/>
+			</endurance>
+		</body>
+		
+		
+		<sequence name="'stop'" triggable="true">
+			<effect name="'effects/particles/dest/security_camera_dest'" parent="'CameraYaw'"/>
+			<sound action="'play'" event="'emitter_security_camera_explode'" source="''"/>
+			<function extension="'base'" function="'generate_cooldown'" param1="1"/>
+			<attention giveaway="'broken_cam'" operation="'add'" preset_name="'broken_cam_ene_ntl'"/>
+			
+			<object		name="'g_base_glass_sht'"		enabled="true"/>
+			<object		name="'g_base_glass_sht_lod1'"	enabled="true"/>
+			<object		name="'g_base_glass'"			enabled="false"/>
+			<object		name="'g_base_glass_lod1'"		enabled="false"/>
+			<object		name="'g_base_glass_contour'"	enabled="false"/>
+			<object		name="'g_camball_glow'"			enabled="false"/>
+			<body		name="'body_camera_glass'"		enabled="false"/>
+			<decal_mesh	name="'dm_dome_glass'"			enabled="false"/>
+			
+			<!--Drop ball-->
+			<body		name="'body_ball_dynamic'"	enabled="true"/>
+			
+		</sequence>
+		
+		<sequence editable_state="true" name="'deathwish'" triggable="true">
+			<body		name="'body_camera_glass'"			enabled="false" />
+			<body		name="'body_camera_titan'"			enabled="true" />
+			
+			<decal_mesh	name="'dm_dome_glass'"				enabled="false"/>
+			<decal_mesh	name="'dm_dome_titan'"				enabled="true"/>
+			
+			<object		name="'g_blackmesa_sticker'"		enabled="true"/>
+			
+			<object		name="'g_base'"						enabled="false"/>
+			<object		name="'g_base_lod1'"				enabled="false"/>
+			
+			<object		name="'g_base_titan'"				enabled="true"/>
+			<object		name="'g_base_titan_lod1'"			enabled="true"/>
+			
+			<object		name="'g_base_glass'"				enabled="false"/>
+			<object		name="'g_base_glass_lod1'"			enabled="false"/>
+			
+			<object		name="'g_base_glass_titan'"			enabled="true"/>
+			<object		name="'g_base_glass_titan_lod1'"	enabled="true"/>
+			
+			<object		name="'g_camball_glow'"				enabled="false"/>
+			<object		name="'g_camball_glow_titan'"		enabled="true"/>
+			
+			<object		name="'g_base_glass_contour'"		enabled="false"/>
+			<object		name="'g_base_glass_titan_contour'"	enabled="true"/>
+		</sequence>
+		
+		<sequence name="'thunk'" triggable="true">
+			<sound action="'play'" event="'cardboard_box_impact'" source="'snd'"/>
+		</sequence>
+		
+	</unit>
+</table>

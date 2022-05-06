@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<modelscript>
+    <object3d name="rp_rootpoint" mode="add">
+        <parent root="true" />
+    </object3d>
+    <object3d name="interact" mode="add">
+        <parent name="rp_rootpoint" />
+        <position x="0" y="0" z="-40" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="attention" mode="add">
+        <parent name="rp_rootpoint" />
+        <position x="0" y="0" z="-30" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="CameraYaw" mode="add">
+        <parent name="rp_rootpoint" />
+        <position x="0" y="0" z="-15" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="CameraPitch" mode="add">
+        <parent name="CameraYaw" />
+        <position x="1" y="0" z="0" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="CameraLens" mode="add">
+        <parent name="CameraPitch" />
+        <position x="0" y="0" z="-40" />
+        <rotation w="0.707107" x="-0.707107" y="0" z="0" />
+    </object3d>
+    <object3d name="snd" mode="add">
+        <parent name="CameraPitch" />
+        <position x="0" y="0" z="0" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <import file="auc_security_camera_ceiling.obj" type="obj" create_objects="true">
+        <rootpoint name="rp_rootpoint">
+            <default/>
+            <object name="co_culling" />
+        </rootpoint>
+        <rootpoint name="CameraPitch">
+            <object name="co_culling2" />
+            <object name="g_camball" />
+            <object name="g_camball_lod1" />
+            <object name="g_camball_glow" />
+            <object name="g_camball_glow_titan" />
+            <object name="c_dome_glass" />
+            <object name="c_ball" />
+        </rootpoint>
+    </import>
+</modelscript>

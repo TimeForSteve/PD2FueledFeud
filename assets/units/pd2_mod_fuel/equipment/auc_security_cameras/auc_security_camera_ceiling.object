@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/pd2_mod_fuel/equipment/auc_security_cameras/auc_security_camera_ceiling" orientation_object="rp_rootpoint" />
+	<sequence_manager file="units/pd2_mod_fuel/equipment/auc_security_cameras/auc_security_camera_ceiling" />
+	
+	<bodies>
+		<body name="body_camera_base" remove_ray_type="walk vis_graph" enabled="true" template="static">
+			<object name="c_base" collision_type="convex" padding="-2.5" />
+		</body>
+		<body name="body_camera_glass" remove_ray_type="walk vis_graph" enabled="true" template="static">
+			<object name="c_dome_glass" collision_type="convex" padding="-2.5" />
+		</body>
+		<body name="body_camera_titan" remove_ray_type="walk vis_graph" enabled="false" template="static">
+			<object name="c_dome_glass" collision_type="convex" padding="-2.5" />
+		</body>
+        <body name="body_ball_dynamic" enabled="false" template="small_prop" pushed_by_mover="true" collides_with_mover="false" >
+            <object name="CameraPitch" />
+            <object name="c_ball" collision_type="convex" mass="10" padding="-2.5" />
+        </body>
+	</bodies>
+	
+	<decal_surfaces default_material="metal">
+		<decal_mesh name="dm_base" 			enabled="true" 		material="metal" />
+		<decal_mesh name="dm_dome_glass"	enabled="true" 		material="glass_breakable" />
+		<decal_mesh name="dm_dome_titan"	enabled="false" 	material="glass_unbreakable" />
+	</decal_surfaces>
+	
+	<graphics>
+	
+		<graphic_group name="group_all" enabled="true" culling_object="co_culling">
+		
+			<object name="g_mul"						enabled="true" />
+			<object name="g_blackmesa_sticker"			enabled="false" />
+			<object name="g_base_glass_contour"			enabled="true" />
+			
+			<lod_object name="lod_base">
+				<object name="g_base"					enabled="true"	max_distance="1600"/>
+				<object name="g_base_lod1" 				enabled="true"	lod="1" />
+			</lod_object>
+			<lod_object name="lod_base_glass">
+				<object name="g_base_glass"				enabled="true"	max_distance="1600"/>
+				<object name="g_base_glass_lod1" 		enabled="true"	lod="1" />
+			</lod_object>
+			<lod_object name="lod_base_glass_sht">
+				<object name="g_base_glass_sht"			enabled="false"	max_distance="1600"/>
+				<object name="g_base_glass_sht_lod1" 	enabled="false"	lod="1" />
+			</lod_object>
+			
+			<!--TITAN-->
+			<lod_object name="lod_base_titan">
+				<object name="g_base_titan"				enabled="false"	max_distance="1600"/>
+				<object name="g_base_titan_lod1" 		enabled="false"	lod="1" />
+			</lod_object>
+			<object name="g_base_glass_titan"			enabled="false"/>
+			<object name="g_base_glass_titan_contour"	enabled="false" />
+			
+		</graphic_group>
+		
+		
+		<graphic_group name="group_ball" enabled="true" culling_object="co_culling2">
+		
+			<lod_object name="lod_camball">
+				<object name="g_camball"			enabled="true"	max_distance="800"/>
+				<object name="g_camball_lod1" 		enabled="true"	lod="1" />
+			</lod_object>
+			
+			<object name="g_camball_glow"			enabled="true" />
+			<object name="g_camball_glow_titan"		enabled="false" />
+			
+		</graphic_group>
+		
+	</graphics>
+</dynamic_object>  
