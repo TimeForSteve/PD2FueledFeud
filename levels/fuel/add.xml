@@ -444,13 +444,6 @@
 		<sequence_manager path="units/pd2_dlc1/props/res_prop_store_soda/res_prop_store_soda_a"/>
 		<unit path="units/pd2_dlc1/props/res_prop_store_soda/res_prop_store_soda_a"/>
 	</add>
-	<add from_db="true" path="units/pd2_dlc_pex/props/pex_prop_door_mexican_police_station/pex_prop_door_mexican_police_station" type="unit">
-		<effect load="true" path="effects/payday2/particles/window/door_window_small"/>
-		<material_config path="units/pd2_dlc_pex/props/pex_prop_door_mexican_police_station/pex_prop_door_mexican_police_station"/>
-		<object path="units/pd2_dlc_pex/props/pex_prop_door_mexican_police_station/pex_prop_door_mexican_police_station"/>
-		<sequence_manager path="units/pd2_dlc_pex/props/pex_prop_door_mexican_police_station/pex_prop_door_mexican_police_station"/>
-		<unit path="units/pd2_dlc_pex/props/pex_prop_door_mexican_police_station/pex_prop_door_mexican_police_station"/>
-	</add>
 	<add from_db="true" path="units/pd2_dlc_flat/architecture/flt_facade/flt_facade_04_10m" type="unit">
 		<material_config path="units/pd2_dlc_flat/architecture/flt_facade/flt_facade_04_10m"/>
 		<object path="units/pd2_dlc_flat/architecture/flt_facade/flt_facade_04_10m"/>
@@ -2224,12 +2217,6 @@
 		<sequence_manager path="units/payday2/architecture/safehouse/safehouse_int_trapdoor"/>
 		<unit path="units/payday2/architecture/safehouse/safehouse_int_trapdoor"/>
 	</add>
-	<add from_db="true" path="units/equipment/c4_charge/c4_plantable" type="unit">
-		<material_config path="units/equipment/c4_charge/c4_plantable"/>
-		<object path="units/equipment/c4_charge/c4_plantable"/>
-		<sequence_manager path="units/equipment/c4_charge/c4_plantable"/>
-		<unit path="units/equipment/c4_charge/c4_plantable"/>
-	</add>
 	<add from_db="true" path="units/pd2_mcmansion/props/mcm_prop_drone/mcm_prop_drone" type="unit">
 		<material_config path="units/pd2_mcmansion/props/mcm_prop_drone/mcm_prop_drone"/>
 		<object path="units/pd2_mcmansion/props/mcm_prop_drone/mcm_prop_drone"/>
@@ -2269,6 +2256,12 @@
 		<material_config path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
 		<sequence_manager path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
 		<unit path="units/payday2/architecture/ind/ind_ext_dock_bld/dock_door_01"/>
+	</add>
+	<add from_db="true" path="units/equipment/c4_charge/c4_plantable" type="unit">
+		<material_config path="units/equipment/c4_charge/c4_plantable"/>
+		<object path="units/equipment/c4_charge/c4_plantable"/>
+		<sequence_manager path="units/equipment/c4_charge/c4_plantable"/>
+		<unit path="units/equipment/c4_charge/c4_plantable"/>
 	</add>
 	<add from_db="true" path="units/payday2/props/gen_prop_plywood/gen_prop_plywood" type="unit">
 		<material_config path="units/payday2/props/gen_prop_plywood/gen_prop_plywood"/>
@@ -2614,12 +2607,6 @@
 		<object path="units/world/props/mansion/man_prop_int_workbench/man_prop_int_workbench"/>
 		<unit path="units/world/props/mansion/man_prop_int_workbench/man_prop_int_workbench"/>
 	</add>
-	<add from_db="true" path="units/pd2_dlc_pex/props/pex_prop_silent_door_breach/pex_prop_silent_door_breach" type="unit">
-		<material_config path="units/pd2_dlc_pex/props/pex_prop_silent_door_breach/pex_prop_silent_door_breach"/>
-		<object path="units/pd2_dlc_pex/props/pex_prop_silent_door_breach/pex_prop_silent_door_breach"/>
-		<sequence_manager path="units/pd2_dlc_pex/props/pex_prop_silent_door_breach/pex_prop_silent_door_breach"/>
-		<unit path="units/pd2_dlc_pex/props/pex_prop_silent_door_breach/pex_prop_silent_door_breach"/>
-	</add>
 	<add from_db="true" path="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_pallet_pile" type="unit">
 		<material_config path="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_pallet_pile"/>
 		<object path="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_pallet_pile"/>
@@ -2835,6 +2822,18 @@
 		<object path="units/payday2/architecture/ind/ind_ext_dock_bld/dock_door_01_open"/>
 		<unit path="units/payday2/architecture/ind/ind_ext_dock_bld/dock_door_01_open"/>
 	</add>
+	<add from_db="true" path="units/pd2_dlc_pex/props/pex_prop_hacking_device/pex_prop_hacking_device" type="unit">
+		<material_config path="units/pd2_dlc_pex/props/pex_prop_hacking_device/pex_prop_hacking_device"/>
+		<object path="units/pd2_dlc_pex/props/pex_prop_hacking_device/pex_prop_hacking_device"/>
+		<sequence_manager path="units/pd2_dlc_pex/props/pex_prop_hacking_device/pex_prop_hacking_device"/>
+		<unit path="units/pd2_dlc_pex/props/pex_prop_hacking_device/pex_prop_hacking_device"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chca/props/chca_prop_grilles/chca_prop_grilles" type="unit">
+		<material_config path="units/pd2_dlc_chca/props/chca_prop_grilles/chca_prop_grilles"/>
+		<object path="units/pd2_dlc_chca/props/chca_prop_grilles/chca_prop_grilles"/>
+		<sequence_manager path="units/pd2_dlc_chca/props/chca_prop_grilles/chca_prop_grilles"/>
+		<unit path="units/pd2_dlc_chca/props/chca_prop_grilles/chca_prop_grilles"/>
+	</add>
 	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_wall_4m_a" type="unit">
 		<material_config path="units/payday2/architecture/mkp/mkp"/>
 		<object path="units/payday2/architecture/mkp/mkp_int_wall_4m_a"/>
@@ -2925,57 +2924,9 @@
 		<unit path="units/pd2_dlc_rvd/equipment/rvd_interactable_saw_no_jam/rvd_interactable_saw_no_jam"/>
 	</add>
 	<add from_db="true" path="units/world/props/suburbia_manhole/suburbia_manhole" type="unit">
-		<material_config path="units/equipment/garden_tap_interactive/main_water_valve_suburbia_contour"/>
-		<object path="units/world/props/suburbia_manhole/suburbia_manhole"/>
-		<sequence_manager path="units/world/props/suburbia_manhole/suburbia_manhole"/>
 		<unit path="units/world/props/suburbia_manhole/suburbia_manhole"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_sah/props/sah_prop_hacking_device/sah_prop_hacking_device" type="unit">
-		<material_config path="units/pd2_dlc_sah/props/sah_prop_hacking_device/sah_prop_hacking_device"/>
-		<object path="units/pd2_dlc_sah/props/sah_prop_hacking_device/sah_prop_hacking_device"/>
-		<sequence_manager path="units/pd2_dlc_sah/props/sah_prop_hacking_device/sah_prop_hacking_device"/>
-		<unit path="units/pd2_dlc_sah/props/sah_prop_hacking_device/sah_prop_hacking_device"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_pent/props/pent_prop_hacking_device/pent_prop_hacking_device" type="unit">
-		<effect load="true" path="effects/particles/equipment/vault_drill/drill_active"/>
-		<effect load="true" path="effects/particles/equipment/vault_drill/drill_jammed"/>
-		<gui path="guis/timer_gui"/>
-		<material_config path="units/pd2_dlc_vit/props/vit_prop_hacking_device/vit_prop_hacking_device"/>
-		<object path="units/pd2_dlc_pent/props/pent_prop_hacking_device/pent_prop_hacking_device"/>
-		<sequence_manager path="units/pd2_dlc_pent/props/pent_prop_hacking_device/pent_prop_hacking_device"/>
-		<unit path="units/pd2_dlc_pent/props/pent_prop_hacking_device/pent_prop_hacking_device"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_pex/props/pex_prop_hacking_device/pex_prop_hacking_device" type="unit">
-		<material_config path="units/pd2_dlc_pex/props/pex_prop_hacking_device/pex_prop_hacking_device"/>
-		<object path="units/pd2_dlc_pex/props/pex_prop_hacking_device/pex_prop_hacking_device"/>
-		<sequence_manager path="units/pd2_dlc_pex/props/pex_prop_hacking_device/pex_prop_hacking_device"/>
-		<unit path="units/pd2_dlc_pex/props/pex_prop_hacking_device/pex_prop_hacking_device"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_arena/dev/are_gen_square_goal_marker_2_4x4_35/are_gen_square_goal_marker_2_4x4_35" type="unit">
-		<material_config path="units/pd2_dlc_arena/dev/are_gen_square_goal_marker_2_4x4_35/are_gen_square_goal_marker_2_4x4_35"/>
-		<object path="units/pd2_dlc_arena/dev/are_gen_square_goal_marker_2_4x4_35/are_gen_square_goal_marker_2_4x4_35"/>
-		<sequence_manager path="units/pd2_dlc_arena/dev/are_gen_square_goal_marker_2_4x4_35/are_gen_square_goal_marker_2_4x4_35"/>
-		<unit path="units/pd2_dlc_arena/dev/are_gen_square_goal_marker_2_4x4_35/are_gen_square_goal_marker_2_4x4_35"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_chca/props/chca_prop_grilles/chca_prop_grilles" type="unit">
-		<material_config path="units/pd2_dlc_chca/props/chca_prop_grilles/chca_prop_grilles"/>
-		<object path="units/pd2_dlc_chca/props/chca_prop_grilles/chca_prop_grilles"/>
-		<sequence_manager path="units/pd2_dlc_chca/props/chca_prop_grilles/chca_prop_grilles"/>
-		<unit path="units/pd2_dlc_chca/props/chca_prop_grilles/chca_prop_grilles"/>
-	</add>
-	<add from_db="true" path="units/world/architecture/secret_stash/props/secret_stash_vent_1" type="unit">
-		<material_config path="units/world/architecture/secret_stash/props/secret_stash_props_rooftop_1_inst"/>
-		<object path="units/world/architecture/secret_stash/props/secret_stash_vent_1"/>
-		<unit path="units/world/architecture/secret_stash/props/secret_stash_vent_1"/>
-	</add>
-	<add from_db="true" path="units/world/architecture/secret_stash/props/secret_stash_vent_7" type="unit">
-		<material_config path="units/world/architecture/secret_stash/props/secret_stash_props_rooftop_1"/>
-		<object path="units/world/architecture/secret_stash/props/secret_stash_vent_7"/>
-		<physic_effect path="physic_effects/push_sphere"/>
-		<sequence_manager path="units/world/architecture/secret_stash/props/secret_stash_vent_7"/>
-		<unit path="units/world/architecture/secret_stash/props/secret_stash_vent_7"/>
-	</add>
-	<add from_db="true" path="effects/payday2/environment/gas_damage_area" type="effect">
-		<effect load="true" path="effects/payday2/environment/gas_damage_area"/>
+		<object path="units/world/props/suburbia_manhole/suburbia_manhole"/>
+		<material_config path="units/equipment/garden_tap_interactive/main_water_valve_suburbia_contour"/>
+		<sequence_manager path="units/world/props/suburbia_manhole/suburbia_manhole"/>
 	</add>
 </table>

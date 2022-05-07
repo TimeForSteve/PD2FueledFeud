@@ -35,6 +35,10 @@
 			<carry based_on="winch_part" id="fuel_generator" name_id="hud_carry_fuel_generator"/>
 			<carry based_on="winch_part" id="fuel_winch" name_id="hud_carry_fuel_winch"/>
 		</lootbags>
+		<hooks directory="hooks">
+			<hook file="missionendstate.lua" source_file="lib/states/missionendstate"/>
+			<hook file="charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
+		</hooks>
 		<outro_event>
 			<value_node value=""/>
 		</outro_event>
