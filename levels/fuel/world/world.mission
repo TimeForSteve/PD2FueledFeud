@@ -10858,20 +10858,44 @@
 					<entry key="trigger_list" type="table">
 						<entry index="1" type="table">
 							<entry key="name" type="string" value="run_sequence"/>
-							<entry key="notify_unit_id" type="number" value="101577"/>
-							<entry key="notify_unit_sequence" type="string" value="destroy_planks"/>
+							<entry key="notify_unit_id" type="number" value="101160"/>
+							<entry key="notify_unit_sequence" type="string" value="disable_vision_blocker"/>
 							<entry key="time" type="number" value="0"/>
 						</entry>
 						<entry index="2" type="table">
 							<entry key="name" type="string" value="run_sequence"/>
-							<entry key="notify_unit_id" type="number" value="101160"/>
+							<entry key="notify_unit_id" type="number" value="101161"/>
 							<entry key="notify_unit_sequence" type="string" value="disable_vision_blocker"/>
 							<entry key="time" type="number" value="0"/>
 						</entry>
 						<entry index="3" type="table">
 							<entry key="name" type="string" value="run_sequence"/>
-							<entry key="notify_unit_id" type="number" value="101161"/>
-							<entry key="notify_unit_sequence" type="string" value="disable_vision_blocker"/>
+							<entry key="notify_unit_id" type="number" value="101931"/>
+							<entry key="notify_unit_sequence" type="string" value="state_breakable"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="101931"/>
+							<entry key="notify_unit_sequence" type="string" value="spawn_debris_a"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+						<entry index="5" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="101931"/>
+							<entry key="notify_unit_sequence" type="string" value="spawn_debris_b"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+						<entry index="6" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="101931"/>
+							<entry key="notify_unit_sequence" type="string" value="spawn_debris_c"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+						<entry index="7" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="101931"/>
+							<entry key="notify_unit_sequence" type="string" value="spawn_debris_d"/>
 							<entry key="time" type="number" value="0"/>
 						</entry>
 					</entry>
@@ -18095,7 +18119,7 @@
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="0"/>
 					<entry key="true_death" type="boolean" value="true"/>
-					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_instigator" type="boolean" value="true"/>
 				</entry>
 			</entry>
 			<entry index="601" type="table">

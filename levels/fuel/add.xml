@@ -2924,9 +2924,55 @@
 		<unit path="units/pd2_dlc_rvd/equipment/rvd_interactable_saw_no_jam/rvd_interactable_saw_no_jam"/>
 	</add>
 	<add from_db="true" path="units/world/props/suburbia_manhole/suburbia_manhole" type="unit">
-		<unit path="units/world/props/suburbia_manhole/suburbia_manhole"/>
-		<object path="units/world/props/suburbia_manhole/suburbia_manhole"/>
 		<material_config path="units/equipment/garden_tap_interactive/main_water_valve_suburbia_contour"/>
+		<object path="units/world/props/suburbia_manhole/suburbia_manhole"/>
 		<sequence_manager path="units/world/props/suburbia_manhole/suburbia_manhole"/>
+		<unit path="units/world/props/suburbia_manhole/suburbia_manhole"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_flat/props/flt_prop_apartment_front_door/flt_prop_apartment_front_door" type="unit">
+		<material_config path="units/pd2_dlc_flat/props/flt_prop_apartment_front_door/flt_prop_apartment_front_door"/>
+		<object path="units/pd2_dlc_flat/props/flt_prop_apartment_front_door/flt_prop_apartment_front_door"/>
+		<sequence_manager path="units/pd2_dlc_flat/props/flt_prop_apartment_front_door/flt_prop_apartment_front_door"/>
+		<unit path="units/pd2_dlc_flat/props/flt_prop_apartment_front_door/flt_prop_apartment_front_door"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc1/equipment/gen_interactable_door_wooden_c/gen_interactable_door_wooden_c_v2_double" type="unit">
+		<unit path="units/pd2_dlc1/equipment/gen_interactable_door_wooden_c/gen_interactable_door_wooden_c_v2_double"/>
+		<object path="units/pd2_dlc1/equipment/gen_interactable_door_wooden_c/gen_interactable_door_wooden_c_v2_double"/>
+		<material_config path="units/pd2_dlc1/equipment/gen_interactable_door_wooden_c/gen_interactable_door_wooden_c_v2_double"/>
+		<sequence_manager path="units/pd2_dlc1/equipment/gen_interactable_door_wooden_c/gen_interactable_door_wooden_c_v2_double"/>
+		<unit path="units/pd2_dlc1/equipment/gen_interactable_door_wooden_c/spawn_debris_door_wooden_c_v2"/>
+		<object path="units/pd2_dlc1/equipment/gen_interactable_door_wooden_c/spawn_debris_door_wooden_c_v2"/>
+		<material_config path="units/pd2_dlc1/equipment/gen_interactable_door_wooden_c/spawn_debris_door_wooden_c_v2"/>
+		<unit path="units/equipment/c4_charge/c4_mission_door"/>
+		<object path="units/equipment/c4_charge/c4_mission_door"/>
+		<material_config path="units/equipment/c4_charge/c4_mission_door"/>
+		<sequence_manager path="units/equipment/c4_charge/c4_mission_door"/>
+		<physic_effect path="physic_effects/push_sphere"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_rvd/props/rvd_prop_storage_unit_door/rvd_prop_storage_unit_door" type="unit">
+		<material_config path="units/pd2_dlc_rvd/props/rvd_prop_storage_unit_door/rvd_prop_storage_unit_door"/>
+		<object path="units/pd2_dlc_rvd/props/rvd_prop_storage_unit_door/rvd_prop_storage_unit_door"/>
+		<sequence_manager path="units/pd2_dlc_rvd/props/rvd_prop_storage_unit_door/rvd_prop_storage_unit_door"/>
+		<unit path="units/pd2_dlc_rvd/props/rvd_prop_storage_unit_door/rvd_prop_storage_unit_door"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_scaffolding_plywood_c" type="unit">
+		<unit path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_scaffolding_plywood_c"/>
+		<object path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_scaffolding_plywood_c"/>
+		<unit path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_plywood_pieces_a"/>
+		<object path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_plywood_pieces_a"/>
+		<unit path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_plywood_pieces_b"/>
+		<object path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_plywood_pieces_b"/>
+		<unit path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_plywood_pieces_c"/>
+		<object path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_plywood_pieces_c"/>
+		<unit path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_plywood_pieces_d"/>
+		<object path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_plywood_pieces_d"/>
+		<material_config path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_scaffolding"/>
+		<physic_effect path="physic_effects/push_sphere"/>
+		<sequence_manager path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_scaffolding_plywood_c"/>
+	</add>
+	<add from_db="true" path="units/world/props/diamond_heist/apartment/apartment_livingroom/coffetable/coffetable" type="unit">
+		<unit path="units/world/props/diamond_heist/apartment/apartment_livingroom/coffetable/coffetable"/>
+		<object path="units/world/props/diamond_heist/apartment/apartment_livingroom/coffetable/coffetable"/>
+		<material_config path="units/world/props/diamond_heist/apartment/apartment_livingroom/officedesk_deluxe/materials_shared"/>
 	</add>
 </table>
