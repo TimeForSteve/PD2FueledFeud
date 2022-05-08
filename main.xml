@@ -14,6 +14,16 @@
 	<Hooks directory="hooks">
 		<hook file="guitweakdata.lua" source_file="lib/tweak_data/guitweakdata"/>
 	</Hooks>
+	<PrePlanning>
+		<locations>
+			<location id="fuel" mission_briefing_texture="guis/textures/pd2/pre_planning/mission_briefing_big" total_budget="12">
+				<table texture="guis/textures/mods/fuel/preplan_main" name_id="menu_pp_fuel_a" rotation="180" map_size="1" map_x="-0.3" map_y="0" x1="-2780" y1="-4930" x2="5010" y2="3750"/>
+				<table texture="guis/textures/pd2/pre_planning/branchbank_1" name_id="menu_pp_fuel_b" rotation="180" map_size="0.45" map_x="0.475" map_y="-0.275" x1="-1626" y1="-1870" x2="-400" y2="-1000"/>
+				<table texture="guis/textures/pd2/pre_planning/framing_frame_1_1" name_id="menu_pp_fuel_b" rotation="180" map_size="0.45" map_x="0.475" map_y="0.275" x1="-1626" y1="-1870" x2="-400" y2="-1000"/>
+				<start_location group="a" zoom="1" x="1024" y="1024"/>
+			</location>
+		</locations>
+	</PrePlanning>
 	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="yaeger" name_id="contact_yaeger_name" package="packages/contact_bain"/>
 	<Package file="scriptdata/fuel.package" id="package_fuel" unload_on_restart="true"/>
 	<level ai_group_type="America" briefing_dialog="" ghost_bonus="0.06" id="fuel" intro_event="" max_bags="24" player_style="generic">
