@@ -34,9 +34,92 @@
 		<unit load="true" path="units/pd2_dlc_casino/dev/cas_gen_prop_square_drop_marker_2x2_4/cas_gen_prop_square_drop_marker_2x2_4"/>
 	</add>
 	<add from_db="true" path="units/payday2/props/gen_prop_long_lamp/gen_prop_long_lamp_v3" type="unit">
-		<unit path="units/payday2/props/gen_prop_long_lamp/gen_prop_long_lamp_v3"/>
-		<object path="units/payday2/props/gen_prop_long_lamp/gen_prop_long_lamp_v3"/>
-		<material_config path="units/payday2/props/gen_prop_long_lamp/gen_prop_long_lamp"/>
 		<effect load="true" path="effects/payday2/particles/flares/small_lamp_flare_fluorescent"/>
+		<material_config path="units/payday2/props/gen_prop_long_lamp/gen_prop_long_lamp"/>
+		<object path="units/payday2/props/gen_prop_long_lamp/gen_prop_long_lamp_v3"/>
+		<unit path="units/payday2/props/gen_prop_long_lamp/gen_prop_long_lamp_v3"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/lux/lux_int_kitchentilewall1_3m_a" type="unit">
+		<material_config path="units/payday2/architecture/lux/lux"/>
+		<object path="units/payday2/architecture/lux/lux_int_kitchentilewall1_3m_a"/>
+		<unit path="units/payday2/architecture/lux/lux_int_kitchentilewall1_3m_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/architecture/are_supply_room_01/are_supply_room_01" type="unit">
+		<material_config path="units/pd2_dlc_arena/architecture/are_supply_room_01/are_supply_room_01"/>
+		<object path="units/pd2_dlc_arena/architecture/are_supply_room_01/are_supply_room_01"/>
+		<sequence_manager path="units/pd2_dlc_arena/architecture/are_supply_room_01/are_supply_room"/>
+		<unit path="units/pd2_dlc_arena/architecture/are_supply_room_01/are_supply_room_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/architecture/are_supply_room_02/are_supply_room_02" type="unit">
+		<material_config path="units/pd2_dlc_arena/architecture/are_supply_room_02/are_supply_room_02"/>
+		<object path="units/pd2_dlc_arena/architecture/are_supply_room_02/are_supply_room_02"/>
+		<sequence_manager path="units/pd2_dlc_arena/architecture/are_supply_room_02/are_supply_room"/>
+		<unit path="units/pd2_dlc_arena/architecture/are_supply_room_02/are_supply_room_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_shoutout_raid/props/gen_prop_container_a_vault_seq/gen_prop_container_a_vault_seq" type="unit">
+		<effect load="true" path="effects/particles/dest/security_camera_dest"/>
+		<effect load="true" path="effects/particles/dest/sparks_lamp_dest"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_dlc_shoutout_raid/props/gen_prop_container_a_vault_seq/gen_prop_container_a_vault_seq"/>
+		<object path="units/pd2_dlc_shoutout_raid/props/gen_prop_container_a_vault_seq/gen_prop_container_a_vault_seq"/>
+		<sequence_manager path="units/pd2_dlc_shoutout_raid/props/gen_prop_container_a_vault_seq/gen_prop_container_a_vault_seq"/>
+		<unit path="units/pd2_dlc_shoutout_raid/props/gen_prop_container_a_vault_seq/gen_prop_container_a_vault_seq"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/ind_prop_slaughter_meat_medium/ind_prop_slaughter_meat_medium" type="unit">
+		<material_config path="units/payday2/props/ind_prop_slaughter_meat_medium/ind_prop_slaughter_meat_medium"/>
+		<object path="units/payday2/props/ind_prop_slaughter_meat_medium/ind_prop_slaughter_meat_medium"/>
+		<unit path="units/payday2/props/ind_prop_slaughter_meat_medium/ind_prop_slaughter_meat_medium"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dinner/props/slaughterhouse_butcher_knife/slaughterhouse_butcher_knife" type="unit">
+		<material_config path="units/world/props/slaughterhouse/slaughterhouse_butcher_knife/slaughterhouse_butcher_knife"/>
+		<object path="units/pd2_dlc_dinner/props/slaughterhouse_butcher_knife/slaughterhouse_butcher_knife"/>
+		<unit path="units/pd2_dlc_dinner/props/slaughterhouse_butcher_knife/slaughterhouse_butcher_knife"/>
+	</add>
+	<add from_db="true" path="units/world/props/slaughterhouse/slaughterhouse_butcher_knife/slaughterhouse_butcher_knife" type="unit">
+		<material_config path="units/world/props/slaughterhouse/slaughterhouse_butcher_knife/slaughterhouse_butcher_knife"/>
+		<object path="units/world/props/slaughterhouse/slaughterhouse_butcher_knife/slaughterhouse_butcher_knife"/>
+		<unit path="units/world/props/slaughterhouse/slaughterhouse_butcher_knife/slaughterhouse_butcher_knife"/>
+	</add>
+	<add from_db="true" path="units/world/props/slaughterhouse/slaughterhouse_line_machine/slaughterhouse_line_machine" type="unit">
+		<material_config path="units/world/props/slaughterhouse/slagthterhouse_line/slaughterhouse_line"/>
+		<object path="units/world/props/slaughterhouse/slaughterhouse_line_machine/slaughterhouse_line_machine"/>
+		<unit path="units/world/props/slaughterhouse/slaughterhouse_line_machine/slaughterhouse_line_machine"/>
+	</add>
+	<add from_db="true" path="units/world/props/slaughterhouse/slaughterhouse_meat_knife/slaughterhouse_meat_knife" type="unit">
+		<material_config path="units/world/props/slaughterhouse/slaughterhouse_butcher_knife/slaughterhouse_butcher_knife"/>
+		<object path="units/world/props/slaughterhouse/slaughterhouse_meat_knife/slaughterhouse_meat_knife"/>
+		<unit path="units/world/props/slaughterhouse/slaughterhouse_meat_knife/slaughterhouse_meat_knife"/>
+	</add>
+	<add from_db="true" path="units/world/props/slaughterhouse/slaughterhouse_table/slaughterhouse_table" type="unit">
+		<material_config path="units/world/props/slaughterhouse/slaughterhouse_table/slaughterhouse_table"/>
+		<object path="units/world/props/slaughterhouse/slaughterhouse_table/slaughterhouse_table"/>
+		<unit path="units/world/props/slaughterhouse/slaughterhouse_table/slaughterhouse_table"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dinner/props/din_prop_hanging_meat/din_prop_pork_belly" type="unit">
+		<material_config path="units/pd2_dlc_dinner/props/din_prop_hanging_meat/din_prop_pork_belly"/>
+		<object path="units/pd2_dlc_dinner/props/din_prop_hanging_meat/din_prop_pork_belly"/>
+		<unit path="units/pd2_dlc_dinner/props/din_prop_hanging_meat/din_prop_pork_belly"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dinner/props/din_prop_hanging_meat/din_prop_foot_meat_03" type="unit">
+		<material_config path="units/pd2_dlc_dinner/props/din_prop_hanging_meat/din_prop_foot_meat_01"/>
+		<object path="units/pd2_dlc_dinner/props/din_prop_hanging_meat/din_prop_foot_meat_03"/>
+		<unit path="units/pd2_dlc_dinner/props/din_prop_hanging_meat/din_prop_foot_meat_03"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dinner/props/din_prop_hanging_meat/din_hanging_meat_03" type="unit">
+		<material_config path="units/pd2_dlc_dinner/props/din_prop_hanging_meat/din_hanging_meat_01"/>
+		<object path="units/pd2_dlc_dinner/props/din_prop_hanging_meat/din_hanging_meat_03"/>
+		<sequence_manager path="units/pd2_dlc_dinner/props/din_prop_hanging_meat/din_hanging_meat_03"/>
+		<unit path="units/pd2_dlc_dinner/props/din_prop_hanging_meat/din_hanging_meat_03"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dinner/props/din_prop_hanging_meat/din_prop_foot_meat_02" type="unit">
+		<material_config path="units/pd2_dlc_dinner/props/din_prop_hanging_meat/din_prop_foot_meat_01"/>
+		<object path="units/pd2_dlc_dinner/props/din_prop_hanging_meat/din_prop_foot_meat_02"/>
+		<unit path="units/pd2_dlc_dinner/props/din_prop_hanging_meat/din_prop_foot_meat_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dinner/props/din_prop_hanging_meat/din_hanging_meat_01" type="unit">
+		<unit path="units/pd2_dlc_dinner/props/din_prop_hanging_meat/din_hanging_meat_01"/>
+		<object path="units/pd2_dlc_dinner/props/din_prop_hanging_meat/din_hanging_meat_01"/>
+		<material_config path="units/pd2_dlc_dinner/props/din_prop_hanging_meat/din_hanging_meat_01"/>
+		<sequence_manager path="units/pd2_dlc_dinner/props/din_prop_hanging_meat/din_hanging_meat_01"/>
 	</add>
 </table>
