@@ -3031,9 +3031,26 @@
 		<unit path="units/pd2_mcmansion/props/mcm_prop_livingroom_lamp_wall/mcm_prop_livingroom_lamp_wall"/>
 	</add>
 	<add from_db="true" path="units/payday2/props/gen_prop_long_lamp/gen_prop_long_lamp_v3" type="unit">
-		<unit path="units/payday2/props/gen_prop_long_lamp/gen_prop_long_lamp_v3"/>
-		<object path="units/payday2/props/gen_prop_long_lamp/gen_prop_long_lamp_v3"/>
-		<material_config path="units/payday2/props/gen_prop_long_lamp/gen_prop_long_lamp"/>
 		<effect load="true" path="effects/payday2/particles/flares/small_lamp_flare_fluorescent"/>
+		<material_config path="units/payday2/props/gen_prop_long_lamp/gen_prop_long_lamp"/>
+		<object path="units/payday2/props/gen_prop_long_lamp/gen_prop_long_lamp_v3"/>
+		<unit path="units/payday2/props/gen_prop_long_lamp/gen_prop_long_lamp_v3"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_pent/architecture/int/pent_int_garage/wall_vent/pent_garage_vent_01" type="unit">
+		<unit path="units/pd2_dlc_pent/architecture/int/pent_int_garage/wall_vent/pent_garage_vent_01"/>
+		<object path="units/pd2_dlc_pent/architecture/int/pent_int_garage/wall_vent/pent_garage_vent_01"/>
+		<material_config path="units/pd2_dlc_pent/architecture/int/pent_int_garage/wall_vent/pent_garage_vent_01"/>
+		<sequence_manager path="units/pd2_dlc_pent/architecture/int/pent_int_garage/wall_vent/pent_garage_vent_01"/>
+		<unit path="units/pd2_dlc_pent/architecture/int/pent_int_garage/wall_vent/debri_01/pent_garage_vent_debri_01"/>
+		<object path="units/pd2_dlc_pent/architecture/int/pent_int_garage/wall_vent/debri_01/pent_garage_vent_debri_01"/>
+		<sequence_manager path="units/pd2_dlc_pent/architecture/int/pent_int_garage/wall_vent/debri_01/pent_garage_vent_debri_01"/>
+		<physic_effect path="physic_effects/push_sphere"/>
+		<effect load="true" path="effects/particles/explosions/explosion_flash_grenade"/>
+		<unit path="units/pd2_dlc_pent/architecture/int/pent_int_garage/wall_vent/debri_02/pent_garage_vent_debri_02"/>
+		<object path="units/pd2_dlc_pent/architecture/int/pent_int_garage/wall_vent/debri_02/pent_garage_vent_debri_02"/>
+		<sequence_manager path="units/pd2_dlc_pent/architecture/int/pent_int_garage/wall_vent/debri_02/pent_garage_vent_debri_02"/>
+		<unit path="units/pd2_dlc_pent/architecture/int/pent_int_garage/wall_vent/debri_03/pent_garage_vent_debri_03"/>
+		<object path="units/pd2_dlc_pent/architecture/int/pent_int_garage/wall_vent/debri_03/pent_garage_vent_debri_03"/>
+		<sequence_manager path="units/pd2_dlc_pent/architecture/int/pent_int_garage/wall_vent/debri_03/pent_garage_vent_debri_03"/>
 	</add>
 </table>
