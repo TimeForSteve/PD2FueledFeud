@@ -17,10 +17,16 @@
 	<decal_surfaces default_material="flesh" />
 
 	<graphics>
-		<graphic_group name="character" enabled="true" >
-			<object name="g_hurt2"			enabled="true" />
-			<object name="g_body_hurt2"		enabled="true" />
-			<object name="s_body"			enabled="true" shadow_caster="true"/>
+		<graphic_group name="character" enabled="true" culling_object="g_body">
+			
+			<object name="g_body" 		enabled="true" />
+			<object name="g_body_lod1" 	enabled="true" />
+
+			<object name="g_head" 		enabled="true"/>
+			<object name="g_tape_mouth" enabled="true" />
+			<object name="g_tape_arms" enabled="true" />
+			<object name="g_tape_waist" enabled="true" />
+			<object name="s_body" enabled="true" shadow_caster="true"/>
 		</graphic_group>
 	</graphics>
 

@@ -1,0 +1,17 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_mockup/tileset/mkp" orientation_object="rp_railing_int_4m_a" />
+	
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="g_railing_int_4m_a" collision_type="box" padding="-2.5"/>
+		</body>
+	</bodies>
+	
+	<decal_surfaces default_material="stone" static="true">
+		<decal_mesh name="g_railing_int_4m_a" material="stone" enabled="true" />
+	</decal_surfaces>
+	
+	<graphics>
+		<object name="g_railing_int_4m_a" enabled="true" shadow_caster="true"/>
+	</graphics>
+</dynamic_object>

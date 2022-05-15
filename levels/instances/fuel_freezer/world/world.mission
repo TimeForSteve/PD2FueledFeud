@@ -476,10 +476,6 @@
 						</entry>
 						<entry index="4" type="table">
 							<entry key="delay" type="number" value="1"/>
-							<entry key="id" type="number" value="100027"/>
-						</entry>
-						<entry index="5" type="table">
-							<entry key="delay" type="number" value="1"/>
 							<entry key="id" type="number" value="100029"/>
 						</entry>
 					</entry>
@@ -590,7 +586,7 @@
 				<entry key="values" type="table">
 					<entry key="amount" type="string" value="1"/>
 					<entry key="base_delay" type="number" value="0"/>
-					<entry key="depth" type="number" value="500"/>
+					<entry key="depth" type="number" value="700"/>
 					<entry key="enabled" type="boolean" value="false"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="height" type="number" value="500"/>
@@ -606,16 +602,16 @@
 							<entry key="id" type="number" value="100026"/>
 						</entry>
 					</entry>
-					<entry key="position" type="vector3" value="-53.9999 -150 25"/>
+					<entry key="position" type="vector3" value="-53.9999 -161 101"/>
 					<entry key="radius" type="number" value="400"/>
 					<entry key="rotation" type="quaternion" value="0 0 2.68221e-007 -1"/>
-					<entry key="shape_type" type="string" value="sphere"/>
+					<entry key="shape_type" type="string" value="box"/>
 					<entry key="spawn_unit_elements" type="table">
 					</entry>
 					<entry key="trigger_on" type="string" value="on_enter"/>
 					<entry key="trigger_times" type="number" value="1"/>
 					<entry key="use_disabled_shapes" type="boolean" value="false"/>
-					<entry key="width" type="number" value="500"/>
+					<entry key="width" type="number" value="700"/>
 				</entry>
 			</entry>
 			<entry index="24" type="table">
@@ -703,31 +699,6 @@
 				</entry>
 			</entry>
 			<entry index="28" type="table">
-				<entry key="class" type="string" value="ElementSpawnEnemyDummy"/>
-				<entry key="editor_name" type="string" value="hostage_loud"/>
-				<entry key="id" type="number" value="100027"/>
-				<entry key="script" type="string" value="default"/>
-				<entry key="values" type="table">
-					<entry key="accessibility" type="string" value="any"/>
-					<entry key="amount" type="number" value="0"/>
-					<entry key="base_delay" type="number" value="0"/>
-					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="enemy" type="string" value="units/pd2_mod_fuel/characters/ene_hostage/ene_hostage"/>
-					<entry key="execute_on_startup" type="boolean" value="false"/>
-					<entry key="force_pickup" type="string" value="none"/>
-					<entry key="interval" type="number" value="5"/>
-					<entry key="on_executed" type="table">
-					</entry>
-					<entry key="participate_to_group_ai" type="boolean" value="true"/>
-					<entry key="position" type="vector3" value="-113.038 -207.934 0"/>
-					<entry key="rotation" type="quaternion" value="0 0 0.707107 -0.707107"/>
-					<entry key="spawn_action" type="string" value="e_sp_dizzy_fall_get_up"/>
-					<entry key="team" type="string" value="converted_enemy"/>
-					<entry key="trigger_times" type="number" value="0"/>
-					<entry key="voice" type="number" value="0"/>
-				</entry>
-			</entry>
-			<entry index="29" type="table">
 				<entry key="class" type="string" value="ElementPlayEffect"/>
 				<entry key="editor_name" type="string" value="smoke_blocker"/>
 				<entry key="id" type="number" value="100028"/>
@@ -749,7 +720,7 @@
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="30" type="table">
+			<entry index="29" type="table">
 				<entry key="class" type="string" value="ElementStopEffect"/>
 				<entry key="editor_name" type="string" value="smoke_kill"/>
 				<entry key="id" type="number" value="100029"/>

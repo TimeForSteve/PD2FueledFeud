@@ -24,15 +24,6 @@
 			<var name="_footwear" value="hardsole" />
 			<var name="_anim_global" value="cop" />
 		</extension>
-		<extension name="interaction" class="ReviveInteractionExt" >
-			<var name="tweak_data" value="revive" />
-			<var name="_ray_object_names" type="table" >
-				<var value="Hips"/>
-				<var value="Head"/>
-				<var value="LeftFoot"/>
-				<var value="RightFoot"/>
-			</var>
-		</extension>
 		<extension name="network" class="NetworkBaseExtension" />
 		<extension name="damage" class="UnitDamage" >
 			<var name="_skip_save_anim_state_machine" value="true" />
