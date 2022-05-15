@@ -3039,18 +3039,38 @@
 	<add from_db="true" path="units/pd2_dlc_pent/architecture/int/pent_int_garage/wall_vent/pent_garage_vent_01" type="unit">
 		<unit path="units/pd2_dlc_pent/architecture/int/pent_int_garage/wall_vent/pent_garage_vent_01"/>
 		<object path="units/pd2_dlc_pent/architecture/int/pent_int_garage/wall_vent/pent_garage_vent_01"/>
-		<material_config path="units/pd2_dlc_pent/architecture/int/pent_int_garage/wall_vent/pent_garage_vent_01"/>
 		<sequence_manager path="units/pd2_dlc_pent/architecture/int/pent_int_garage/wall_vent/pent_garage_vent_01"/>
 		<unit path="units/pd2_dlc_pent/architecture/int/pent_int_garage/wall_vent/debri_01/pent_garage_vent_debri_01"/>
 		<object path="units/pd2_dlc_pent/architecture/int/pent_int_garage/wall_vent/debri_01/pent_garage_vent_debri_01"/>
 		<sequence_manager path="units/pd2_dlc_pent/architecture/int/pent_int_garage/wall_vent/debri_01/pent_garage_vent_debri_01"/>
-		<physic_effect path="physic_effects/push_sphere"/>
-		<effect load="true" path="effects/particles/explosions/explosion_flash_grenade"/>
 		<unit path="units/pd2_dlc_pent/architecture/int/pent_int_garage/wall_vent/debri_02/pent_garage_vent_debri_02"/>
 		<object path="units/pd2_dlc_pent/architecture/int/pent_int_garage/wall_vent/debri_02/pent_garage_vent_debri_02"/>
 		<sequence_manager path="units/pd2_dlc_pent/architecture/int/pent_int_garage/wall_vent/debri_02/pent_garage_vent_debri_02"/>
 		<unit path="units/pd2_dlc_pent/architecture/int/pent_int_garage/wall_vent/debri_03/pent_garage_vent_debri_03"/>
 		<object path="units/pd2_dlc_pent/architecture/int/pent_int_garage/wall_vent/debri_03/pent_garage_vent_debri_03"/>
 		<sequence_manager path="units/pd2_dlc_pent/architecture/int/pent_int_garage/wall_vent/debri_03/pent_garage_vent_debri_03"/>
+		<effect load="true" path="effects/particles/explosions/explosion_flash_grenade"/>
+		<material_config path="units/pd2_dlc_pent/architecture/int/pent_int_garage/wall_vent/pent_garage_vent_01"/>
+		<physic_effect path="physic_effects/push_sphere"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/res_ext_apartment/res_ext_apartment_corridor_wall_piece_broken_doubleside" type="unit">
+		<material_config path="units/payday2/architecture/res_ext_apartment/res_ext_apartment_corridor_wall_piece_broken"/>
+		<object path="units/payday2/architecture/res_ext_apartment/res_ext_apartment_corridor_wall_piece_broken_doubleside"/>
+		<unit path="units/payday2/architecture/res_ext_apartment/res_ext_apartment_corridor_wall_piece_broken_doubleside"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/com_prop_election_chair/com_prop_election_chair" type="unit">
+		<material_config path="units/payday2/props/com_prop_election_chair/com_prop_election_chair"/>
+		<object path="units/payday2/props/com_prop_election_chair/com_prop_election_chair"/>
+		<unit path="units/payday2/props/com_prop_election_chair/com_prop_election_chair"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/com_prop_election_chair/com_prop_election_chair_folded" type="unit">
+		<material_config path="units/payday2/props/com_prop_election_chair/com_prop_election_chair"/>
+		<object path="units/payday2/props/com_prop_election_chair/com_prop_election_chair_folded"/>
+		<unit path="units/payday2/props/com_prop_election_chair/com_prop_election_chair_folded"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_rvd/props/rvd_prop_warehouse_chair_green/rvd_prop_warehouse_chair_green" type="unit">
+		<unit path="units/pd2_dlc_rvd/props/rvd_prop_warehouse_chair_green/rvd_prop_warehouse_chair_green"/>
+		<object path="units/pd2_dlc_rvd/props/rvd_prop_warehouse_chair_green/rvd_prop_warehouse_chair_green"/>
+		<material_config path="units/pd2_dlc_rvd/props/rvd_prop_warehouse_chair_green/rvd_prop_warehouse_chair_green"/>
 	</add>
 </table>

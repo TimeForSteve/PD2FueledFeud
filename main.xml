@@ -48,6 +48,8 @@
 		<hooks directory="hooks">
 			<hook file="missionendstate.lua" source_file="lib/states/missionendstate"/>
 			<hook file="charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="copbrain.lua" source_file="lib/units/enemies/cop/copbrain"/>
+			<hook file="copmovement.lua" source_file="lib/units/enemies/cop/copmovement"/>
 		</hooks>
 		<outro_event>
 			<value_node value=""/>

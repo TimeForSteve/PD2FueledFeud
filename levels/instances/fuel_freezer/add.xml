@@ -12,12 +12,23 @@
 		<object path="units/pd2_mod_fuel/architecture/fuel_basement/fuel_basement_wall_door"/>
 		<unit path="units/pd2_mod_fuel/architecture/fuel_basement/fuel_basement_wall_door"/>
 		<material_config path="units/pd2_mod_fuel/architecture/fuel_basement/fuel_basement"/>
+		<material_config path="units/pd2_mod_fuel/props/fuel_prop_freezer/fuel_prop_freezer"/>
+		<model path="units/pd2_mod_fuel/props/fuel_prop_freezer/fuel_prop_freezer"/>
+		<object path="units/pd2_mod_fuel/props/fuel_prop_freezer/fuel_prop_freezer"/>
+		<unit path="units/pd2_mod_fuel/props/fuel_prop_freezer/fuel_prop_freezer"/>
+		<cooked_physics path="units/pd2_mod_fuel/props/fuel_prop_freezer/fuel_prop_freezer"/>
+		<unit load="true" path="units/pd2_mod_fuel/characters/ene_fuel_hostage/ene_fuel_hostage"/>
+		<object path="units/pd2_mod_fuel/characters/ene_fuel_hostage/ene_fuel_hostage"/>
+		<model path="units/pd2_mod_fuel/characters/ene_fuel_hostage/ene_fuel_hostage"/>
+		<material_config path="units/pd2_mod_fuel/characters/ene_fuel_hostage/ene_fuel_hostage"/>
+		<unit load="true" path="units/pd2_mod_fuel/characters/ene_fuel_hostage/ene_fuel_hostage_husk"/>
+		<cooked_physics path="units/pd2_mod_fuel/characters/ene_fuel_hostage/ene_fuel_hostage"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_pex/props/pex_prop_silent_door_breach/pex_prop_silent_door_breach" type="unit">
 		<material_config path="units/pd2_dlc_pex/props/pex_prop_silent_door_breach/pex_prop_silent_door_breach"/>
 		<object path="units/pd2_dlc_pex/props/pex_prop_silent_door_breach/pex_prop_silent_door_breach"/>
 		<sequence_manager path="units/pd2_dlc_pex/props/pex_prop_silent_door_breach/pex_prop_silent_door_breach"/>
-		<unit load="true" path="units/pd2_dlc_pex/props/pex_prop_silent_door_breach/pex_prop_silent_door_breach"/>
+		<unit path="units/pd2_dlc_pex/props/pex_prop_silent_door_breach/pex_prop_silent_door_breach"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_pex/props/pex_prop_door_mexican_police_station/pex_prop_door_mexican_police_station" type="unit">
 		<bnk path="soundbanks/regular_sfx"/>
@@ -25,13 +36,13 @@
 		<material_config path="units/pd2_dlc_pex/props/pex_prop_door_mexican_police_station/pex_prop_door_mexican_police_station"/>
 		<object path="units/pd2_dlc_pex/props/pex_prop_door_mexican_police_station/pex_prop_door_mexican_police_station"/>
 		<sequence_manager path="units/pd2_dlc_pex/props/pex_prop_door_mexican_police_station/pex_prop_door_mexican_police_station"/>
-		<unit load="true" path="units/pd2_dlc_pex/props/pex_prop_door_mexican_police_station/pex_prop_door_mexican_police_station"/>
+		<unit path="units/pd2_dlc_pex/props/pex_prop_door_mexican_police_station/pex_prop_door_mexican_police_station"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_casino/dev/cas_gen_prop_square_drop_marker_2x2_4/cas_gen_prop_square_drop_marker_2x2_4" type="unit">
 		<material_config path="units/pd2_dlc_casino/dev/cas_gen_prop_square_drop_marker_2x2_4/cas_gen_prop_square_drop_marker_2x2_4"/>
 		<object path="units/pd2_dlc_casino/dev/cas_gen_prop_square_drop_marker_2x2_4/cas_gen_prop_square_drop_marker_2x2_4"/>
 		<sequence_manager path="units/pd2_dlc_casino/dev/cas_gen_prop_square_drop_marker_2x2_4/cas_gen_prop_square_drop_marker_2x2_4"/>
-		<unit load="true" path="units/pd2_dlc_casino/dev/cas_gen_prop_square_drop_marker_2x2_4/cas_gen_prop_square_drop_marker_2x2_4"/>
+		<unit path="units/pd2_dlc_casino/dev/cas_gen_prop_square_drop_marker_2x2_4/cas_gen_prop_square_drop_marker_2x2_4"/>
 	</add>
 	<add from_db="true" path="units/payday2/props/gen_prop_long_lamp/gen_prop_long_lamp_v3" type="unit">
 		<effect load="true" path="effects/payday2/particles/flares/small_lamp_flare_fluorescent"/>
@@ -39,56 +50,15 @@
 		<object path="units/payday2/props/gen_prop_long_lamp/gen_prop_long_lamp_v3"/>
 		<unit path="units/payday2/props/gen_prop_long_lamp/gen_prop_long_lamp_v3"/>
 	</add>
-	<add from_db="true" path="units/payday2/architecture/lux/lux_int_kitchentilewall1_3m_a" type="unit">
-		<material_config path="units/payday2/architecture/lux/lux"/>
-		<object path="units/payday2/architecture/lux/lux_int_kitchentilewall1_3m_a"/>
-		<unit path="units/payday2/architecture/lux/lux_int_kitchentilewall1_3m_a"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_arena/architecture/are_supply_room_01/are_supply_room_01" type="unit">
-		<material_config path="units/pd2_dlc_arena/architecture/are_supply_room_01/are_supply_room_01"/>
-		<object path="units/pd2_dlc_arena/architecture/are_supply_room_01/are_supply_room_01"/>
-		<sequence_manager path="units/pd2_dlc_arena/architecture/are_supply_room_01/are_supply_room"/>
-		<unit path="units/pd2_dlc_arena/architecture/are_supply_room_01/are_supply_room_01"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_arena/architecture/are_supply_room_02/are_supply_room_02" type="unit">
-		<material_config path="units/pd2_dlc_arena/architecture/are_supply_room_02/are_supply_room_02"/>
-		<object path="units/pd2_dlc_arena/architecture/are_supply_room_02/are_supply_room_02"/>
-		<sequence_manager path="units/pd2_dlc_arena/architecture/are_supply_room_02/are_supply_room"/>
-		<unit path="units/pd2_dlc_arena/architecture/are_supply_room_02/are_supply_room_02"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_shoutout_raid/props/gen_prop_container_a_vault_seq/gen_prop_container_a_vault_seq" type="unit">
-		<effect load="true" path="effects/particles/dest/security_camera_dest"/>
-		<effect load="true" path="effects/particles/dest/sparks_lamp_dest"/>
-		<bnk path="soundbanks/regular_sfx"/>
-		<material_config path="units/pd2_dlc_shoutout_raid/props/gen_prop_container_a_vault_seq/gen_prop_container_a_vault_seq"/>
-		<object path="units/pd2_dlc_shoutout_raid/props/gen_prop_container_a_vault_seq/gen_prop_container_a_vault_seq"/>
-		<sequence_manager path="units/pd2_dlc_shoutout_raid/props/gen_prop_container_a_vault_seq/gen_prop_container_a_vault_seq"/>
-		<unit path="units/pd2_dlc_shoutout_raid/props/gen_prop_container_a_vault_seq/gen_prop_container_a_vault_seq"/>
+	<add from_db="true" path="core/units/light_omni/light_omni" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="core/units/light_omni/light_omni"/>
+		<unit path="core/units/light_omni/light_omni"/>
 	</add>
 	<add from_db="true" path="units/payday2/props/ind_prop_slaughter_meat_medium/ind_prop_slaughter_meat_medium" type="unit">
 		<material_config path="units/payday2/props/ind_prop_slaughter_meat_medium/ind_prop_slaughter_meat_medium"/>
 		<object path="units/payday2/props/ind_prop_slaughter_meat_medium/ind_prop_slaughter_meat_medium"/>
 		<unit path="units/payday2/props/ind_prop_slaughter_meat_medium/ind_prop_slaughter_meat_medium"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_dinner/props/slaughterhouse_butcher_knife/slaughterhouse_butcher_knife" type="unit">
-		<material_config path="units/world/props/slaughterhouse/slaughterhouse_butcher_knife/slaughterhouse_butcher_knife"/>
-		<object path="units/pd2_dlc_dinner/props/slaughterhouse_butcher_knife/slaughterhouse_butcher_knife"/>
-		<unit path="units/pd2_dlc_dinner/props/slaughterhouse_butcher_knife/slaughterhouse_butcher_knife"/>
-	</add>
-	<add from_db="true" path="units/world/props/slaughterhouse/slaughterhouse_butcher_knife/slaughterhouse_butcher_knife" type="unit">
-		<material_config path="units/world/props/slaughterhouse/slaughterhouse_butcher_knife/slaughterhouse_butcher_knife"/>
-		<object path="units/world/props/slaughterhouse/slaughterhouse_butcher_knife/slaughterhouse_butcher_knife"/>
-		<unit path="units/world/props/slaughterhouse/slaughterhouse_butcher_knife/slaughterhouse_butcher_knife"/>
-	</add>
-	<add from_db="true" path="units/world/props/slaughterhouse/slaughterhouse_line_machine/slaughterhouse_line_machine" type="unit">
-		<material_config path="units/world/props/slaughterhouse/slagthterhouse_line/slaughterhouse_line"/>
-		<object path="units/world/props/slaughterhouse/slaughterhouse_line_machine/slaughterhouse_line_machine"/>
-		<unit path="units/world/props/slaughterhouse/slaughterhouse_line_machine/slaughterhouse_line_machine"/>
-	</add>
-	<add from_db="true" path="units/world/props/slaughterhouse/slaughterhouse_meat_knife/slaughterhouse_meat_knife" type="unit">
-		<material_config path="units/world/props/slaughterhouse/slaughterhouse_butcher_knife/slaughterhouse_butcher_knife"/>
-		<object path="units/world/props/slaughterhouse/slaughterhouse_meat_knife/slaughterhouse_meat_knife"/>
-		<unit path="units/world/props/slaughterhouse/slaughterhouse_meat_knife/slaughterhouse_meat_knife"/>
 	</add>
 	<add from_db="true" path="units/world/props/slaughterhouse/slaughterhouse_table/slaughterhouse_table" type="unit">
 		<material_config path="units/world/props/slaughterhouse/slaughterhouse_table/slaughterhouse_table"/>
@@ -100,26 +70,16 @@
 		<object path="units/pd2_dlc_dinner/props/din_prop_hanging_meat/din_prop_pork_belly"/>
 		<unit path="units/pd2_dlc_dinner/props/din_prop_hanging_meat/din_prop_pork_belly"/>
 	</add>
-	<add from_db="true" path="units/pd2_dlc_dinner/props/din_prop_hanging_meat/din_prop_foot_meat_03" type="unit">
-		<material_config path="units/pd2_dlc_dinner/props/din_prop_hanging_meat/din_prop_foot_meat_01"/>
-		<object path="units/pd2_dlc_dinner/props/din_prop_hanging_meat/din_prop_foot_meat_03"/>
-		<unit path="units/pd2_dlc_dinner/props/din_prop_hanging_meat/din_prop_foot_meat_03"/>
+	<add from_db="true" path="units/pd2_dlc_shoutout_raid/props/gen_prop_container_a_vault_seq/gen_prop_container_a_vault_seq" type="unit">
+		<effect load="true" path="effects/particles/dest/security_camera_dest"/>
+		<effect load="true" path="effects/particles/dest/sparks_lamp_dest"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_dlc_shoutout_raid/props/gen_prop_container_a_vault_seq/gen_prop_container_a_vault_seq"/>
+		<object path="units/pd2_dlc_shoutout_raid/props/gen_prop_container_a_vault_seq/gen_prop_container_a_vault_seq"/>
+		<sequence_manager path="units/pd2_dlc_shoutout_raid/props/gen_prop_container_a_vault_seq/gen_prop_container_a_vault_seq"/>
+		<unit path="units/pd2_dlc_shoutout_raid/props/gen_prop_container_a_vault_seq/gen_prop_container_a_vault_seq"/>
 	</add>
-	<add from_db="true" path="units/pd2_dlc_dinner/props/din_prop_hanging_meat/din_hanging_meat_03" type="unit">
-		<material_config path="units/pd2_dlc_dinner/props/din_prop_hanging_meat/din_hanging_meat_01"/>
-		<object path="units/pd2_dlc_dinner/props/din_prop_hanging_meat/din_hanging_meat_03"/>
-		<sequence_manager path="units/pd2_dlc_dinner/props/din_prop_hanging_meat/din_hanging_meat_03"/>
-		<unit path="units/pd2_dlc_dinner/props/din_prop_hanging_meat/din_hanging_meat_03"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_dinner/props/din_prop_hanging_meat/din_prop_foot_meat_02" type="unit">
-		<material_config path="units/pd2_dlc_dinner/props/din_prop_hanging_meat/din_prop_foot_meat_01"/>
-		<object path="units/pd2_dlc_dinner/props/din_prop_hanging_meat/din_prop_foot_meat_02"/>
-		<unit path="units/pd2_dlc_dinner/props/din_prop_hanging_meat/din_prop_foot_meat_02"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_dinner/props/din_prop_hanging_meat/din_hanging_meat_01" type="unit">
-		<unit path="units/pd2_dlc_dinner/props/din_prop_hanging_meat/din_hanging_meat_01"/>
-		<object path="units/pd2_dlc_dinner/props/din_prop_hanging_meat/din_hanging_meat_01"/>
-		<material_config path="units/pd2_dlc_dinner/props/din_prop_hanging_meat/din_hanging_meat_01"/>
-		<sequence_manager path="units/pd2_dlc_dinner/props/din_prop_hanging_meat/din_hanging_meat_01"/>
+	<add from_db="true" path="effects/payday2/particles/smoke_trail/smoke_light_white_color" type="effect">
+		<effect load="true" path="effects/payday2/particles/smoke_trail/smoke_light_white_color"/>
 	</add>
 </table>

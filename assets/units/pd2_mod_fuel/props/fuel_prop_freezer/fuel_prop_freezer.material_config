@@ -1,0 +1,32 @@
+<materials version="3">
+	<!-- 
+    <material name="mat_gen_prop_container_a" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_1WEIGHT" version="2">
+        <diffuse_texture file="units/payday2/props/gen_prop_container_a/gen_prop_container_a_df"/>
+        <bump_normal_texture file="units/payday2/props/gen_prop_container_a/gen_prop_container_a_nm"/>
+        <reflection_texture type="cubemap" file="units/payday2/cubemaps/cubemap_steel"/>
+    </material> -->
+	
+	<material name="mat_room" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+		<diffuse_texture file="units/pd2_mcmansion/props/mcm_prop_panicroom/mcm_prop_panicroom_df" />
+		<bump_normal_texture file="units/pd2_mcmansion/props/mcm_prop_panicroom/mcm_prop_panicroom_nm" />
+	</material>
+    <material name="mat_container_exhaust" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/pd2_dlc_shoutout_raid/props/gen_prop_container_a_vault_seq/gen_prop_container_vault_exhaust_df"/>
+        <reflection_texture type="cubemap" file="units/payday2/cubemaps/cubemap_steel"/>
+    </material>
+    <material name="mat_mul_text" render_template="effect:BLEND_MUL:DIFFUSE0_TEXTURE" version="2">
+        <diffuse_texture file="units/pd2_dlc_shoutout_raid/props/gen_prop_container_a_vault_seq/gen_prop_container_vault_exhaust_text_df"/>
+        <variable value="sun" type="scalar" name="intensity"/>
+    </material>
+    <material name="mat_are_floor_01" version="2" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT">
+        <diffuse_texture file="units/payday2/architecture/are/are_floor_01_df"/>
+        <bump_normal_texture file="units/payday2/architecture/are/are_floor_01_nm"/>
+        <reflection_texture file="units/payday2/cubemaps/cubemap_zero_df" type="cubemap"/>
+    </material>
+    <material name="mtr_crowbar" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/weapons/texture/third_person_df"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_steel"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material name="shadow_caster" render_template="shadow_caster_only:SKINNED_1WEIGHT" version="2"/>	
+</materials>

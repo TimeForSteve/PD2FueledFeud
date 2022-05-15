@@ -1,0 +1,1 @@
+CopBrain._logic_variants.fuel_hostage = CopBrain._logic_variants.fuel_hostage or clone(CopBrain._logic_variants.old_hoxton_mission)
