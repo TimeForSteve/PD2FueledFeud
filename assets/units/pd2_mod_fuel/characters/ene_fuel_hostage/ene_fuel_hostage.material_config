@@ -1,17 +1,17 @@
-<materials version="3" group="npc_male_mechanic">
-    <material name="mtr_head" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+<materials version="3" group="npc_fuel_hostage">
+    <material name="mtr_head" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" version="2">
         <bump_normal_texture file="units/pd2_mod_fuel/characters/ene_fuel_hostage/alvarez_head_h_nm"/>
         <diffuse_texture file="units/pd2_mod_fuel/characters/ene_fuel_hostage/alvarez_head_h_df"/>
         <variable value="0.2 0.8 1.0" type="vector3" name="contour_color"/>
-        <variable value="1" type="scalar" name="contour_opacity"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
     </material>
-    <material name="mtr_body" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+    <material name="mtr_body" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" version="2">
         <bump_normal_texture file="units/pd2_mod_fuel/characters/ene_fuel_hostage/alvarez_h_nm"/>
         <diffuse_texture file="units/pd2_mod_fuel/characters/ene_fuel_hostage/alvarez_h_df"/>
         <variable value="0.2 0.8 1.0" type="vector3" name="contour_color"/>
-        <variable value="1" type="scalar" name="contour_opacity"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
     </material>
-    <material name="mtr_tape" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+    <material name="mtr_tape" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" version="2">
         <bump_normal_texture file="units/pd2_dlc_born/props/bor_prop_duct_tape/bor_prop_duct_tape_nm"/>
         <diffuse_texture file="units/pd2_dlc_born/props/bor_prop_duct_tape/bor_prop_duct_tape_df"/>
     </material>

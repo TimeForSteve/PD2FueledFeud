@@ -156,9 +156,16 @@
 		<effect load="true" path="effects/particles/rain/rain_glace_inside"/>
 		<effect load="true" path="effects/payday2/environment/hatch_sparks"/>
 		<effect load="true" path="effects/payday2/environment/gas_damage_area"/>
+		<effect load="true" path="effects/payday2/particles/impacts/blood/blood_dripping"/>
+		<effect load="true" path="effects/payday2/particles/impacts/blood/blood_splash"/>
 		<bnk load="true" path="soundbanks/ambiences"/>
 		<material_config path="core/environments/skies/sky_1313_cloudy/sky_1313_cloudy"/>
 		<scene load="true" path="core/environments/skies/sky_1313_cloudy/sky_1313_cloudy"/>
+
+		<unit load="true" path="units/pd2_dlc_chico/weapons/wpn_launcher_frag_m203/wpn_launcher_frag_m203"/>
+		<material_config path="units/pd2_dlc_gage_assault/weapons/wpn_launcher_frag_grenade/wpn_launcher_frag_grenade"/>
+		<object path="units/pd2_dlc_gage_assault/weapons/wpn_launcher_frag_grenade/wpn_launcher_frag_grenade"/>
+		<sequence_manager path="units/pd2_dlc_gage_assault/weapons/wpn_launcher_frag_grenade/wpn_launcher_frag_grenade"/>
 
 		<!--CHARACTERS-->
 		<unit load="true" path="units/payday2/characters/ene_cop_1/ene_cop_1"/>
@@ -292,9 +299,8 @@
 		<object path="units/pd2_mod_fuel/characters/ene_fuel_hostage/ene_fuel_hostage"/>
 		<model path="units/pd2_mod_fuel/characters/ene_fuel_hostage/ene_fuel_hostage"/>
 		<material_config path="units/pd2_mod_fuel/characters/ene_fuel_hostage/ene_fuel_hostage"/>
-		<material_config path="units/pd2_mod_fuel/characters/ene_fuel_hostage/ene_fuel_hostage_contour"/>
 		<unit load="true" path="units/pd2_mod_fuel/characters/ene_fuel_hostage/ene_fuel_hostage_husk"/>
-		<cooked_physics path="units/pd2_mod_fuel/characters/ene_fuel_hostage/ene_fuel_hostage"/>
+		<sequence_manager path="units/pd2_mod_fuel/characters/ene_fuel_hostage/ene_fuel_hostage"/>
 		<texture path="units/pd2_mod_fuel/characters/ene_fuel_hostage/alvarez_head_h_df"/>
 		<texture path="units/pd2_mod_fuel/characters/ene_fuel_hostage/alvarez_head_h_nm"/>
 		<texture path="units/pd2_mod_fuel/characters/ene_fuel_hostage/alvarez_h_df"/>

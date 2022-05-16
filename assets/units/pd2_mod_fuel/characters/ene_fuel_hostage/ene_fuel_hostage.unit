@@ -1,9 +1,10 @@
 <?xml version="1.0"?>
-<unit type="being" slot="12">
+<unit type="being" slot="21">
 	<anim_state_machine name="anims/units/enemies/cop/cop_machine" />
 	<object file="units/pd2_mod_fuel/characters/ene_fuel_hostage/ene_fuel_hostage" />
 
 	<dependencies>
+		<depends_on effect="effects/payday2/particles/impacts/blood/blood_dripping" />
 		<depends_on bnk="soundbanks/regular_vox" />
 	</dependencies>
 
@@ -11,7 +12,7 @@
 		<extension name="unit_data" class="ScriptUnitData"/>
 		<extension name="base" class="CopBase" >
 			<var name="_tweak_table" value="fuel_hostage" />
-			<var name="_default_weapon_id" value="mp9" />
+			<var name="_default_weapon_id" value="sg417" />
 		</extension>
 		<extension name="inventory" class="CopInventory" />
 		<extension name="brain" class="CopBrain" />
@@ -24,12 +25,15 @@
 			<var name="_footwear" value="hardsole" />
 			<var name="_anim_global" value="cop" />
 		</extension>
+		<extension name="interaction" class="IntimitateInteractionExt" >
+			<var name="tweak_data" value="intimidate" />
+		</extension>
 		<extension name="network" class="NetworkBaseExtension" />
 		<extension name="damage" class="UnitDamage" >
 			<var name="_skip_save_anim_state_machine" value="true" />
 		</extension>
 		<extension name="contour" class="ContourExt" >
-			<var name="init_contour" value="teammate" />
+			<!--<var name="init_contour" value="teammate" />-->
 		</extension>
 		<extension name="sound" class="CopSound" />
 	</extensions>

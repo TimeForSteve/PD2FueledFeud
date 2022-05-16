@@ -1,45 +1,33 @@
-<materials version="3" group="civ_male_taxman">
-    <material name="mtr_hurt2" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" version="2" >
-      	<diffuse_texture file="units/payday2/characters/civ_male_taxman/hurt2_df" />
-		<bump_normal_texture file="units/payday2/characters/civ_male_taxman/hurt2_nm"  mip="1"/>
+<materials version="3" group="npc_fuel_hostage">
+    <material name="mtr_head" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" version="2" >
+        <bump_normal_texture file="units/pd2_mod_fuel/characters/ene_fuel_hostage/alvarez_head_h_nm"/>
+        <diffuse_texture file="units/pd2_mod_fuel/characters/ene_fuel_hostage/alvarez_head_h_df"/>
         <variable value="1 1 1" type="vector3" name="contour_color"/>
-        <variable value="0" type="scalar" name="contour_opacity"/>
+        <variable value="1" type="scalar" name="contour_opacity"/>
     </material>
-    <material name="mtr_hurt3" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" version="2" >
-      	<diffuse_texture file="units/payday2/characters/civ_male_taxman/hurt3_df" />
-		<bump_normal_texture file="units/payday2/characters/civ_male_taxman/hurt3_nm"  mip="1"/>
+        <material name="mtr_head_lod" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" version="2" >
+        <bump_normal_texture file="units/pd2_mod_fuel/characters/ene_fuel_hostage/alvarez_head_h_nm" mip="2"/>
+        <diffuse_texture file="units/pd2_mod_fuel/characters/ene_fuel_hostage/alvarez_head_h_df" mip="2"/>
         <variable value="1 1 1" type="vector3" name="contour_color"/>
-        <variable value="0" type="scalar" name="contour_opacity"/>
-    </material> 
-    <material name="mtr_hurt1" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" version="2" >
-      	<diffuse_texture file="units/payday2/characters/civ_male_taxman/hurt1_df" />
-		<bump_normal_texture file="units/payday2/characters/civ_male_taxman/hurt1_nm"  mip="1"/>
-        <variable value="1 1 1" type="vector3" name="contour_color"/>
-        <variable value="0" type="scalar" name="contour_opacity"/>
+        <variable value="1" type="scalar" name="contour_opacity"/>
     </material>
-    <material name="mtr_taxman_body" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" version="2" >
-		<diffuse_texture file="units/payday2/characters/civ_male_taxman/taxman_body_df"  mip="1"/>
-		<bump_normal_texture file="units/payday2/characters/civ_male_taxman/taxman_body_nm"  mip="1"/>
+    <material name="mtr_body" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" version="2" >
+        <bump_normal_texture file="units/pd2_mod_fuel/characters/ene_fuel_hostage/alvarez_h_nm"/>
+        <diffuse_texture file="units/pd2_mod_fuel/characters/ene_fuel_hostage/alvarez_h_df"/>
         <variable value="1 1 1" type="vector3" name="contour_color"/>
-        <variable value="0" type="scalar" name="contour_opacity"/>
-    </material>  
-    <material name="mtr_taxman_head" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" version="2" >
-       <diffuse_texture file="units/payday2/characters/civ_male_taxman/taxman_head_df" />
-        <bump_normal_texture file="units/payday2/characters/civ_male_taxman/taxman_head_nm"  mip="1"/>
-        <variable value="1 1 1" type="vector3" name="contour_color"/>
-        <variable value="0" type="scalar" name="contour_opacity"/>
+        <variable value="1" type="scalar" name="contour_opacity"/>
     </material>
-    <material name="mtr_taxman_body_hurt2" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" version="2" >
-       <diffuse_texture file="units/payday2/characters/civ_male_taxman/taxman_body_hurt2_df" mip="1"/>
-        <bump_normal_texture file="units/payday2/characters/civ_male_taxman/taxman_body_nm" mip="1"/>
+        <material name="mtr_body_lod" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" version="2" >
+        <bump_normal_texture file="units/pd2_mod_fuel/characters/ene_fuel_hostage/alvarez_h_nm" mip="2"/>
+        <diffuse_texture file="units/pd2_mod_fuel/characters/ene_fuel_hostage/alvarez_h_df" mip="2"/>
         <variable value="1 1 1" type="vector3" name="contour_color"/>
-        <variable value="0" type="scalar" name="contour_opacity"/>
+        <variable value="1" type="scalar" name="contour_opacity"/>
     </material>
-    <material name="mtr_taxman_body_hurt3" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" version="2" >
-       <diffuse_texture file="units/payday2/characters/civ_male_taxman/taxman_body_hurt3_df" mip="1"/>
-        <bump_normal_texture file="units/payday2/characters/civ_male_taxman/taxman_body_nm" mip="1"/>
+    <material name="mtr_tape" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" version="2">
+        <bump_normal_texture file="units/pd2_dlc_born/props/bor_prop_duct_tape/bor_prop_duct_tape_nm"/>
+        <diffuse_texture file="units/pd2_dlc_born/props/bor_prop_duct_tape/bor_prop_duct_tape_df"/>
         <variable value="1 1 1" type="vector3" name="contour_color"/>
-        <variable value="0" type="scalar" name="contour_opacity"/>
+        <variable value="1" type="scalar" name="contour_opacity"/>
     </material>
     <material name="shadow_caster" render_template="shadow_caster_only:SKINNED_1WEIGHT" version="2"/>
 </materials>
