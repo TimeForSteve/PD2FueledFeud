@@ -28,21 +28,20 @@
 		<material_config path="units/pd2_dlc_pex/props/pex_prop_silent_door_breach/pex_prop_silent_door_breach"/>
 		<object path="units/pd2_dlc_pex/props/pex_prop_silent_door_breach/pex_prop_silent_door_breach"/>
 		<sequence_manager path="units/pd2_dlc_pex/props/pex_prop_silent_door_breach/pex_prop_silent_door_breach"/>
-		<unit path="units/pd2_dlc_pex/props/pex_prop_silent_door_breach/pex_prop_silent_door_breach"/>
+		<unit load="true" path="units/pd2_dlc_pex/props/pex_prop_silent_door_breach/pex_prop_silent_door_breach"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_pex/props/pex_prop_door_mexican_police_station/pex_prop_door_mexican_police_station" type="unit">
-		<bnk path="soundbanks/regular_sfx"/>
 		<effect load="true" path="effects/payday2/particles/window/door_window_small"/>
 		<material_config path="units/pd2_dlc_pex/props/pex_prop_door_mexican_police_station/pex_prop_door_mexican_police_station"/>
 		<object path="units/pd2_dlc_pex/props/pex_prop_door_mexican_police_station/pex_prop_door_mexican_police_station"/>
 		<sequence_manager path="units/pd2_dlc_pex/props/pex_prop_door_mexican_police_station/pex_prop_door_mexican_police_station"/>
-		<unit path="units/pd2_dlc_pex/props/pex_prop_door_mexican_police_station/pex_prop_door_mexican_police_station"/>
+		<unit load="true" path="units/pd2_dlc_pex/props/pex_prop_door_mexican_police_station/pex_prop_door_mexican_police_station"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_casino/dev/cas_gen_prop_square_drop_marker_2x2_4/cas_gen_prop_square_drop_marker_2x2_4" type="unit">
 		<material_config path="units/pd2_dlc_casino/dev/cas_gen_prop_square_drop_marker_2x2_4/cas_gen_prop_square_drop_marker_2x2_4"/>
 		<object path="units/pd2_dlc_casino/dev/cas_gen_prop_square_drop_marker_2x2_4/cas_gen_prop_square_drop_marker_2x2_4"/>
 		<sequence_manager path="units/pd2_dlc_casino/dev/cas_gen_prop_square_drop_marker_2x2_4/cas_gen_prop_square_drop_marker_2x2_4"/>
-		<unit path="units/pd2_dlc_casino/dev/cas_gen_prop_square_drop_marker_2x2_4/cas_gen_prop_square_drop_marker_2x2_4"/>
+		<unit load="true" path="units/pd2_dlc_casino/dev/cas_gen_prop_square_drop_marker_2x2_4/cas_gen_prop_square_drop_marker_2x2_4"/>
 	</add>
 	<add from_db="true" path="units/payday2/props/gen_prop_long_lamp/gen_prop_long_lamp_v3" type="unit">
 		<effect load="true" path="effects/payday2/particles/flares/small_lamp_flare_fluorescent"/>
