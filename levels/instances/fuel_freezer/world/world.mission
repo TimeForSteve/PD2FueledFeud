@@ -372,10 +372,6 @@
 						</entry>
 						<entry index="3" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100028"/>
-						</entry>
-						<entry index="4" type="table">
-							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100031"/>
 						</entry>
 					</entry>
@@ -483,10 +479,6 @@
 							<entry key="id" type="number" value="100021"/>
 						</entry>
 						<entry index="4" type="table">
-							<entry key="delay" type="number" value="1"/>
-							<entry key="id" type="number" value="100029"/>
-						</entry>
-						<entry index="5" type="table">
 							<entry key="delay" type="number" value="2"/>
 							<entry key="id" type="number" value="100030"/>
 						</entry>
@@ -711,49 +703,6 @@
 				</entry>
 			</entry>
 			<entry index="28" type="table">
-				<entry key="class" type="string" value="ElementPlayEffect"/>
-				<entry key="editor_name" type="string" value="smoke_blocker"/>
-				<entry key="id" type="number" value="100028"/>
-				<entry key="module" type="string" value="CoreElementPlayEffect"/>
-				<entry key="script" type="string" value="default"/>
-				<entry key="values" type="table">
-					<entry key="base_delay" type="number" value="0"/>
-					<entry key="base_time" type="number" value="0"/>
-					<entry key="effect" type="string" value="effects/payday2/particles/smoke_trail/smoke_light_white_color"/>
-					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="execute_on_startup" type="boolean" value="false"/>
-					<entry key="max_amount" type="number" value="0"/>
-					<entry key="on_executed" type="table">
-					</entry>
-					<entry key="position" type="vector3" value="-106.055 -208.615 2.98023e-006"/>
-					<entry key="random_time" type="number" value="0"/>
-					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-					<entry key="screen_space" type="boolean" value="false"/>
-					<entry key="trigger_times" type="number" value="0"/>
-				</entry>
-			</entry>
-			<entry index="29" type="table">
-				<entry key="class" type="string" value="ElementStopEffect"/>
-				<entry key="editor_name" type="string" value="smoke_kill"/>
-				<entry key="id" type="number" value="100029"/>
-				<entry key="module" type="string" value="CoreElementPlayEffect"/>
-				<entry key="script" type="string" value="default"/>
-				<entry key="values" type="table">
-					<entry key="base_delay" type="number" value="0"/>
-					<entry key="elements" type="table">
-						<entry index="1" type="number" value="100028"/>
-					</entry>
-					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="execute_on_startup" type="boolean" value="false"/>
-					<entry key="on_executed" type="table">
-					</entry>
-					<entry key="operation" type="string" value="fade_kill"/>
-					<entry key="position" type="vector3" value="200 -500 0"/>
-					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
-					<entry key="trigger_times" type="number" value="0"/>
-				</entry>
-			</entry>
-			<entry index="30" type="table">
 				<entry key="class" type="string" value="ElementNavObstacle"/>
 				<entry key="editor_name" type="string" value="nav_obstacle_001"/>
 				<entry key="id" type="number" value="100027"/>
@@ -777,7 +726,7 @@
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="31" type="table">
+			<entry index="29" type="table">
 				<entry key="class" type="string" value="ElementNavObstacle"/>
 				<entry key="editor_name" type="string" value="nav_obstacle_002"/>
 				<entry key="id" type="number" value="100030"/>
@@ -801,7 +750,7 @@
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="32" type="table">
+			<entry index="30" type="table">
 				<entry key="class" type="string" value="ElementInstanceOutput"/>
 				<entry key="editor_name" type="string" value="instance_output_003"/>
 				<entry key="id" type="number" value="100031"/>
