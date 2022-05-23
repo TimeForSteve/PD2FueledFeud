@@ -1,0 +1,12 @@
+<dynamic_object>
+    <diesel orientation_object="rp_root_grenade" materials="units/pd2_mod_custom/cus_loot_grenades/weapons/cus_loot_grenades" />
+	<sequence_manager file="units/pd2_mod_custom/cus_loot_grenades/weapons/cus_loot_grenades" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+            <object collision_type="box" name="g_grenade" padding="-2.9" />
+        </body>
+    </bodies>
+    <graphics>
+        <object enabled="true" name="g_grenade" />
+    </graphics>
+</dynamic_object>

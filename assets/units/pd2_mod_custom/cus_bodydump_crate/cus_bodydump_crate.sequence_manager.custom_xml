@@ -1,0 +1,71 @@
+<table>
+	<unit>
+		<variables>
+			<var_open value="0"/>
+		</variables>
+		
+		<filter name="'filter_is_open'">
+			<check value="vars.var_open == 0"/>
+		</filter>
+		
+		<filter name="'filter_is_closed'">
+			<check value="vars.var_open == 1"/>
+		</filter>
+		
+		<sequence editable_state="true" name="'activate_door'" triggable="true">
+			<interaction enabled="true"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'show_contour'" triggable="true">
+			<graphic_group visibility="true" name="'grp_lid_contour'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'hide_contour'" triggable="true">
+			<graphic_group visibility="false" name="'grp_lid_contour'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'deactivate_door'" triggable="true">
+			<interaction enabled="false"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'state_door_open'" triggable="true">
+			<set_variables var_open="1"/>
+			<animation_group enabled="true" from="30/30" name="'anim_lid'" speed="0" to="30/30"/>
+			<run_sequence name="'done_opened'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'state_door_close'" triggable="true">
+			<set_variables var_open="0"/>
+			<animation_group enabled="true" from="0/30" name="'anim_lid'" speed="0" to="0/30"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'anim_open_door'" triggable="true">
+			<animation_group enabled="true" from="0/30" name="'anim_lid'" to="30/30" speed="1" />
+			<sound action="'play'" event="'bar_crowbar_end'" object="'a_lid'"/>
+			<run_sequence name="'done_opened'" start_time="31/30"/>
+			<run_sequence name="'activate_door'" start_time="31/30"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'anim_close_door'" triggable="true">
+			<animation_group enabled="true" from="30/30" name="'anim_lid'" to="0/30" speed="-1" />
+			<sound action="'play'" event="'bar_crowbar_end'" object="'a_lid'" start_time="28/30"/>
+			<run_sequence name="'done_closed'" start_time="31/30"/>
+			<run_sequence name="'activate_door'" start_time="31/30"/>
+		</sequence>
+		
+		<sequence editable_state="false" name="'interact'" triggable="true">
+			<run_sequence filter="'filter_is_open'"		name="'anim_open_door'"/>
+			<run_sequence filter="'filter_is_closed'"	name="'anim_close_door'"/>
+		</sequence>
+		
+		<sequence editable_state="false" name="'done_opened'" triggable="true">
+			<set_variables var_open="1"/>
+			<function extension="'interaction'" function="'set_tweak_data'" param1="'just_close'"/>
+		</sequence>
+		
+		<sequence editable_state="false" name="'done_closed'" triggable="true">
+			<set_variables var_open="0"/>
+			<function extension="'interaction'" function="'set_tweak_data'" param1="'open_slash_close'"/>
+		</sequence>
+	</unit>
+</table>

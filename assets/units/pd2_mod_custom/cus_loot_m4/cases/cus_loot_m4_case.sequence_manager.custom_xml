@@ -1,0 +1,32 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name="'state_hide'" triggable="true">
+			<interaction enabled="false"/>
+			<body enabled="false" name="'body_closed'"/>
+			<body enabled="false" name="'body_open'"/>
+			<decal_mesh enabled="false" name="'g_weapon_case'"/>
+			<decal_mesh enabled="false" name="'dm_medium_open'"/>
+			<decal_mesh enabled="false" name="'dm_foam'"/>
+			<graphic_group name="'grp_wpn'" visibility="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_show'" triggable="true">
+			<interaction enabled="true"/>
+			<body enabled="true" name="'body_closed'"/>
+			<body enabled="false" name="'body_open'"/>
+			<decal_mesh enabled="true" name="'g_weapon_case'"/>
+			<decal_mesh enabled="false" name="'dm_medium_open'"/>
+			<decal_mesh enabled="false" name="'dm_foam'"/>
+			<graphic_group name="'grp_wpn'" visibility="true"/>
+		</sequence>
+		<sequence editable_state="false" name="'interact'" triggable="false">
+			<spawn_unit name="'units/pd2_mod_custom/cus_loot_m4/weapons/cus_loot_m4_spawn'" position="object_pos('rp_gen_interactable_weapon_case_2x1')" rotation="object_rot('rp_gen_interactable_weapon_case_2x1')"/>
+			<sound action="'play'" event="'weapon_box_open'" object="'anim_lock'"/>
+			<animation_group enabled="true" name="'anim'"/>
+			<body enabled="false" name="'body_closed'"/>
+			<body enabled="true" name="'body_open'"/>
+			<decal_mesh enabled="false" name="'g_weapon_case'"/>
+			<decal_mesh enabled="true" name="'dm_medium_open'"/>
+			<decal_mesh enabled="true" name="'dm_foam'"/>
+		</sequence>
+	</unit>
+</table>

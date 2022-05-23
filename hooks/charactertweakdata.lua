@@ -22,4 +22,8 @@ Hooks:PostHook(CharacterTweakData, "init", "fuel_init_characters", function(self
 			min_duration = 0
 		}
 	}
+	self.fuel_hostage.is_escort = true
+	self.fuel_hostage.escort_idle_talk = false
+	self.fuel_hostage.escort_scared_dist = 100
+	self.fuel_hostage.move_speed = self.presets.move_speed.fast
 end)

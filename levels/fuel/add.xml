@@ -3198,13 +3198,11 @@
 	</add>
 	<add from_db="true" path="units/payday2/characters/ene_city_swat_1/ene_city_swat_1" type="unit">
 		<unit path="units/payday2/characters/ene_city_swat_1/ene_city_swat_1"/>
-		<animation_state_machine path="anims/units/enemies/cop/cop_machine"/>
 		<animation_states path="anims/units/enemies/cop/std"/>
 		<animation_states path="anims/units/enemies/cop/civilian"/>
 		<object path="units/payday2/characters/ene_city_swat_1/ene_city_swat_1"/>
 		<material_config path="units/payday2/characters/ene_city_swat_1/ene_city_swat_1"/>
 		<sequence_manager path="units/payday2/characters/ragdoll"/>
-		<animation_def path="anims/units/enemies/cop/cop_def"/>
 		<animation_subset path="anims/units/enemies/cop/std"/>
 		<animation_subset path="anims/units/enemies/cop/neutral_legs"/>
 		<animation_subset path="anims/units/enemies/cop/neutral_rifle"/>
@@ -3237,5 +3235,24 @@
 		<unit path="units/payday2/characters/ene_acc_fbi_swat_helmet/ene_acc_fbi_swat_helmet"/>
 		<object path="units/payday2/characters/ene_acc_fbi_swat_helmet/ene_acc_fbi_swat_helmet"/>
 		<material_config path="units/payday2/characters/ene_acc_fbi_swat_helmet/ene_acc_fbi_swat_helmet"/>
+		<animation_def path="anims/units/enemies/cop/cop_def"/>
+		<animation_state_machine path="anims/units/enemies/cop/cop_machine"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_weapon_case/gen_prop_weapon_case_2x1_closed" type="unit">
+		<material_config path="units/payday2/props/gen_prop_weapon_case/gen_prop_weapon_case"/>
+		<object path="units/payday2/props/gen_prop_weapon_case/gen_prop_weapon_case_2x1_closed"/>
+		<unit path="units/payday2/props/gen_prop_weapon_case/gen_prop_weapon_case_2x1_closed"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/target_hitbox/target_hitbox" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/target_hitbox/target_hitbox"/>
+		<sequence_manager path="units/dev_tools/level_tools/target_hitbox/target_hitbox"/>
+		<unit path="units/dev_tools/level_tools/target_hitbox/target_hitbox"/>
+	</add>
+	<add from_db="true" path="units/world/props/melee_box/melee_box" type="unit">
+		<unit path="units/world/props/melee_box/melee_box"/>
+		<object path="units/world/props/melee_box/melee_box"/>
+		<material_config path="units/world/props/melee_box/melee_box"/>
+		<sequence_manager path="units/world/props/melee_box/melee_box"/>
 	</add>
 </table>

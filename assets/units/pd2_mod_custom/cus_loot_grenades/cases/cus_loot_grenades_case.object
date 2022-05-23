@@ -1,0 +1,29 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_custom/cus_loot_grenades/cases/cus_loot_grenades_case" orientation_object="rp_root_case" />
+	<sequence_manager file="units/pd2_mod_custom/cus_loot_grenades/cases/cus_loot_grenades_case" />
+
+	<animations>
+		<animation_group name="anim" enabled="false">
+			<object name="a_open" />
+		</animation_group>
+	</animations>
+	
+	<bodies>
+		<body name="body_closed" enabled="true" template="static">
+			<object name="g_case" collision_type="box" padding="-2.9" />
+		</body>
+		<body name="body_lid" enabled="true" template="animated">
+			<object name="g_lid" collision_type="box" padding="-2.9" />
+		</body>
+	</bodies>
+	
+	<decal_surfaces default_material="plastic">
+	</decal_surfaces>
+
+	<graphics>
+		<graphic_group name="grp_wpn" enabled="true">
+			<object name="g_lid" enabled="true" />
+			<object name="g_case" enabled="true" />
+		</graphic_group>
+	</graphics>
+</dynamic_object>
