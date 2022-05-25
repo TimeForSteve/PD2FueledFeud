@@ -36,6 +36,7 @@
 			<special icon="equipment_drillfix" id="fuel_winch_part" name_id="hud_carry_winch_bag" sync_possession="true"/>
 		</equipments>
 		<interactions>
+			<interaction based_on="cas_bfd_drill_toolbox" id="fuel_winch_part"/>
 			<interaction based_on="stash_server_cord" id="fuel_jumper_cable" sound_done="PENT_Pickup_CargoStrap"/>
 			<interaction based_on="hold_pickup_lance" id="fuel_hold_pickup_generator" interact_distance="200"/>
 			<interaction based_on="hold_pickup_lance" id="fuel_hold_pickup_winch" interact_distance="200"/>

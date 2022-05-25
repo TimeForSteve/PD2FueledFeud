@@ -3250,9 +3250,28 @@
 		<unit path="units/dev_tools/level_tools/target_hitbox/target_hitbox"/>
 	</add>
 	<add from_db="true" path="units/world/props/melee_box/melee_box" type="unit">
-		<unit path="units/world/props/melee_box/melee_box"/>
-		<object path="units/world/props/melee_box/melee_box"/>
 		<material_config path="units/world/props/melee_box/melee_box"/>
+		<object path="units/world/props/melee_box/melee_box"/>
 		<sequence_manager path="units/world/props/melee_box/melee_box"/>
+		<unit path="units/world/props/melee_box/melee_box"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chill/props/chl_prop_timer_small/chl_prop_timer_medium" type="unit">
+		<font path="fonts/font_digital"/>
+		<material_config path="units/pd2_dlc_chill/props/chl_prop_timer_small/chl_prop_timer_small"/>
+		<object path="units/pd2_dlc_chill/props/chl_prop_timer_small/chl_prop_timer_medium"/>
+		<sequence_manager path="units/pd2_dlc_chill/props/chl_prop_timer_small/chl_prop_timer_small"/>
+		<unit path="units/pd2_dlc_chill/props/chl_prop_timer_small/chl_prop_timer_medium"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/props/gen_prop_security_timer/gen_prop_security_timer" type="unit">
+		<font path="fonts/font_digital"/>
+		<material_config path="units/pd2_indiana/props/gen_prop_security_timer/gen_prop_security_timer"/>
+		<object path="units/pd2_indiana/props/gen_prop_security_timer/gen_prop_security_timer"/>
+		<sequence_manager path="units/pd2_indiana/props/gen_prop_security_timer/gen_prop_security_timer"/>
+		<unit path="units/pd2_indiana/props/gen_prop_security_timer/gen_prop_security_timer"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chico/weapons/gen_prop_contraband/gen_prop_contraband" type="unit">
+		<unit path="units/pd2_dlc_chico/weapons/gen_prop_contraband/gen_prop_contraband"/>
+		<object path="units/pd2_dlc_chico/weapons/gen_prop_contraband/gen_prop_contraband"/>
+		<material_config path="units/pd2_dlc_chico/weapons/gen_prop_contraband/gen_prop_contraband"/>
 	</add>
 </table>
