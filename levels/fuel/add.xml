@@ -3191,7 +3191,7 @@
 		<sequence_manager path="units/pd2_dlc_friend/props/sfm_ropeladder/sfm_ropeladder"/>
 		<unit path="units/pd2_dlc_friend/props/sfm_ropeladder/sfm_ropeladder"/>
 	</add>
-	<add from_db="true" path="units/pd2_dlc_old_hoxton/equipment/gen_equipment_first_aid_kit/gen_equipment_first_aid_kit" type="unit">
+	<add from_db="true" path="units/pd2_dlc_old_hoxton/equipment/gen_equipment_first_aid_kit/gen_equipment_first_aid_kit" type="unit" used="true">
 		<material_config path="units/pd2_dlc_old_hoxton/equipment/gen_equipment_first_aid_kit/gen_equipment_first_aid_kit"/>
 		<object path="units/pd2_dlc_old_hoxton/equipment/gen_equipment_first_aid_kit/gen_equipment_first_aid_kit"/>
 		<unit path="units/pd2_dlc_old_hoxton/equipment/gen_equipment_first_aid_kit/gen_equipment_first_aid_kit"/>
@@ -3270,8 +3270,8 @@
 		<unit path="units/pd2_indiana/props/gen_prop_security_timer/gen_prop_security_timer"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_chico/weapons/gen_prop_contraband/gen_prop_contraband" type="unit">
-		<unit path="units/pd2_dlc_chico/weapons/gen_prop_contraband/gen_prop_contraband"/>
-		<object path="units/pd2_dlc_chico/weapons/gen_prop_contraband/gen_prop_contraband"/>
 		<material_config path="units/pd2_dlc_chico/weapons/gen_prop_contraband/gen_prop_contraband"/>
+		<object path="units/pd2_dlc_chico/weapons/gen_prop_contraband/gen_prop_contraband"/>
+		<unit path="units/pd2_dlc_chico/weapons/gen_prop_contraband/gen_prop_contraband"/>
 	</add>
 </table>
