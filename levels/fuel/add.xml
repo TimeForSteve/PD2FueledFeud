@@ -3487,8 +3487,52 @@
 		<unit path="units/pd2_dlc_casino/architecture/cas_int_corridor_wall_double_door_frame_4m/cas_int_corridor_wall_double_door_frame_4m"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_apartment_floor1" type="unit">
-		<unit path="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_apartment_floor1"/>
-		<object path="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_apartment_floor1"/>
 		<material_config path="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_apartment_interior"/>
+		<object path="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_apartment_floor1"/>
+		<unit path="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_apartment_floor1"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_flat/architecture/flt_ext_apartment_exterior/flt_ext_apartment_window" type="unit">
+		<material_config path="units/pd2_dlc_flat/architecture/flt_ext_apartment_exterior/flt_ext_apartment_window"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/pd2_dlc_flat/architecture/flt_ext_apartment_exterior/flt_ext_apartment_window"/>
+		<sequence_manager path="units/pd2_dlc_flat/architecture/flt_ext_apartment_exterior/flt_ext_apartment_window"/>
+		<unit path="units/pd2_dlc_flat/architecture/flt_ext_apartment_exterior/flt_ext_apartment_window"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc1/equipment/gen_interactable_door_wooden_c/gen_interactable_door_wooden_c" type="unit">
+		<unit path="units/pd2_dlc1/equipment/gen_interactable_door_wooden_c/gen_interactable_door_wooden_c"/>
+		<object path="units/pd2_dlc1/equipment/gen_interactable_door_wooden_c/gen_interactable_door_wooden_c"/>
+		<material_config path="units/pd2_dlc1/equipment/gen_interactable_door_wooden_c/gen_interactable_door_wooden_c"/>
+		<unit path="units/pd2_dlc1/equipment/gen_interactable_door_wooden_c/spawn_debris_door_wooden_c"/>
+		<object path="units/pd2_dlc1/equipment/gen_interactable_door_wooden_c/spawn_debris_door_wooden_c"/>
+		<material_config path="units/pd2_dlc1/equipment/gen_interactable_door_wooden_c/spawn_debris_door_wooden_c_mirror"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<physic_effect path="physic_effects/push_sphere"/>
+		<sequence_manager path="units/pd2_dlc1/equipment/gen_interactable_door_wooden_c/gen_interactable_door_wooden_c"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc1/equipment/gen_interactable_door_wooden_c/gen_interactable_door_wooden_c_v2" type="unit">
+		<unit path="units/pd2_dlc1/equipment/gen_interactable_door_wooden_c/gen_interactable_door_wooden_c_v2"/>
+		<object path="units/pd2_dlc1/equipment/gen_interactable_door_wooden_c/gen_interactable_door_wooden_c_v2"/>
+		<material_config path="units/pd2_dlc1/equipment/gen_interactable_door_wooden_c/gen_interactable_door_wooden_c"/>
+		<unit path="units/pd2_dlc1/equipment/gen_interactable_door_wooden_c/spawn_debris_door_wooden_c_v2"/>
+		<object path="units/pd2_dlc1/equipment/gen_interactable_door_wooden_c/spawn_debris_door_wooden_c_v2"/>
+		<material_config path="units/pd2_dlc1/equipment/gen_interactable_door_wooden_c/spawn_debris_door_wooden_c_v2"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<physic_effect path="physic_effects/push_sphere"/>
+		<sequence_manager path="units/pd2_dlc1/equipment/gen_interactable_door_wooden_c/gen_interactable_door_wooden_c_v2"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc1/equipment/gen_interactable_door_wooden_c/gen_interactable_door_wooden_c_v2_double" type="unit">
+		<unit path="units/pd2_dlc1/equipment/gen_interactable_door_wooden_c/gen_interactable_door_wooden_c_v2_double"/>
+		<object path="units/pd2_dlc1/equipment/gen_interactable_door_wooden_c/gen_interactable_door_wooden_c_v2_double"/>
+		<material_config path="units/pd2_dlc1/equipment/gen_interactable_door_wooden_c/gen_interactable_door_wooden_c_v2_double"/>
+		<sequence_manager path="units/pd2_dlc1/equipment/gen_interactable_door_wooden_c/gen_interactable_door_wooden_c_v2_double"/>
+		<unit path="units/pd2_dlc1/equipment/gen_interactable_door_wooden_c/spawn_debris_door_wooden_c_v2"/>
+		<object path="units/pd2_dlc1/equipment/gen_interactable_door_wooden_c/spawn_debris_door_wooden_c_v2"/>
+		<material_config path="units/pd2_dlc1/equipment/gen_interactable_door_wooden_c/spawn_debris_door_wooden_c_v2"/>
+		<unit path="units/equipment/c4_charge/c4_mission_door"/>
+		<object path="units/equipment/c4_charge/c4_mission_door"/>
+		<material_config path="units/equipment/c4_charge/c4_mission_door"/>
+		<sequence_manager path="units/equipment/c4_charge/c4_mission_door"/>
+		<physic_effect path="physic_effects/push_sphere"/>
+		<bnk path="soundbanks/regular_sfx"/>
 	</add>
 </table>
