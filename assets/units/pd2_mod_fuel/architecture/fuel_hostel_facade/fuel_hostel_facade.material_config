@@ -11,5 +11,9 @@
         <diffuse_texture file="units/pd2_dlc_flat/architecture/flt_ext_apartment_exterior/flt_ext_misc_df"/>
         <bump_normal_texture file="units/pd2_dlc_flat/architecture/flt_ext_apartment_exterior/flt_ext_misc_nm" mip="1"/>
     </material>
+	<material name="mat_roof_concrete" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT" version="2">
+        <diffuse_texture file="units/pd2_dlc_flat/architecture/flt_ext_apartment_roof/flt_ext_apartment_roof_blend_df"/>
+        <bump_normal_texture file="units/pd2_dlc_flat/architecture/flt_ext_apartment_alley/flt_ext_alley_floor_blend_nm" mip="1"/>
+    </material>
 	<material name="shadow_caster" render_template="shadow_caster_only" version="2" />
 </materials>
