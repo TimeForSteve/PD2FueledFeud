@@ -1,0 +1,20 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_fuel/architecture/fuel_int_hostel/fuel_int_hostel" orientation_object="rp_fuel_hostel_entrance" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_fuel_hostel_entrance" />
+			<object name="g_stair_lod0" collision_type="mesh_mopp"/>
+			<object name="g_lod0" collision_type="mesh_mopp"/>
+		</body>
+	</bodies>
+	<decal_surfaces default_material="tile">
+		<decal_mesh name="dm_metal" enabled="true" material="metal" />
+		<decal_mesh name="dm_plaster" enabled="true" material="plaster" />
+		<decal_mesh name="dm_tile" enabled="true" material="tile" />
+		<decal_mesh name="dm_wood" enabled="true" material="wood" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_lod0" enabled="true" />
+		<object name="g_stair_lod0" enabled="true" />
+	</graphics>
+</dynamic_object>
