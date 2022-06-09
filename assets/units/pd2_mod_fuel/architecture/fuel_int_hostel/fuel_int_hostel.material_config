@@ -107,12 +107,9 @@
         <bump_normal_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_wall_dust_blend_nm" mip="1"/>
         <normal_layer0_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_wall_nm"/>
     </material>
-    <material version="2" render_template="generic:BLEND_DIFFUSE:BLEND_MASK_SEPERATE:BLEND_NORMAL:BLEND_SMOOTH:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" name="mat_int_wallpaper_yellow1" decal_material="plaster">
-        <diffuse_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_wallpaper01_blend_df"/>
-        <diffuse_layer0_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_wallpaper01_df"/>
-        <diffuse_layer1_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_wallpaper01_mask_df"/>
-        <bump_normal_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_wallpaper01_blend_nm" mip="1"/>
-        <normal_layer0_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_wallpaper01_nm" mip="1"/>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_int_wallpaper_yellow1" decal_material="plaster">
+        <diffuse_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_wallpaper01_df"/>
+        <bump_normal_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_wallpaper01_nm" mip="1"/>
     </material>
     <material version="2" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:NORMALMAP:OPACITY_TEXTURE" name="mat_broken_wood" decal_material="wood">
         <diffuse_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_hole_broken_wood_df"/>
@@ -155,12 +152,9 @@
         <bump_normal_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_floor_tiles_blend_nm"/>
         <normal_layer0_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_floor_tiles_nm"/>
     </material>
-    <material version="2" render_template="generic:BLEND_DIFFUSE:BLEND_MASK_SEPERATE:BLEND_NORMAL:BLEND_SMOOTH:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" name="mat_int_wall_toilet" decal_material="plaster">
-        <diffuse_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_wall_toilet_blend_df"/>
-        <diffuse_layer0_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_wall_toilet_df"/>
-        <diffuse_layer1_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_wall_toilet_mask_df"/>
-        <bump_normal_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_wall_toilet_blend_nm" mip="1"/>
-        <normal_layer0_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_wall_toilet_nm" mip="1"/>
+    <material version="2" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" name="mat_int_wall_toilet" decal_material="plaster">
+        <diffuse_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_wall_toilet_df"/>
+        <bump_normal_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_wall_toilet_nm" mip="1"/>
         <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_flat_bathroom"/>
     </material>
     <material version="2" render_template="generic:BLEND_DIFFUSE:BLEND_MASK_SEPERATE:BLEND_NORMAL:BLEND_SMOOTH:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" name="mat_int_wallpaper_yellow" decal_material="plaster">
