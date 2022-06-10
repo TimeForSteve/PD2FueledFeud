@@ -3536,9 +3536,14 @@
 		<physic_effect path="physic_effects/push_sphere"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_flat/props/flt_prop_apartment_door/flt_prop_apartment_door_01" type="unit">
-		<unit path="units/pd2_dlc_flat/props/flt_prop_apartment_door/flt_prop_apartment_door_01"/>
-		<object path="units/pd2_dlc_flat/props/flt_prop_apartment_door/flt_prop_apartment_door_01"/>
 		<material_config path="units/pd2_dlc_flat/props/flt_prop_apartment_door/flt_prop_apartment_door_01"/>
+		<object path="units/pd2_dlc_flat/props/flt_prop_apartment_door/flt_prop_apartment_door_01"/>
 		<sequence_manager path="units/pd2_dlc_flat/props/flt_prop_apartment_door/flt_prop_apartment_door_01"/>
+		<unit path="units/pd2_dlc_flat/props/flt_prop_apartment_door/flt_prop_apartment_door_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_flat/props/flt_prop_door_bars/flt_prop_door_bars" type="unit">
+		<unit path="units/pd2_dlc_flat/props/flt_prop_door_bars/flt_prop_door_bars"/>
+		<object path="units/pd2_dlc_flat/props/flt_prop_door_bars/flt_prop_door_bars"/>
+		<material_config path="units/pd2_dlc_flat/props/flt_prop_door_bars/flt_prop_door_bars"/>
 	</add>
 </table>
