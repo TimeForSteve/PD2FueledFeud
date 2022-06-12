@@ -1,0 +1,23 @@
+<materials version="3" group="ene_zeal_swat">
+	<material name="mtr_head" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_COPS:SKINNED_3WEIGHTS" version="2">
+		<bump_normal_texture 	file="units/pd2_mod_fuel/characters/ene_fuel_boss/victor_head_nm"/>
+		<diffuse_texture 		file="units/pd2_mod_fuel/characters/ene_fuel_boss/victor_head_df"/>
+	</material>
+
+	<material name="mtr_helmet" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_COPS" version="2">
+		<bump_normal_texture 	file="units/pd2_mod_fuel/characters/ene_fuel_boss/ene_vic_jug_helmet_nm"/>
+		<diffuse_texture 		file="units/pd2_mod_fuel/characters/ene_fuel_boss/ene_vic_jug_helmet_df"/>
+	</material>
+	
+	<material name="mtr_swat" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_COPS:SKINNED_3WEIGHTS" version="2">
+		<bump_normal_texture 	file="units/pd2_mod_fuel/characters/ene_fuel_boss/victor_nm"/>
+		<diffuse_texture 		file="units/pd2_mod_fuel/characters/ene_fuel_boss/victor_df"/>
+	</material>
+	
+	<material name="mtr_armor" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_COPS:SKINNED_3WEIGHTS" version="2">
+		<bump_normal_texture 	file="units/pd2_mod_fuel/characters/ene_fuel_boss/ene_vic_jug_nm"/>
+		<diffuse_texture 		file="units/pd2_mod_fuel/characters/ene_fuel_boss/ene_vic_jug_df"/>
+	</material>
+
+    <material name="shadow_caster" render_template="shadow_caster_only:SKINNED_1WEIGHT" version="2"/>
+</materials>
