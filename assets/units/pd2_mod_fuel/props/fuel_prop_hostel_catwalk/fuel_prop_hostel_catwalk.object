@@ -1,0 +1,20 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_fuel/props/fuel_prop_hostel_catwalk/fuel_prop_hostel_catwalk" orientation_object="rp_fuel_prop_hostel_catwalk" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_fuel_prop_hostel_catwalk" />			
+			<object name="c_box_01" collision_type="box" padding="-2.5"/>
+			<object name="c_capsule_01" collision_type="capsule" padding="-2.5"/>
+		</body>
+	</bodies>
+	<decal_surfaces default_material="metal" static="true">
+		<decal_mesh name="dm_metal" enabled="true" material="metal" />
+		<decal_mesh name="dm_metal_catwalk" enabled="true" material="metal_catwalk" />
+	</decal_surfaces>
+	<graphics>
+		<lod_object name="lod_g">
+			<object name="g_lod0" enabled="true" max_distance="2000" />
+			<object name="g_lod1" enabled="true" />
+		</lod_object> 
+	</graphics>
+</dynamic_object>

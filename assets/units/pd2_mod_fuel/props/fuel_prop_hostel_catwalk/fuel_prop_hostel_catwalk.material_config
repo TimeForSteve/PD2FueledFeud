@@ -1,0 +1,18 @@
+<materials version="3">
+    <material name="mat_catwalk_02" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_flat/props/flt_prop_catwalk_apartment_02/flt_prop_catwalk_apartment_02_df"/>
+        <bump_normal_texture file="units/pd2_dlc_flat/props/flt_prop_catwalk_apartment_02/flt_prop_catwalk_apartment_02_nm"/>
+    </material>
+    <material name="mat_catwalk_02_grating" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:NORMALMAP:OPACITY_TEXTURE" version="2">
+        <diffuse_texture file="units/pd2_dlc_flat/props/flt_prop_catwalk_apartment_01/flt_prop_catwalk_grating_df"/>
+        <variable value="0.6350000500679" type="scalar" name="alpha_ref"/>
+        <opacity_texture file="units/pd2_dlc_flat/props/flt_prop_catwalk_apartment_01/flt_prop_catwalk_grating_op"/>
+        <bump_normal_texture file="units/pd2_dlc_flat/props/flt_prop_catwalk_apartment_01/flt_prop_catwalk_grating_nm"/>
+    </material>
+    <material name="mat_grating_lod" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:NORMALMAP" version="2">
+        <diffuse_texture mip="4" file="units/pd2_dlc_flat/props/flt_prop_catwalk_apartment_01/flt_prop_catwalk_grating_df"/>
+        <bump_normal_texture mip="4" file="units/pd2_dlc_flat/props/flt_prop_catwalk_apartment_01/flt_prop_catwalk_grating_nm"/>
+        <variable value="0" type="scalar" name="alpha_ref"/>
+    </material>
+    <material name="shadow_caster" render_template="shadow_caster_only" version="2"/>
+</materials>
