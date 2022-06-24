@@ -14,8 +14,8 @@
 	<Hooks directory="hooks">
 		<hook file="guitweakdata.lua" source_file="lib/tweak_data/guitweakdata"/>
 	</Hooks>
-	<Localization default="english.txt" directory="loc">
-		<loc file="english.txt" language="english"/>
+	<Localization default="english.yaml" directory="loc">
+		<loc file="english.yaml" language="english"/>
 	</Localization>
 	<Package file="scriptdata/fuel.package" id="package_fuel" unload_on_restart="true"/>
 	<PrePlanning>
