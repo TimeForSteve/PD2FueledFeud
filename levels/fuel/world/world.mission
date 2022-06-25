@@ -24557,16 +24557,24 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100943"/>
 						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100972"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100973"/>
+						</entry>
 					</entry>
 					<entry key="player_damage" type="number" value="40"/>
-					<entry key="position" type="vector3" value="1299 -2742 90"/>
+					<entry key="position" type="vector3" value="1299 -2817 90"/>
 					<entry key="range" type="number" value="310"/>
 					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
 					<entry key="rumble_attack" type="number" value="0.1"/>
 					<entry key="rumble_peak" type="number" value="1"/>
 					<entry key="rumble_release" type="number" value="2.1"/>
 					<entry key="rumble_sustain" type="number" value="0.3"/>
-					<entry key="sound_event" type="string" value="trip_mine_explode"/>
+					<entry key="sound_event" type="string" value="no_sound"/>
 					<entry key="trigger_times" type="number" value="0"/>
 					<entry key="use_camera_shake" type="boolean" value="true"/>
 					<entry key="use_rumble" type="boolean" value="true"/>
@@ -28633,11 +28641,11 @@
 					<entry key="path_style" type="string" value="destination"/>
 					<entry key="patrol_path" type="string" value="none"/>
 					<entry key="pose" type="string" value="none"/>
-					<entry key="position" type="vector3" value="4282 -3962 417.988"/>
+					<entry key="position" type="vector3" value="4276 -3970 417.988"/>
 					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
 					<entry key="scan" type="boolean" value="false"/>
 					<entry key="search_distance" type="number" value="0"/>
-					<entry key="search_position" type="vector3" value="4049 -3956 418"/>
+					<entry key="search_position" type="vector3" value="4043 -3964 418"/>
 					<entry key="so_action" type="string" value="e_nl_jump_over_1m_var1"/>
 					<entry key="spawn_instigator_ids" type="table">
 					</entry>
@@ -29435,7 +29443,7 @@
 					<entry key="so_action" type="string" value="AI_sniper"/>
 					<entry key="spawn_instigator_ids" type="table">
 					</entry>
-					<entry key="test_unit" type="string" value="default"/>
+					<entry key="test_unit" type="string" value="units/pd2_mod_fuel/characters/ene_fuel_boss/ene_fuel_boss_2"/>
 					<entry key="trigger_on" type="string" value="none"/>
 					<entry key="trigger_times" type="number" value="0"/>
 					<entry key="use_instigator" type="boolean" value="true"/>
@@ -29656,6 +29664,56 @@
 					<entry key="position" type="vector3" value="1325 -3325 813"/>
 					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
 					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="973" type="table">
+				<entry key="class" type="string" value="ElementSpawnEnemyDummy"/>
+				<entry key="editor_name" type="string" value="spawn_gangster_dummy_003"/>
+				<entry key="id" type="number" value="100972"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="accessibility" type="string" value="any"/>
+					<entry key="amount" type="number" value="0"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="enemy" type="string" value="units/payday2/characters/ene_gang_black_3/ene_gang_black_3"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_pickup" type="string" value="none"/>
+					<entry key="interval" type="number" value="5"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="participate_to_group_ai" type="boolean" value="false"/>
+					<entry key="position" type="vector3" value="1240 -3200 -10.9997"/>
+					<entry key="rotation" type="quaternion" value="0 0 0.446198 -0.894934"/>
+					<entry key="spawn_action" type="string" value="e_sp_stumble_var1"/>
+					<entry key="team" type="string" value="default"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="voice" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="974" type="table">
+				<entry key="class" type="string" value="ElementSpawnEnemyDummy"/>
+				<entry key="editor_name" type="string" value="spawn_gangster_dummy_020"/>
+				<entry key="id" type="number" value="100973"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="accessibility" type="string" value="any"/>
+					<entry key="amount" type="number" value="0"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="enemy" type="string" value="units/payday2/characters/ene_gang_black_2/ene_gang_black_2"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_pickup" type="string" value="none"/>
+					<entry key="interval" type="number" value="5"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="participate_to_group_ai" type="boolean" value="false"/>
+					<entry key="position" type="vector3" value="1480 -3123 -11"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.317305 -0.948324"/>
+					<entry key="spawn_action" type="string" value="e_sp_stumble_var2"/>
+					<entry key="team" type="string" value="default"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="voice" type="number" value="0"/>
 				</entry>
 			</entry>
 		</entry>
