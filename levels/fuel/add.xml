@@ -2784,29 +2784,8 @@
 		<unit path="units/world/props/bank/security_door/security_door_02"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_wwh/characters/ene_male_crew_02/ene_male_crew_02" type="unit">
-		<unit path="units/pd2_dlc_wwh/characters/ene_male_crew_02/ene_male_crew_02"/>
-		<animation_states path="anims/units/enemies/cop/std"/>
-		<animation_states path="anims/units/enemies/cop/civilian"/>
-		<animation_subset path="anims/units/enemies/cop/std"/>
-		<animation_subset path="anims/units/enemies/cop/neutral_legs"/>
-		<animation_subset path="anims/units/enemies/cop/neutral_rifle"/>
-		<animation_subset path="anims/units/enemies/cop/neutral_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/hostile_legs"/>
-		<animation_subset path="anims/units/enemies/cop/hostile_rifle"/>
-		<animation_subset path="anims/units/enemies/cop/hostile_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
-		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
-		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
-		<animation_subset path="anims/units/enemies/cop/civilian"/>
-		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/hostile_bow"/>
-		<animation_subset path="anims/units/enemies/cop/combat_bow"/>
-		<animation_subset path="anims/units/enemies/cop/combat_bullpup"/>
+		<unit load="true" path="units/pd2_dlc_wwh/characters/ene_male_crew_02/ene_male_crew_02"/>
 		<unit load="true" path="units/pd2_dlc_wwh/characters/ene_male_crew_02/ene_male_crew_02_husk"/>
-		<animation_def path="anims/units/enemies/cop/cop_def"/>
-		<animation_state_machine path="anims/units/enemies/cop/cop_machine"/>
 		<bnk path="soundbanks/regular_vox"/>
 		<material_config path="units/pd2_dlc_wwh/characters/ene_male_crew_02/ene_male_crew_02"/>
 		<object path="units/pd2_dlc_wwh/characters/ene_male_crew_02/ene_male_crew_02"/>
@@ -2842,91 +2821,22 @@
 		<unit path="units/pd2_dlc_chico/weapons/gen_prop_contraband/gen_prop_contraband"/>
 	</add>
 	<add from_db="true" path="units/payday2/characters/ene_gang_mexican_2/ene_gang_mexican_2" type="unit">
-		<unit path="units/payday2/characters/ene_gang_mexican_2/ene_gang_mexican_2"/>
-		<animation_states path="anims/units/enemies/cop/std"/>
-		<animation_states path="anims/units/enemies/cop/civilian"/>
-		<animation_subset path="anims/units/enemies/cop/std"/>
-		<animation_subset path="anims/units/enemies/cop/neutral_legs"/>
-		<animation_subset path="anims/units/enemies/cop/neutral_rifle"/>
-		<animation_subset path="anims/units/enemies/cop/neutral_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/hostile_legs"/>
-		<animation_subset path="anims/units/enemies/cop/hostile_rifle"/>
-		<animation_subset path="anims/units/enemies/cop/hostile_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
-		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
-		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
-		<animation_subset path="anims/units/enemies/cop/civilian"/>
-		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/hostile_bow"/>
-		<animation_subset path="anims/units/enemies/cop/combat_bow"/>
-		<animation_subset path="anims/units/enemies/cop/combat_bullpup"/>
+		<unit load="true" path="units/payday2/characters/ene_gang_mexican_2/ene_gang_mexican_2"/>
 		<unit load="true" path="units/payday2/characters/ene_gang_mexican_2/ene_gang_mexican_2_husk"/>
-		<animation_def path="anims/units/enemies/cop/cop_def"/>
-		<animation_state_machine path="anims/units/enemies/cop/cop_machine"/>
-		<bnk path="soundbanks/regular_vox"/>
 		<material_config path="units/payday2/characters/ene_gang_mexican_2/ene_gang_mexican_2"/>
 		<object path="units/payday2/characters/ene_gang_mexican_2/ene_gang_mexican_2"/>
-		<sequence_manager path="units/payday2/characters/ragdoll"/>
 	</add>
 	<add from_db="true" path="units/payday2/characters/ene_gang_mexican_3/ene_gang_mexican_3" type="unit">
-		<unit path="units/payday2/characters/ene_gang_mexican_3/ene_gang_mexican_3"/>
-		<animation_states path="anims/units/enemies/cop/std"/>
-		<animation_states path="anims/units/enemies/cop/civilian"/>
-		<animation_subset path="anims/units/enemies/cop/std"/>
-		<animation_subset path="anims/units/enemies/cop/neutral_legs"/>
-		<animation_subset path="anims/units/enemies/cop/neutral_rifle"/>
-		<animation_subset path="anims/units/enemies/cop/neutral_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/hostile_legs"/>
-		<animation_subset path="anims/units/enemies/cop/hostile_rifle"/>
-		<animation_subset path="anims/units/enemies/cop/hostile_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
-		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
-		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
-		<animation_subset path="anims/units/enemies/cop/civilian"/>
-		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/hostile_bow"/>
-		<animation_subset path="anims/units/enemies/cop/combat_bow"/>
-		<animation_subset path="anims/units/enemies/cop/combat_bullpup"/>
+		<unit load="true" path="units/payday2/characters/ene_gang_mexican_3/ene_gang_mexican_3"/>
 		<unit load="true" path="units/payday2/characters/ene_gang_mexican_3/ene_gang_mexican_3_husk"/>
-		<animation_def path="anims/units/enemies/cop/cop_def"/>
-		<animation_state_machine path="anims/units/enemies/cop/cop_machine"/>
-		<bnk path="soundbanks/regular_vox"/>
 		<material_config path="units/payday2/characters/ene_gang_mexican_3/ene_gang_mexican_3"/>
 		<object path="units/payday2/characters/ene_gang_mexican_3/ene_gang_mexican_3"/>
-		<sequence_manager path="units/payday2/characters/ragdoll"/>
 	</add>
 	<add from_db="true" path="units/payday2/characters/ene_gang_mexican_4/ene_gang_mexican_4" type="unit">
-		<unit path="units/payday2/characters/ene_gang_mexican_4/ene_gang_mexican_4"/>
-		<animation_states path="anims/units/enemies/cop/std"/>
-		<animation_states path="anims/units/enemies/cop/civilian"/>
-		<animation_subset path="anims/units/enemies/cop/std"/>
-		<animation_subset path="anims/units/enemies/cop/neutral_legs"/>
-		<animation_subset path="anims/units/enemies/cop/neutral_rifle"/>
-		<animation_subset path="anims/units/enemies/cop/neutral_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/hostile_legs"/>
-		<animation_subset path="anims/units/enemies/cop/hostile_rifle"/>
-		<animation_subset path="anims/units/enemies/cop/hostile_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
-		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
-		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
-		<animation_subset path="anims/units/enemies/cop/civilian"/>
-		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/hostile_bow"/>
-		<animation_subset path="anims/units/enemies/cop/combat_bow"/>
-		<animation_subset path="anims/units/enemies/cop/combat_bullpup"/>
+		<unit load="true" path="units/payday2/characters/ene_gang_mexican_4/ene_gang_mexican_4"/>
 		<unit load="true" path="units/payday2/characters/ene_gang_mexican_4/ene_gang_mexican_4_husk"/>
-		<animation_def path="anims/units/enemies/cop/cop_def"/>
-		<animation_state_machine path="anims/units/enemies/cop/cop_machine"/>
-		<bnk path="soundbanks/regular_vox"/>
 		<material_config path="units/payday2/characters/ene_gang_mexican_4/ene_gang_mexican_4"/>
 		<object path="units/payday2/characters/ene_gang_mexican_4/ene_gang_mexican_4"/>
-		<sequence_manager path="units/payday2/characters/ragdoll"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_flat/architecture/flt_ext_apartment_exterior/flt_ext_apartment_window" type="unit">
 		<material_config path="units/pd2_dlc_flat/architecture/flt_ext_apartment_exterior/flt_ext_apartment_window"/>
@@ -3289,10 +3199,22 @@
 		<material_config path="units/pd2_dlc1/props/res_prop_store_beer/res_prop_store_beer_six_b"/>
 	</add>
 	<add from_db="true" path="units/world/props/suburbia_manhole/suburbia_manhole" type="unit">
-		<unit path="units/world/props/suburbia_manhole/suburbia_manhole"/>
-		<object path="units/world/props/suburbia_manhole/suburbia_manhole"/>
-		<material_config path="units/equipment/garden_tap_interactive/main_water_valve_suburbia_contour"/>
-		<sequence_manager path="units/world/props/suburbia_manhole/suburbia_manhole"/>
 		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/equipment/garden_tap_interactive/main_water_valve_suburbia_contour"/>
+		<object path="units/world/props/suburbia_manhole/suburbia_manhole"/>
+		<sequence_manager path="units/world/props/suburbia_manhole/suburbia_manhole"/>
+		<unit load="true" path="units/world/props/suburbia_manhole/suburbia_manhole"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_casino/props/cas_prop_cashout_ticket/cas_prop_cashout_ticket" type="unit">
+		<material_config path="units/pd2_dlc_casino/props/cas_prop_cashout_ticket/cas_prop_cashout_ticket"/>
+		<object path="units/pd2_dlc_casino/props/cas_prop_cashout_ticket/cas_prop_cashout_ticket"/>
+		<sequence_manager path="units/pd2_dlc_casino/props/cas_prop_cashout_ticket/cas_prop_cashout_ticket"/>
+		<unit path="units/pd2_dlc_casino/props/cas_prop_cashout_ticket/cas_prop_cashout_ticket"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chas/pickups/chas_pku_keychain/chas_pku_keychain" type="unit" used="true">
+		<material_config path="units/pd2_dlc_chas/pickups/chas_pku_keychain/chas_pku_keychain"/>
+		<object path="units/pd2_dlc_chas/pickups/chas_pku_keychain/chas_pku_keychain"/>
+		<sequence_manager path="units/pd2_dlc_chas/pickups/chas_pku_keychain/chas_pku_keychain"/>
+		<unit load="true" path="units/pd2_dlc_chas/pickups/chas_pku_keychain/chas_pku_keychain"/>
 	</add>
 </table>
