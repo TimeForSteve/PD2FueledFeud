@@ -10,7 +10,7 @@
 	<extensions>
 		<extension name="unit_data" class="ScriptUnitData" />
 		<extension name="damage" 	class="UnitDamage" />
-		<extension name="base" class="SecurityCamera" >
+		<extension name="base" class="GangsterSecurityCamera" >
 			<var name="security_camera" value="true" />
 		</extension>
 		<extension name="interaction" class="SecurityCameraInteractionExt">
@@ -27,7 +27,7 @@
 	</extensions>
 
 	<sounds>
-		<default_soundsource source="rp_gen_equipment_security_camera"/>
+		<default_soundsource source="rp_rootpoint"/>
     	<soundsource name="snd" source="snd" />
     </sounds>
 </unit>
