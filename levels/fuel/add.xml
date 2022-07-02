@@ -3217,4 +3217,27 @@
 		<sequence_manager path="units/pd2_dlc_chas/pickups/chas_pku_keychain/chas_pku_keychain"/>
 		<unit load="true" path="units/pd2_dlc_chas/pickups/chas_pku_keychain/chas_pku_keychain"/>
 	</add>
+	<add from_db="true" path="units/world/street/cashregister/cashregister" type="unit">
+		<material_config path="units/world/street/cashregister/cashregister"/>
+		<object path="units/world/street/cashregister/cashregister"/>
+		<unit path="units/world/street/cashregister/cashregister"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_pex/props/pex_prop_board_keys/pex_prop_board_keys_01" type="unit">
+		<material_config path="units/pd2_dlc_pex/props/pex_prop_board_keys/pex_prop_board_keys_01"/>
+		<object path="units/pd2_dlc_pex/props/pex_prop_board_keys/pex_prop_board_keys_01"/>
+		<unit path="units/pd2_dlc_pex/props/pex_prop_board_keys/pex_prop_board_keys_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_pex/props/pex_prop_board_keys/pex_prop_board_keys_02" type="unit">
+		<material_config path="units/pd2_dlc_pex/props/pex_prop_board_keys/pex_prop_board_keys_01"/>
+		<object path="units/pd2_dlc_pex/props/pex_prop_board_keys/pex_prop_board_keys_02"/>
+		<unit path="units/pd2_dlc_pex/props/pex_prop_board_keys/pex_prop_board_keys_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_flat/architecture/flt_int_apartment_stairs/flt_int_destr_plank" type="unit">
+		<unit path="units/pd2_dlc_flat/architecture/flt_int_apartment_stairs/flt_int_destr_plank"/>
+		<object path="units/pd2_dlc_flat/architecture/flt_int_apartment_stairs/flt_int_destr_plank"/>
+		<material_config path="units/pd2_dlc_flat/architecture/flt_int_apartment_stairs/flt_int_destr_plank"/>
+		<sequence_manager path="units/pd2_dlc_flat/architecture/flt_int_apartment_stairs/flt_int_destr_plank"/>
+		<effect load="true" path="effects/particles/dest/stair_dest"/>
+		<bnk path="soundbanks/regular_sfx"/>
+	</add>
 </table>
