@@ -8,12 +8,15 @@
 		<effect load="true" path="effects/payday2/environment/gas_damage_area"/>
 		<effect load="true" path="effects/payday2/particles/impacts/blood/blood_dripping"/>
 		<effect load="true" path="effects/payday2/particles/impacts/blood/blood_splash"/>
+
 		<bnk load="true" path="soundbanks/ambiences"/>
 		<material_config path="core/environments/skies/sky_1313_cloudy/sky_1313_cloudy"/>
+
 		<unit load="true" path="units/pd2_dlc_chico/weapons/wpn_launcher_frag_m203/wpn_launcher_frag_m203"/>
 		<material_config path="units/pd2_dlc_gage_assault/weapons/wpn_launcher_frag_grenade/wpn_launcher_frag_grenade"/>
 		<object path="units/pd2_dlc_gage_assault/weapons/wpn_launcher_frag_grenade/wpn_launcher_frag_grenade"/>
 		<sequence_manager path="units/pd2_dlc_gage_assault/weapons/wpn_launcher_frag_grenade/wpn_launcher_frag_grenade"/>
+		
 		<unit load="true" path="units/payday2/characters/ene_cop_1/ene_cop_1"/>
 		<unit load="true" path="units/payday2/characters/ene_cop_1/ene_cop_1_husk"/>
 		<material_config path="units/payday2/characters/ene_cop_1/ene_cop_1"/>
@@ -125,6 +128,8 @@
 		<animation_subset path="anims/units/swat_van/std"/>
 		<physic_effect path="physic_effects/push_sphere"/>
 		<scene load="true" path="core/environments/skies/sky_1313_cloudy/sky_1313_cloudy"/>
+
+		<unit load="true" path="units/dev_tools/mission_elements/point_interaction/interaction_dummy"/>
 	</add>
 	<add>
 		<texture path="guis/mods/fuel/textures/pd2/pre_planning/fuel_loc_a_df"/>
