@@ -29,5 +29,5 @@ function GangsterSecurityCamera:_sound_the_alarm(detected_unit)
 end
 
 function GangsterSecurityCamera:clbk_call_the_police()
-    managers.mission:call_global_event("uno_access_denied")
+    managers.mission:call_global_event("fuel_cam_spotted")
 end
