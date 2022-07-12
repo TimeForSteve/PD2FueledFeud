@@ -1,9 +1,12 @@
 <?xml version="1.0"?>
 <dynamic_object>
-	<diesel materials="units/pd2_mod_fuel/vehicles/fps_vehicle_suv_fuel/fps_vehicle_suv_fuel" orientation_object="rp_fuel_vehicle_suv" />
+	<diesel materials="units/pd2_mod_fuel/vehicles/fps_vehicle_suv_fuel/fps_vehicle_suv_fuel" orientation_object="anim_body" />
 	<sequence_manager file="units/pd2_mod_fuel/vehicles/fps_vehicle_suv_fuel/fps_vehicle_suv_fuel" />
 
 	<animations>
+		<animation_group name="anim_push" enabled="false">
+			<object name="anim_body" />
+	</animation_group>
 		<animation_group name="anim_door" enabled="false">
 				<object name="anim_door" />
 		</animation_group>
@@ -19,7 +22,7 @@
 
 	<bodies>
 		<body name="static_body" enabled="false" template="animated_no_ray">
-			<object name="rp_fuel_vehicle_suv" />
+			<object name="anim_body" />
 			<object name="c_box" collision_type="box" />
 		</body>
 		<body name="body_vehicle" enabled="true" template="animated" >
@@ -49,6 +52,12 @@
 		<object name="g_lootbag_4" 		enabled="false" />
 		<object name="g_lootbag_5" 		enabled="false" />
 		<object name="g_lootbag_6" 		enabled="false" />
+		<object name="g_lootbag_7" 		enabled="false" />
+		<object name="g_lootbag_8" 		enabled="false" />
+		<object name="g_lootbag_9" 		enabled="false" />
+		<object name="g_lootbag_10" 	enabled="false" />
+		<object name="g_lootbag_11" 	enabled="false" />
+		<object name="g_lootbag_12" 	enabled="false" />
 		<graphic_group name="grp_vehicle" enabled="true" culling_object="c_culling">
 			<lod_object name="lod_vehicle_body">
 				<object name="g_vehicle_body" enabled="true">
