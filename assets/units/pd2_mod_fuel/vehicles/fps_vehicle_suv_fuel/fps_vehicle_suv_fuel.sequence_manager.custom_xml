@@ -26,6 +26,7 @@
 			<run_sequence name="'anim_push'"/>
 		</sequence>
 		<sequence editable_state="true" name="'push_done'" triggable="false">
+			<animation_group name="'anim_spin'" speed="0" enabled="true"/>
 		</sequence>
 		<variables>
 			<var_bag value="0"/>
@@ -102,16 +103,18 @@
 			<run_sequence filter="'filter_push_0'" name="'int_seq_push_0'"/>
 		</sequence>
 		<sequence editable_state="false" name="'int_seq_push_0'" triggable="false">
-			<animation_group filter="'filter_side_0'" name="'anim_push'" speed="0.3" enabled="true" from="0/30" to="59/30"/>
+			<animation_group filter="'filter_side_0'" name="'anim_push'" speed="0.2" enabled="true" from="0/30" to="79/30"/>
+			<animation_group filter="'filter_side_0'" name="'anim_tires'" speed="0.2" enabled="true" from="0/30" to="79/30"/>
 			<animation_group filter="'filter_side_1'" name="'anim_push'" speed="0.1" enabled="true" from="127/30" to="165/30"/>
-			<run_sequence filter="'filter_side_0'" name="'push_done'" start_time="200/30"/>
+			<animation_group name="'anim_spin'" speed="0.2" enabled="true" from="0/30" to="32/30" loop="true"/>
+			<run_sequence filter="'filter_side_0'" name="'push_done'" start_time="395/30"/>
 			<run_sequence filter="'filter_side_1'" name="'push_done'" start_time="380/30"/>
 			<set_variables filter="'filter_side_0'" var_push="1"/>
 			<set_variables filter="'filter_side_1'" var_push="2"/>
 		</sequence>
 		<sequence editable_state="false" name="'int_seq_push_1'" triggable="false">
-			<animation_group filter="'filter_side_0'" name="'anim_push'" speed="0.3" enabled="true" from="60/30" to="124/30"/>
-			<run_sequence filter="'filter_side_0'" name="'push_done'" start_time="214/30"/>
+			<animation_group filter="'filter_side_0'" name="'anim_push'" speed="0.3" enabled="true" from="80/30" to="124/30"/>
+			<run_sequence filter="'filter_side_0'" name="'push_done'" start_time="194/30"/>
 			<set_variables var_push="2"/>
 		</sequence>
 			<sequence editable_state="false" name="'int_seq_push_2'" triggable="false">
