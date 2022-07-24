@@ -1,0 +1,20 @@
+<materials version="3">
+    <material name="mat_gas_pump" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GLOSS_CONTROL_VALUE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_mod_fuel/props/fuel_prop_gas_pump/fuel_prop_gas_pump_df"/>
+        <reflection_texture file="environments/cubemaps/cubemap_bank_01" type="cubemap"/>
+        <variable value="0.15500000119209" type="scalar" name="glossiness_control"/>
+        <bump_normal_texture file="units/pd2_dlc1/architecture/res_ext_gas_station/res_prop_gas_pump_nm"/>
+    </material>
+    <material name="mat_gas_pump_lod_1" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_mod_fuel/props/fuel_prop_gas_pump/fuel_prop_gas_pump_df" mip="3"/>
+        <reflection_texture file="environments/cubemaps/cubemap_bank_01" type="cubemap"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/> 
+        <bump_normal_texture file="units/pd2_dlc1/architecture/res_ext_gas_station/res_prop_gas_pump_nm" mip="3" />
+    </material>
+    <material name="mat_gas_pump_lod_2" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_mod_fuel/props/fuel_prop_gas_pump/fuel_prop_gas_pump_df" mip="6"/>
+        <reflection_texture file="environments/cubemaps/cubemap_bank_01" type="cubemap"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/> 
+        <bump_normal_texture file="units/pd2_dlc1/architecture/res_ext_gas_station/res_prop_gas_pump_nm" mip="6" />
+    </material>
+</materials>

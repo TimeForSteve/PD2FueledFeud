@@ -1,0 +1,12 @@
+<unit type="res" slot="1" >
+	<network sync="spawn"/>
+    <object file="units/pd2_mod_fuel/props/fuel_prop_gas_pump/fuel_prop_gas_pump" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="interaction" class="UseInteractionExt">
+			<var name="tweak_data" value="connect_hose_mex" />
+			<var name="_interact_object" value="interact"/>
+		</extension>
+	</extensions>
+</unit>
