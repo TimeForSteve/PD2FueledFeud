@@ -43090,6 +43090,10 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="101427"/>
 						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101443"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="355 -130 270"/>
 					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
@@ -43700,6 +43704,31 @@
 					</entry>
 					<entry key="position" type="vector3" value="-110 -630 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1444" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="open_gas_lid"/>
+				<entry key="id" type="number" value="101443"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-1560 -880 3000"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100675"/>
+							<entry key="notify_unit_sequence" type="string" value="state_lid_open"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
