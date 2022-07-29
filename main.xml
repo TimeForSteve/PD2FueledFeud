@@ -22,17 +22,33 @@
 		<texture path="guis/mods/fuel/textures/loading/job_fuel_df"/>
 		<texture path="guis/mods/fuel/textures/pd2/crimenet/fuel"/>
 	</AddFiles>
+	<Achievements icon="guis/mods/fuel/textures/achievements/fuel_pack" id="achievements_fuel">
+		<achievement desc_id="achievement_fuel_wd_0_desc" icon="guis/mods/fuel/textures/achievements/fuel_normal" id="achievement_fuel_wd_0" name_id="achievement_fuel_wd_0" rank="1"/>
+		<achievement desc_id="achievement_fuel_wd_1_desc" icon="guis/mods/fuel/textures/achievements/fuel_hard" id="achievement_fuel_wd_1" name_id="achievement_fuel_wd_1" rank="1"/>
+		<achievement desc_id="achievement_fuel_wd_2_desc" icon="guis/mods/fuel/textures/achievements/fuel_veryhard" id="achievement_fuel_wd_2" name_id="achievement_fuel_wd_2" rank="1"/>
+		<achievement desc_id="achievement_fuel_wd_3_desc" icon="guis/mods/fuel/textures/achievements/fuel_overkill" id="achievement_fuel_wd_3" name_id="achievement_fuel_wd_3" rank="2" reward_amount="2" reward_type="cc"/>
+		<achievement desc_id="achievement_fuel_pick_desc" icon="guis/mods/fuel/textures/achievements/fuel_mayhem" id="achievement_fuel_pick" name_id="achievement_fuel_pick" rank="2" reward_amount="4" reward_type="cc"/>
+		<achievement desc_id="achievement_fuel_death_desc" icon="guis/mods/fuel/textures/achievements/fuel_deathwish" id="achievement_fuel_death" name_id="achievement_fuel_death" rank="3" reward_amount="6" reward_type="cc"/>
+		<achievement desc_id="achievement_fuel_ggez_desc" icon="guis/mods/fuel/textures/achievements/fuel_deathsentence" id="achievement_fuel_ggez" name_id="achievement_fuel_ggez" rank="4" reward_amount="8" reward_type="cc"/>
+		<achievement desc_id="achievement_fuel_axe_desc" icon="guis/mods/fuel/textures/achievements/fuel_onedown" id="achievement_fuel_axe" name_id="achievement_fuel_axe" rank="4" reward_amount="10" reward_type="cc"/>
+		<achievement desc_id="achievement_fuel_guns_desc" icon="guis/mods/fuel/textures/achievements/fuel_guns" id="achievement_fuel_guns" name_id="achievement_fuel_guns" rank="3" reward_amount="4" reward_type="cc"/>
+		<achievement desc_id="achievement_fuel_pay_desc" icon="guis/mods/fuel/textures/achievements/fuel_pay" id="achievement_fuel_pay" name_id="achievement_fuel_pay" rank="2" reward_amount="1" reward_type="cc"/>
+		<achievement desc_id="achievement_fuel_tape_desc" icon="guis/mods/fuel/textures/achievements/fuel_tape" id="achievement_fuel_tape" name_id="achievement_fuel_tape" rank="3" reward_amount="3" reward_type="cc"/>
+		<achievement desc_id="achievement_fuel_ks_desc" icon="guis/mods/fuel/textures/achievements/fuel_ks" id="achievement_fuel_ks" name_id="achievement_fuel_ks" rank="1"/>
+	</Achievements>
 	<PrePlanning>
 		<locations>
-			<location id="fuel" mission_briefing_texture="guis/mods/fuel/textures/pd2/pre_planning/fuel_loc_a_df" total_budget="8">
+			<location id="fuel" mission_briefing_texture="guis/mods/fuel/textures/pd2/pre_planning/mission_briefing_fuel" total_budget="8">
 				<table map_size="1" map_x="-0.3" map_y="0" name_id="menu_pp_fuel_a" rotation="180" texture="guis/mods/fuel/textures/pd2/pre_planning/fuel_loc_a_df" x1="-2680" x2="5110" y1="-4930" y2="3750"/>
-				<table map_size="0.45" map_x="0.475" map_y="-0.275" name_id="menu_pp_fuel_b" rotation="180" texture="guis/textures/pd2/pre_planning/hlm_01" x1="-1626" x2="-400" y1="-1870" y2="-1000"/>
+				<!--<table map_size="0.45" map_x="0.475" map_y="-0.275" name_id="menu_pp_fuel_b" rotation="180" texture="guis/textures/pd2/pre_planning/hlm_01" x1="-1650" x2="3500" y1="-1850" y2="700"/>-->
 				<start_location group="a" x="1024" y="1024" zoom="1"/>
 			</location>
 		</locations>
 		<types>
 			<type budget_cost="2" category="hired_help" cost="2000" icon="35" id="fuel_mole" plan="hired_help" post_event="preplan_13" prio="1" total="1"/>
-			<type budget_cost="2" category="dead_drop" cost="4000" icon="31" id="fuel_faks" plan="dead_drop" post_event="preplan_13" prio="1" total="1"/>
+			<type budget_cost="1" category="dead_drop" cost="4000" icon="31" id="fuel_faks" deployable_id="first_aid_kit" post_event="preplan_13" prio="6" total="4"/>
+			<type budget_cost="1" category="mission_equipment" cost="1000" icon="63" id="fuel_ladder" post_event="preplan_15" prio="5" total="1"/>
+			<type budget_cost="3" category="mission_equipment" cost="8000" icon="93" id="fuel_plane" post_event="preplan_13" pos_not_important="true" prio="3" total="1"/>
 		</types>
 	</PrePlanning>
 	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="yaeger" name_id="contact_yaeger_name" package="packages/contact_bain"/>
@@ -49,6 +65,7 @@
 			<hook file="elementspawngrenade.lua" source_file="lib/managers/mission/elementspawngrenade"/>
 			<hook file="copmovement.lua" source_file="lib/units/enemies/cop/copmovement"/>
 			<hook file="securitycamera.lua" source_file="lib/units/props/securitycamera"/>
+			<hook file="preplanningmanager.lua" source_file="lib/managers/preplanningmanager"/>
 		</hooks>
 		<interactions>
 			<interaction based_on="cas_bfd_drill_toolbox" id="fuel_winch_part"/>
