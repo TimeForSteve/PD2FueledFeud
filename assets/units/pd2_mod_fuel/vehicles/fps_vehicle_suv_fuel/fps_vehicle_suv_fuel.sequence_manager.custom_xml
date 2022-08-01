@@ -3,6 +3,7 @@
 		<sequence editable_state="true" name="'play_smoke_effect'" triggable="true">
 			<effect_spawner enabled="true" name="'car_exhaust_01'"/>
 			<effect_spawner enabled="true" name="'car_exhaust_02'"/>
+			<sound action="'play'" event="'Play_getaway_van_intro_idle_loop'" source="'engine'"/>
 		</sequence>
 		<sequence editable_state="true" name="'anim_open_door'" triggable="true">
 			<object enabled="true" name="'g_interior'"/>
@@ -11,6 +12,7 @@
 			<animation_group enabled="true" from="0/30" name="'anim_door'" to="100/30"/>
 		</sequence>
 		<sequence editable_state="true" name="'anim_open_trunk'" triggable="true">
+			<object enabled="true" name="'g_hostage'"/>
 			<animation_group enabled="true" from="0/30" name="'anim_trunk'" to="60/30"/>
 		</sequence>
 		<sequence editable_state="true" name="'anim_close_trunk'" triggable="true">
@@ -26,7 +28,6 @@
 			<run_sequence name="'anim_push'"/>
 		</sequence>
 		<sequence editable_state="true" name="'push_done'" triggable="false">
-			<animation_group name="'anim_spin'" speed="0" enabled="true"/>
 		</sequence>
 		<sequence editable_state="true" name="'state_lid_open'" triggable="true">
 			<object enabled="true" name="'g_lid_open'"/>
@@ -77,6 +78,36 @@
 		<filter name="'filter_bag_11'">
 			<check value="vars.var_bag == 11"/>
 		</filter>
+		<filter name="'filter_bag_12'">
+			<check value="vars.var_bag == 12"/>
+		</filter>
+		<filter name="'filter_bag_13'">
+			<check value="vars.var_bag == 13"/>
+		</filter>
+		<filter name="'filter_bag_14'">
+			<check value="vars.var_bag == 14"/>
+		</filter>
+		<filter name="'filter_bag_15'">
+			<check value="vars.var_bag == 15"/>
+		</filter>
+		<filter name="'filter_bag_16'">
+			<check value="vars.var_bag == 16"/>
+		</filter>
+		<filter name="'filter_bag_17'">
+			<check value="vars.var_bag == 17"/>
+		</filter>
+		<filter name="'filter_bag_18'">
+			<check value="vars.var_bag == 18"/>
+		</filter>
+		<filter name="'filter_bag_19'">
+			<check value="vars.var_bag == 19"/>
+		</filter>
+		<filter name="'filter_bag_20'">
+			<check value="vars.var_bag == 20"/>
+		</filter>
+		<filter name="'filter_bag_21'">
+			<check value="vars.var_bag == 21"/>
+		</filter>
 		<filter name="'filter_side_0'">
 			<check value="vars.var_side == 0"/>
 		</filter>
@@ -103,7 +134,7 @@
 		<sequence editable_state="true" name="'__reset_animation__'" triggable="true">
 			<set_variables var_push="0"/>
 			<animation_group filter="'filter_side_0'" name="'anim_push'" enabled="true" from="0/30" to="0/30"/>
-			<animation_group filter="'filter_side_1'" name="'anim_push'" enabled="true" from="127/30" to="127/30"/>
+			<animation_group filter="'filter_side_1'" name="'anim_push'" enabled="true" from="110/30" to="110/30"/>
 		</sequence>
 		<sequence editable_state="true" name="'anim_push'" triggable="true">
 			<run_sequence filter="'filter_push_2'" name="'int_seq_push_2'"/>
@@ -111,28 +142,34 @@
 			<run_sequence filter="'filter_push_0'" name="'int_seq_push_0'"/>
 		</sequence>
 		<sequence editable_state="false" name="'int_seq_push_0'" triggable="false">
-			<animation_group filter="'filter_side_0'" name="'anim_push'" speed="0.2" enabled="true" from="0/30" to="79/30"/>
-			<animation_group filter="'filter_side_0'" name="'anim_tires'" speed="0.2" enabled="true" from="0/30" to="79/30"/>
-			<animation_group filter="'filter_side_1'" name="'anim_push'" speed="0.1" enabled="true" from="127/30" to="165/30"/>
-			<animation_group name="'anim_spin'" speed="0.15" enabled="true" from="0/30" to="29/30" loop="true"/>
-			<run_sequence filter="'filter_side_0'" name="'push_done'" start_time="395/30"/>
-			<run_sequence filter="'filter_side_1'" name="'push_done'" start_time="380/30"/>
+			<animation_group filter="'filter_side_0'" name="'anim_push'" speed="0.1" enabled="true" from="0/30" to="30/30"/>
+			<animation_group filter="'filter_side_1'" name="'anim_push'" speed="0.05" enabled="true" from="110/30" to="130/30"/>
+			<run_sequence filter="'filter_side_0'" name="'push_done'" start_time="300/30"/>
+			<run_sequence filter="'filter_side_1'" name="'push_done'" start_time="400/30"/>
 			<set_variables filter="'filter_side_0'" var_push="1"/>
 			<set_variables filter="'filter_side_1'" var_push="2"/>
 		</sequence>
 		<sequence editable_state="false" name="'int_seq_push_1'" triggable="false">
-			<animation_group filter="'filter_side_0'" name="'anim_push'" speed="0.3" enabled="true" from="80/30" to="124/30"/>
-			<run_sequence filter="'filter_side_0'" name="'push_done'" start_time="194/30"/>
-			<animation_group name="'anim_spin'" speed="0.2" enabled="true" start_loop_time="0/30" to="29/30" loop="true"/>
+			<animation_group filter="'filter_side_0'" name="'anim_push'" speed="0.05" enabled="true" from="34/30" to="60/30"/>
+			<run_sequence filter="'filter_side_0'" name="'push_done'" start_time="520/30"/>
 			<set_variables var_push="2"/>
 		</sequence>
 			<sequence editable_state="false" name="'int_seq_push_2'" triggable="false">
-			<animation_group name="'anim_push'" speed="0.1" enabled="true" from="167/30" to="215/30"/>
-			<animation_group name="'anim_spin'" speed="0.3" enabled="true" start_loop_time="0/30" to="29/30" loop="true"/>
-			<run_sequence name="'push_done'" start_time="480/30"/>
+			<animation_group name="'anim_push'" speed="0.07" enabled="true" from="62/30" to="100/30"/>
+			<run_sequence name="'push_done'" start_time="514/30"/>
 			<set_variables var_push="3"/>
 		</sequence>
 		<sequence editable_state="true" name="'state_add_loot_bag'" triggable="true">
+			<run_sequence filter="'filter_bag_21'" name="'int_seq_grow_loot_bag_22'"/>
+			<run_sequence filter="'filter_bag_20'" name="'int_seq_grow_loot_bag_21'"/>
+			<run_sequence filter="'filter_bag_19'" name="'int_seq_grow_loot_bag_20'"/>
+			<run_sequence filter="'filter_bag_18'" name="'int_seq_grow_loot_bag_19'"/>
+			<run_sequence filter="'filter_bag_17'" name="'int_seq_grow_loot_bag_18'"/>
+			<run_sequence filter="'filter_bag_16'" name="'int_seq_grow_loot_bag_17'"/>
+			<run_sequence filter="'filter_bag_15'" name="'int_seq_grow_loot_bag_16'"/>
+			<run_sequence filter="'filter_bag_14'" name="'int_seq_grow_loot_bag_15'"/>
+			<run_sequence filter="'filter_bag_13'" name="'int_seq_grow_loot_bag_14'"/>
+			<run_sequence filter="'filter_bag_12'" name="'int_seq_grow_loot_bag_13'"/>
 			<run_sequence filter="'filter_bag_11'" name="'int_seq_grow_loot_bag_12'"/>
 			<run_sequence filter="'filter_bag_10'" name="'int_seq_grow_loot_bag_11'"/>
 			<run_sequence filter="'filter_bag_9'"  name="'int_seq_grow_loot_bag_10'"/>
@@ -159,6 +196,16 @@
 			<object enabled="false" name="'g_lootbag_10'"/>
 			<object enabled="false" name="'g_lootbag_11'"/>
 			<object enabled="false" name="'g_lootbag_12'"/>
+			<object enabled="false" name="'g_lootbag_13'"/>
+			<object enabled="false" name="'g_lootbag_14'"/>
+			<object enabled="false" name="'g_lootbag_15'"/>
+			<object enabled="false" name="'g_lootbag_16'"/>
+			<object enabled="false" name="'g_lootbag_17'"/>
+			<object enabled="false" name="'g_lootbag_18'"/>
+			<object enabled="false" name="'g_lootbag_19'"/>
+			<object enabled="false" name="'g_lootbag_20'"/>
+			<object enabled="false" name="'g_lootbag_21'"/>
+			<object enabled="false" name="'g_lootbag_22'"/>
 			<set_variables var_bag="0"/>
 		</sequence>
 		<sequence editable_state="false" name="'int_seq_grow_loot_bag_01'" triggable="false">
@@ -174,6 +221,16 @@
 			<object enabled="false" name="'g_lootbag_10'"/>
 			<object enabled="false" name="'g_lootbag_11'"/>
 			<object enabled="false" name="'g_lootbag_12'"/>
+			<object enabled="false" name="'g_lootbag_13'"/>
+			<object enabled="false" name="'g_lootbag_14'"/>
+			<object enabled="false" name="'g_lootbag_15'"/>
+			<object enabled="false" name="'g_lootbag_16'"/>
+			<object enabled="false" name="'g_lootbag_17'"/>
+			<object enabled="false" name="'g_lootbag_18'"/>
+			<object enabled="false" name="'g_lootbag_19'"/>
+			<object enabled="false" name="'g_lootbag_20'"/>
+			<object enabled="false" name="'g_lootbag_21'"/>
+			<object enabled="false" name="'g_lootbag_22'"/>
 			<set_variables var_bag="1"/>
 		</sequence>
 		<sequence editable_state="false" name="'int_seq_grow_loot_bag_02'" triggable="false">
@@ -189,6 +246,16 @@
 			<object enabled="false" name="'g_lootbag_10'"/>
 			<object enabled="false" name="'g_lootbag_11'"/>
 			<object enabled="false" name="'g_lootbag_12'"/>
+			<object enabled="false" name="'g_lootbag_13'"/>
+			<object enabled="false" name="'g_lootbag_14'"/>
+			<object enabled="false" name="'g_lootbag_15'"/>
+			<object enabled="false" name="'g_lootbag_16'"/>
+			<object enabled="false" name="'g_lootbag_17'"/>
+			<object enabled="false" name="'g_lootbag_18'"/>
+			<object enabled="false" name="'g_lootbag_19'"/>
+			<object enabled="false" name="'g_lootbag_20'"/>
+			<object enabled="false" name="'g_lootbag_21'"/>
+			<object enabled="false" name="'g_lootbag_22'"/>
 			<set_variables var_bag="2"/>
 		</sequence>
 		<sequence editable_state="false" name="'int_seq_grow_loot_bag_03'" triggable="false">
@@ -204,6 +271,16 @@
 			<object enabled="false" name="'g_lootbag_10'"/>
 			<object enabled="false" name="'g_lootbag_11'"/>
 			<object enabled="false" name="'g_lootbag_12'"/>
+			<object enabled="false" name="'g_lootbag_13'"/>
+			<object enabled="false" name="'g_lootbag_14'"/>
+			<object enabled="false" name="'g_lootbag_15'"/>
+			<object enabled="false" name="'g_lootbag_16'"/>
+			<object enabled="false" name="'g_lootbag_17'"/>
+			<object enabled="false" name="'g_lootbag_18'"/>
+			<object enabled="false" name="'g_lootbag_19'"/>
+			<object enabled="false" name="'g_lootbag_20'"/>
+			<object enabled="false" name="'g_lootbag_21'"/>
+			<object enabled="false" name="'g_lootbag_22'"/>
 			<set_variables var_bag="3"/>
 		</sequence>
 		<sequence editable_state="false" name="'int_seq_grow_loot_bag_04'" triggable="false">
@@ -219,6 +296,16 @@
 			<object enabled="false" name="'g_lootbag_10'"/>
 			<object enabled="false" name="'g_lootbag_11'"/>
 			<object enabled="false" name="'g_lootbag_12'"/>
+			<object enabled="false" name="'g_lootbag_13'"/>
+			<object enabled="false" name="'g_lootbag_14'"/>
+			<object enabled="false" name="'g_lootbag_15'"/>
+			<object enabled="false" name="'g_lootbag_16'"/>
+			<object enabled="false" name="'g_lootbag_17'"/>
+			<object enabled="false" name="'g_lootbag_18'"/>
+			<object enabled="false" name="'g_lootbag_19'"/>
+			<object enabled="false" name="'g_lootbag_20'"/>
+			<object enabled="false" name="'g_lootbag_21'"/>
+			<object enabled="false" name="'g_lootbag_22'"/>
 			<set_variables var_bag="4"/>
 		</sequence>
 		<sequence editable_state="false" name="'int_seq_grow_loot_bag_05'" triggable="false">
@@ -234,6 +321,16 @@
 			<object enabled="false" name="'g_lootbag_10'"/>
 			<object enabled="false" name="'g_lootbag_11'"/>
 			<object enabled="false" name="'g_lootbag_12'"/>
+			<object enabled="false" name="'g_lootbag_13'"/>
+			<object enabled="false" name="'g_lootbag_14'"/>
+			<object enabled="false" name="'g_lootbag_15'"/>
+			<object enabled="false" name="'g_lootbag_16'"/>
+			<object enabled="false" name="'g_lootbag_17'"/>
+			<object enabled="false" name="'g_lootbag_18'"/>
+			<object enabled="false" name="'g_lootbag_19'"/>
+			<object enabled="false" name="'g_lootbag_20'"/>
+			<object enabled="false" name="'g_lootbag_21'"/>
+			<object enabled="false" name="'g_lootbag_22'"/>
 			<set_variables var_bag="5"/>
 		</sequence>
 		<sequence editable_state="false" name="'int_seq_grow_loot_bag_06'" triggable="false">
@@ -249,6 +346,16 @@
 			<object enabled="false" name="'g_lootbag_10'"/>
 			<object enabled="false" name="'g_lootbag_11'"/>
 			<object enabled="false" name="'g_lootbag_12'"/>
+			<object enabled="false" name="'g_lootbag_13'"/>
+			<object enabled="false" name="'g_lootbag_14'"/>
+			<object enabled="false" name="'g_lootbag_15'"/>
+			<object enabled="false" name="'g_lootbag_16'"/>
+			<object enabled="false" name="'g_lootbag_17'"/>
+			<object enabled="false" name="'g_lootbag_18'"/>
+			<object enabled="false" name="'g_lootbag_19'"/>
+			<object enabled="false" name="'g_lootbag_20'"/>
+			<object enabled="false" name="'g_lootbag_21'"/>
+			<object enabled="false" name="'g_lootbag_22'"/>
 			<set_variables var_bag="6"/>
 		</sequence>
 		<sequence editable_state="false" name="'int_seq_grow_loot_bag_07'" triggable="false">
@@ -264,6 +371,16 @@
 			<object enabled="false" name="'g_lootbag_10'"/>
 			<object enabled="false" name="'g_lootbag_11'"/>
 			<object enabled="false" name="'g_lootbag_12'"/>
+			<object enabled="false" name="'g_lootbag_13'"/>
+			<object enabled="false" name="'g_lootbag_14'"/>
+			<object enabled="false" name="'g_lootbag_15'"/>
+			<object enabled="false" name="'g_lootbag_16'"/>
+			<object enabled="false" name="'g_lootbag_17'"/>
+			<object enabled="false" name="'g_lootbag_18'"/>
+			<object enabled="false" name="'g_lootbag_19'"/>
+			<object enabled="false" name="'g_lootbag_20'"/>
+			<object enabled="false" name="'g_lootbag_21'"/>
+			<object enabled="false" name="'g_lootbag_22'"/>
 			<set_variables var_bag="7"/>
 		</sequence>
 		<sequence editable_state="false" name="'int_seq_grow_loot_bag_08'" triggable="false">
@@ -279,6 +396,16 @@
 			<object enabled="false" name="'g_lootbag_10'"/>
 			<object enabled="false" name="'g_lootbag_11'"/>
 			<object enabled="false" name="'g_lootbag_12'"/>
+			<object enabled="false" name="'g_lootbag_13'"/>
+			<object enabled="false" name="'g_lootbag_14'"/>
+			<object enabled="false" name="'g_lootbag_15'"/>
+			<object enabled="false" name="'g_lootbag_16'"/>
+			<object enabled="false" name="'g_lootbag_17'"/>
+			<object enabled="false" name="'g_lootbag_18'"/>
+			<object enabled="false" name="'g_lootbag_19'"/>
+			<object enabled="false" name="'g_lootbag_20'"/>
+			<object enabled="false" name="'g_lootbag_21'"/>
+			<object enabled="false" name="'g_lootbag_22'"/>
 			<set_variables var_bag="8"/>
 		</sequence>
 		<sequence editable_state="false" name="'int_seq_grow_loot_bag_09'" triggable="false">
@@ -294,6 +421,16 @@
 			<object enabled="false" name="'g_lootbag_10'"/>
 			<object enabled="false" name="'g_lootbag_11'"/>
 			<object enabled="false" name="'g_lootbag_12'"/>
+			<object enabled="false" name="'g_lootbag_13'"/>
+			<object enabled="false" name="'g_lootbag_14'"/>
+			<object enabled="false" name="'g_lootbag_15'"/>
+			<object enabled="false" name="'g_lootbag_16'"/>
+			<object enabled="false" name="'g_lootbag_17'"/>
+			<object enabled="false" name="'g_lootbag_18'"/>
+			<object enabled="false" name="'g_lootbag_19'"/>
+			<object enabled="false" name="'g_lootbag_20'"/>
+			<object enabled="false" name="'g_lootbag_21'"/>
+			<object enabled="false" name="'g_lootbag_22'"/>
 			<set_variables var_bag="9"/>
 		</sequence>
 		<sequence editable_state="false" name="'int_seq_grow_loot_bag_10'" triggable="false">
@@ -309,6 +446,16 @@
 			<object enabled="true" name="'g_lootbag_10'"/>
 			<object enabled="false" name="'g_lootbag_11'"/>
 			<object enabled="false" name="'g_lootbag_12'"/>
+			<object enabled="false" name="'g_lootbag_13'"/>
+			<object enabled="false" name="'g_lootbag_14'"/>
+			<object enabled="false" name="'g_lootbag_15'"/>
+			<object enabled="false" name="'g_lootbag_16'"/>
+			<object enabled="false" name="'g_lootbag_17'"/>
+			<object enabled="false" name="'g_lootbag_18'"/>
+			<object enabled="false" name="'g_lootbag_19'"/>
+			<object enabled="false" name="'g_lootbag_20'"/>
+			<object enabled="false" name="'g_lootbag_21'"/>
+			<object enabled="false" name="'g_lootbag_22'"/>
 			<set_variables var_bag="10"/>
 		</sequence>
 		<sequence editable_state="false" name="'int_seq_grow_loot_bag_11'" triggable="false">
@@ -324,6 +471,16 @@
 			<object enabled="true" name="'g_lootbag_10'"/>
 			<object enabled="true" name="'g_lootbag_11'"/>
 			<object enabled="false" name="'g_lootbag_12'"/>
+			<object enabled="false" name="'g_lootbag_13'"/>
+			<object enabled="false" name="'g_lootbag_14'"/>
+			<object enabled="false" name="'g_lootbag_15'"/>
+			<object enabled="false" name="'g_lootbag_16'"/>
+			<object enabled="false" name="'g_lootbag_17'"/>
+			<object enabled="false" name="'g_lootbag_18'"/>
+			<object enabled="false" name="'g_lootbag_19'"/>
+			<object enabled="false" name="'g_lootbag_20'"/>
+			<object enabled="false" name="'g_lootbag_21'"/>
+			<object enabled="false" name="'g_lootbag_22'"/>
 			<set_variables var_bag="11"/>
 		</sequence>
 		<sequence editable_state="false" name="'int_seq_grow_loot_bag_12'" triggable="false">
@@ -339,7 +496,267 @@
 			<object enabled="true" name="'g_lootbag_10'"/>
 			<object enabled="true" name="'g_lootbag_11'"/>
 			<object enabled="true" name="'g_lootbag_12'"/>
+			<object enabled="false" name="'g_lootbag_13'"/>
+			<object enabled="false" name="'g_lootbag_14'"/>
+			<object enabled="false" name="'g_lootbag_15'"/>
+			<object enabled="false" name="'g_lootbag_16'"/>
+			<object enabled="false" name="'g_lootbag_17'"/>
+			<object enabled="false" name="'g_lootbag_18'"/>
+			<object enabled="false" name="'g_lootbag_19'"/>
+			<object enabled="false" name="'g_lootbag_20'"/>
+			<object enabled="false" name="'g_lootbag_21'"/>
+			<object enabled="false" name="'g_lootbag_22'"/>
 			<set_variables var_bag="12"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_grow_loot_bag_13'" triggable="false">
+			<object enabled="true" name="'g_lootbag_1'"/>
+			<object enabled="true" name="'g_lootbag_2'"/>
+			<object enabled="true" name="'g_lootbag_3'"/>
+			<object enabled="true" name="'g_lootbag_4'"/>
+			<object enabled="true" name="'g_lootbag_5'"/>
+			<object enabled="true" name="'g_lootbag_6'"/>
+			<object enabled="true" name="'g_lootbag_7'"/>
+			<object enabled="true" name="'g_lootbag_8'"/>
+			<object enabled="true" name="'g_lootbag_9'"/>
+			<object enabled="true" name="'g_lootbag_10'"/>
+			<object enabled="true" name="'g_lootbag_11'"/>
+			<object enabled="true" name="'g_lootbag_12'"/>
+			<object enabled="true" name="'g_lootbag_13'"/>
+			<object enabled="false" name="'g_lootbag_14'"/>
+			<object enabled="false" name="'g_lootbag_15'"/>
+			<object enabled="false" name="'g_lootbag_16'"/>
+			<object enabled="false" name="'g_lootbag_17'"/>
+			<object enabled="false" name="'g_lootbag_18'"/>
+			<object enabled="false" name="'g_lootbag_19'"/>
+			<object enabled="false" name="'g_lootbag_20'"/>
+			<object enabled="false" name="'g_lootbag_21'"/>
+			<object enabled="false" name="'g_lootbag_22'"/>
+			<set_variables var_bag="13"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_grow_loot_bag_14'" triggable="false">
+			<object enabled="true" name="'g_lootbag_1'"/>
+			<object enabled="true" name="'g_lootbag_2'"/>
+			<object enabled="true" name="'g_lootbag_3'"/>
+			<object enabled="true" name="'g_lootbag_4'"/>
+			<object enabled="true" name="'g_lootbag_5'"/>
+			<object enabled="true" name="'g_lootbag_6'"/>
+			<object enabled="true" name="'g_lootbag_7'"/>
+			<object enabled="true" name="'g_lootbag_8'"/>
+			<object enabled="true" name="'g_lootbag_9'"/>
+			<object enabled="true" name="'g_lootbag_10'"/>
+			<object enabled="true" name="'g_lootbag_11'"/>
+			<object enabled="true" name="'g_lootbag_12'"/>
+			<object enabled="true" name="'g_lootbag_13'"/>
+			<object enabled="true" name="'g_lootbag_14'"/>
+			<object enabled="false" name="'g_lootbag_15'"/>
+			<object enabled="false" name="'g_lootbag_16'"/>
+			<object enabled="false" name="'g_lootbag_17'"/>
+			<object enabled="false" name="'g_lootbag_18'"/>
+			<object enabled="false" name="'g_lootbag_19'"/>
+			<object enabled="false" name="'g_lootbag_20'"/>
+			<object enabled="false" name="'g_lootbag_21'"/>
+			<object enabled="false" name="'g_lootbag_22'"/>
+			<set_variables var_bag="14"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_grow_loot_bag_15'" triggable="false">
+			<object enabled="true" name="'g_lootbag_1'"/>
+			<object enabled="true" name="'g_lootbag_2'"/>
+			<object enabled="true" name="'g_lootbag_3'"/>
+			<object enabled="true" name="'g_lootbag_4'"/>
+			<object enabled="true" name="'g_lootbag_5'"/>
+			<object enabled="true" name="'g_lootbag_6'"/>
+			<object enabled="true" name="'g_lootbag_7'"/>
+			<object enabled="true" name="'g_lootbag_8'"/>
+			<object enabled="true" name="'g_lootbag_9'"/>
+			<object enabled="true" name="'g_lootbag_10'"/>
+			<object enabled="true" name="'g_lootbag_11'"/>
+			<object enabled="true" name="'g_lootbag_12'"/>
+			<object enabled="true" name="'g_lootbag_13'"/>
+			<object enabled="true" name="'g_lootbag_14'"/>
+			<object enabled="true" name="'g_lootbag_15'"/>
+			<object enabled="false" name="'g_lootbag_16'"/>
+			<object enabled="false" name="'g_lootbag_17'"/>
+			<object enabled="false" name="'g_lootbag_18'"/>
+			<object enabled="false" name="'g_lootbag_19'"/>
+			<object enabled="false" name="'g_lootbag_20'"/>
+			<object enabled="false" name="'g_lootbag_21'"/>
+			<object enabled="false" name="'g_lootbag_22'"/>
+			<set_variables var_bag="15"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_grow_loot_bag_16'" triggable="false">
+			<object enabled="true" name="'g_lootbag_1'"/>
+			<object enabled="true" name="'g_lootbag_2'"/>
+			<object enabled="true" name="'g_lootbag_3'"/>
+			<object enabled="true" name="'g_lootbag_4'"/>
+			<object enabled="true" name="'g_lootbag_5'"/>
+			<object enabled="true" name="'g_lootbag_6'"/>
+			<object enabled="true" name="'g_lootbag_7'"/>
+			<object enabled="true" name="'g_lootbag_8'"/>
+			<object enabled="true" name="'g_lootbag_9'"/>
+			<object enabled="true" name="'g_lootbag_10'"/>
+			<object enabled="true" name="'g_lootbag_11'"/>
+			<object enabled="true" name="'g_lootbag_12'"/>
+			<object enabled="true" name="'g_lootbag_13'"/>
+			<object enabled="true" name="'g_lootbag_14'"/>
+			<object enabled="true" name="'g_lootbag_15'"/>
+			<object enabled="true" name="'g_lootbag_16'"/>
+			<object enabled="false" name="'g_lootbag_17'"/>
+			<object enabled="false" name="'g_lootbag_18'"/>
+			<object enabled="false" name="'g_lootbag_19'"/>
+			<object enabled="false" name="'g_lootbag_20'"/>
+			<object enabled="false" name="'g_lootbag_21'"/>
+			<object enabled="false" name="'g_lootbag_22'"/>
+			<set_variables var_bag="16"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_grow_loot_bag_17'" triggable="false">
+			<object enabled="true" name="'g_lootbag_1'"/>
+			<object enabled="true" name="'g_lootbag_2'"/>
+			<object enabled="true" name="'g_lootbag_3'"/>
+			<object enabled="true" name="'g_lootbag_4'"/>
+			<object enabled="true" name="'g_lootbag_5'"/>
+			<object enabled="true" name="'g_lootbag_6'"/>
+			<object enabled="true" name="'g_lootbag_7'"/>
+			<object enabled="true" name="'g_lootbag_8'"/>
+			<object enabled="true" name="'g_lootbag_9'"/>
+			<object enabled="true" name="'g_lootbag_10'"/>
+			<object enabled="true" name="'g_lootbag_11'"/>
+			<object enabled="true" name="'g_lootbag_12'"/>
+			<object enabled="true" name="'g_lootbag_13'"/>
+			<object enabled="true" name="'g_lootbag_14'"/>
+			<object enabled="true" name="'g_lootbag_15'"/>
+			<object enabled="true" name="'g_lootbag_16'"/>
+			<object enabled="true" name="'g_lootbag_17'"/>
+			<object enabled="false" name="'g_lootbag_18'"/>
+			<object enabled="false" name="'g_lootbag_19'"/>
+			<object enabled="false" name="'g_lootbag_20'"/>
+			<object enabled="false" name="'g_lootbag_21'"/>
+			<object enabled="false" name="'g_lootbag_22'"/>
+			<set_variables var_bag="17"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_grow_loot_bag_18'" triggable="false">
+			<object enabled="true" name="'g_lootbag_1'"/>
+			<object enabled="true" name="'g_lootbag_2'"/>
+			<object enabled="true" name="'g_lootbag_3'"/>
+			<object enabled="true" name="'g_lootbag_4'"/>
+			<object enabled="true" name="'g_lootbag_5'"/>
+			<object enabled="true" name="'g_lootbag_6'"/>
+			<object enabled="true" name="'g_lootbag_7'"/>
+			<object enabled="true" name="'g_lootbag_8'"/>
+			<object enabled="true" name="'g_lootbag_9'"/>
+			<object enabled="true" name="'g_lootbag_10'"/>
+			<object enabled="true" name="'g_lootbag_11'"/>
+			<object enabled="true" name="'g_lootbag_12'"/>
+			<object enabled="true" name="'g_lootbag_13'"/>
+			<object enabled="true" name="'g_lootbag_14'"/>
+			<object enabled="true" name="'g_lootbag_15'"/>
+			<object enabled="true" name="'g_lootbag_16'"/>
+			<object enabled="true" name="'g_lootbag_17'"/>
+			<object enabled="true" name="'g_lootbag_18'"/>
+			<object enabled="false" name="'g_lootbag_19'"/>
+			<object enabled="false" name="'g_lootbag_20'"/>
+			<object enabled="false" name="'g_lootbag_21'"/>
+			<object enabled="false" name="'g_lootbag_22'"/>
+			<set_variables var_bag="18"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_grow_loot_bag_19'" triggable="false">
+			<object enabled="true" name="'g_lootbag_1'"/>
+			<object enabled="true" name="'g_lootbag_2'"/>
+			<object enabled="true" name="'g_lootbag_3'"/>
+			<object enabled="true" name="'g_lootbag_4'"/>
+			<object enabled="true" name="'g_lootbag_5'"/>
+			<object enabled="true" name="'g_lootbag_6'"/>
+			<object enabled="true" name="'g_lootbag_7'"/>
+			<object enabled="true" name="'g_lootbag_8'"/>
+			<object enabled="true" name="'g_lootbag_9'"/>
+			<object enabled="true" name="'g_lootbag_10'"/>
+			<object enabled="true" name="'g_lootbag_11'"/>
+			<object enabled="true" name="'g_lootbag_12'"/>
+			<object enabled="true" name="'g_lootbag_13'"/>
+			<object enabled="true" name="'g_lootbag_14'"/>
+			<object enabled="true" name="'g_lootbag_15'"/>
+			<object enabled="true" name="'g_lootbag_16'"/>
+			<object enabled="true" name="'g_lootbag_17'"/>
+			<object enabled="true" name="'g_lootbag_18'"/>
+			<object enabled="true" name="'g_lootbag_19'"/>
+			<object enabled="false" name="'g_lootbag_20'"/>
+			<object enabled="false" name="'g_lootbag_21'"/>
+			<object enabled="false" name="'g_lootbag_22'"/>
+			<set_variables var_bag="19"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_grow_loot_bag_20'" triggable="false">
+			<object enabled="true" name="'g_lootbag_1'"/>
+			<object enabled="true" name="'g_lootbag_2'"/>
+			<object enabled="true" name="'g_lootbag_3'"/>
+			<object enabled="true" name="'g_lootbag_4'"/>
+			<object enabled="true" name="'g_lootbag_5'"/>
+			<object enabled="true" name="'g_lootbag_6'"/>
+			<object enabled="true" name="'g_lootbag_7'"/>
+			<object enabled="true" name="'g_lootbag_8'"/>
+			<object enabled="true" name="'g_lootbag_9'"/>
+			<object enabled="true" name="'g_lootbag_10'"/>
+			<object enabled="true" name="'g_lootbag_11'"/>
+			<object enabled="true" name="'g_lootbag_12'"/>
+			<object enabled="true" name="'g_lootbag_13'"/>
+			<object enabled="true" name="'g_lootbag_14'"/>
+			<object enabled="true" name="'g_lootbag_15'"/>
+			<object enabled="true" name="'g_lootbag_16'"/>
+			<object enabled="true" name="'g_lootbag_17'"/>
+			<object enabled="true" name="'g_lootbag_18'"/>
+			<object enabled="true" name="'g_lootbag_19'"/>
+			<object enabled="true" name="'g_lootbag_20'"/>
+			<object enabled="false" name="'g_lootbag_21'"/>
+			<object enabled="false" name="'g_lootbag_22'"/>
+			<set_variables var_bag="20"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_grow_loot_bag_21'" triggable="false">
+			<object enabled="true" name="'g_lootbag_1'"/>
+			<object enabled="true" name="'g_lootbag_2'"/>
+			<object enabled="true" name="'g_lootbag_3'"/>
+			<object enabled="true" name="'g_lootbag_4'"/>
+			<object enabled="true" name="'g_lootbag_5'"/>
+			<object enabled="true" name="'g_lootbag_6'"/>
+			<object enabled="true" name="'g_lootbag_7'"/>
+			<object enabled="true" name="'g_lootbag_8'"/>
+			<object enabled="true" name="'g_lootbag_9'"/>
+			<object enabled="true" name="'g_lootbag_10'"/>
+			<object enabled="true" name="'g_lootbag_11'"/>
+			<object enabled="true" name="'g_lootbag_12'"/>
+			<object enabled="true" name="'g_lootbag_13'"/>
+			<object enabled="true" name="'g_lootbag_14'"/>
+			<object enabled="true" name="'g_lootbag_15'"/>
+			<object enabled="true" name="'g_lootbag_16'"/>
+			<object enabled="true" name="'g_lootbag_17'"/>
+			<object enabled="true" name="'g_lootbag_18'"/>
+			<object enabled="true" name="'g_lootbag_19'"/>
+			<object enabled="true" name="'g_lootbag_20'"/>
+			<object enabled="true" name="'g_lootbag_21'"/>
+			<object enabled="false" name="'g_lootbag_22'"/>
+			<set_variables var_bag="21"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_grow_loot_bag_22'" triggable="false">
+			<object enabled="true" name="'g_lootbag_1'"/>
+			<object enabled="true" name="'g_lootbag_2'"/>
+			<object enabled="true" name="'g_lootbag_3'"/>
+			<object enabled="true" name="'g_lootbag_4'"/>
+			<object enabled="true" name="'g_lootbag_5'"/>
+			<object enabled="true" name="'g_lootbag_6'"/>
+			<object enabled="true" name="'g_lootbag_7'"/>
+			<object enabled="true" name="'g_lootbag_8'"/>
+			<object enabled="true" name="'g_lootbag_9'"/>
+			<object enabled="true" name="'g_lootbag_10'"/>
+			<object enabled="true" name="'g_lootbag_11'"/>
+			<object enabled="true" name="'g_lootbag_12'"/>
+			<object enabled="true" name="'g_lootbag_13'"/>
+			<object enabled="true" name="'g_lootbag_14'"/>
+			<object enabled="true" name="'g_lootbag_15'"/>
+			<object enabled="true" name="'g_lootbag_16'"/>
+			<object enabled="true" name="'g_lootbag_17'"/>
+			<object enabled="true" name="'g_lootbag_18'"/>
+			<object enabled="true" name="'g_lootbag_19'"/>
+			<object enabled="true" name="'g_lootbag_20'"/>
+			<object enabled="true" name="'g_lootbag_21'"/>
+			<object enabled="true" name="'g_lootbag_22'"/>
+			<set_variables var_bag="22"/>
 		</sequence>
 		<sequence editable_state="true" name="'mull_plane_enable'" triggable="true">
 			<object enabled="true" name="'g_mullplan'"/>

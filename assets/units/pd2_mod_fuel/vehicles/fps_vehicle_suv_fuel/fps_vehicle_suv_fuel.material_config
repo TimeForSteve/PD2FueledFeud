@@ -61,4 +61,10 @@
         <diffuse_texture file="units/pd2_dlc_pex/vehicles/fps_vehicle_suv_pex/interior_df" mip="2"/>
         <bump_normal_texture file="units/pd2_dlc_pex/vehicles/fps_vehicle_suv_pex/interior_nm" mip="4"/>
     </material>
+    <material name="mtr_head" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/pd2_mod_fuel/characters/ene_fuel_hostage/alvarez_head_h_df" mip="2"/>
+    </material>
+    <material name="mtr_body" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/pd2_mod_fuel/characters/ene_fuel_hostage/alvarez_h_df" mip="2"/>
+    </material>
 </materials>

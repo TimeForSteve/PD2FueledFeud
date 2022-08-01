@@ -6,6 +6,11 @@
 	<animations>
 		<animation_group name="anim_push" enabled="false">
 			<object name="anim_body" />
+			<object name="anim_tire_front_left" />
+			<object name="anim_tire_front_right" />
+			<object name="anim_spin_front_left" />
+			<object name="anim_spin_front_right" />
+			<object name="anim_tire_rear" />
 	</animation_group>
 		<animation_group name="anim_door" enabled="false">
 				<object name="anim_door" />
@@ -14,15 +19,6 @@
 				<object name="anim_hinges" />
 				<object name="anim_trunk" />
 		</animation_group>
-		<animation_group name="anim_spin" enabled="false">
-				<object name="anim_spin_front_left" />
-				<object name="anim_spin_front_right" />
-				<object name="anim_tire_rear" />
-		</animation_group>
-		<animation_group name="anim_tires" enabled="false">
-			<object name="anim_tire_front_left" />
-			<object name="anim_tire_front_right" />
-	</animation_group>
 	</animations>
 
 	<bodies>
@@ -63,6 +59,16 @@
 		<object name="g_lootbag_10" 	enabled="false" />
 		<object name="g_lootbag_11" 	enabled="false" />
 		<object name="g_lootbag_12" 	enabled="false" />
+		<object name="g_lootbag_13" 	enabled="false" />
+		<object name="g_lootbag_14" 	enabled="false" />
+		<object name="g_lootbag_15" 	enabled="false" />
+		<object name="g_lootbag_16" 	enabled="false" />
+		<object name="g_lootbag_17" 	enabled="false" />
+		<object name="g_lootbag_18" 	enabled="false" />
+		<object name="g_lootbag_19" 	enabled="false" />
+		<object name="g_lootbag_20" 	enabled="false" />
+		<object name="g_lootbag_21" 	enabled="false" />
+		<object name="g_lootbag_22" 	enabled="false" />
 		<graphic_group name="grp_vehicle" enabled="true" culling_object="c_culling">
 			<lod_object name="lod_vehicle_body">
 				<object name="g_vehicle_body" enabled="true">
@@ -114,6 +120,7 @@
 			<object name="g_interior" 				enabled="false"/>
 			<object name="g_trunk_llining" 			enabled="false"/>
 			<object name="g_interior_door" 			enabled="false"/>
+			<object name="g_hostage" 				enabled="false"/>
 			<object name="g_hinges" 				enabled="true"/>
 			<object name="g_pistons" 				enabled="true"/>
 			<object name="s_vehicle" 				enabled="true" shadow_caster="true" />

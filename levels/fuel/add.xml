@@ -3261,12 +3261,6 @@
 		<sequence_manager path="units/pd2_dlc_sand/pickups/sand_pku_laxative/sand_pku_laxative"/>
 		<unit path="units/pd2_dlc_sand/pickups/sand_pku_laxative/sand_pku_laxative"/>
 	</add>
-	<add from_db="true" path="units/payday2/props/gen_prop_square_goal_marker_4x15/gen_prop_square_goal_marker_4x15" type="unit">
-		<material_config path="units/payday2/props/gen_prop_square_goal_marker_4x15/gen_prop_square_goal_marker_4x15"/>
-		<object path="units/payday2/props/gen_prop_square_goal_marker_4x15/gen_prop_square_goal_marker_4x15"/>
-		<sequence_manager path="units/payday2/props/gen_prop_square_goal_marker_4x15/gen_prop_square_goal_marker_4x15"/>
-		<unit path="units/payday2/props/gen_prop_square_goal_marker_4x15/gen_prop_square_goal_marker_4x15"/>
-	</add>
 	<add from_db="true" path="units/pd2_dlc_pent/equipment/pent_interactable_security_box/pent_interactable_security_box" type="unit">
 		<bnk path="soundbanks/regular_sfx"/>
 		<material_config path="units/pd2_dlc_pent/equipment/pent_interactable_security_box/pent_interactable_security_box"/>
@@ -3299,7 +3293,13 @@
 		<object path="units/equipment/c4_charge/c4_mission_door"/>
 		<material_config path="units/equipment/c4_charge/c4_mission_door"/>
 		<sequence_manager path="units/equipment/c4_charge/c4_mission_door"/>
-		<physic_effect path="physic_effects/push_sphere"/>
 		<bnk path="soundbanks/regular_sfx"/>
+		<physic_effect path="physic_effects/push_sphere"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_square_goal_marker_7x4/gen_prop_square_goal_marker_7x4" type="unit">
+		<material_config path="units/payday2/props/gen_prop_square_goal_marker_7x4/gen_prop_square_goal_marker_7x4"/>
+		<object path="units/payday2/props/gen_prop_square_goal_marker_7x4/gen_prop_square_goal_marker_7x4"/>
+		<sequence_manager path="units/payday2/props/gen_prop_square_goal_marker_7x4/gen_prop_square_goal_marker_7x4"/>
+		<unit path="units/payday2/props/gen_prop_square_goal_marker_7x4/gen_prop_square_goal_marker_7x4"/>
 	</add>
 </table>
