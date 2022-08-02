@@ -2,7 +2,7 @@
 	<entry key="ambience_enabled" type="boolean" value="true"/>
 	<entry key="default_ambience" type="string" value="ambience_ext_heavy_rain_storm_asphalt"/>
 	<entry key="default_environment" type="string" value="pd2_acoustics_outdoor_medium_echo"/>
-	<entry key="default_occasional" type="string" value="occasionals_silent"/>
+	<entry key="default_occasional" type="string" value="occasionals_outside_night"/>
 	<entry key="sound_area_emitters" type="table">
 		<entry index="1" type="table">
 			<entry key="depth" type="number" value="1000"/>
@@ -81,7 +81,7 @@
 		<entry index="8" type="table">
 			<entry key="emitter_event" type="string" value="emitter_clock_02"/>
 			<entry key="name" type="string" value="none"/>
-			<entry key="position" type="vector3" value="2161.41 547.612 212.028"/>
+			<entry key="position" type="vector3" value="2163.41 542.612 212.028"/>
 			<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 		</entry>
 		<entry index="9" type="table">
@@ -198,6 +198,144 @@
 			<entry key="position" type="vector3" value="2519.49 -949.863 260.404"/>
 			<entry key="rotation" type="quaternion" value="0.309957 0.515857 0.684565 0.411327"/>
 		</entry>
+		<entry index="28" type="table">
+			<entry key="emitter_event" type="string" value="emitter_ac_hum"/>
+			<entry key="name" type="string" value="none"/>
+			<entry key="position" type="vector3" value="1432 -3134 1105.9"/>
+			<entry key="rotation" type="quaternion" value="0 0 0.997564 -0.0697572"/>
+		</entry>
+		<entry index="29" type="table">
+			<entry key="emitter_event" type="string" value="emitter_clock_01"/>
+			<entry key="name" type="string" value="none"/>
+			<entry key="position" type="vector3" value="1302 -4635 1057.11"/>
+			<entry key="rotation" type="quaternion" value="0 0 0.997564 -0.0697572"/>
+		</entry>
+		<entry index="30" type="table">
+			<entry key="emitter_event" type="string" value="emitter_fridge_hum_loop_mono_01"/>
+			<entry key="name" type="string" value="none"/>
+			<entry key="position" type="vector3" value="1949 -4551 920.66"/>
+			<entry key="rotation" type="quaternion" value="0 0 0.656059 -0.75471"/>
+		</entry>
+		<entry index="31" type="table">
+			<entry key="emitter_event" type="string" value="emitter_fridge_hum_loop_mono_01"/>
+			<entry key="name" type="string" value="none"/>
+			<entry key="position" type="vector3" value="4104 -4282 132.051"/>
+			<entry key="rotation" type="quaternion" value="0 0 0.656059 -0.75471"/>
+		</entry>
+		<entry index="32" type="table">
+			<entry key="emitter_event" type="string" value="emitter_fridge_hum_loop_mono_01"/>
+			<entry key="name" type="string" value="none"/>
+			<entry key="position" type="vector3" value="4099 -4313 532.231"/>
+			<entry key="rotation" type="quaternion" value="0 0 0.656059 -0.75471"/>
+		</entry>
+		<entry index="33" type="table">
+			<entry key="emitter_event" type="string" value="emitter_fridge_hum_loop_mono_01"/>
+			<entry key="name" type="string" value="none"/>
+			<entry key="position" type="vector3" value="3682 -5269 129"/>
+			<entry key="rotation" type="quaternion" value="0 0 -0.0697564 -0.997564"/>
+		</entry>
+		<entry index="34" type="table">
+			<entry key="emitter_event" type="string" value="emitter_fridge_hum_loop_mono_01"/>
+			<entry key="name" type="string" value="none"/>
+			<entry key="position" type="vector3" value="2976 -5473 532"/>
+			<entry key="rotation" type="quaternion" value="0 0 -0.75471 -0.656059"/>
+		</entry>
+		<entry index="35" type="table">
+			<entry key="emitter_event" type="string" value="emitter_fridge_hum_loop_mono_01"/>
+			<entry key="name" type="string" value="none"/>
+			<entry key="position" type="vector3" value="2541.01 -5434.14 129.557"/>
+			<entry key="rotation" type="quaternion" value="0 0 -0.0697565 -0.997564"/>
+		</entry>
+		<entry index="36" type="table">
+			<entry key="emitter_event" type="string" value="emitter_electric_power_box_01"/>
+			<entry key="name" type="string" value="none"/>
+			<entry key="position" type="vector3" value="2725 -4710 129.634"/>
+			<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+		</entry>
+		<entry index="37" type="table">
+			<entry key="emitter_event" type="string" value="emitter_water_dripping_01"/>
+			<entry key="name" type="string" value="none"/>
+			<entry key="position" type="vector3" value="4131 -5261 744"/>
+			<entry key="rotation" type="quaternion" value="0.707107 0 0 -0.707107"/>
+		</entry>
+		<entry index="38" type="table">
+			<entry key="emitter_event" type="string" value="emitter_vending_machine_loop"/>
+			<entry key="name" type="string" value="none"/>
+			<entry key="position" type="vector3" value="3306 -3919 110.27"/>
+			<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+		</entry>
+		<entry index="39" type="table">
+			<entry key="emitter_event" type="string" value="emitter_vending_machine_loop"/>
+			<entry key="name" type="string" value="none"/>
+			<entry key="position" type="vector3" value="3132 -3919 110.27"/>
+			<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+		</entry>
+		<entry index="40" type="table">
+			<entry key="emitter_event" type="string" value="emitter_electric_power_box_01"/>
+			<entry key="name" type="string" value="none"/>
+			<entry key="position" type="vector3" value="676 -2935 -360.804"/>
+			<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+		</entry>
+		<entry index="41" type="table">
+			<entry key="emitter_event" type="string" value="emitter_gen_machine_03"/>
+			<entry key="name" type="string" value="none"/>
+			<entry key="position" type="vector3" value="2332 225 -370.529"/>
+			<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+		</entry>
+		<entry index="42" type="table">
+			<entry key="emitter_event" type="string" value="emitter_copy_machine_loop"/>
+			<entry key="name" type="string" value="none"/>
+			<entry key="position" type="vector3" value="1244 -3594 104.943"/>
+			<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+		</entry>
+		<entry index="43" type="table">
+			<entry key="emitter_event" type="string" value="emitter_fridge_hum_loop_mono_01"/>
+			<entry key="name" type="string" value="none"/>
+			<entry key="position" type="vector3" value="606 -3312 126.127"/>
+			<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+		</entry>
+		<entry index="44" type="table">
+			<entry key="emitter_event" type="string" value="emitter_clock_01"/>
+			<entry key="name" type="string" value="none"/>
+			<entry key="position" type="vector3" value="1997 -4883 269.307"/>
+			<entry key="rotation" type="quaternion" value="0 0 -0.75471 -0.656058"/>
+		</entry>
+		<entry index="45" type="table">
+			<entry key="emitter_event" type="string" value="emitter_fluorescent_light_10m"/>
+			<entry key="name" type="string" value="none"/>
+			<entry key="position" type="vector3" value="2765 237 -139.401"/>
+			<entry key="rotation" type="quaternion" value="0.707107 0 0 -0.707107"/>
+		</entry>
+		<entry index="46" type="table">
+			<entry key="emitter_event" type="string" value="emitter_ac_hum"/>
+			<entry key="name" type="string" value="none"/>
+			<entry key="position" type="vector3" value="742.078 796.887 -180.39"/>
+			<entry key="rotation" type="quaternion" value="0 0 -0.0697572 -0.997564"/>
+		</entry>
+		<entry index="47" type="table">
+			<entry key="emitter_event" type="string" value="emitter_water_on_hollow_plastic"/>
+			<entry key="name" type="string" value="none"/>
+			<entry key="position" type="vector3" value="2464 -5453 689.53"/>
+			<entry key="rotation" type="quaternion" value="0 0 0.997564 -0.0697565"/>
+		</entry>
+		<entry index="48" type="table">
+			<entry key="emitter_event" type="string" value="emitter_rain_on_window_indoor"/>
+			<entry key="name" type="string" value="none"/>
+			<entry key="position" type="vector3" value="1277.83 -5348.05 951.98"/>
+			<entry key="rotation" type="quaternion" value="0 0 0.997564 -0.0697565"/>
+		</entry>
+		<entry index="49" type="table">
+			<entry key="emitter_event" type="string" value="emitter_rain_on_window_indoor"/>
+			<entry key="name" type="string" value="none"/>
+			<entry key="position" type="vector3" value="2187 -2840 944.748"/>
+			<entry key="rotation" type="quaternion" value="0 0 1 4.37114e-008"/>
+		</entry>
+		<entry index="50" type="table">
+			<entry key="emitter_event" type="string" value="emitter_rain_on_window_indoor"/>
+			<entry key="name" type="string" value="none"/>
+			<entry key="position" type="vector3" value="412 -2840 944.748"/>
+			<entry key="rotation" type="quaternion" value="0 0 1 4.37114e-008"/>
+		</entry>
 	</entry>
 	<entry key="sound_environments" type="table">
 		<entry index="1" type="table">
@@ -245,7 +383,7 @@
 		<entry index="4" type="table">
 			<entry key="ambience_event" type="string" value="ambience_ext_heavy_rain_storm_asphalt_softer"/>
 			<entry key="depth" type="number" value="3000"/>
-			<entry key="environment" type="string" value="pd2_acoustics_indoor_small"/>
+			<entry key="environment" type="string" value="pd2_acoustics_indoor_large"/>
 			<entry key="height" type="number" value="780"/>
 			<entry key="name" type="string" value="none"/>
 			<entry key="position" type="vector3" value="4307 -2978 -12"/>
@@ -259,7 +397,7 @@
 		<entry index="5" type="table">
 			<entry key="ambience_event" type="string" value="ambience_ext_heavy_rain_storm_asphalt_softer"/>
 			<entry key="depth" type="number" value="1880"/>
-			<entry key="environment" type="string" value="pd2_acoustics_indoor_small"/>
+			<entry key="environment" type="string" value="pd2_acoustics_indoor_medium"/>
 			<entry key="height" type="number" value="360"/>
 			<entry key="name" type="string" value="none"/>
 			<entry key="position" type="vector3" value="2410 -3195 765"/>
