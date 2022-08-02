@@ -1,0 +1,94 @@
+<dynamic_object>
+	<diesel orientation_object="rp_str_vehicle_pickup_sportcab_anim_wdog" materials="units/payday2/vehicles/str_vehicle_pickup_sportcab_anim_wdog/str_vehicle_pickup_sportcab_anim_wdog" />
+	<sequence_manager file="units/payday2/vehicles/str_vehicle_pickup_sportcab_anim_wdog/str_vehicle_pickup_sportcab_anim_wdog" />
+	<animations>
+		<animation_group name="anim" enabled="false">
+			<object name="anim_car" />
+			<object name="anim_body" />
+			<object name="anim_wheel_rear" />
+			<object name="anim_wheel_front_left" />
+			<object name="anim_wheel_front_right" />
+		</animation_group>
+	</animations>
+	<bodies>
+		<body name="graph_blocker" enabled="true" template="graph_blocker" keyframed="true">
+			<object name="c_graph_blocker" collision_type="box" padding="25" />
+		</body>
+		<body enabled="true" template="animated" name="body0" >
+			<object collision_type="mesh_mopp" name="c_str_vehicle_pickuptruck_sportcab" />
+		</body>
+		<body enabled="true" template="animated" name="body1" >
+			<object collision_type="mesh_mopp" name="c_wheel_rear" />
+		</body>
+		<body enabled="true" template="animated" name="body2" >
+			<object collision_type="mesh_mopp" name="c_wheel_front_left" />
+		</body>
+		<body enabled="true" template="animated" name="body3" >
+			<object collision_type="mesh_mopp" name="c_wheel_front_right" />
+		</body>
+		<body name="window_front" enabled="true" template="animated">
+			<object name="c_glass_front" collision_type="mesh_mopp" two_sided="true"/>
+		</body>
+		<body remove_ray_type="ai_vision" name="window_left_front" enabled="true" template="animated">
+			<object name="c_glass_front_l" collision_type="mesh_mopp" two_sided="true" />
+		</body>
+		<body remove_ray_type="ai_vision" name="window_right_front" enabled="true" template="animated">
+			<object name="c_glass_front_r" collision_type="mesh_mopp" two_sided="true" />
+		</body>
+		<body remove_ray_type="ai_vision" name="window_left_middle" enabled="true" template="animated">
+			<object name="c_glass_middle_l" collision_type="mesh_mopp" two_sided="true"/>
+		</body>
+		<body remove_ray_type="ai_vision" name="window_right_middle" enabled="true" template="animated">
+			<object name="c_glass_middle_r" collision_type="mesh_mopp" two_sided="true"/>
+		</body>
+		<body name="window_back" enabled="true" template="animated">
+			<object name="c_glass_back" collision_type="mesh_mopp" two_sided="true"/>
+		</body>
+	</bodies>
+	<decal_surfaces default_material="metal_chassis">
+		<decal_mesh name="g_str_vehicle_pickuptruck_sportcab"	enabled="true" material="metal_chassis" />
+		<decal_mesh name="g_glass_back"	 						enabled="true" material="glass_breakable" />
+		<decal_mesh name="g_glass_front" 						enabled="true" material="glass_breakable" />
+		<decal_mesh name="g_glass_middle_l" 					enabled="true" material="glass_breakable" />
+		<decal_mesh name="g_glass_middle_r" 					enabled="true" material="glass_breakable" />
+		<decal_mesh name="g_glass_front_l" 						enabled="true" material="glass_breakable" />
+		<decal_mesh name="g_glass_front_r" 						enabled="true" material="glass_breakable" />
+	</decal_surfaces>
+	<graphics>
+		<object enabled="true" 		name="g_wheel_front_right" />
+		<object enabled="true" 		name="g_wheel_front_left" />
+		<object enabled="true" 		name="g_wheel_rear" />
+		<object enabled="true" 		name="g_str_vehicle_pickuptruck_sportcab" />
+		<object enabled="true" 		name="g_glass_lights"  />
+		<object enabled="false" 	name="g_glass_back_dmg"  />
+		<object enabled="true" 		name="g_glass_back"  />
+		<object enabled="true" 		name="g_glass_front"  />
+		<object enabled="false" 	name="g_glass_front_dmg"  />
+		<object enabled="true" 		name="g_glass_middle_l"  />
+		<object enabled="false" 	name="g_glass_middle_l_dmg"  />
+		<object enabled="true" 		name="g_glass_middle_r"  />
+		<object enabled="false" 	name="g_glass_middle_r_dmg"  />
+		<object enabled="true" 		name="g_glass_front_l"  />
+		<object enabled="false" 	name="g_glass_front_l_dmg"  />
+		<object enabled="false" 	name="g_glass_front_r_dmg"  />
+		<object enabled="true" 		name="g_glass_front_r"  />
+		<object enabled="true" 		name="s_pickup" shadow_caster="true"  />
+		<object enabled="true" 		name="s_wheel_front_right" shadow_caster="true"  />
+		<object enabled="true" 		name="s_wheel_front_left" shadow_caster="true"  />
+		<object enabled="true" 		name="s_wheel_rear" shadow_caster="true"  />
+		<!-- Graphics Objects Loot -->
+				<object name="g_lootbag_1" 					enabled="false" 	shadow_caster="false" />
+				<object name="g_lootbag_2" 					enabled="false" 	shadow_caster="false" />
+				<object name="g_lootbag_3" 					enabled="false" 	shadow_caster="false" />
+				<object name="g_lootbag_4" 					enabled="false" 	shadow_caster="false" />
+				<object name="g_lootbag_5" 					enabled="false" 	shadow_caster="false" />
+				<object name="g_lootbag_6" 					enabled="false" 	shadow_caster="false" />
+				<object name="g_lootbag_7" 					enabled="false" 	shadow_caster="false" />
+				<object name="g_lootbag_8" 					enabled="false" 	shadow_caster="false" />
+				<object name="g_lootbag_9" 					enabled="false" 	shadow_caster="false" />
+				<object name="g_lootbag_10" 				enabled="false" 	shadow_caster="false" />
+				<object name="g_lootbag_11" 				enabled="false" 	shadow_caster="false" />
+				<object name="g_lootbag_12" 				enabled="false" 	shadow_caster="false" />
+				<object name="g_lootbag_toothbrush" 		enabled="false" 	shadow_caster="false" />
+	</graphics>
+</dynamic_object>

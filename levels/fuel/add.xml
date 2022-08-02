@@ -3302,17 +3302,10 @@
 		<sequence_manager path="units/payday2/props/gen_prop_square_goal_marker_7x4/gen_prop_square_goal_marker_7x4"/>
 		<unit path="units/payday2/props/gen_prop_square_goal_marker_7x4/gen_prop_square_goal_marker_7x4"/>
 	</add>
-	<add from_db="true" path="units/payday2/vehicles/anim_vehicle_van_player/anim_vehicle_van_player" type="unit">
-		<unit path="units/payday2/vehicles/anim_vehicle_van_player/anim_vehicle_van_player"/>
-		<object path="units/payday2/vehicles/anim_vehicle_van_player/anim_vehicle_van_player"/>
-		<material_config path="units/payday2/vehicles/anim_vehicle_van_player/anim_vehicle_van_player"/>
-		<sequence_manager path="units/payday2/vehicles/anim_vehicle_van_player/anim_vehicle_van_player"/>
-		<animation_def path="anims/units/van/van"/>
-		<animation_subset path="anims/units/van/std"/>
-		<animation path="anims/car/van_red_arrive_1"/>
-		<animation path="anims/car/van_player_rvd_arrive_1"/>
-		<animation_state_machine path="anims/units/van/van"/>
-		<animation_states path="anims/units/van/std"/>
+	<add from_db="true" path="units/payday2/vehicles/str_vehicle_pickup_sportcab_anim_wdog/str_vehicle_pickup_sportcab_anim_wdog" type="unit">
+		<unit path="units/payday2/vehicles/str_vehicle_pickup_sportcab_anim_wdog/str_vehicle_pickup_sportcab_anim_wdog"/>
+		<material_config path="units/payday2/vehicles/str_vehicle_pickup_sportcab_anim_wdog/str_vehicle_pickup_sportcab_anim_wdog"/>
+		<sequence_manager path="units/payday2/vehicles/str_vehicle_pickup_sportcab_anim_wdog/str_vehicle_pickup_sportcab_anim_wdog"/>
 		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
 	</add>
 </table>
