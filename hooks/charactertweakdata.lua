@@ -8,7 +8,7 @@ Hooks:PostHook(CharacterTweakData, "init", "fuel_init_characters", function(self
 			0.2
 		},
 		focus_delay = 4,
-		focus_dis = 200,
+		focus_dis = 800,
 		spread = 20,
 		miss_dis = 40,
 		RELOAD_SPEED = 1,
