@@ -1790,11 +1790,6 @@
 		<sequence_manager path="units/pd2_dlc_man/equiptment/man_interactable_bar_lock/man_interactable_bar_lock"/>
 		<unit path="units/pd2_dlc_man/equiptment/man_interactable_bar_lock/man_interactable_bar_lock"/>
 	</add>
-	<add from_db="true" path="units/dev_tools/level_tools/ai_attention_object/ai_attention_object" type="unit">
-		<material_config path="units/dev_tools/level_tools/ai_attention_object/ai_attention_object"/>
-		<object path="units/dev_tools/level_tools/ai_attention_object/ai_attention_object"/>
-		<unit path="units/dev_tools/level_tools/ai_attention_object/ai_attention_object"/>
-	</add>
 	<add from_db="true" path="units/pd2_dlc_jerry/props/jry_prop_garage_cartirechanger/jry_prop_garage_cartirechanger" type="unit">
 		<material_config path="units/pd2_dlc_jerry/props/jry_prop_garage_cartirechanger/jry_prop_garage_cartirechanger"/>
 		<object path="units/pd2_dlc_jerry/props/jry_prop_garage_cartirechanger/jry_prop_garage_cartirechanger"/>
@@ -3302,9 +3297,9 @@
 		<unit path="units/payday2/props/gen_prop_square_goal_marker_7x4/gen_prop_square_goal_marker_7x4"/>
 	</add>
 	<add from_db="true" path="units/payday2/vehicles/str_vehicle_pickup_sportcab_anim_wdog/str_vehicle_pickup_sportcab_anim_wdog" type="unit">
-		<unit path="units/payday2/vehicles/str_vehicle_pickup_sportcab_anim_wdog/str_vehicle_pickup_sportcab_anim_wdog"/>
 		<material_config path="units/payday2/vehicles/str_vehicle_pickup_sportcab_anim_wdog/str_vehicle_pickup_sportcab_anim_wdog"/>
-		<sequence_manager path="units/payday2/vehicles/str_vehicle_pickup_sportcab_anim_wdog/str_vehicle_pickup_sportcab_anim_wdog"/>
 		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<sequence_manager path="units/payday2/vehicles/str_vehicle_pickup_sportcab_anim_wdog/str_vehicle_pickup_sportcab_anim_wdog"/>
+		<unit path="units/payday2/vehicles/str_vehicle_pickup_sportcab_anim_wdog/str_vehicle_pickup_sportcab_anim_wdog"/>
 	</add>
 </table>
