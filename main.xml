@@ -66,6 +66,8 @@
 			<hook file="copmovement.lua" source_file="lib/units/enemies/cop/copmovement"/>
 			<hook file="securitycamera.lua" source_file="lib/units/props/securitycamera"/>
 			<hook file="preplanningmanager.lua" source_file="lib/managers/preplanningmanager"/>
+			<hook file="elementaccesscamera.lua" source_file="lib/managers/mission/elementaccesscamera"/>
+			<hook file="elementaccesscamera.lua" source_file="lib/states/ingameaccesscamera"/>
 		</hooks>
 		<interactions>
 			<interaction based_on="cas_bfd_drill_toolbox" id="fuel_winch_part"/>
