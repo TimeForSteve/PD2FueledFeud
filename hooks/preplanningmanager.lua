@@ -1,3 +1,4 @@
+tweak_data.equipments.max_amount.asset_first_aid_kit = 4
 Hooks:PostHook(PrePlanningManager, "_check_spawn_deployable", "fuel_spawn_fak", function(self, type, element)
 	local type_data = tweak_data.preplanning.types[type]
 	local deployable_id = type_data.deployable_id
