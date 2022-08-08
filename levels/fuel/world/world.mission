@@ -10626,6 +10626,8 @@
 						<entry index="14" type="number" value="100021"/>
 						<entry index="15" type="number" value="100860"/>
 						<entry index="16" type="number" value="102078"/>
+						<entry index="17" type="number" value="100902"/>
+						<entry index="18" type="number" value="100904"/>
 					</entry>
 				</entry>
 			</entry>
@@ -12815,6 +12817,10 @@
 						<entry index="4" type="table">
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100420"/>
+						</entry>
+						<entry index="5" type="table">
+							<entry key="delay" type="number" value="2.5"/>
+							<entry key="id" type="number" value="101591"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="435 1170 3002"/>
@@ -43300,6 +43306,10 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="101441"/>
 						</entry>
+						<entry index="6" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101612"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-1660 -1380 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
@@ -43475,6 +43485,10 @@
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101608"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="400 0 288.29"/>
 					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
@@ -47916,14 +47930,14 @@
 			</entry>
 			<entry index="1585" type="table">
 				<entry key="class" type="string" value="ElementWaypoint"/>
-				<entry key="editor_name" type="string" value="wp_interact_007"/>
+				<entry key="editor_name" type="string" value="wp_ladder_001"/>
 				<entry key="id" type="number" value="101584"/>
 				<entry key="script" type="string" value="default"/>
 				<entry key="values" type="table">
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
-					<entry key="icon" type="string" value="pd2_generic_interact"/>
+					<entry key="icon" type="string" value="pd2_ladder"/>
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="only_in_civilian" type="boolean" value="false"/>
@@ -48063,6 +48077,659 @@
 					<entry key="sound_event" type="string" value="door_wooden_kicked_in"/>
 					<entry key="trigger_times" type="number" value="0"/>
 					<entry key="use_instigator" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="1592" type="table">
+				<entry key="class" type="string" value="ElementBLCustomAchievement"/>
+				<entry key="editor_name" type="string" value="achievement_tape"/>
+				<entry key="id" type="number" value="101591"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="achievement_id" type="string" value="achievement_fuel_tape"/>
+					<entry key="amount_increase" type="number" value="1"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="package_id" type="string" value="achievements_fuel"/>
+					<entry key="position" type="vector3" value="-2615 -130 3002"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1593" type="table">
+				<entry key="class" type="string" value="ElementBLCustomAchievement"/>
+				<entry key="editor_name" type="string" value="achievement_normal"/>
+				<entry key="id" type="number" value="101592"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="achievement_id" type="string" value="achievement_fuel_wd_0"/>
+					<entry key="amount_increase" type="number" value="1"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="package_id" type="string" value="achievements_fuel"/>
+					<entry key="players_from_start" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="-2615 -330 3002"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1594" type="table">
+				<entry key="class" type="string" value="ElementFilter"/>
+				<entry key="editor_name" type="string" value="filter_normal"/>
+				<entry key="id" type="number" value="101593"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="difficulty_easy" type="boolean" value="true"/>
+					<entry key="difficulty_easy_wish" type="boolean" value="false"/>
+					<entry key="difficulty_hard" type="boolean" value="false"/>
+					<entry key="difficulty_normal" type="boolean" value="true"/>
+					<entry key="difficulty_overkill" type="boolean" value="false"/>
+					<entry key="difficulty_overkill_145" type="boolean" value="false"/>
+					<entry key="difficulty_overkill_290" type="boolean" value="false"/>
+					<entry key="difficulty_sm_wish" type="boolean" value="false"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="mode_assault" type="boolean" value="true"/>
+					<entry key="mode_control" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101592"/>
+						</entry>
+					</entry>
+					<entry key="one_down" type="boolean" value="false"/>
+					<entry key="platform_win32" type="boolean" value="true"/>
+					<entry key="player_1" type="boolean" value="true"/>
+					<entry key="player_2" type="boolean" value="true"/>
+					<entry key="player_3" type="boolean" value="true"/>
+					<entry key="player_4" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="-2615 -330 3102"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1595" type="table">
+				<entry key="class" type="string" value="ElementFilter"/>
+				<entry key="editor_name" type="string" value="filter_hard"/>
+				<entry key="id" type="number" value="101594"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="difficulty_easy" type="boolean" value="false"/>
+					<entry key="difficulty_easy_wish" type="boolean" value="false"/>
+					<entry key="difficulty_hard" type="boolean" value="true"/>
+					<entry key="difficulty_normal" type="boolean" value="false"/>
+					<entry key="difficulty_overkill" type="boolean" value="false"/>
+					<entry key="difficulty_overkill_145" type="boolean" value="false"/>
+					<entry key="difficulty_overkill_290" type="boolean" value="false"/>
+					<entry key="difficulty_sm_wish" type="boolean" value="false"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="mode_assault" type="boolean" value="true"/>
+					<entry key="mode_control" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101595"/>
+						</entry>
+					</entry>
+					<entry key="one_down" type="boolean" value="false"/>
+					<entry key="platform_win32" type="boolean" value="true"/>
+					<entry key="player_1" type="boolean" value="true"/>
+					<entry key="player_2" type="boolean" value="true"/>
+					<entry key="player_3" type="boolean" value="true"/>
+					<entry key="player_4" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="-2515 -330 3102"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1596" type="table">
+				<entry key="class" type="string" value="ElementBLCustomAchievement"/>
+				<entry key="editor_name" type="string" value="achievement_hard"/>
+				<entry key="id" type="number" value="101595"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="achievement_id" type="string" value="achievement_fuel_wd_1"/>
+					<entry key="amount_increase" type="number" value="1"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="package_id" type="string" value="achievements_fuel"/>
+					<entry key="players_from_start" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="-2515 -330 3002"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1597" type="table">
+				<entry key="class" type="string" value="ElementBLCustomAchievement"/>
+				<entry key="editor_name" type="string" value="achievement_vhard"/>
+				<entry key="id" type="number" value="101596"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="achievement_id" type="string" value="achievement_fuel_wd_2"/>
+					<entry key="amount_increase" type="number" value="1"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="package_id" type="string" value="achievements_fuel"/>
+					<entry key="players_from_start" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="-2415 -330 3002"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1598" type="table">
+				<entry key="class" type="string" value="ElementFilter"/>
+				<entry key="editor_name" type="string" value="filter_vhard"/>
+				<entry key="id" type="number" value="101597"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="difficulty_easy" type="boolean" value="false"/>
+					<entry key="difficulty_easy_wish" type="boolean" value="false"/>
+					<entry key="difficulty_hard" type="boolean" value="false"/>
+					<entry key="difficulty_normal" type="boolean" value="false"/>
+					<entry key="difficulty_overkill" type="boolean" value="true"/>
+					<entry key="difficulty_overkill_145" type="boolean" value="false"/>
+					<entry key="difficulty_overkill_290" type="boolean" value="false"/>
+					<entry key="difficulty_sm_wish" type="boolean" value="false"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="mode_assault" type="boolean" value="true"/>
+					<entry key="mode_control" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101596"/>
+						</entry>
+					</entry>
+					<entry key="one_down" type="boolean" value="false"/>
+					<entry key="platform_win32" type="boolean" value="true"/>
+					<entry key="player_1" type="boolean" value="true"/>
+					<entry key="player_2" type="boolean" value="true"/>
+					<entry key="player_3" type="boolean" value="true"/>
+					<entry key="player_4" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="-2415 -330 3102"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1599" type="table">
+				<entry key="class" type="string" value="ElementBLCustomAchievement"/>
+				<entry key="editor_name" type="string" value="achievement_ovk"/>
+				<entry key="id" type="number" value="101598"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="achievement_id" type="string" value="achievement_fuel_wd_3"/>
+					<entry key="amount_increase" type="number" value="1"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="package_id" type="string" value="achievements_fuel"/>
+					<entry key="players_from_start" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="-2315 -330 3002"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1600" type="table">
+				<entry key="class" type="string" value="ElementFilter"/>
+				<entry key="editor_name" type="string" value="filter_ovk"/>
+				<entry key="id" type="number" value="101599"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="difficulty_easy" type="boolean" value="false"/>
+					<entry key="difficulty_easy_wish" type="boolean" value="false"/>
+					<entry key="difficulty_hard" type="boolean" value="false"/>
+					<entry key="difficulty_normal" type="boolean" value="false"/>
+					<entry key="difficulty_overkill" type="boolean" value="false"/>
+					<entry key="difficulty_overkill_145" type="boolean" value="true"/>
+					<entry key="difficulty_overkill_290" type="boolean" value="false"/>
+					<entry key="difficulty_sm_wish" type="boolean" value="false"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="mode_assault" type="boolean" value="true"/>
+					<entry key="mode_control" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101598"/>
+						</entry>
+					</entry>
+					<entry key="one_down" type="boolean" value="false"/>
+					<entry key="platform_win32" type="boolean" value="true"/>
+					<entry key="player_1" type="boolean" value="true"/>
+					<entry key="player_2" type="boolean" value="true"/>
+					<entry key="player_3" type="boolean" value="true"/>
+					<entry key="player_4" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="-2315 -330 3102"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1601" type="table">
+				<entry key="class" type="string" value="ElementBLCustomAchievement"/>
+				<entry key="editor_name" type="string" value="achievement_mayhem"/>
+				<entry key="id" type="number" value="101600"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="achievement_id" type="string" value="achievement_fuel_pick"/>
+					<entry key="amount_increase" type="number" value="1"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="package_id" type="string" value="achievements_fuel"/>
+					<entry key="players_from_start" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="-2615 -230 3002"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1602" type="table">
+				<entry key="class" type="string" value="ElementFilter"/>
+				<entry key="editor_name" type="string" value="filter_mayhem"/>
+				<entry key="id" type="number" value="101601"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="difficulty_easy" type="boolean" value="false"/>
+					<entry key="difficulty_easy_wish" type="boolean" value="true"/>
+					<entry key="difficulty_hard" type="boolean" value="false"/>
+					<entry key="difficulty_normal" type="boolean" value="false"/>
+					<entry key="difficulty_overkill" type="boolean" value="false"/>
+					<entry key="difficulty_overkill_145" type="boolean" value="false"/>
+					<entry key="difficulty_overkill_290" type="boolean" value="false"/>
+					<entry key="difficulty_sm_wish" type="boolean" value="false"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="mode_assault" type="boolean" value="true"/>
+					<entry key="mode_control" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101600"/>
+						</entry>
+					</entry>
+					<entry key="one_down" type="boolean" value="false"/>
+					<entry key="platform_win32" type="boolean" value="true"/>
+					<entry key="player_1" type="boolean" value="true"/>
+					<entry key="player_2" type="boolean" value="true"/>
+					<entry key="player_3" type="boolean" value="true"/>
+					<entry key="player_4" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="-2615 -230 3102"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1603" type="table">
+				<entry key="class" type="string" value="ElementFilter"/>
+				<entry key="editor_name" type="string" value="filter_dw"/>
+				<entry key="id" type="number" value="101602"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="difficulty_easy" type="boolean" value="false"/>
+					<entry key="difficulty_easy_wish" type="boolean" value="false"/>
+					<entry key="difficulty_hard" type="boolean" value="false"/>
+					<entry key="difficulty_normal" type="boolean" value="false"/>
+					<entry key="difficulty_overkill" type="boolean" value="false"/>
+					<entry key="difficulty_overkill_145" type="boolean" value="false"/>
+					<entry key="difficulty_overkill_290" type="boolean" value="true"/>
+					<entry key="difficulty_sm_wish" type="boolean" value="false"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="mode_assault" type="boolean" value="true"/>
+					<entry key="mode_control" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101603"/>
+						</entry>
+					</entry>
+					<entry key="one_down" type="boolean" value="false"/>
+					<entry key="platform_win32" type="boolean" value="true"/>
+					<entry key="player_1" type="boolean" value="true"/>
+					<entry key="player_2" type="boolean" value="true"/>
+					<entry key="player_3" type="boolean" value="true"/>
+					<entry key="player_4" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="-2515 -230 3102"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1604" type="table">
+				<entry key="class" type="string" value="ElementBLCustomAchievement"/>
+				<entry key="editor_name" type="string" value="achievement_dw"/>
+				<entry key="id" type="number" value="101603"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="achievement_id" type="string" value="achievement_fuel_death"/>
+					<entry key="amount_increase" type="number" value="1"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="package_id" type="string" value="achievements_fuel"/>
+					<entry key="players_from_start" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="-2515 -230 3002"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1605" type="table">
+				<entry key="class" type="string" value="ElementBLCustomAchievement"/>
+				<entry key="editor_name" type="string" value="achievement_ds"/>
+				<entry key="id" type="number" value="101604"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="achievement_id" type="string" value="achievement_fuel_ggez"/>
+					<entry key="amount_increase" type="number" value="1"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="package_id" type="string" value="achievements_fuel"/>
+					<entry key="players_from_start" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="-2415 -230 3002"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1606" type="table">
+				<entry key="class" type="string" value="ElementFilter"/>
+				<entry key="editor_name" type="string" value="filter_ds"/>
+				<entry key="id" type="number" value="101605"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="difficulty_easy" type="boolean" value="false"/>
+					<entry key="difficulty_easy_wish" type="boolean" value="false"/>
+					<entry key="difficulty_hard" type="boolean" value="false"/>
+					<entry key="difficulty_normal" type="boolean" value="false"/>
+					<entry key="difficulty_overkill" type="boolean" value="false"/>
+					<entry key="difficulty_overkill_145" type="boolean" value="false"/>
+					<entry key="difficulty_overkill_290" type="boolean" value="false"/>
+					<entry key="difficulty_sm_wish" type="boolean" value="true"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="mode_assault" type="boolean" value="true"/>
+					<entry key="mode_control" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101604"/>
+						</entry>
+					</entry>
+					<entry key="one_down" type="boolean" value="false"/>
+					<entry key="platform_win32" type="boolean" value="true"/>
+					<entry key="player_1" type="boolean" value="true"/>
+					<entry key="player_2" type="boolean" value="true"/>
+					<entry key="player_3" type="boolean" value="true"/>
+					<entry key="player_4" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="-2415 -230 3102"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1607" type="table">
+				<entry key="class" type="string" value="ElementFilter"/>
+				<entry key="editor_name" type="string" value="filter_dsod"/>
+				<entry key="id" type="number" value="101606"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="difficulty_easy" type="boolean" value="false"/>
+					<entry key="difficulty_easy_wish" type="boolean" value="false"/>
+					<entry key="difficulty_hard" type="boolean" value="false"/>
+					<entry key="difficulty_normal" type="boolean" value="false"/>
+					<entry key="difficulty_overkill" type="boolean" value="false"/>
+					<entry key="difficulty_overkill_145" type="boolean" value="false"/>
+					<entry key="difficulty_overkill_290" type="boolean" value="false"/>
+					<entry key="difficulty_sm_wish" type="boolean" value="true"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="mode_assault" type="boolean" value="true"/>
+					<entry key="mode_control" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101607"/>
+						</entry>
+					</entry>
+					<entry key="one_down" type="boolean" value="true"/>
+					<entry key="platform_win32" type="boolean" value="true"/>
+					<entry key="player_1" type="boolean" value="true"/>
+					<entry key="player_2" type="boolean" value="true"/>
+					<entry key="player_3" type="boolean" value="true"/>
+					<entry key="player_4" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="-2315 -230 3102"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1608" type="table">
+				<entry key="class" type="string" value="ElementBLCustomAchievement"/>
+				<entry key="editor_name" type="string" value="achievement_dsod"/>
+				<entry key="id" type="number" value="101607"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="achievement_id" type="string" value="achievement_fuel_axe"/>
+					<entry key="amount_increase" type="number" value="1"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="package_id" type="string" value="achievements_fuel"/>
+					<entry key="players_from_start" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="-2315 -230 3002"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1609" type="table">
+				<entry key="class" type="string" value="MissionScriptElement"/>
+				<entry key="editor_name" type="string" value="difficulty_achievements"/>
+				<entry key="id" type="number" value="101608"/>
+				<entry key="module" type="string" value="CoreMissionScriptElement"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101593"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101594"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101597"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101599"/>
+						</entry>
+						<entry index="5" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101601"/>
+						</entry>
+						<entry index="6" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101602"/>
+						</entry>
+						<entry index="7" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101605"/>
+						</entry>
+						<entry index="8" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101606"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="-2215 -330 3002"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1610" type="table">
+				<entry key="class" type="string" value="ElementBLCustomAchievement"/>
+				<entry key="editor_name" type="string" value="achievement_pay"/>
+				<entry key="id" type="number" value="101609"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="achievement_id" type="string" value="achievement_fuel_pay"/>
+					<entry key="amount_increase" type="number" value="1"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="package_id" type="string" value="achievements_fuel"/>
+					<entry key="position" type="vector3" value="-2515 -130 3002"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1611" type="table">
+				<entry key="class" type="string" value="ElementInteraction"/>
+				<entry key="editor_name" type="string" value="interact_pay"/>
+				<entry key="id" type="number" value="101610"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="debug_mode" type="boolean" value="false"/>
+					<entry key="enabled" type="boolean" value="false"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="host_only" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="alternative" type="string" value="interacted"/>
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101611"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="alternative" type="string" value="interacted"/>
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101609"/>
+						</entry>
+					</entry>
+					<entry key="override_timer" type="number" value="-1"/>
+					<entry key="position" type="vector3" value="1995 186 92.098"/>
+					<entry key="rotation" type="quaternion" value="-0.048536 0.202167 0.951121 -0.228344"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="tweak_data_id" type="string" value="fuel_pay_money"/>
+				</entry>
+			</entry>
+			<entry index="1612" type="table">
+				<entry key="class" type="string" value="ElementEnableUnit"/>
+				<entry key="editor_name" type="string" value="moneyyyyyy"/>
+				<entry key="id" type="number" value="101611"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101613"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="1952 176 134"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="unit_ids" type="table">
+						<entry index="1" type="number" value="100902"/>
+						<entry index="2" type="number" value="100904"/>
+					</entry>
+				</entry>
+			</entry>
+			<entry index="1613" type="table">
+				<entry key="class" type="string" value="ElementToggle"/>
+				<entry key="editor_name" type="string" value="toggle_054"/>
+				<entry key="id" type="number" value="101612"/>
+				<entry key="module" type="string" value="CoreElementToggle"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="101610"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1952 176 184"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="set_trigger_times" type="number" value="-1"/>
+					<entry key="toggle" type="string" value="on"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1614" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="sound_money"/>
+				<entry key="id" type="number" value="101613"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1995 186 90.4778"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_event" type="string" value="ammo_bag_drop"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="1615" type="table">
+				<entry key="class" type="string" value="ElementBLCustomAchievement"/>
+				<entry key="editor_name" type="string" value="achievement_ks"/>
+				<entry key="id" type="number" value="101614"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="achievement_id" type="string" value="achievement_fuel_ks"/>
+					<entry key="amount_increase" type="number" value="1"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="package_id" type="string" value="achievements_fuel"/>
+					<entry key="position" type="vector3" value="-2415 -130 3002"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
 		</entry>

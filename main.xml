@@ -72,6 +72,7 @@
 		<interactions>
 			<interaction based_on="cas_bfd_drill_toolbox" id="fuel_winch_part"/>
 			<interaction text_id="debug_interact_stash_server_cord" id="fuel_jumper_cable" sound_done="PENT_Pickup_CargoStrap"/>
+			<interaction id="fuel_pay_money" interact_distance="150" timer="0"/>
 			<interaction based_on="hold_pickup_lance" id="fuel_hold_pickup_generator" interact_distance="200"/>
 			<interaction based_on="hold_pickup_lance" id="fuel_hold_pickup_winch" interact_distance="200"/>
 			<interaction based_on="chca_hold_pour_diesel" equipment_consume="true" id="fuel_hold_fuel_gen" interact_distance="100"/>
