@@ -64,7 +64,7 @@
 			<set_variables var_state="1"/>
 		</sequence>
 		<sequence editable_state="true" name="'start_anim'" triggable="true">
-			<animation_group enabled="true" from="0/30" name="'roll'" speed="0.3" to="30/30" loop="true"/>
+			<animation_group enabled="true" from="0/30" name="'roll'" speed="0.03" to="30/30" loop="true"/>
 			<sound action="'play'" event="'winch_start'" source="'snd'"/>
 			<set_variables var_state="2"/>
 		</sequence>
@@ -78,7 +78,7 @@
 			<sound action="'play'" event="'winch_end'" source="'snd'"/>
 		</sequence>
 		<sequence editable_state="true" name="'resume_anim'" triggable="true">
-			<animation_group enabled="true" name="'roll'" speed="0.3" start_loop_time="0/30" to="30/30" loop="true"/>
+			<animation_group enabled="true" name="'roll'" speed="0.03" start_loop_time="0/30" to="30/30" loop="true"/>
 			<sound action="'play'" event="'buzz_saw_end'" source="'snd'"/>
 			<sound action="'play'" event="'winch_start'" source="'snd'"/>
 			<effect_spawner enabled="false" name="'smoke'"/>

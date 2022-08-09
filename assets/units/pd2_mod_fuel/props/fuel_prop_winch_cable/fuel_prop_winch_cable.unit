@@ -11,13 +11,13 @@
 		<extension name="damage" class="UnitDamage" />
 		<extension name="interaction" class="UseInteractionExt">
 			<var name="tweak_data" value="chca_connect_winch_hook" />
-			<var name="_interact_object" value="anim_hatch"/>
+			<var name="_interact_object" value="cable_1"/>
 			<var name="drop_in_sync_tweak_data" value="true" />
 		</extension>
 	</extensions>
 	<!-- Create a sound source from an object in maya -->
 	<sounds>
-		<default_soundsource source="anim_hatch"/>
-		<soundsource name="snd_cable_strain" source="anim_hatch" /> <!-- Creates a sound source based on the source location -->
+		<default_soundsource source="cable_1"/>
+		<soundsource name="snd_cable_strain" source="cable_1" /> <!-- Creates a sound source based on the source location -->
 	</sounds>
 </unit>

@@ -4,13 +4,10 @@
 	<sequence_manager file="units/pd2_mod_fuel/props/fuel_prop_winch_cable/fuel_prop_winch_cable" />
 	<animations>
 		<animation_group name="anim" enabled="false">
-			<object name="anim_hatch" />
-		</animation_group>
-		<animation_group name="anim_cable" enabled="false">
-			<object name="a_cable_1" />
-			<object name="a_cable_2" />
-			<object name="a_cable_3" />
-			<object name="a_cable_4" />
+			<object name="cable_1" />
+			<object name="cable_2" />
+			<object name="cable_3" />
+			<object name="cable_4" />
 		</animation_group>
 	</animations>
 	<bodies>
@@ -20,12 +17,12 @@
 		</body>
 		<!-- collision bodies for hatch -->
 		<body name="body_undamaged_hatch" enabled="true" template="animated">
-			<object name="anim_hatch" />
+			<object name="cable_1" />
 			<object name="c_hatch_undamaged" collision_type="box" padding="-2.5" />
 		</body>
 
 		<body name="body_damaged_hatch" enabled="false" template="animated">
-			<object name="anim_hatch" />
+			<object name="cable_1" />
 			<object name="c_hatch_damaged_a" collision_type="box" padding="-2.5" />
 			<object name="c_hatch_damaged_b" collision_type="box" padding="-2.5" />
 		</body>
@@ -42,11 +39,8 @@
 			<object name="g_hatch_damaged"		enabled="false"  />
 			<object name="g_hatch_hole"			enabled="false"  />
 		</graphic_group>
-		<graphic_group name="grp_cable" enabled="true">
-			<object name="g_cable_1"	enabled="true"  />
-			<object name="g_cable_2"	enabled="true"  />
-			<object name="g_cable_3"	enabled="true"  />
-			<object name="g_cable_4"	enabled="true"  />
+		<graphic_group name="grp_cable" enabled="true" culling_object="co_cable">
+			<object name="g_cable"	enabled="true"  />
 			<object name="g_hook"		enabled="true"  />
 		</graphic_group>
 	</graphics>
