@@ -15,8 +15,32 @@
 		<unit path="units/dev_tools/level_tools/door_blocker/door_blocker_1m"/>
 	</add>
 	<add from_db="true" path="units/dev_tools/level_tools/door_blocker/door_blocker_4x1" type="unit">
-		<unit path="units/dev_tools/level_tools/door_blocker/door_blocker_4x1"/>
+		<material_config path="core/material_configs/hub_elements"/>
 		<object path="units/dev_tools/level_tools/door_blocker/door_blocker_4x1"/>
+		<unit path="units/dev_tools/level_tools/door_blocker/door_blocker_4x1"/>
+	</add>
+	<add from_db="true" path="units/world/props/suburbia_manhole/suburbia_manhole" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/equipment/garden_tap_interactive/main_water_valve_suburbia_contour"/>
+		<object path="units/world/props/suburbia_manhole/suburbia_manhole"/>
+		<sequence_manager path="units/world/props/suburbia_manhole/suburbia_manhole"/>
+		<unit path="units/world/props/suburbia_manhole/suburbia_manhole"/>
+	</add>
+	<add from_db="true" path="units/equipment/c4_charge/c4_plantable" type="unit">
+		<material_config path="units/equipment/c4_charge/c4_plantable"/>
+		<object path="units/equipment/c4_charge/c4_plantable"/>
+		<sequence_manager path="units/equipment/c4_charge/c4_plantable"/>
+		<unit path="units/equipment/c4_charge/c4_plantable"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/shadow_caster_5x5" type="unit">
+		<material_config path="units/dev_tools/level_tools/shadow_caster"/>
+		<object path="units/dev_tools/level_tools/shadow_caster_5x5"/>
+		<sequence_manager path="units/dev_tools/level_tools/shadow_caster"/>
+		<unit path="units/dev_tools/level_tools/shadow_caster_5x5"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" type="unit">
+		<unit path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3"/>
+		<object path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3"/>
 		<material_config path="core/material_configs/hub_elements"/>
 	</add>
 </table>
