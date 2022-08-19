@@ -48126,13 +48126,13 @@
 				<entry key="values" type="table">
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="difficulty_easy" type="boolean" value="true"/>
-					<entry key="difficulty_easy_wish" type="boolean" value="false"/>
-					<entry key="difficulty_hard" type="boolean" value="false"/>
+					<entry key="difficulty_easy_wish" type="boolean" value="true"/>
+					<entry key="difficulty_hard" type="boolean" value="true"/>
 					<entry key="difficulty_normal" type="boolean" value="true"/>
-					<entry key="difficulty_overkill" type="boolean" value="false"/>
-					<entry key="difficulty_overkill_145" type="boolean" value="false"/>
-					<entry key="difficulty_overkill_290" type="boolean" value="false"/>
-					<entry key="difficulty_sm_wish" type="boolean" value="false"/>
+					<entry key="difficulty_overkill" type="boolean" value="true"/>
+					<entry key="difficulty_overkill_145" type="boolean" value="true"/>
+					<entry key="difficulty_overkill_290" type="boolean" value="true"/>
+					<entry key="difficulty_sm_wish" type="boolean" value="true"/>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="mode_assault" type="boolean" value="true"/>
@@ -48162,13 +48162,13 @@
 				<entry key="values" type="table">
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="difficulty_easy" type="boolean" value="false"/>
-					<entry key="difficulty_easy_wish" type="boolean" value="false"/>
+					<entry key="difficulty_easy_wish" type="boolean" value="true"/>
 					<entry key="difficulty_hard" type="boolean" value="true"/>
 					<entry key="difficulty_normal" type="boolean" value="false"/>
-					<entry key="difficulty_overkill" type="boolean" value="false"/>
-					<entry key="difficulty_overkill_145" type="boolean" value="false"/>
-					<entry key="difficulty_overkill_290" type="boolean" value="false"/>
-					<entry key="difficulty_sm_wish" type="boolean" value="false"/>
+					<entry key="difficulty_overkill" type="boolean" value="true"/>
+					<entry key="difficulty_overkill_145" type="boolean" value="true"/>
+					<entry key="difficulty_overkill_290" type="boolean" value="true"/>
+					<entry key="difficulty_sm_wish" type="boolean" value="true"/>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="mode_assault" type="boolean" value="true"/>
@@ -48238,13 +48238,13 @@
 				<entry key="values" type="table">
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="difficulty_easy" type="boolean" value="false"/>
-					<entry key="difficulty_easy_wish" type="boolean" value="false"/>
+					<entry key="difficulty_easy_wish" type="boolean" value="true"/>
 					<entry key="difficulty_hard" type="boolean" value="false"/>
 					<entry key="difficulty_normal" type="boolean" value="false"/>
 					<entry key="difficulty_overkill" type="boolean" value="true"/>
-					<entry key="difficulty_overkill_145" type="boolean" value="false"/>
-					<entry key="difficulty_overkill_290" type="boolean" value="false"/>
-					<entry key="difficulty_sm_wish" type="boolean" value="false"/>
+					<entry key="difficulty_overkill_145" type="boolean" value="true"/>
+					<entry key="difficulty_overkill_290" type="boolean" value="true"/>
+					<entry key="difficulty_sm_wish" type="boolean" value="true"/>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="mode_assault" type="boolean" value="true"/>
@@ -48294,13 +48294,13 @@
 				<entry key="values" type="table">
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="difficulty_easy" type="boolean" value="false"/>
-					<entry key="difficulty_easy_wish" type="boolean" value="false"/>
+					<entry key="difficulty_easy_wish" type="boolean" value="true"/>
 					<entry key="difficulty_hard" type="boolean" value="false"/>
 					<entry key="difficulty_normal" type="boolean" value="false"/>
 					<entry key="difficulty_overkill" type="boolean" value="false"/>
 					<entry key="difficulty_overkill_145" type="boolean" value="true"/>
-					<entry key="difficulty_overkill_290" type="boolean" value="false"/>
-					<entry key="difficulty_sm_wish" type="boolean" value="false"/>
+					<entry key="difficulty_overkill_290" type="boolean" value="true"/>
+					<entry key="difficulty_sm_wish" type="boolean" value="true"/>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="mode_assault" type="boolean" value="true"/>
@@ -48355,8 +48355,8 @@
 					<entry key="difficulty_normal" type="boolean" value="false"/>
 					<entry key="difficulty_overkill" type="boolean" value="false"/>
 					<entry key="difficulty_overkill_145" type="boolean" value="false"/>
-					<entry key="difficulty_overkill_290" type="boolean" value="false"/>
-					<entry key="difficulty_sm_wish" type="boolean" value="false"/>
+					<entry key="difficulty_overkill_290" type="boolean" value="true"/>
+					<entry key="difficulty_sm_wish" type="boolean" value="true"/>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="mode_assault" type="boolean" value="true"/>
@@ -48392,7 +48392,7 @@
 					<entry key="difficulty_overkill" type="boolean" value="false"/>
 					<entry key="difficulty_overkill_145" type="boolean" value="false"/>
 					<entry key="difficulty_overkill_290" type="boolean" value="true"/>
-					<entry key="difficulty_sm_wish" type="boolean" value="false"/>
+					<entry key="difficulty_sm_wish" type="boolean" value="true"/>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="mode_assault" type="boolean" value="true"/>
@@ -48478,6 +48478,10 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="101604"/>
 						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101606"/>
+						</entry>
 					</entry>
 					<entry key="one_down" type="boolean" value="false"/>
 					<entry key="platform_win32" type="boolean" value="true"/>
@@ -48492,7 +48496,7 @@
 			</entry>
 			<entry index="1607" type="table">
 				<entry key="class" type="string" value="ElementFilter"/>
-				<entry key="editor_name" type="string" value="filter_dsod"/>
+				<entry key="editor_name" type="string" value="filter_od"/>
 				<entry key="id" type="number" value="101606"/>
 				<entry key="script" type="string" value="default"/>
 				<entry key="values" type="table">
@@ -48504,7 +48508,7 @@
 					<entry key="difficulty_overkill" type="boolean" value="false"/>
 					<entry key="difficulty_overkill_145" type="boolean" value="false"/>
 					<entry key="difficulty_overkill_290" type="boolean" value="false"/>
-					<entry key="difficulty_sm_wish" type="boolean" value="true"/>
+					<entry key="difficulty_sm_wish" type="boolean" value="false"/>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="mode_assault" type="boolean" value="true"/>
@@ -48584,10 +48588,6 @@
 						<entry index="7" type="table">
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="101605"/>
-						</entry>
-						<entry index="8" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="101606"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-2215 -330 3002"/>
