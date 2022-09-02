@@ -68,6 +68,7 @@
 			<hook file="preplanningmanager.lua" source_file="lib/managers/preplanningmanager"/>
 			<hook file="elementaccesscamera.lua" source_file="lib/managers/mission/elementaccesscamera"/>
 			<hook file="elementaccesscamera.lua" source_file="lib/states/ingameaccesscamera"/>
+			<hook file="tweakdatapd2.lua" source_file="lib/tweak_data/tweakdatapd2"/>
 		</hooks>
 		<interactions>
 			<interaction based_on="cas_bfd_drill_toolbox" id="fuel_winch_part"/>
