@@ -3304,7 +3304,13 @@
 	</add>
 	<add from_db="true" path="units/pd2_dlc_friend/characters/ene_thug_indoor_02/ene_thug_indoor_02" type="unit">
 		<unit load="true" path="units/pd2_dlc_friend/characters/ene_thug_indoor_02/ene_thug_indoor_02"/>
-		<object path="units/pd2_dlc_friend/characters/ene_thug_indoor_02/ene_thug_indoor_02"/>
 		<unit load="true" path="units/pd2_dlc_friend/characters/ene_thug_indoor_02/ene_thug_indoor_02_husk"/>
+		<object path="units/pd2_dlc_friend/characters/ene_thug_indoor_02/ene_thug_indoor_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_cro/lockpick_interactable/lockpick_interactable" type="unit">
+		<unit path="units/pd2_dlc_cro/lockpick_interactable/lockpick_interactable"/>
+		<object path="units/pd2_dlc_cro/lockpick_interactable/lockpick_interactable"/>
+		<material_config path="units/pd2_dlc_cro/lockpick_interactable/lockpick_interactable"/>
+		<sequence_manager path="units/pd2_dlc_cro/lockpick_interactable/lockpick_interactable"/>
 	</add>
 </table>
