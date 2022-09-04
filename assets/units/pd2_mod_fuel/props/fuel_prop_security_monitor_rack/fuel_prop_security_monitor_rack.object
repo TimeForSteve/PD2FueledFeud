@@ -1,0 +1,56 @@
+<dynamic_object>
+    <diesel orientation_object="rp_fuel_prop_ticket_monitor" materials="units/pd2_mod_fuel/props/fuel_prop_security_monitor_rack/fuel_prop_security_monitor_rack" />
+		<sequence_manager file="units/pd2_mod_fuel/props/fuel_prop_security_monitor_rack/fuel_prop_security_monitor_rack" />  	
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+            <object collision_type="convex" name="c_convex_01" />
+        </body>
+    </bodies>
+    <decal_surfaces>
+        <!-- <decal_mesh enabled="true" name="dm_metal" material="metal" /> -->
+        <!-- <decal_mesh enabled="true" name="dm_plastic" material="plastic" /> -->
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_g" />
+        <object enabled="true" name="g_screen_overlay" />
+        <object enabled="true" name="g_screen_glow" />
+        <object enabled="true" name="g_screen_on" />
+        <object enabled="false" name="g_screen_off" />
+        <object enabled="true" name="g_rack" />
+
+        <!-- names -->
+        <object enabled="true" name="g_name_1" />
+        <object enabled="false" name="g_name_2" />
+        <object enabled="false" name="g_name_3" />
+        <object enabled="false" name="g_name_4" />
+        <object enabled="true" name="g_name_5" />
+        <object enabled="false" name="g_name_6" />
+        <object enabled="false" name="g_name_7" />
+        <object enabled="false" name="g_name_8" />
+
+        <!-- top_times -->
+        <object enabled="true" name="g_time_top_1" />
+        <object enabled="false" name="g_time_top_2" />
+        <object enabled="false" name="g_time_top_3" />
+        <object enabled="false" name="g_time_top_4" />
+        <object enabled="false" name="g_time_top_5" />
+        <object enabled="false" name="g_time_top_6" />
+        <object enabled="false" name="g_time_top_7" />
+        <object enabled="false" name="g_time_top_8" />
+
+         <!-- bottom times -->
+        <object enabled="true" name="g_time_bottom_1" />
+        <object enabled="false" name="g_time_bottom_2" />
+        <object enabled="false" name="g_time_bottom_3" />
+        <object enabled="false" name="g_time_bottom_4" />
+        <object enabled="false" name="g_time_bottom_5" />
+        <object enabled="false" name="g_time_bottom_6" />
+        <object enabled="false" name="g_time_bottom_7" />
+        <graphic_group name="grp_outline" enabled="true">
+            <lod_object name="lod_outline">
+                <object name="g_glow_lod0" enabled="true"  max_distance="600" />
+                <object name="g_glow_lod1" enabled="true" />
+            </lod_object>
+        </graphic_group>
+    </graphics>
+</dynamic_object>

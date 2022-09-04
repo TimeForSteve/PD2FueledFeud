@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<unit type="hlm" slot="1">
+	<object file="units/pd2_mod_fuel/equipment/fuel_interactable_ticket_reader/fuel_interactable_ticket_reader" />
+	<network sync="spawn"/>
+	<dependencies>
+		<depends_on bnk="soundbanks/regular_sfx" />
+	</dependencies>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="interaction" class="UseInteractionExt">
+			<var name="tweak_data" value="fuel_hold_scan_ticket" />
+			<var name="_interact_object" value="interact_location"/>
+			<var name="drop_in_sync_tweak_data" value="true" />
+		</extension>
+	</extensions>
+	<sounds>
+		<default_soundsource source="rp_fuel_interactable_ticket_reader"/>
+		<soundsource name="snd" source="rp_fuel_interactable_ticket_reader" />
+	</sounds>
+</unit>

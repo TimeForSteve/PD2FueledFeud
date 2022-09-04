@@ -1,0 +1,30 @@
+<materials version="3">
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_are_prop_backstage_monitor" version="2">
+        <diffuse_texture file="units/payday2/props/are_prop_backstage_monitor/are_prop_backstage_monitor_df"/>
+        <bump_normal_texture file="units/payday2/props/are_prop_backstage_monitor/are_prop_backstage_monitor_nm"/>
+    </material>
+    <material render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP" name="mat_are_prop_backstage_monitor_rack" version="2" >
+        <diffuse_texture file="units/payday2/props/are_prop_backstage_monitor/are_prop_backstage_monitor_rack_df"/>
+        <bump_normal_texture file="units/payday2/props/are_prop_backstage_monitor/are_prop_backstage_monitor_rack_nm"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE" name="mat_screen" version="2" >
+        <diffuse_texture file="units/pd2_mod_fuel/props/fuel_prop_security_monitor_rack/fuel_screen_ticket_vcr_df"/>
+    </material>
+    <material decal_material="glass_breakable" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:DOUBLE_SIDED" version="2" name="mat_screen_off">
+        <diffuse_texture file="units/payday2/glass/glass_clear_vehicle_dark_a_df"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+    </material>
+    <material decal_material="glass_breakable" render_template="decal:DIFFUSE_TEXTURE" version="2" name="mat_overlay">
+        <diffuse_texture file="units/pd2_dlc_mex/props/mex_prop_security_monitor/mex_screen_overlay_df"/>
+    </material>
+    <material render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE" version="2" name="mat_glow">
+        <diffuse_texture file="units/pd2_dlc_mex/props/mex_prop_security_monitor/mex_screen_glow_df"/>
+        <variable type="scalar" name="intensity" value="match"/>
+    </material>
+    <material name="mat_outline" render_template="generic:ALPHA_MASKED:CONTOUR:DIFFUSE_TEXTURE:OPACITY_TEXTURE" unique="true" version="2">
+        <diffuse_texture file="units/white_df"/>
+        <variable value="1.0 0.5 0" type="vector3" name="contour_color"/>
+        <variable value="1" type="scalar" name="contour_opacity"/>
+        <opacity_texture file="units/transparent_op"/>
+    </material>
+</materials>

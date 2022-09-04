@@ -72,9 +72,11 @@
 			<hook file="tweakdatapd2.lua" source_file="lib/tweak_data/tweakdatapd2"/>
 		</hooks>
 		<interactions>
-			<interaction based_on="cas_bfd_drill_toolbox" id="fuel_winch_part"/>
+			<interaction based_on="hold_born_search_tools" id="fuel_winch_part" start_active="true"/>
 			<interaction text_id="debug_interact_stash_server_cord" id="fuel_jumper_cable" sound_done="PENT_Pickup_CargoStrap"/>
 			<interaction id="fuel_pay_money" interact_distance="150" timer="0"/>
+			<interaction id="fuel_switch_ticket" interact_distance="250" timer="0" start_active="false"/>
+			<interaction id="fuel_hold_scan_ticket" interact_distance="200" equipment_consume="true" axis="x" timer="3" special_equipment="fuel_ticket" equipment_text_id="hud_equipment_use_ticket"/>
 			<interaction based_on="hold_pickup_lance" id="fuel_hold_pickup_generator" interact_distance="200"/>
 			<interaction based_on="hold_pickup_lance" id="fuel_hold_pickup_winch" interact_distance="200"/>
 			<interaction based_on="chca_hold_pour_diesel" equipment_consume="true" id="fuel_hold_fuel_gen" interact_distance="100"/>
