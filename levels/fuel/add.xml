@@ -3308,9 +3308,20 @@
 		<object path="units/pd2_dlc_friend/characters/ene_thug_indoor_02/ene_thug_indoor_02"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_cro/lockpick_interactable/lockpick_interactable" type="unit">
-		<unit path="units/pd2_dlc_cro/lockpick_interactable/lockpick_interactable"/>
-		<object path="units/pd2_dlc_cro/lockpick_interactable/lockpick_interactable"/>
 		<material_config path="units/pd2_dlc_cro/lockpick_interactable/lockpick_interactable"/>
+		<object path="units/pd2_dlc_cro/lockpick_interactable/lockpick_interactable"/>
 		<sequence_manager path="units/pd2_dlc_cro/lockpick_interactable/lockpick_interactable"/>
+		<unit path="units/pd2_dlc_cro/lockpick_interactable/lockpick_interactable"/>
+	</add>
+	<add from_db="true" path="units/wire/wire_01" type="unit">
+		<material_config path="units/wire/wire_01"/>
+		<object path="units/wire/wire_01"/>
+		<unit path="units/wire/wire_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mex/props/mex_prop_keypad_manual/mex_prop_keypad_manual" type="unit">
+		<unit path="units/pd2_dlc_mex/props/mex_prop_keypad_manual/mex_prop_keypad_manual"/>
+		<object path="units/pd2_dlc_mex/props/mex_prop_keypad_manual/mex_prop_keypad_manual"/>
+		<material_config path="units/pd2_dlc_mex/props/mex_prop_keypad_manual/mex_prop_keypad_manual"/>
+		<sequence_manager path="units/pd2_dlc_mex/props/mex_prop_keypad_manual/mex_prop_keypad_manual"/>
 	</add>
 </table>

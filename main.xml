@@ -57,6 +57,7 @@
 		<equipments>
 			<special icon="equipment_electrical" id="fuel_jumper_cable" sync_possession="true"/>
 			<special icon="equipment_drillfix" id="fuel_winch_part" name_id="hud_carry_winch_bag" sync_possession="true"/>
+			<special icon="equipment_barcode" id="fuel_ticket" text_id="hud_equipment_take_ticket" sync_possession="true"/>
 		</equipments>
 		<hooks directory="hooks">
 			<hook file="missionendstate.lua" source_file="lib/states/missionendstate"/>

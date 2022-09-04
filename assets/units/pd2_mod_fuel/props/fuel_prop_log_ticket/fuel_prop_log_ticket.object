@@ -1,0 +1,17 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_fuel/props/fuel_prop_log_ticket/fuel_prop_log_ticket" orientation_object="rp_cas_prop_cashout_ticket" />
+	<sequence_manager file="units/pd2_mod_fuel/props/fuel_prop_log_ticket/fuel_prop_log_ticket" />
+	<bodies>
+		<body name="body_editor" enabled="true" template="editor">
+			<object name="g_cas_prop_cashout_ticket" collision_type="box" />
+		</body>
+	</bodies>
+	<graphics>
+		<graphic_group name="gfx_grp" enabled="true" >
+			<object name="g_cas_prop_cashout_ticket" enabled="true" />
+		</graphic_group>
+	</graphics>
+</dynamic_object>
+
+
+
