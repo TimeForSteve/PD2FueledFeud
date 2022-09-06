@@ -11,17 +11,9 @@
 	<instance id="fuel_tape_locker">
 		<packages/>
 	</instance>
-	<Hooks directory="hooks">
-		<hook file="guitweakdata.lua" source_file="lib/tweak_data/guitweakdata"/>
-	</Hooks>
-	<Localization default="english.yaml" directory="loc">
-		<loc file="english.yaml" language="english"/>
-	</Localization>
-	<Package file="scriptdata/fuel.package" id="package_fuel" unload_on_restart="true"/>
-	<AddFiles directory="assets">
-		<texture path="guis/mods/fuel/textures/loading/job_fuel_df"/>
-		<texture path="guis/mods/fuel/textures/pd2/crimenet/fuel"/>
-	</AddFiles>
+	<instance id="fuel_ticket_logic">
+		<packages/>
+	</instance>
 	<Achievements icon="guis/mods/fuel/textures/achievements/fuel_pack" id="achievements_fuel">
 		<achievement desc_id="achievement_fuel_wd_0_desc" icon="guis/mods/fuel/textures/achievements/fuel_normal" id="achievement_fuel_wd_0" name_id="achievement_fuel_wd_0" rank="1"/>
 		<achievement desc_id="achievement_fuel_wd_1_desc" icon="guis/mods/fuel/textures/achievements/fuel_hard" id="achievement_fuel_wd_1" name_id="achievement_fuel_wd_1" rank="1"/>
@@ -36,28 +28,38 @@
 		<achievement desc_id="achievement_fuel_tape_desc" icon="guis/mods/fuel/textures/achievements/fuel_tape" id="achievement_fuel_tape" name_id="achievement_fuel_tape" rank="3" reward_amount="3" reward_type="cc"/>
 		<achievement desc_id="achievement_fuel_ks_desc" icon="guis/mods/fuel/textures/achievements/fuel_ks" id="achievement_fuel_ks" name_id="achievement_fuel_ks" rank="1"/>
 	</Achievements>
+	<AddFiles directory="assets">
+		<texture path="guis/mods/fuel/textures/loading/job_fuel_df"/>
+		<texture path="guis/mods/fuel/textures/pd2/crimenet/fuel"/>
+	</AddFiles>
+	<Hooks directory="hooks">
+		<hook file="guitweakdata.lua" source_file="lib/tweak_data/guitweakdata"/>
+	</Hooks>
+	<Localization default="english.yaml" directory="loc">
+		<loc file="english.yaml" language="english"/>
+	</Localization>
+	<Package file="scriptdata/fuel.package" id="package_fuel" unload_on_restart="true"/>
 	<PrePlanning>
 		<locations>
 			<location id="fuel" mission_briefing_texture="guis/mods/fuel/textures/pd2/pre_planning/mission_briefing_fuel" total_budget="8">
 				<table map_size="1" map_x="-0.3" map_y="0" name_id="menu_pp_fuel_a" rotation="180" texture="guis/mods/fuel/textures/pd2/pre_planning/fuel_loc_a_df" x1="-2680" x2="5110" y1="-4930" y2="3750"/>
-				<!--<table map_size="0.45" map_x="0.475" map_y="-0.275" name_id="menu_pp_fuel_b" rotation="180" texture="guis/textures/pd2/pre_planning/hlm_01" x1="-1650" x2="3500" y1="-1850" y2="700"/>-->
 				<start_location group="a" x="1024" y="1024" zoom="1"/>
 			</location>
 		</locations>
 		<types>
 			<type budget_cost="2" category="hired_help" cost="2000" icon="35" id="fuel_mole" plan="hired_help" post_event="preplan_13" prio="1" total="1"/>
-			<type budget_cost="1" category="dead_drop" cost="4000" icon="31" id="fuel_faks" deployable_id="first_aid_kit" post_event="preplan_13" prio="6" total="4"/>
+			<type budget_cost="1" category="dead_drop" cost="4000" deployable_id="first_aid_kit" icon="31" id="fuel_faks" post_event="preplan_13" prio="6" total="4"/>
 			<type budget_cost="1" category="mission_equipment" cost="1000" icon="63" id="fuel_ladder" post_event="preplan_15" prio="5" total="1"/>
-			<type budget_cost="3" category="mission_equipment" cost="8000" icon="93" id="fuel_plane" post_event="preplan_13" pos_not_important="true" prio="3" total="1"/>
+			<type budget_cost="3" category="mission_equipment" cost="8000" icon="93" id="fuel_plane" pos_not_important="true" post_event="preplan_13" prio="3" total="1"/>
 		</types>
 	</PrePlanning>
 	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="yaeger" name_id="contact_yaeger_name" package="packages/contact_bain"/>
-	<level ai_group_type="America" briefing_dialog="" brief_id="heist_fuel_briefing" ghost_bonus="0.06" id="fuel" intro_event="" max_bags="24" player_style="generic" load_screen="guis/mods/fuel/textures/loading/job_fuel_df">
+	<level ai_group_type="America" brief_id="heist_fuel_briefing" briefing_dialog="" ghost_bonus="0.06" id="fuel" intro_event="" load_screen="guis/mods/fuel/textures/loading/job_fuel_df" max_bags="24" player_style="generic">
 		<assets/>
 		<equipments>
 			<special icon="equipment_electrical" id="fuel_jumper_cable" sync_possession="true"/>
 			<special icon="equipment_drillfix" id="fuel_winch_part" name_id="hud_carry_winch_bag" sync_possession="true"/>
-			<special icon="equipment_barcode" id="fuel_ticket" text_id="hud_equipment_take_ticket" sync_possession="true"/>
+			<special icon="equipment_barcode" id="fuel_ticket" sync_possession="true" text_id="hud_equipment_take_ticket"/>
 		</equipments>
 		<hooks directory="hooks">
 			<hook file="missionendstate.lua" source_file="lib/states/missionendstate"/>
@@ -73,18 +75,30 @@
 		</hooks>
 		<interactions>
 			<interaction based_on="hold_born_search_tools" id="fuel_winch_part" start_active="true"/>
-			<interaction text_id="debug_interact_stash_server_cord" id="fuel_jumper_cable" sound_done="PENT_Pickup_CargoStrap"/>
+			<interaction id="fuel_jumper_cable" sound_done="PENT_Pickup_CargoStrap" text_id="debug_interact_stash_server_cord"/>
 			<interaction id="fuel_pay_money" interact_distance="150" timer="0"/>
-			<interaction id="fuel_switch_ticket" interact_distance="250" timer="0" start_active="false"/>
-			<interaction id="fuel_hold_scan_ticket" interact_distance="200" equipment_consume="true" axis="x" timer="3" special_equipment="fuel_ticket" equipment_text_id="hud_equipment_use_ticket"/>
+			<interaction id="fuel_switch_ticket" interact_distance="250" start_active="false" timer="0"/>
+			<interaction axis="x" equipment_consume="true" equipment_text_id="hud_equipment_use_ticket" id="fuel_hold_scan_ticket" interact_distance="200" special_equipment="fuel_ticket" timer="3"/>
 			<interaction based_on="hold_pickup_lance" id="fuel_hold_pickup_generator" interact_distance="200"/>
 			<interaction based_on="hold_pickup_lance" id="fuel_hold_pickup_winch" interact_distance="200"/>
+			<interaction id="fuel_hold_call_1" interact_distance="200" timer="3"/>
+			<interaction id="fuel_hold_call_2" interact_distance="200" timer="3"/>
+			<interaction id="fuel_hold_call_3" interact_distance="200" timer="3"/>
 			<interaction based_on="chca_hold_pour_diesel" equipment_consume="true" id="fuel_hold_fuel_gen" interact_distance="100"/>
 			<interaction based_on="born_plug_in_powercord" equipment_consume="true" equipment_text_id="hud_int_requires_jumper_cable" id="fuel_use_jumper_cable" special_equipment="fuel_jumper_cable"/>
 			<interaction based_on="bex_take_cupprint" equipment_consume="true" equipment_text_id="hud_interact_take_fingerprint" id="fuel_use_tape" special_equipment="tape"/>
 			<interaction based_on="huge_lance" equipment_consume="true" equipment_text_id="hud_int_equipment_no_winch_part" id="fuel_repair_winch" special_equipment="fuel_winch_part" timer="6"/>
-			<interaction id="fuel_hold_push_car" axis="z" force_update_position="true" interact_distance="250" timer="2.5"/>
+			<interaction axis="z" force_update_position="true" id="fuel_hold_push_car" interact_distance="250" timer="2.5"/>
 		</interactions>
+		<sounds auto_pause="true" directory="assets/vo" dont_store_float="true">
+			<sound id="Play_mob_fuel_01" path="fuel_mob_01.ogg" subtitle_id="mob_fuel_01_01"/>
+			<sound id="Play_mob_fuel_02" path="fuel_mob_01.ogg" subtitle_id="mob_fuel_01_02"/>
+			<sound id="Play_mob_fuel_03" path="fuel_mob_01.ogg" subtitle_id="mob_fuel_01_03"/>
+			<sound id="Play_mob_fuel_04" path="fuel_mob_01.ogg" subtitle_id="mob_fuel_01_04"/>
+			<sound id="Play_mob_fuel_05" path="fuel_mob_01.ogg" subtitle_id="mob_fuel_01_05"/>
+			<sound id="Play_mob_fuel_06" path="fuel_mob_01.ogg" subtitle_id="mob_fuel_01_06"/>
+			<sound id="Play_mob_fuel_07" path="fuel_mob_01.ogg" subtitle_id="mob_fuel_01_07"/>
+		</sounds>
 		<lootbags>
 			<carry based_on="winch_part" id="fuel_generator" name_id="hud_carry_fuel_generator"/>
 			<carry based_on="winch_part" id="fuel_winch" name_id="hud_carry_fuel_winch"/>
@@ -109,7 +123,7 @@
 			<sound id="katoil_branding" loop="true" path="katoil_branding.ogg" stop_id="katoil_branding_stop"/>
 		</sounds>
 	</level>
-	<narrative briefing_event="" brief_id="heist_fuel_crimenet" contact="yaeger" icon="guis/mods/fuel/textures/pd2/crimenet/fuel" id="fuel">
+	<narrative brief_id="heist_fuel_crimenet" briefing_event="" contact="yaeger" icon="guis/mods/fuel/textures/pd2/crimenet/fuel" id="fuel">
 		<chain>
 			<table level_id="fuel" type="d" type_id="heist_type_assault"/>
 		</chain>

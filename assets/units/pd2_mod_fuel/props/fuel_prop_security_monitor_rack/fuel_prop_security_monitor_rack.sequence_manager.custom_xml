@@ -148,6 +148,9 @@
 			<interaction enabled="false"/>
 		</sequence>
 		<sequence editable_state="false" name="'interact'" triggable="false">
+			<run_sequence name="'channel_swiched'"/>
+		</sequence>
+		<sequence editable_state="true" name="'channel_swiched'" triggable="true">
 			<sound action="'play'" event="'tv_switch_on'" source="'snd'"/>
 			<sound action="'play'" event="'tv_switch_off'" source="'snd'" start_time="15/30"/>
 		</sequence>
