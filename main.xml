@@ -98,6 +98,7 @@
 			<sound id="Play_mob_fuel_05" path="fuel_mob_01.ogg" subtitle_id="mob_fuel_01_05"/>
 			<sound id="Play_mob_fuel_06" path="fuel_mob_01.ogg" subtitle_id="mob_fuel_01_06"/>
 			<sound id="Play_mob_fuel_07" path="fuel_mob_01.ogg" subtitle_id="mob_fuel_01_07"/>
+			<sound id="katoil_branding" loop="true" path="katoil_branding.ogg" stop_id="katoil_branding_stop"/>
 		</sounds>
 		<lootbags>
 			<carry based_on="winch_part" id="fuel_generator" name_id="hud_carry_fuel_generator"/>
@@ -119,9 +120,6 @@
 				<options merge_mode="add" mode="add"/>
 			</mod>
 		</script_data_mods>
-		<sounds auto_pause="true" directory="assets/vo" dont_store_float="true">
-			<sound id="katoil_branding" loop="true" path="katoil_branding.ogg" stop_id="katoil_branding_stop"/>
-		</sounds>
 	</level>
 	<narrative brief_id="heist_fuel_crimenet" briefing_event="" contact="yaeger" icon="guis/mods/fuel/textures/pd2/crimenet/fuel" id="fuel">
 		<chain>

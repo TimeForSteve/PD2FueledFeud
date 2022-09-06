@@ -606,7 +606,7 @@
 						</entry>
 						<entry index="17" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="101687"/>
+							<entry key="id" type="number" value="101900"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="335 170 3002"/>
@@ -5082,6 +5082,11 @@
 							<entry key="guis_id" type="number" value="1"/>
 							<entry key="obj_name" type="idstring" value="6f2452ed502b8b6f"/>
 							<entry key="unit_id" type="number" value="101187"/>
+						</entry>
+						<entry index="15" type="table">
+							<entry key="guis_id" type="number" value="1"/>
+							<entry key="obj_name" type="idstring" value="6f2452ed502b8b6f"/>
+							<entry key="unit_id" type="number" value="102137"/>
 						</entry>
 					</entry>
 					<entry key="on_executed" type="table">
@@ -20821,6 +20826,11 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="101715"/>
 						</entry>
+						<entry index="3" type="table">
+							<entry key="alternative" type="string" value="interacted"/>
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100820"/>
+						</entry>
 					</entry>
 					<entry key="override_timer" type="number" value="-1"/>
 					<entry key="position" type="vector3" value="-1133 -1393 64"/>
@@ -20850,6 +20860,11 @@
 							<entry key="alternative" type="string" value="interacted"/>
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="101716"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="alternative" type="string" value="interacted"/>
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100820"/>
 						</entry>
 					</entry>
 					<entry key="override_timer" type="number" value="-1"/>
@@ -41363,7 +41378,7 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="325 200 -334.4"/>
+					<entry key="position" type="vector3" value="200 100 -384.4"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="0"/>
 					<entry key="unit_ids" type="table">
@@ -41373,8 +41388,6 @@
 						<entry index="4" type="number" value="101333"/>
 						<entry index="5" type="number" value="101334"/>
 						<entry index="6" type="number" value="101335"/>
-						<entry index="7" type="number" value="101075"/>
-						<entry index="8" type="number" value="101091"/>
 					</entry>
 				</entry>
 			</entry>
@@ -51057,7 +51070,7 @@
 					<entry key="align_rotation" type="boolean" value="true"/>
 					<entry key="attitude" type="string" value="avoid"/>
 					<entry key="base_chance" type="number" value="1"/>
-					<entry key="base_delay" type="number" value="8"/>
+					<entry key="base_delay" type="number" value="0"/>
 					<entry key="chance_inc" type="number" value="0"/>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
@@ -51282,9 +51295,14 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="101887"/>
 						</entry>
+						<entry index="3" type="table">
+							<entry key="alternative" type="string" value="interacted"/>
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101899"/>
+						</entry>
 					</entry>
 					<entry key="override_timer" type="number" value="-1"/>
-					<entry key="position" type="vector3" value="2495 665 130"/>
+					<entry key="position" type="vector3" value="2245 665 130"/>
 					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
 					<entry key="trigger_times" type="number" value="0"/>
 					<entry key="tweak_data_id" type="string" value="fuel_hold_call_1"/>
@@ -51335,10 +51353,6 @@
 							<entry key="id" type="number" value="101704"/>
 						</entry>
 						<entry index="9" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="101821"/>
-						</entry>
-						<entry index="10" type="table">
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="101885"/>
 						</entry>
@@ -51409,6 +51423,26 @@
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="101680"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101901"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101711"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101700"/>
+						</entry>
+						<entry index="5" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101701"/>
+						</entry>
+						<entry index="6" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101705"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="140 -2530 3000"/>
@@ -51566,7 +51600,7 @@
 			</entry>
 			<entry index="1685" type="table">
 				<entry key="class" type="string" value="ElementToggle"/>
-				<entry key="editor_name" type="string" value="toggle_058"/>
+				<entry key="editor_name" type="string" value="toggle_stealth_stuff"/>
 				<entry key="id" type="number" value="101687"/>
 				<entry key="module" type="string" value="CoreElementToggle"/>
 				<entry key="script" type="string" value="default"/>
@@ -51575,12 +51609,22 @@
 					<entry key="elements" type="table">
 						<entry index="1" type="number" value="101686"/>
 						<entry index="2" type="number" value="101688"/>
+						<entry index="3" type="number" value="101675"/>
+						<entry index="4" type="number" value="100037"/>
+						<entry index="5" type="number" value="100038"/>
+						<entry index="6" type="number" value="101884"/>
+						<entry index="7" type="number" value="101823"/>
+						<entry index="8" type="number" value="101925"/>
 					</entry>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101901"/>
+						</entry>
 					</entry>
-					<entry key="position" type="vector3" value="440 -2330 3000"/>
+					<entry key="position" type="vector3" value="340 -1730 3000"/>
 					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
 					<entry key="toggle" type="string" value="off"/>
@@ -52934,7 +52978,7 @@
 						</entry>
 						<entry index="4" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100038"/>
+							<entry key="id" type="number" value="101894"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-2065 870 3002"/>
@@ -53083,7 +53127,7 @@
 				<entry key="values" type="table">
 					<entry key="as_subtitle" type="boolean" value="false"/>
 					<entry key="base_delay" type="number" value="0"/>
-					<entry key="debug_string" type="string" value="time 15:05"/>
+					<entry key="debug_string" type="string" value="time 10:05"/>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
@@ -55073,7 +55117,7 @@
 			</entry>
 			<entry index="1802" type="table">
 				<entry key="class" type="string" value="ElementUnitSequence"/>
-				<entry key="editor_name" type="string" value="enable_ticket_scanner"/>
+				<entry key="editor_name" type="string" value="reenable_ticket_scanner"/>
 				<entry key="id" type="number" value="101821"/>
 				<entry key="module" type="string" value="CoreElementUnitSequence"/>
 				<entry key="script" type="string" value="default"/>
@@ -55093,7 +55137,7 @@
 							<entry key="time" type="number" value="0"/>
 						</entry>
 					</entry>
-					<entry key="trigger_times" type="number" value="4"/>
+					<entry key="trigger_times" type="number" value="3"/>
 				</entry>
 			</entry>
 			<entry index="1803" type="table">
@@ -55143,6 +55187,10 @@
 						<entry index="3" type="table">
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="101825"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101905"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-2465 1170 3002"/>
@@ -55203,7 +55251,7 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-2365 1270 3002"/>
+					<entry key="position" type="vector3" value="-2465 1270 3002"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_list" type="table">
 						<entry index="1" type="table">
@@ -57526,6 +57574,7 @@
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="elements" type="table">
 						<entry index="1" type="number" value="101836"/>
+						<entry index="2" type="number" value="101911"/>
 					</entry>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
@@ -57548,6 +57597,7 @@
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="elements" type="table">
 						<entry index="1" type="number" value="101837"/>
+						<entry index="2" type="number" value="101914"/>
 					</entry>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
@@ -57570,6 +57620,7 @@
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="elements" type="table">
 						<entry index="1" type="number" value="101872"/>
+						<entry index="2" type="number" value="101915"/>
 					</entry>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
@@ -57592,6 +57643,7 @@
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="elements" type="table">
 						<entry index="1" type="number" value="101873"/>
+						<entry index="2" type="number" value="101916"/>
 					</entry>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
@@ -57614,6 +57666,7 @@
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="elements" type="table">
 						<entry index="1" type="number" value="101874"/>
+						<entry index="2" type="number" value="101917"/>
 					</entry>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
@@ -57636,6 +57689,7 @@
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="elements" type="table">
 						<entry index="1" type="number" value="101875"/>
+						<entry index="2" type="number" value="101918"/>
 					</entry>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
@@ -57658,6 +57712,7 @@
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="elements" type="table">
 						<entry index="1" type="number" value="101876"/>
+						<entry index="2" type="number" value="101919"/>
 					</entry>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
@@ -57715,6 +57770,18 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="101876"/>
 						</entry>
+						<entry index="8" type="table">
+							<entry key="delay" type="number" value="1"/>
+							<entry key="id" type="number" value="101895"/>
+						</entry>
+						<entry index="9" type="table">
+							<entry key="delay" type="number" value="80"/>
+							<entry key="id" type="number" value="101912"/>
+						</entry>
+						<entry index="10" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101923"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="3134 -514 164"/>
 					<entry key="radius" type="number" value="250"/>
@@ -57730,7 +57797,7 @@
 			</entry>
 			<entry index="1884" type="table">
 				<entry key="class" type="string" value="ElementToggle"/>
-				<entry key="editor_name" type="string" value="toggle_064"/>
+				<entry key="editor_name" type="string" value="toggle_call_triggers"/>
 				<entry key="id" type="number" value="101885"/>
 				<entry key="module" type="string" value="CoreElementToggle"/>
 				<entry key="script" type="string" value="default"/>
@@ -57738,15 +57805,13 @@
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="elements" type="table">
 						<entry index="1" type="number" value="101884"/>
-						<entry index="2" type="number" value="101675"/>
-						<entry index="3" type="number" value="100037"/>
-						<entry index="4" type="number" value="100038"/>
+						<entry index="2" type="number" value="101925"/>
 					</entry>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="240 -2230 3000"/>
+					<entry key="position" type="vector3" value="340 -2330 3000"/>
 					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
 					<entry key="toggle" type="string" value="on"/>
@@ -57775,9 +57840,14 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="101890"/>
 						</entry>
+						<entry index="3" type="table">
+							<entry key="alternative" type="string" value="interacted"/>
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101899"/>
+						</entry>
 					</entry>
 					<entry key="override_timer" type="number" value="-1"/>
-					<entry key="position" type="vector3" value="2247 665 130"/>
+					<entry key="position" type="vector3" value="2497 665 130"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="0"/>
 					<entry key="tweak_data_id" type="string" value="fuel_hold_call_2"/>
@@ -57805,6 +57875,11 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="101893"/>
 						</entry>
+						<entry index="3" type="table">
+							<entry key="alternative" type="string" value="interacted"/>
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101899"/>
+						</entry>
 					</entry>
 					<entry key="override_timer" type="number" value="-1"/>
 					<entry key="position" type="vector3" value="1995 665 130"/>
@@ -57826,10 +57901,10 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="101669"/>
+							<entry key="id" type="number" value="101920"/>
 						</entry>
 					</entry>
-					<entry key="position" type="vector3" value="2540 700 -11.7103"/>
+					<entry key="position" type="vector3" value="2540 800 88.2897"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
@@ -57846,11 +57921,11 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
-							<entry key="delay" type="number" value="5"/>
-							<entry key="id" type="number" value="100132"/>
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101921"/>
 						</entry>
 					</entry>
-					<entry key="position" type="vector3" value="2440 700 -11.7103"/>
+					<entry key="position" type="vector3" value="2440 800 88.2897"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
@@ -57871,8 +57946,8 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="2488 705 53"/>
-					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="position" type="vector3" value="2488 805 153"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
 					<entry key="toggle" type="string" value="toggle"/>
 					<entry key="trigger_times" type="number" value="0"/>
@@ -57891,10 +57966,10 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="101669"/>
+							<entry key="id" type="number" value="101920"/>
 						</entry>
 					</entry>
-					<entry key="position" type="vector3" value="2292 700 -11.7103"/>
+					<entry key="position" type="vector3" value="2292 750 88.2897"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
@@ -57911,11 +57986,11 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
-							<entry key="delay" type="number" value="5"/>
-							<entry key="id" type="number" value="100132"/>
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101921"/>
 						</entry>
 					</entry>
-					<entry key="position" type="vector3" value="2192 700 -11.7103"/>
+					<entry key="position" type="vector3" value="2192 750 88.2897"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
@@ -57936,7 +58011,7 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="2240 705 53"/>
+					<entry key="position" type="vector3" value="2240 755 153"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
 					<entry key="toggle" type="string" value="toggle"/>
@@ -57956,10 +58031,10 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="101669"/>
+							<entry key="id" type="number" value="101920"/>
 						</entry>
 					</entry>
-					<entry key="position" type="vector3" value="2045 700 -11.7103"/>
+					<entry key="position" type="vector3" value="2045 750 88.2897"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
@@ -57976,11 +58051,11 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
-							<entry key="delay" type="number" value="5"/>
-							<entry key="id" type="number" value="100132"/>
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101921"/>
 						</entry>
 					</entry>
-					<entry key="position" type="vector3" value="1945 700 -11.7103"/>
+					<entry key="position" type="vector3" value="1945 750 88.2897"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
@@ -58001,10 +58076,928 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="1993 705 53"/>
+					<entry key="position" type="vector3" value="1993 755 153"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
 					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1896" type="table">
+				<entry key="class" type="string" value="ElementOperator"/>
+				<entry key="editor_name" type="string" value="wp_talk_remove_001"/>
+				<entry key="id" type="number" value="101895"/>
+				<entry key="module" type="string" value="CoreElementOperator"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="101690"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="operation" type="string" value="remove"/>
+					<entry key="position" type="vector3" value="3066.74 -557.402 190"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1897" type="table">
+				<entry key="class" type="string" value="ElementOperator"/>
+				<entry key="editor_name" type="string" value="wp_question_remove_002"/>
+				<entry key="id" type="number" value="101896"/>
+				<entry key="module" type="string" value="CoreElementOperator"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="101691"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="operation" type="string" value="remove"/>
+					<entry key="position" type="vector3" value="100 0 300"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1898" type="table">
+				<entry key="class" type="string" value="ElementCounter"/>
+				<entry key="editor_name" type="string" value="counter_tickets"/>
+				<entry key="id" type="number" value="101897"/>
+				<entry key="module" type="string" value="CoreElementCounter"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="counter_target" type="number" value="4"/>
+					<entry key="digital_gui_unit_ids" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101896"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="200 -100 388.29"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1899" type="table">
+				<entry key="class" type="string" value="ElementUnitSequenceTrigger"/>
+				<entry key="editor_name" type="string" value="ticket_taken"/>
+				<entry key="id" type="number" value="101898"/>
+				<entry key="module" type="string" value="CoreElementUnitSequenceTrigger"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="debug" type="boolean" value="true"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101897"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101903"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="1"/>
+							<entry key="id" type="number" value="101904"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="300 0 388.29"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sequence_list" type="table">
+						<entry index="1" type="table">
+							<entry key="sequence" type="string" value="load"/>
+							<entry key="unit_id" type="number" value="101088"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="sequence" type="string" value="load"/>
+							<entry key="unit_id" type="number" value="102125"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="sequence" type="string" value="load"/>
+							<entry key="unit_id" type="number" value="102127"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="sequence" type="string" value="load"/>
+							<entry key="unit_id" type="number" value="102131"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1900" type="table">
+				<entry key="class" type="string" value="ElementToggle"/>
+				<entry key="editor_name" type="string" value="toggle_phones_off"/>
+				<entry key="id" type="number" value="101899"/>
+				<entry key="module" type="string" value="CoreElementToggle"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="101675"/>
+						<entry index="2" type="number" value="100037"/>
+						<entry index="3" type="number" value="100038"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="2240 905 53"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="set_trigger_times" type="number" value="-1"/>
+					<entry key="toggle" type="string" value="off"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1901" type="table">
+				<entry key="class" type="string" value="MissionScriptElement"/>
+				<entry key="editor_name" type="string" value="remove_stealth_stuff"/>
+				<entry key="id" type="number" value="101900"/>
+				<entry key="module" type="string" value="CoreMissionScriptElement"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101687"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101902"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101906"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101922"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="440 -1730 3000"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="1902" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="disable_ticket_scanner"/>
+				<entry key="id" type="number" value="101901"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-2565 1270 3002"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="102133"/>
+							<entry key="notify_unit_sequence" type="string" value="state_screen_correct"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="102133"/>
+							<entry key="notify_unit_sequence" type="string" value="state_interact_disabled"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1903" type="table">
+				<entry key="class" type="string" value="ElementOperator"/>
+				<entry key="editor_name" type="string" value="remove_stealth_stuff"/>
+				<entry key="id" type="number" value="101902"/>
+				<entry key="module" type="string" value="CoreElementOperator"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="101691"/>
+						<entry index="2" type="number" value="101692"/>
+						<entry index="3" type="number" value="101690"/>
+						<entry index="4" type="number" value="101909"/>
+						<entry index="5" type="number" value="101927"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="operation" type="string" value="remove"/>
+					<entry key="position" type="vector3" value="240 -1730 3000"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1904" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="enable_ticket_scanner"/>
+				<entry key="id" type="number" value="101903"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-2365 1270 3002"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="102133"/>
+							<entry key="notify_unit_sequence" type="string" value="state_interact_enabled"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="1905" type="table">
+				<entry key="class" type="string" value="ElementWaypoint"/>
+				<entry key="editor_name" type="string" value="wp_interact_007"/>
+				<entry key="id" type="number" value="101904"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="icon" type="string" value="pd2_generic_interact"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="only_in_civilian" type="boolean" value="false"/>
+					<entry key="position" type="vector3" value="-1022 -1070 107"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 2.98023e-008"/>
+					<entry key="text_id" type="string" value="debug_none"/>
+					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="1906" type="table">
+				<entry key="class" type="string" value="ElementOperator"/>
+				<entry key="editor_name" type="string" value="wp_interact_remove_007"/>
+				<entry key="id" type="number" value="101905"/>
+				<entry key="module" type="string" value="CoreElementOperator"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="101904"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="operation" type="string" value="remove"/>
+					<entry key="position" type="vector3" value="-902 -1187 212"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="1907" type="table">
+				<entry key="class" type="string" value="ElementNavObstacle"/>
+				<entry key="editor_color" type="string" value="00ff00"/>
+				<entry key="editor_name" type="string" value="obstacle_workshop_remove"/>
+				<entry key="id" type="number" value="101906"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="obstacle_list" type="table">
+						<entry index="1" type="table">
+							<entry key="guis_id" type="number" value="1"/>
+							<entry key="obj_name" type="idstring" value="6f2452ed502b8b6f"/>
+							<entry key="unit_id" type="number" value="102137"/>
+						</entry>
+					</entry>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="operation" type="string" value="remove"/>
+					<entry key="position" type="vector3" value="-682 -1697 212.919"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1908" type="table">
+				<entry key="class" type="string" value="ElementToggle"/>
+				<entry key="editor_name" type="string" value="toggle_phones_on"/>
+				<entry key="id" type="number" value="101907"/>
+				<entry key="module" type="string" value="CoreElementToggle"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="101675"/>
+						<entry index="2" type="number" value="100037"/>
+						<entry index="3" type="number" value="100038"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="1"/>
+							<entry key="id" type="number" value="101908"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="2140 905 53"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="set_trigger_times" type="number" value="-1"/>
+					<entry key="toggle" type="string" value="on"/>
+					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="1909" type="table">
+				<entry key="class" type="string" value="ElementWaypoint"/>
+				<entry key="editor_name" type="string" value="wp_phone_001"/>
+				<entry key="id" type="number" value="101908"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="icon" type="string" value="pd2_phone"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="only_in_civilian" type="boolean" value="false"/>
+					<entry key="position" type="vector3" value="2247 765 130"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="text_id" type="string" value="debug_none"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1910" type="table">
+				<entry key="class" type="string" value="ElementOperator"/>
+				<entry key="editor_name" type="string" value="wp_phone_remove_001"/>
+				<entry key="id" type="number" value="101909"/>
+				<entry key="module" type="string" value="CoreElementOperator"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="101908"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="operation" type="string" value="remove"/>
+					<entry key="position" type="vector3" value="2347 765 130"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1911" type="table">
+				<entry key="class" type="string" value="ElementOperator"/>
+				<entry key="editor_name" type="string" value="wp_qestion_remove_001"/>
+				<entry key="id" type="number" value="101910"/>
+				<entry key="module" type="string" value="CoreElementOperator"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="101692"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="operation" type="string" value="remove"/>
+					<entry key="position" type="vector3" value="-1050 -1270 200"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="1912" type="table">
+				<entry key="class" type="string" value="ElementDialogue"/>
+				<entry key="editor_name" type="string" value="dialog_name_remind_001"/>
+				<entry key="id" type="number" value="101911"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="can_not_be_muted" type="boolean" value="false"/>
+					<entry key="dialogue" type="string" value="Play_mob_fuel_01"/>
+					<entry key="enabled" type="boolean" value="false"/>
+					<entry key="execute_on_executed_when_done" type="boolean" value="false"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_quit_current" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="60"/>
+							<entry key="id" type="number" value="101912"/>
+						</entry>
+					</entry>
+					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
+					<entry key="position" type="vector3" value="240 -2130 3000"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_position" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="1913" type="table">
+				<entry key="class" type="string" value="MissionScriptElement"/>
+				<entry key="editor_name" type="string" value="reminder_name"/>
+				<entry key="id" type="number" value="101912"/>
+				<entry key="module" type="string" value="CoreMissionScriptElement"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101911"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101914"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101915"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101916"/>
+						</entry>
+						<entry index="5" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101917"/>
+						</entry>
+						<entry index="6" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101918"/>
+						</entry>
+						<entry index="7" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101919"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="240 -2230 3000"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1914" type="table">
+				<entry key="class" type="string" value="ElementToggle"/>
+				<entry key="editor_name" type="string" value="toggle_058"/>
+				<entry key="id" type="number" value="101913"/>
+				<entry key="module" type="string" value="CoreElementToggle"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="101912"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="240 -2230 3100"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="set_trigger_times" type="number" value="-1"/>
+					<entry key="toggle" type="string" value="off"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1915" type="table">
+				<entry key="class" type="string" value="ElementDialogue"/>
+				<entry key="editor_name" type="string" value="dialog_name_remind_002"/>
+				<entry key="id" type="number" value="101914"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="can_not_be_muted" type="boolean" value="false"/>
+					<entry key="dialogue" type="string" value="Play_mob_fuel_02"/>
+					<entry key="enabled" type="boolean" value="false"/>
+					<entry key="execute_on_executed_when_done" type="boolean" value="false"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_quit_current" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="60"/>
+							<entry key="id" type="number" value="101912"/>
+						</entry>
+					</entry>
+					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
+					<entry key="position" type="vector3" value="240 -2130 3100"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_position" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="1916" type="table">
+				<entry key="class" type="string" value="ElementDialogue"/>
+				<entry key="editor_name" type="string" value="dialog_name_remind_003"/>
+				<entry key="id" type="number" value="101915"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="can_not_be_muted" type="boolean" value="false"/>
+					<entry key="dialogue" type="string" value="Play_mob_fuel_03"/>
+					<entry key="enabled" type="boolean" value="false"/>
+					<entry key="execute_on_executed_when_done" type="boolean" value="false"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_quit_current" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="60"/>
+							<entry key="id" type="number" value="101912"/>
+						</entry>
+					</entry>
+					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
+					<entry key="position" type="vector3" value="240 -2130 3200"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_position" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="1917" type="table">
+				<entry key="class" type="string" value="ElementDialogue"/>
+				<entry key="editor_name" type="string" value="dialog_name_remind_004"/>
+				<entry key="id" type="number" value="101916"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="can_not_be_muted" type="boolean" value="false"/>
+					<entry key="dialogue" type="string" value="Play_mob_fuel_04"/>
+					<entry key="enabled" type="boolean" value="false"/>
+					<entry key="execute_on_executed_when_done" type="boolean" value="false"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_quit_current" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="60"/>
+							<entry key="id" type="number" value="101912"/>
+						</entry>
+					</entry>
+					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
+					<entry key="position" type="vector3" value="240 -2130 3300"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_position" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="1918" type="table">
+				<entry key="class" type="string" value="ElementDialogue"/>
+				<entry key="editor_name" type="string" value="dialog_name_remind_005"/>
+				<entry key="id" type="number" value="101917"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="can_not_be_muted" type="boolean" value="false"/>
+					<entry key="dialogue" type="string" value="Play_mob_fuel_05"/>
+					<entry key="enabled" type="boolean" value="false"/>
+					<entry key="execute_on_executed_when_done" type="boolean" value="false"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_quit_current" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="60"/>
+							<entry key="id" type="number" value="101912"/>
+						</entry>
+					</entry>
+					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
+					<entry key="position" type="vector3" value="240 -2130 3400"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_position" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="1919" type="table">
+				<entry key="class" type="string" value="ElementDialogue"/>
+				<entry key="editor_name" type="string" value="dialog_name_remind_006"/>
+				<entry key="id" type="number" value="101918"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="can_not_be_muted" type="boolean" value="false"/>
+					<entry key="dialogue" type="string" value="Play_mob_fuel_06"/>
+					<entry key="enabled" type="boolean" value="false"/>
+					<entry key="execute_on_executed_when_done" type="boolean" value="false"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_quit_current" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="60"/>
+							<entry key="id" type="number" value="101912"/>
+						</entry>
+					</entry>
+					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
+					<entry key="position" type="vector3" value="240 -2130 3500"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_position" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="1920" type="table">
+				<entry key="class" type="string" value="ElementDialogue"/>
+				<entry key="editor_name" type="string" value="dialog_name_remind_007"/>
+				<entry key="id" type="number" value="101919"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="can_not_be_muted" type="boolean" value="false"/>
+					<entry key="dialogue" type="string" value="Play_mob_fuel_07"/>
+					<entry key="enabled" type="boolean" value="false"/>
+					<entry key="execute_on_executed_when_done" type="boolean" value="false"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_quit_current" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="60"/>
+							<entry key="id" type="number" value="101912"/>
+						</entry>
+					</entry>
+					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
+					<entry key="position" type="vector3" value="240 -2130 3600"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_position" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="1921" type="table">
+				<entry key="class" type="string" value="MissionScriptElement"/>
+				<entry key="editor_name" type="string" value="correct_number"/>
+				<entry key="id" type="number" value="101920"/>
+				<entry key="module" type="string" value="CoreMissionScriptElement"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101905"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101896"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101909"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101910"/>
+						</entry>
+						<entry index="5" type="table">
+							<entry key="delay" type="number" value="8"/>
+							<entry key="id" type="number" value="101669"/>
+						</entry>
+						<entry index="6" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101913"/>
+						</entry>
+						<entry index="7" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101926"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="240 -2030 3000"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="1922" type="table">
+				<entry key="class" type="string" value="MissionScriptElement"/>
+				<entry key="editor_name" type="string" value="incorrect_number"/>
+				<entry key="id" type="number" value="101921"/>
+				<entry key="module" type="string" value="CoreMissionScriptElement"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101905"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101896"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101909"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101910"/>
+						</entry>
+						<entry index="5" type="table">
+							<entry key="delay" type="number" value="8"/>
+							<entry key="id" type="number" value="100132"/>
+						</entry>
+						<entry index="6" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101913"/>
+						</entry>
+						<entry index="7" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101926"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="240 -1930 3000"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="1923" type="table">
+				<entry key="class" type="string" value="ElementDisableUnit"/>
+				<entry key="editor_name" type="string" value="disable_visblocks"/>
+				<entry key="id" type="number" value="101922"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="140 -1730 3000"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="unit_ids" type="table">
+						<entry index="1" type="number" value="101160"/>
+						<entry index="2" type="number" value="101161"/>
+						<entry index="3" type="number" value="101333"/>
+						<entry index="4" type="number" value="101334"/>
+						<entry index="5" type="number" value="101335"/>
+						<entry index="6" type="number" value="101336"/>
+						<entry index="7" type="number" value="101337"/>
+						<entry index="8" type="number" value="101356"/>
+						<entry index="9" type="number" value="101075"/>
+						<entry index="10" type="number" value="101091"/>
+						<entry index="11" type="number" value="102138"/>
+						<entry index="12" type="number" value="102139"/>
+						<entry index="13" type="number" value="102140"/>
+						<entry index="14" type="number" value="102141"/>
+						<entry index="15" type="number" value="102143"/>
+						<entry index="16" type="number" value="102144"/>
+						<entry index="17" type="number" value="102147"/>
+						<entry index="18" type="number" value="102146"/>
+						<entry index="19" type="number" value="102145"/>
+					</entry>
+				</entry>
+			</entry>
+			<entry index="1924" type="table">
+				<entry key="class" type="string" value="ElementCounter"/>
+				<entry key="editor_name" type="string" value="counter_001"/>
+				<entry key="id" type="number" value="101923"/>
+				<entry key="module" type="string" value="CoreElementCounter"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="counter_target" type="number" value="2"/>
+					<entry key="digital_gui_unit_ids" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101907"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="2040 905 53"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1925" type="table">
+				<entry key="class" type="string" value="ElementUnitSequenceTrigger"/>
+				<entry key="editor_name" type="string" value="trigger_first_ticket_scanned"/>
+				<entry key="id" type="number" value="101924"/>
+				<entry key="module" type="string" value="CoreElementUnitSequenceTrigger"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101923"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="-2465 1070 3002"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sequence_list" type="table">
+						<entry index="1" type="table">
+							<entry key="sequence" type="string" value="state_screen_correct"/>
+							<entry key="unit_id" type="number" value="102133"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="1926" type="table">
+				<entry key="class" type="string" value="ElementAreaTrigger"/>
+				<entry key="editor_color" type="string" value="ff7800"/>
+				<entry key="editor_name" type="string" value="area_trigger_010"/>
+				<entry key="id" type="number" value="101925"/>
+				<entry key="module" type="string" value="CoreElementArea"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="amount" type="string" value="1"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="depth" type="number" value="400"/>
+					<entry key="enabled" type="boolean" value="false"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="height" type="number" value="380"/>
+					<entry key="instigator" type="string" value="player"/>
+					<entry key="interval" type="number" value="0.1"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101910"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="1"/>
+							<entry key="id" type="number" value="101927"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="-1044 -1383 133"/>
+					<entry key="radius" type="number" value="250"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="shape_type" type="string" value="box"/>
+					<entry key="spawn_unit_elements" type="table">
+					</entry>
+					<entry key="trigger_on" type="string" value="on_enter"/>
+					<entry key="trigger_times" type="number" value="1"/>
+					<entry key="use_disabled_shapes" type="boolean" value="false"/>
+					<entry key="width" type="number" value="380"/>
+				</entry>
+			</entry>
+			<entry index="1927" type="table">
+				<entry key="class" type="string" value="ElementOperator"/>
+				<entry key="editor_name" type="string" value="wp_look_remove_001"/>
+				<entry key="id" type="number" value="101926"/>
+				<entry key="module" type="string" value="CoreElementOperator"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="101927"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="operation" type="string" value="remove"/>
+					<entry key="position" type="vector3" value="-1185 -1295 143.011"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1928" type="table">
+				<entry key="class" type="string" value="ElementWaypoint"/>
+				<entry key="editor_name" type="string" value="wp_look_001"/>
+				<entry key="id" type="number" value="101927"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="icon" type="string" value="pd2_generic_look"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="only_in_civilian" type="boolean" value="false"/>
+					<entry key="position" type="vector3" value="-1185 -1395 143.011"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+					<entry key="text_id" type="string" value="debug_none"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
