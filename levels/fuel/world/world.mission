@@ -28561,6 +28561,10 @@
 						</entry>
 					</entry>
 					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101989"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="235 -130 3002"/>
 					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
@@ -61668,6 +61672,146 @@
 					<entry key="set_trigger_times" type="number" value="-1"/>
 					<entry key="toggle" type="string" value="toggle"/>
 					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="1990" type="table">
+				<entry key="class" type="string" value="ElementRandomInstanceInputEvent"/>
+				<entry key="editor_name" type="string" value="random_harddrive"/>
+				<entry key="id" type="number" value="101989"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="amount" type="number" value="1"/>
+					<entry key="amount_random" type="number" value="0"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="instances" type="table">
+						<entry index="1" type="table">
+							<entry key="event" type="string" value="set_harddrive"/>
+							<entry key="instance" type="string" value="fuel_tape_locker_001"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="set_harddrive"/>
+							<entry key="instance" type="string" value="fuel_tape_locker_002"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="set_harddrive"/>
+							<entry key="instance" type="string" value="fuel_tape_locker_003"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="event" type="string" value="set_harddrive"/>
+							<entry key="instance" type="string" value="fuel_tape_locker_004"/>
+						</entry>
+						<entry index="5" type="table">
+							<entry key="event" type="string" value="set_harddrive"/>
+							<entry key="instance" type="string" value="fuel_tape_locker_005"/>
+						</entry>
+						<entry index="6" type="table">
+							<entry key="event" type="string" value="set_harddrive"/>
+							<entry key="instance" type="string" value="fuel_tape_locker_006"/>
+						</entry>
+						<entry index="7" type="table">
+							<entry key="event" type="string" value="set_harddrive"/>
+							<entry key="instance" type="string" value="fuel_tape_locker_007"/>
+						</entry>
+						<entry index="8" type="table">
+							<entry key="event" type="string" value="set_harddrive"/>
+							<entry key="instance" type="string" value="fuel_tape_locker_008"/>
+						</entry>
+						<entry index="9" type="table">
+							<entry key="event" type="string" value="set_harddrive"/>
+							<entry key="instance" type="string" value="fuel_tape_locker_009"/>
+						</entry>
+						<entry index="10" type="table">
+							<entry key="event" type="string" value="set_harddrive"/>
+							<entry key="instance" type="string" value="fuel_tape_locker_010"/>
+						</entry>
+						<entry index="11" type="table">
+							<entry key="event" type="string" value="set_harddrive"/>
+							<entry key="instance" type="string" value="fuel_tape_locker_011"/>
+						</entry>
+						<entry index="12" type="table">
+							<entry key="event" type="string" value="set_harddrive"/>
+							<entry key="instance" type="string" value="fuel_tape_locker_012"/>
+						</entry>
+					</entry>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="40 -2330 3000"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="unique_instance" type="boolean" value="true"/>
+				</entry>
+			</entry>
+			<entry index="1991" type="table">
+				<entry key="class" type="string" value="ElementInstanceOutputEvent"/>
+				<entry key="editor_name" type="string" value="harddrive_rejected"/>
+				<entry key="id" type="number" value="101990"/>
+				<entry key="module" type="string" value="CoreElementInstance"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event_list" type="table">
+						<entry index="1" type="table">
+							<entry key="event" type="string" value="harddrive_rejected"/>
+							<entry key="instance" type="string" value="fuel_tape_locker_001"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="harddrive_rejected"/>
+							<entry key="instance" type="string" value="fuel_tape_locker_002"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="harddrive_rejected"/>
+							<entry key="instance" type="string" value="fuel_tape_locker_003"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="event" type="string" value="harddrive_rejected"/>
+							<entry key="instance" type="string" value="fuel_tape_locker_004"/>
+						</entry>
+						<entry index="5" type="table">
+							<entry key="event" type="string" value="harddrive_rejected"/>
+							<entry key="instance" type="string" value="fuel_tape_locker_005"/>
+						</entry>
+						<entry index="6" type="table">
+							<entry key="event" type="string" value="harddrive_rejected"/>
+							<entry key="instance" type="string" value="fuel_tape_locker_006"/>
+						</entry>
+						<entry index="7" type="table">
+							<entry key="event" type="string" value="harddrive_rejected"/>
+							<entry key="instance" type="string" value="fuel_tape_locker_007"/>
+						</entry>
+						<entry index="8" type="table">
+							<entry key="event" type="string" value="harddrive_rejected"/>
+							<entry key="instance" type="string" value="fuel_tape_locker_008"/>
+						</entry>
+						<entry index="9" type="table">
+							<entry key="event" type="string" value="harddrive_rejected"/>
+							<entry key="instance" type="string" value="fuel_tape_locker_009"/>
+						</entry>
+						<entry index="10" type="table">
+							<entry key="event" type="string" value="harddrive_rejected"/>
+							<entry key="instance" type="string" value="fuel_tape_locker_010"/>
+						</entry>
+						<entry index="11" type="table">
+							<entry key="event" type="string" value="harddrive_rejected"/>
+							<entry key="instance" type="string" value="fuel_tape_locker_011"/>
+						</entry>
+						<entry index="12" type="table">
+							<entry key="event" type="string" value="harddrive_rejected"/>
+							<entry key="instance" type="string" value="fuel_tape_locker_012"/>
+						</entry>
+					</entry>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101989"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="40 -2230 3000"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
 		</entry>

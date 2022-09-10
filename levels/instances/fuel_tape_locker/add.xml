@@ -1,7 +1,27 @@
 <table directory="assets">
-	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" type="unit">
-		<unit path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
-		<object path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
-		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+	<add from_db="true" path="units/pd2_dlc_bex/props/bex_prop_cassette_tape/bex_prop_cassette_tape" type="unit">
+		<material_config path="units/pd2_dlc_bex/props/bex_prop_cassette_tape/bex_prop_cassette_tape"/>
+		<object path="units/pd2_dlc_bex/props/bex_prop_cassette_tape/bex_prop_cassette_tape"/>
+		<sequence_manager path="units/pd2_dlc_bex/props/bex_prop_cassette_tape/bex_prop_cassette_tape"/>
+		<unit path="units/pd2_dlc_bex/props/bex_prop_cassette_tape/bex_prop_cassette_tape"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_casino/props/cas_prop_locker/cas_prop_locker" type="unit">
+		<material_config path="units/pd2_dlc_casino/props/cas_prop_locker/cas_prop_locker"/>
+		<object path="units/pd2_dlc_casino/props/cas_prop_locker/cas_prop_locker"/>
+		<sequence_manager path="units/pd2_dlc_casino/props/cas_prop_locker/cas_prop_locker"/>
+		<unit path="units/pd2_dlc_casino/props/cas_prop_locker/cas_prop_locker"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fex/pickups/fex_pku_coke_small/fex_pku_coke_small" type="unit">
+		<effect load="true" path="effects/payday2/particles/grab/grab_coke"/>
+		<effect load="true" path="effects/payday2/particles/grab/parts/coke_smoke"/>
+		<material_config path="units/world/props/apartment/cocaine/cokebag"/>
+		<object path="units/pd2_dlc_fex/pickups/fex_pku_coke_small/fex_pku_coke_small"/>
+		<sequence_manager path="units/pd2_dlc_fex/pickups/fex_pku_coke_small/fex_pku_coke_small"/>
+		<unit path="units/pd2_dlc_fex/pickups/fex_pku_coke_small/fex_pku_coke_small"/>
+	</add>
+	<add from_db="true" path="units/payday2/equipment/gen_interactable_pickup_harddrive/gen_interactable_pickup_harddrive" type="unit">
+		<object path="units/payday2/equipment/gen_interactable_pickup_harddrive/gen_interactable_pickup_harddrive"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_pickup_harddrive/gen_interactable_pickup_harddrive"/>
+		<unit path="units/payday2/equipment/gen_interactable_pickup_harddrive/gen_interactable_pickup_harddrive"/>
 	</add>
 </table>
