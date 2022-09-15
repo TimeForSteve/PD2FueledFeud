@@ -14,6 +14,9 @@
 	<instance id="fuel_ticket_logic">
 		<packages/>
 	</instance>
+	<instance id="fuel_circuitbreaker">
+		<packages/>
+	</instance>
 	<Achievements icon="guis/mods/fuel/textures/achievements/fuel_pack" id="achievements_fuel">
 		<achievement desc_id="achievement_fuel_wd_0_desc" icon="guis/mods/fuel/textures/achievements/fuel_normal" id="achievement_fuel_wd_0" name_id="achievement_fuel_wd_0" rank="1"/>
 		<achievement desc_id="achievement_fuel_wd_1_desc" icon="guis/mods/fuel/textures/achievements/fuel_hard" id="achievement_fuel_wd_1" name_id="achievement_fuel_wd_1" rank="1"/>
@@ -90,16 +93,6 @@
 			<interaction based_on="huge_lance" equipment_consume="true" equipment_text_id="hud_int_equipment_no_winch_part" id="fuel_repair_winch" special_equipment="fuel_winch_part" timer="6"/>
 			<interaction axis="z" force_update_position="true" id="fuel_hold_push_car" interact_distance="250" timer="2.5"/>
 		</interactions>
-		<sounds auto_pause="true" directory="assets/vo" dont_store_float="true">
-			<sound id="Play_mob_fuel_01" path="fuel_mob_01.ogg" subtitle_id="mob_fuel_01_01"/>
-			<sound id="Play_mob_fuel_02" path="fuel_mob_01.ogg" subtitle_id="mob_fuel_01_02"/>
-			<sound id="Play_mob_fuel_03" path="fuel_mob_01.ogg" subtitle_id="mob_fuel_01_03"/>
-			<sound id="Play_mob_fuel_04" path="fuel_mob_01.ogg" subtitle_id="mob_fuel_01_04"/>
-			<sound id="Play_mob_fuel_05" path="fuel_mob_01.ogg" subtitle_id="mob_fuel_01_05"/>
-			<sound id="Play_mob_fuel_06" path="fuel_mob_01.ogg" subtitle_id="mob_fuel_01_06"/>
-			<sound id="Play_mob_fuel_07" path="fuel_mob_01.ogg" subtitle_id="mob_fuel_01_07"/>
-			<sound id="katoil_branding" loop="true" path="katoil_branding.ogg" stop_id="katoil_branding_stop"/>
-		</sounds>
 		<lootbags>
 			<carry based_on="winch_part" id="fuel_generator" name_id="hud_carry_fuel_generator"/>
 			<carry based_on="winch_part" id="fuel_winch" name_id="hud_carry_fuel_winch"/>
@@ -120,6 +113,16 @@
 				<options merge_mode="add" mode="add"/>
 			</mod>
 		</script_data_mods>
+		<sounds auto_pause="true" directory="assets/vo" dont_store_float="true">
+			<sound id="Play_mob_fuel_01" path="fuel_mob_01.ogg" subtitle_id="mob_fuel_01_01"/>
+			<sound id="Play_mob_fuel_02" path="fuel_mob_01.ogg" subtitle_id="mob_fuel_01_02"/>
+			<sound id="Play_mob_fuel_03" path="fuel_mob_01.ogg" subtitle_id="mob_fuel_01_03"/>
+			<sound id="Play_mob_fuel_04" path="fuel_mob_01.ogg" subtitle_id="mob_fuel_01_04"/>
+			<sound id="Play_mob_fuel_05" path="fuel_mob_01.ogg" subtitle_id="mob_fuel_01_05"/>
+			<sound id="Play_mob_fuel_06" path="fuel_mob_01.ogg" subtitle_id="mob_fuel_01_06"/>
+			<sound id="Play_mob_fuel_07" path="fuel_mob_01.ogg" subtitle_id="mob_fuel_01_07"/>
+			<sound id="katoil_branding" loop="true" path="katoil_branding.ogg" stop_id="katoil_branding_stop"/>
+		</sounds>
 	</level>
 	<narrative brief_id="heist_fuel_crimenet" briefing_event="" contact="yaeger" icon="guis/mods/fuel/textures/pd2/crimenet/fuel" id="fuel">
 		<chain>
