@@ -134,7 +134,7 @@
 		<sequence editable_state="true" name="'__reset_animation__'" triggable="true">
 			<set_variables var_push="0"/>
 			<animation_group filter="'filter_side_0'" name="'anim_push'" enabled="true" from="0/30" to="0/30"/>
-			<animation_group filter="'filter_side_1'" name="'anim_push'" enabled="true" from="110/30" to="110/30"/>
+			<animation_group filter="'filter_side_1'" name="'anim_push'" enabled="true" from="107/30" to="107/30"/>
 		</sequence>
 		<sequence editable_state="true" name="'anim_push'" triggable="true">
 			<run_sequence filter="'filter_push_2'" name="'int_seq_push_2'"/>
@@ -143,9 +143,9 @@
 		</sequence>
 		<sequence editable_state="false" name="'int_seq_push_0'" triggable="false">
 			<animation_group filter="'filter_side_0'" name="'anim_push'" speed="0.1" enabled="true" from="0/30" to="30/30"/>
-			<animation_group filter="'filter_side_1'" name="'anim_push'" speed="0.05" enabled="true" from="110/30" to="130/30"/>
+			<animation_group filter="'filter_side_1'" name="'anim_push'" speed="0.05" enabled="true" from="107/30" to="130/30"/>
 			<run_sequence filter="'filter_side_0'" name="'push_done'" start_time="300/30"/>
-			<run_sequence filter="'filter_side_1'" name="'push_done'" start_time="400/30"/>
+			<run_sequence filter="'filter_side_1'" name="'push_done'" start_time="460/30"/>
 			<set_variables filter="'filter_side_0'" var_push="1"/>
 			<set_variables filter="'filter_side_1'" var_push="2"/>
 		</sequence>
