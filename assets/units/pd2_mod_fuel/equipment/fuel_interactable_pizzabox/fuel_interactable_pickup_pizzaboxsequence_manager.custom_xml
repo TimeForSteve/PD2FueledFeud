@@ -6,5 +6,22 @@
 		<sequence editable_state="true" name="'state_interaction_disable'" triggable="true">
 			<interaction enabled="false"/>
 		</sequence>
+		<sequence editable_state="false" name="'load'" triggable="false"/>
+		<sequence editable_state="true" name="'hide'" triggable="true">
+			<object enabled="false" name="'g_lod0'"/>
+			<object enabled="false" name="'g_lod1'"/>
+			<object enabled="false" name="'g_lod2'"/>
+			<object enabled="false" name="'s_s'"/>
+			<body enabled="false" name="'body_static'"/>
+			<decal_mesh enabled="false" name="'dm_thin_layer'"/>
+		</sequence>
+		<sequence editable_state="true" name="'show'" triggable="true">
+			<object enabled="true" name="'g_lod0'"/>
+			<object enabled="true" name="'g_lod1'"/>
+			<object enabled="true" name="'g_lod2'"/>
+			<object enabled="true" name="'s_s'"/>
+			<body enabled="true" name="'body_static'"/>
+			<decal_mesh enabled="true" name="'dm_thin_layer'"/>
+		</sequence>
 	</unit>
 </table>
