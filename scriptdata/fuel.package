@@ -134,6 +134,7 @@
 	<add>
 		<texture path="guis/mods/fuel/textures/pd2/pre_planning/fuel_loc_a_df"/>
 		<texture path="guis/mods/fuel/textures/pd2/pre_planning/mission_briefing_fuel"/>
+		<texture path="guis/mods/fuel/textures/pd2/hud_pickups_fuel"/>
 		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_k"/>
 		<object path="units/payday2/vehicles/str_vehicle_pickup_sportcab_anim_wdog/str_vehicle_pickup_sportcab_anim_wdog"/>
 		<object path="units/payday2/vehicles/str_vehicle_van_anim_shouse/str_vehicle_van_anim_shouse"/>
@@ -323,6 +324,20 @@
 		<unit path="units/pd2_mod_fuel/props/fuel_prop_security_monitor_rack/fuel_prop_security_monitor_rack"/>
 		<sequence_manager path="units/pd2_mod_fuel/props/fuel_prop_security_monitor_rack/fuel_prop_security_monitor_rack"/>
 		<texture path="units/pd2_mod_fuel/props/fuel_prop_security_monitor_rack/fuel_screen_ticket_vcr_df"/>
+
+		<material_config path="units/pd2_mod_fuel/equipment/fuel_interactable_pizzabox/fuel_interactable_place_pizzabox"/>
+		<cooked_physics path="units/pd2_mod_fuel/equipment/fuel_interactable_pizzabox/fuel_interactable_place_pizzabox"/>
+		<sequence_manager path="units/pd2_mod_fuel/equipment/fuel_interactable_pizzabox/fuel_interactable_place_pizzabox"/>
+		<model path="units/pd2_mod_fuel/equipment/fuel_interactable_pizzabox/fuel_interactable_place_pizzabox"/>
+		<object path="units/pd2_mod_fuel/equipment/fuel_interactable_pizzabox/fuel_interactable_place_pizzabox"/>
+		<unit path="units/pd2_mod_fuel/equipment/fuel_interactable_pizzabox/fuel_interactable_place_pizzabox"/>
+
+		<material_config path="units/pd2_mod_fuel/equipment/fuel_interactable_pizzabox/fuel_interactable_pickup_pizzabox"/>
+		<cooked_physics path="units/pd2_mod_fuel/equipment/fuel_interactable_pizzabox/fuel_interactable_pickup_pizzabox"/>
+		<sequence_manager path="units/pd2_mod_fuel/equipment/fuel_interactable_pizzabox/fuel_interactable_pickup_pizzabox"/>
+		<model path="units/pd2_mod_fuel/equipment/fuel_interactable_pizzabox/fuel_interactable_pickup_pizzabox"/>
+		<object path="units/pd2_mod_fuel/equipment/fuel_interactable_pizzabox/fuel_interactable_pickup_pizzabox"/>
+		<unit path="units/pd2_mod_fuel/equipment/fuel_interactable_pizzabox/fuel_interactable_pickup_pizzabox"/>
 
 		<material_config path="units/pd2_mod_fuel/pickups/fuel_pku_generator/fuel_pku_generator"/>
 		<model path="units/pd2_mod_fuel/pickups/fuel_pku_generator/fuel_pku_generator"/>

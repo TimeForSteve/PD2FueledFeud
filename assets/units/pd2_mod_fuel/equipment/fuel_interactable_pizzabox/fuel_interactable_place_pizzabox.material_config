@@ -1,0 +1,13 @@
+<materials version="3">
+	<material name="mat_pizza" unique="true" render_template="generic:ALPHA_MASKED:CONTOUR:DIFFUSE_TEXTURE:OPACITY_TEXTURE" version="2">
+		<diffuse_texture file="units/white_df" />
+		<bump_normal_texture file="units/transparent_op" />
+		<variable value="1 0.5 0" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+	</material>
+	<material name="mat_pizza_lod" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:OPACITY_TEXTURE" version="2">
+		<diffuse_texture file="units/white_df" mip="4" />
+		<bump_normal_texture file="units/transparent_op" mip="4" />
+	</material>
+	<material name="shadow_caster" render_template="shadow_caster_only" version="2" />
+</materials>

@@ -1,0 +1,11 @@
+<unit type="glc" slot="1">
+	<object file="units/pd2_mod_fuel/equipment/fuel_interactable_pizzabox/fuel_interactable_place_pizzabox" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+        <extension name="interaction" class="UseInteractionExt">
+        	<var name="tweak_data" value="fuel_hold_place_pizzabox" />
+			<var name="drop_in_sync_tweak_data" value="true" />
+        </extension>
+	</extensions>
+</unit>
