@@ -10,6 +10,9 @@
 	</instance>
 	<instance id="fuel_tape_locker">
 		<packages/>
+		<equipments>
+			<special icon="equipment_casette" id="fuel_casette" sync_possession="true" text_id="hud_equipment_fuel_casette"/>
+		</equipments>
 	</instance>
 	<instance id="fuel_ticket_logic">
 		<packages/>
@@ -110,7 +113,7 @@
 			<interaction id="fuel_hold_call_3" interact_distance="200" timer="3"/>
 			<interaction based_on="chca_hold_pour_diesel" equipment_consume="true" id="fuel_hold_fuel_gen" interact_distance="100"/>
 			<interaction based_on="born_plug_in_powercord" equipment_consume="true" equipment_text_id="hud_int_requires_pizzabox" id="fuel_use_jumper_cable" special_equipment="fuel_jumper_cable"/>
-			<interaction based_on="bex_take_cupprint" equipment_consume="true" equipment_text_id="hud_interact_take_fingerprint" id="fuel_use_tape" special_equipment="tape"/>
+			<interaction based_on="bex_take_cupprint" equipment_consume="true" equipment_text_id="hud_int_requires_casette" id="fuel_use_tape" action_text_id="hud_action_generic" special_equipment="fuel_casette"/>
 			<interaction based_on="huge_lance" equipment_consume="true" equipment_text_id="hud_int_equipment_no_winch_part" id="fuel_repair_winch" special_equipment="fuel_winch_part" timer="6"/>
 			<interaction axis="z" force_update_position="true" id="fuel_hold_push_car" interact_distance="250" timer="2.5"/>
 		</interactions>

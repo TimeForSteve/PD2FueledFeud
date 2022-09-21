@@ -3336,9 +3336,19 @@
 		<unit path="units/payday2/equipment/gen_interactable_pickup_harddrive/gen_interactable_place_harddrive"/>
 	</add>
 	<add from_db="true" path="units/world/props/melee_box/melee_box" type="unit">
-		<unit path="units/world/props/melee_box/melee_box"/>
-		<object path="units/world/props/melee_box/melee_box"/>
 		<material_config path="units/world/props/melee_box/melee_box"/>
+		<object path="units/world/props/melee_box/melee_box"/>
 		<sequence_manager path="units/world/props/melee_box/melee_box"/>
+		<unit path="units/world/props/melee_box/melee_box"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_glace/props/glc_prop_food_pizzabox/glc_prop_food_pizzabox_open" type="unit">
+		<material_config path="units/pd2_dlc_glace/props/glc_prop_food_pizzabox/glc_prop_food_pizzabox"/>
+		<object path="units/pd2_dlc_glace/props/glc_prop_food_pizzabox/glc_prop_food_pizzabox_open"/>
+		<unit path="units/pd2_dlc_glace/props/glc_prop_food_pizzabox/glc_prop_food_pizzabox_open"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_glace/props/glc_prop_food_pizzabox/glc_prop_food_pizzabox_open_with_pizza" type="unit">
+		<unit path="units/pd2_dlc_glace/props/glc_prop_food_pizzabox/glc_prop_food_pizzabox_open_with_pizza"/>
+		<object path="units/pd2_dlc_glace/props/glc_prop_food_pizzabox/glc_prop_food_pizzabox_open_with_pizza"/>
+		<material_config path="units/pd2_dlc_glace/props/glc_prop_food_pizzabox/glc_prop_food_pizzabox"/>
 	</add>
 </table>
