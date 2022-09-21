@@ -1,0 +1,19 @@
+<dynamic_object>
+	<diesel orientation_object="rp_melee_box" materials="units/pd2_mod_fuel/props/fuel_prop_melee_box/fuel_prop_melee_box" />
+	<sequence_manager file="units/pd2_mod_fuel/props/fuel_prop_melee_box/fuel_prop_melee_box" />
+	
+    <bodies>
+        <body enabled="true" keyframed="true" no_collision="true" name="body" add_ray_type="melee" remove_ray_type="body sound camera bullet walk vis_graph ai_vision">
+            <object name="rp_melee_box" />
+            <object enabled="true" name="c_melee_box_box" collision_type="box" />
+        </body>
+        <body name="editor" enabled="true" template="editor">
+            <object name="rp_melee_box" />
+            <object enabled="true" name="c_melee_box_box" collision_type="box" />
+        </body>
+    </bodies>
+
+    <graphics>
+        <object enabled="true" name="g_melee_box" />
+    </graphics>
+</dynamic_object>
