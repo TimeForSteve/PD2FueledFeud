@@ -76,7 +76,7 @@
 		</texture_rect>
 	</HUDIcon>
 	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="yaeger" name_id="contact_yaeger_name" package="packages/contact_bain"/>
-	<level ai_group_type="America" brief_id="heist_fuel_briefing" briefing_dialog="" ghost_bonus="0.06" id="fuel" intro_event="" load_screen="guis/mods/fuel/textures/loading/job_fuel_df" max_bags="24" player_style="generic">
+	<level ai_group_type="America" brief_id="heist_fuel_briefing" briefing_dialog="" ghost_bonus="0.06" id="fuel" intro_event="" load_screen="guis/mods/fuel/textures/loading/job_fuel_df" max_bags="25" player_style="generic">
 		<assets/>
 		<equipments>
 			<special icon="equipment_electrical" id="fuel_jumper_cable" sync_possession="true"/>
@@ -153,13 +153,13 @@
 			<table level_id="fuel" type="d" type_id="heist_type_assault"/>
 		</chain>
 		<contract_cost>
-			<value_node value="4000"/>
-			<value_node value="8000"/>
-			<value_node value="20000"/>
-			<value_node value="40000"/>
+			<value_node value="50000"/>
 			<value_node value="100000"/>
-			<value_node value="100000"/>
-			<value_node value="100000"/>
+			<value_node value="250000"/>
+			<value_node value="500000"/>
+			<value_node value="600000"/>
+			<value_node value="600000"/>
+			<value_node value="600000"/>
 		</contract_cost>
 		<crimenet_callouts>
 			<value_node value="nothing"/>
