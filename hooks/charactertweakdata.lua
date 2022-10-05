@@ -1,7 +1,4 @@
 Hooks:PostHook(CharacterTweakData, "init", "fuel_init_characters", function(self)
-    self.gangster.calls_in = nil
-
-	self.bolivian_indoors.calls_in = nil
 	self.bolivian_indoors.no_arrest = true
 	self.bolivian_indoors.no_retreat = true
 
