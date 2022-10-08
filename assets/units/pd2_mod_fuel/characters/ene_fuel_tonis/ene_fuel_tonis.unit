@@ -15,7 +15,9 @@
 			<var name="_default_weapon_id" value="mac11" />
 		</extension>
 		<extension name="inventory" class="CopInventory" />
-		<extension name="brain" class="CopBrain" />
+		<extension name="brain" class="CopBrain">
+			<var name="_ignore_suspicion" value="true" />
+		</extension>
 		<extension name="anim_data" class="PlayerAnimationData" />
 		<extension name="character_damage" class="CopDamage">
 			<var name="_head_body_name" value="head" />
