@@ -3324,4 +3324,10 @@
 		<gui path="guis/timer_gui"/>
 		<physic_effect path="physic_effects/push_sphere"/>
 	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_ai_vis_blocker_1x1/dev_ai_vis_blocker_1x1" type="unit">
+		<unit path="units/dev_tools/level_tools/dev_ai_vis_blocker_1x1/dev_ai_vis_blocker_1x1"/>
+		<object path="units/dev_tools/level_tools/dev_ai_vis_blocker_1x1/dev_ai_vis_blocker_1x1"/>
+		<material_config path="core/material_configs/hub_elements"/>
+		<sequence_manager path="units/dev_tools/level_tools/dev_ai_vis_blocker_1x1/dev_ai_vis_blocker_1x1"/>
+	</add>
 </table>
