@@ -27883,7 +27883,7 @@
 			</entry>
 			<entry index="868" type="table">
 				<entry key="class" type="string" value="ElementUnitSequence"/>
-				<entry key="editor_name" type="string" value="unit_sequence_003"/>
+				<entry key="editor_name" type="string" value="hostel_door_explode"/>
 				<entry key="id" type="number" value="100884"/>
 				<entry key="module" type="string" value="CoreElementUnitSequence"/>
 				<entry key="script" type="string" value="default"/>
@@ -29701,6 +29701,10 @@
 							<entry key="delay" type="number" value="1"/>
 							<entry key="id" type="number" value="102307"/>
 						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102238"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="1325 -4871 938"/>
 					<entry key="radius" type="number" value="250"/>
@@ -30099,7 +30103,7 @@
 				<entry key="script" type="string" value="default"/>
 				<entry key="values" type="table">
 					<entry key="base_delay" type="number" value="0"/>
-					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="enabled" type="boolean" value="false"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
@@ -30677,7 +30681,7 @@
 					<entry key="ai_group" type="string" value="none"/>
 					<entry key="align_position" type="boolean" value="false"/>
 					<entry key="align_rotation" type="boolean" value="false"/>
-					<entry key="attitude" type="string" value="none"/>
+					<entry key="attitude" type="string" value="avoid"/>
 					<entry key="base_chance" type="number" value="1"/>
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="chance_inc" type="number" value="0"/>
@@ -30691,11 +30695,11 @@
 					<entry key="interrupt_dmg" type="number" value="0"/>
 					<entry key="interval" type="number" value="-1"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="false"/>
-					<entry key="no_arrest" type="boolean" value="false"/>
+					<entry key="no_arrest" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="path_haste" type="string" value="none"/>
-					<entry key="path_stance" type="string" value="none"/>
+					<entry key="path_stance" type="string" value="ntl"/>
 					<entry key="path_style" type="string" value="none"/>
 					<entry key="patrol_path" type="string" value="none"/>
 					<entry key="pose" type="string" value="none"/>
@@ -32194,7 +32198,7 @@
 					<entry key="ai_group" type="string" value="none"/>
 					<entry key="align_position" type="boolean" value="false"/>
 					<entry key="align_rotation" type="boolean" value="false"/>
-					<entry key="attitude" type="string" value="none"/>
+					<entry key="attitude" type="string" value="avoid"/>
 					<entry key="base_chance" type="number" value="1"/>
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="chance_inc" type="number" value="0"/>
@@ -32208,11 +32212,11 @@
 					<entry key="interrupt_dmg" type="number" value="0"/>
 					<entry key="interval" type="number" value="-1"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="false"/>
-					<entry key="no_arrest" type="boolean" value="false"/>
+					<entry key="no_arrest" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="path_haste" type="string" value="none"/>
-					<entry key="path_stance" type="string" value="none"/>
+					<entry key="path_stance" type="string" value="ntl"/>
 					<entry key="path_style" type="string" value="none"/>
 					<entry key="patrol_path" type="string" value="none"/>
 					<entry key="pose" type="string" value="none"/>
@@ -32920,7 +32924,7 @@
 					<entry key="ai_group" type="string" value="none"/>
 					<entry key="align_position" type="boolean" value="false"/>
 					<entry key="align_rotation" type="boolean" value="false"/>
-					<entry key="attitude" type="string" value="none"/>
+					<entry key="attitude" type="string" value="avoid"/>
 					<entry key="base_chance" type="number" value="1"/>
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="chance_inc" type="number" value="0"/>
@@ -32934,11 +32938,11 @@
 					<entry key="interrupt_dmg" type="number" value="0"/>
 					<entry key="interval" type="number" value="-1"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="false"/>
-					<entry key="no_arrest" type="boolean" value="false"/>
+					<entry key="no_arrest" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="path_haste" type="string" value="none"/>
-					<entry key="path_stance" type="string" value="none"/>
+					<entry key="path_stance" type="string" value="ntl"/>
 					<entry key="path_style" type="string" value="none"/>
 					<entry key="patrol_path" type="string" value="none"/>
 					<entry key="pose" type="string" value="none"/>
@@ -34153,7 +34157,7 @@
 					<entry key="ai_group" type="string" value="none"/>
 					<entry key="align_position" type="boolean" value="false"/>
 					<entry key="align_rotation" type="boolean" value="false"/>
-					<entry key="attitude" type="string" value="none"/>
+					<entry key="attitude" type="string" value="avoid"/>
 					<entry key="base_chance" type="number" value="1"/>
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="chance_inc" type="number" value="0"/>
@@ -34167,11 +34171,11 @@
 					<entry key="interrupt_dmg" type="number" value="0"/>
 					<entry key="interval" type="number" value="-1"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="false"/>
-					<entry key="no_arrest" type="boolean" value="false"/>
+					<entry key="no_arrest" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="path_haste" type="string" value="none"/>
-					<entry key="path_stance" type="string" value="none"/>
+					<entry key="path_stance" type="string" value="ntl"/>
 					<entry key="path_style" type="string" value="none"/>
 					<entry key="patrol_path" type="string" value="none"/>
 					<entry key="pose" type="string" value="none"/>
@@ -35098,7 +35102,7 @@
 					<entry key="ai_group" type="string" value="none"/>
 					<entry key="align_position" type="boolean" value="false"/>
 					<entry key="align_rotation" type="boolean" value="false"/>
-					<entry key="attitude" type="string" value="none"/>
+					<entry key="attitude" type="string" value="avoid"/>
 					<entry key="base_chance" type="number" value="1"/>
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="chance_inc" type="number" value="0"/>
@@ -35112,11 +35116,11 @@
 					<entry key="interrupt_dmg" type="number" value="0"/>
 					<entry key="interval" type="number" value="-1"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="false"/>
-					<entry key="no_arrest" type="boolean" value="false"/>
+					<entry key="no_arrest" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="path_haste" type="string" value="none"/>
-					<entry key="path_stance" type="string" value="none"/>
+					<entry key="path_stance" type="string" value="ntl"/>
 					<entry key="path_style" type="string" value="none"/>
 					<entry key="patrol_path" type="string" value="none"/>
 					<entry key="pose" type="string" value="none"/>
@@ -35773,7 +35777,7 @@
 					<entry key="ai_group" type="string" value="none"/>
 					<entry key="align_position" type="boolean" value="false"/>
 					<entry key="align_rotation" type="boolean" value="false"/>
-					<entry key="attitude" type="string" value="none"/>
+					<entry key="attitude" type="string" value="avoid"/>
 					<entry key="base_chance" type="number" value="1"/>
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="chance_inc" type="number" value="0"/>
@@ -35787,11 +35791,11 @@
 					<entry key="interrupt_dmg" type="number" value="0"/>
 					<entry key="interval" type="number" value="-1"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="false"/>
-					<entry key="no_arrest" type="boolean" value="false"/>
+					<entry key="no_arrest" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="path_haste" type="string" value="none"/>
-					<entry key="path_stance" type="string" value="none"/>
+					<entry key="path_stance" type="string" value="ntl"/>
 					<entry key="path_style" type="string" value="none"/>
 					<entry key="patrol_path" type="string" value="none"/>
 					<entry key="pose" type="string" value="none"/>
@@ -36190,7 +36194,7 @@
 					<entry key="ai_group" type="string" value="none"/>
 					<entry key="align_position" type="boolean" value="false"/>
 					<entry key="align_rotation" type="boolean" value="false"/>
-					<entry key="attitude" type="string" value="none"/>
+					<entry key="attitude" type="string" value="avoid"/>
 					<entry key="base_chance" type="number" value="1"/>
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="chance_inc" type="number" value="0"/>
@@ -36204,11 +36208,11 @@
 					<entry key="interrupt_dmg" type="number" value="0"/>
 					<entry key="interval" type="number" value="-1"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="false"/>
-					<entry key="no_arrest" type="boolean" value="false"/>
+					<entry key="no_arrest" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="path_haste" type="string" value="none"/>
-					<entry key="path_stance" type="string" value="none"/>
+					<entry key="path_stance" type="string" value="ntl"/>
 					<entry key="path_style" type="string" value="none"/>
 					<entry key="patrol_path" type="string" value="none"/>
 					<entry key="pose" type="string" value="none"/>
@@ -49174,10 +49178,6 @@
 						<entry index="33" type="number" value="102323"/>
 						<entry index="34" type="number" value="102188"/>
 						<entry index="35" type="number" value="102194"/>
-						<entry index="36" type="number" value="102252"/>
-						<entry index="37" type="number" value="102269"/>
-						<entry index="38" type="number" value="102292"/>
-						<entry index="39" type="number" value="102281"/>
 					</entry>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="event" type="string" value="alerted"/>
@@ -70287,6 +70287,10 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="102308"/>
 						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100959"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-760 -2330 3100"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
@@ -73744,6 +73748,10 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="102355"/>
 						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100943"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="1175 -2925 89.0003"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
@@ -73931,11 +73939,11 @@
 							<entry key="id" type="number" value="100683"/>
 						</entry>
 						<entry index="5" type="table">
-							<entry key="delay" type="number" value="2"/>
+							<entry key="delay" type="number" value="2.5"/>
 							<entry key="id" type="number" value="100800"/>
 						</entry>
 						<entry index="6" type="table">
-							<entry key="delay" type="number" value="2"/>
+							<entry key="delay" type="number" value="2.5"/>
 							<entry key="id" type="number" value="100796"/>
 						</entry>
 					</entry>
@@ -74012,6 +74020,8 @@
 					<entry key="elements" type="table">
 						<entry index="1" type="number" value="102359"/>
 						<entry index="2" type="number" value="102204"/>
+						<entry index="3" type="number" value="102308"/>
+						<entry index="4" type="number" value="100959"/>
 					</entry>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
@@ -74039,6 +74049,18 @@
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100869"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100943"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102355"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102356"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-560 -1730 3000"/>
