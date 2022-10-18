@@ -20,7 +20,7 @@
 	<instance id="fuel_circuitbreaker">
 		<packages/>
 	</instance>
-	<Achievements icon="guis/mods/fuel/textures/achievements/fuel_pack" id="achievements_fuel">
+	<Achievements icon="guis/mods/fuel/textures/achievements/fuel_pack" id="achievements_fuel" banner="guis/mods/fuel/textures/achievements/fuel_banner">
 		<achievement desc_id="achievement_fuel_wd_0_desc" icon="guis/mods/fuel/textures/achievements/fuel_normal" id="achievement_fuel_wd_0" name_id="achievement_fuel_wd_0" rank="1"/>
 		<achievement desc_id="achievement_fuel_wd_1_desc" icon="guis/mods/fuel/textures/achievements/fuel_hard" id="achievement_fuel_wd_1" name_id="achievement_fuel_wd_1" rank="1"/>
 		<achievement desc_id="achievement_fuel_wd_2_desc" icon="guis/mods/fuel/textures/achievements/fuel_veryhard" id="achievement_fuel_wd_2" name_id="achievement_fuel_wd_2" rank="1"/>
@@ -37,6 +37,20 @@
 	<AddFiles directory="assets">
 		<texture path="guis/mods/fuel/textures/loading/job_fuel_df"/>
 		<texture path="guis/mods/fuel/textures/pd2/crimenet/fuel"/>
+		<texture path="guis/mods/fuel/textures/achievements/fuel_pack"/>
+		<texture path="guis/mods/fuel/textures/achievements/fuel_banner"/>
+		<texture path="guis/mods/fuel/textures/achievements/fuel_normal"/>
+		<texture path="guis/mods/fuel/textures/achievements/fuel_hard"/>
+		<texture path="guis/mods/fuel/textures/achievements/fuel_veryhard"/>
+		<texture path="guis/mods/fuel/textures/achievements/fuel_overkill"/>
+		<texture path="guis/mods/fuel/textures/achievements/fuel_mayhem"/>
+		<texture path="guis/mods/fuel/textures/achievements/fuel_deathwish"/>
+		<texture path="guis/mods/fuel/textures/achievements/fuel_deathsentence"/>
+		<texture path="guis/mods/fuel/textures/achievements/fuel_onedown"/>
+		<texture path="guis/mods/fuel/textures/achievements/fuel_tape"/>
+		<texture path="guis/mods/fuel/textures/achievements/fuel_guns"/>
+		<texture path="guis/mods/fuel/textures/achievements/fuel_pay"/>
+		<texture path="guis/mods/fuel/textures/achievements/fuel_ks"/>
 	</AddFiles>
 	<Hooks directory="hooks">
 		<hook file="guitweakdata.lua" source_file="lib/tweak_data/guitweakdata"/>
