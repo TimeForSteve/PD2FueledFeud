@@ -8,7 +8,7 @@ Hooks:PostHook(CharacterTweakData, "init", "fuel_init_characters", function(self
 			0.1,
 			0.2
 		},
-		focus_delay = 4,
+		focus_delay = 2,
 		focus_dis = 800,
 		spread = 20,
 		miss_dis = 40,
@@ -143,7 +143,7 @@ Hooks:PostHook(CharacterTweakData, "init", "fuel_init_characters", function(self
 	}
 	self.fuel_hostage.is_escort = true
 	self.fuel_hostage.escort_idle_talk = false
-	self.fuel_hostage.escort_scared_dist = 100
+	self.fuel_hostage.escort_scared_dist = 0
 	self.fuel_hostage.move_speed = self.presets.move_speed.fast
 
 
@@ -155,7 +155,7 @@ Hooks:PostHook(CharacterTweakData, "init", "fuel_init_characters", function(self
 	self.fuel_boss.immune_to_concussion = true
 	self.fuel_boss.headshot_dmg_mul = 1
 	self.fuel_boss.no_headshot_add_mul = true
-	self.fuel_boss.player_health_scaling_mul = 1.5
+	self.fuel_boss.player_health_scaling_mul = 1.1
 	
 	self.fuel_boss_no_armor = deep_clone(self.hector_boss_no_armor)
 	self.fuel_boss_no_armor.allowed_poses = {

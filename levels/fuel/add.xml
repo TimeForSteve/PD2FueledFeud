@@ -1258,11 +1258,6 @@
 		<object path="units/world/architecture/hospital/props/styrofoamcups/hospital_styrofoam_cups_04"/>
 		<unit path="units/world/architecture/hospital/props/styrofoamcups/hospital_styrofoam_cups_04"/>
 	</add>
-	<add from_db="true" path="units/payday2/props/com_prop_barista_espressomachine/com_prop_barista_espressomachine" type="unit">
-		<material_config path="units/payday2/props/com_prop_barista_espressomachine/com_prop_barista_espressomachine"/>
-		<object path="units/payday2/props/com_prop_barista_espressomachine/com_prop_barista_espressomachine"/>
-		<unit path="units/payday2/props/com_prop_barista_espressomachine/com_prop_barista_espressomachine"/>
-	</add>
 	<add from_db="true" path="units/payday2/architecture/lcm_int_barista_corner/lcm_int_barista_corner" type="unit">
 		<material_config path="units/payday2/architecture/lcm_int_barista_corner/lcm_int_barista_corner"/>
 		<object path="units/payday2/architecture/lcm_int_barista_corner/lcm_int_barista_corner"/>
@@ -1985,12 +1980,6 @@
 		<object path="units/payday2/architecture/com_ext_parking_garage/com_ext_parking_garage_decal_a_end"/>
 		<unit path="units/payday2/architecture/com_ext_parking_garage/com_ext_parking_garage_decal_a_end"/>
 	</add>
-	<add from_db="true" path="units/world/props/suburbia_circuitbreaker/suburbia_circuitbreaker" type="unit">
-		<material_config path="units/world/props/suburbia_circuitbreaker/suburbia_circuitbreaker"/>
-		<object path="units/world/props/suburbia_circuitbreaker/suburbia_circuitbreaker"/>
-		<sequence_manager path="units/world/props/suburbia_circuitbreaker/suburbia_circuitbreaker"/>
-		<unit path="units/world/props/suburbia_circuitbreaker/suburbia_circuitbreaker"/>
-	</add>
 	<add from_db="true" path="units/payday2/props/com_prop_jewelry_signs/com_prop_jewelry_calendar" type="unit">
 		<material_config path="units/payday2/props/com_prop_jewelry_signs/com_prop_jewelry_calendar"/>
 		<object path="units/payday2/props/com_prop_jewelry_signs/com_prop_jewelry_calendar"/>
@@ -2399,7 +2388,7 @@
 		<material_config path="units/pd2_dlc_miami/props/ind_prop_mechanical_circuitbreaker/ind_prop_mechanical_circuitbreaker"/>
 		<object path="units/pd2_dlc_miami/props/ind_prop_mechanical_circuitbreaker/ind_prop_mechanical_circuitbreaker"/>
 		<sequence_manager path="units/pd2_dlc_miami/props/ind_prop_mechanical_circuitbreaker/ind_prop_mechanical_circuitbreaker"/>
-		<unit path="units/pd2_dlc_miami/props/ind_prop_mechanical_circuitbreaker/ind_prop_mechanical_circuitbreaker"/>
+		<unit load="true" path="units/pd2_dlc_miami/props/ind_prop_mechanical_circuitbreaker/ind_prop_mechanical_circuitbreaker"/>
 	</add>
 	<add from_db="true" path="units/world/props/mansion/man_prop_int_sink/man_prop_int_sink" type="unit">
 		<material_config path="units/world/props/mansion/man_prop_int_sink/man_prop_int_sink"/>
@@ -2807,15 +2796,6 @@
 		<object path="units/payday2/props/res_prop_livingroom_couch_b_worn/res_prop_livingroom_armchair_b_worn"/>
 		<unit path="units/payday2/props/res_prop_livingroom_couch_b_worn/res_prop_livingroom_armchair_b_worn"/>
 	</add>
-	<add from_db="true" path="units/pd2_dlc_man/props/man_prop_int_cellar_lamp/man_prop_int_cellar_ceiling_lamp" type="unit">
-		<material_config path="units/pd2_dlc_man/props/man_prop_int_cellar_lamp/man_prop_int_cellar_ceiling_lamp"/>
-		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
-		<bnk path="soundbanks/regular_sfx"/>
-		<effect load="true" path="effects/payday2/particles/flares/indoor_lamp_small"/>
-		<object path="units/pd2_dlc_man/props/man_prop_int_cellar_lamp/man_prop_int_cellar_ceiling_lamp"/>
-		<sequence_manager path="units/pd2_dlc_man/props/man_prop_int_cellar_lamp/man_prop_int_cellar_ceiling_lamp"/>
-		<unit path="units/pd2_dlc_man/props/man_prop_int_cellar_lamp/man_prop_int_cellar_ceiling_lamp"/>
-	</add>
 	<add from_db="true" path="units/world/props/mansion/man_prop_int_carpets/man_prop_int_carpet_long" type="unit">
 		<material_config path="units/world/props/mansion/man_prop_int_carpets/man_prop_int_carpet_long"/>
 		<object path="units/world/props/mansion/man_prop_int_carpets/man_prop_int_carpet_long"/>
@@ -2975,11 +2955,6 @@
 		<material_config path="units/payday2/props/com_prop_barista_cup/com_prop_barista_cup"/>
 		<object path="units/payday2/props/com_prop_barista_cup/com_prop_barista_cup_stack_medium"/>
 		<unit path="units/payday2/props/com_prop_barista_cup/com_prop_barista_cup_stack_medium"/>
-	</add>
-	<add from_db="true" path="units/payday2/props/stn_prop_lobby_metaldetector_handheld/stn_prop_lobby_metaldetector_handheld" type="unit">
-		<material_config path="units/payday2/props/stn_prop_lobby_metaldetector_handheld/stn_prop_lobby_metaldetector_handheld"/>
-		<object path="units/payday2/props/stn_prop_lobby_metaldetector_handheld/stn_prop_lobby_metaldetector_handheld"/>
-		<unit path="units/payday2/props/stn_prop_lobby_metaldetector_handheld/stn_prop_lobby_metaldetector_handheld"/>
 	</add>
 	<add from_db="true" path="units/payday2/props/res_prop_livingroom_sleepersofa_unfolded_grime/res_prop_livingroom_sleepersofa_unfolded_grime" type="unit">
 		<material_config path="units/payday2/props/res_prop_livingroom_sleepersofa_unfolded_grime/res_prop_livingroom_sleepersofa_unfolded_grime"/>
