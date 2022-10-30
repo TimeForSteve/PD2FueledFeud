@@ -20,6 +20,12 @@
 	<instance id="fuel_circuitbreaker">
 		<packages/>
 	</instance>
+	<HeistMusic directory="assets/sounds" id="track_fuel" volume="0.6">
+        <event name="setup" source="stealth.ogg" start_source="stealth_intro.ogg"/>
+        <event name="anticipation" source="anticipation.ogg"/>
+        <event name="assault" source="assault.ogg" start_source="assault_intro.ogg"/>
+        <event name="control" source="control.ogg" start_source="control_intro.ogg"/>
+    </HeistMusic>
 	<Achievements icon="guis/mods/fuel/textures/achievements/fuel_pack" id="achievements_fuel" banner="guis/mods/fuel/textures/achievements/fuel_banner">
 		<achievement desc_id="achievement_fuel_wd_0_desc" icon="guis/mods/fuel/textures/achievements/fuel_normal" id="achievement_fuel_wd_0" name_id="achievement_fuel_wd_0" rank="1"/>
 		<achievement desc_id="achievement_fuel_wd_1_desc" icon="guis/mods/fuel/textures/achievements/fuel_hard" id="achievement_fuel_wd_1" name_id="achievement_fuel_wd_1" rank="1"/>
@@ -54,6 +60,7 @@
 	</AddFiles>
 	<Hooks directory="hooks">
 		<hook file="guitweakdata.lua" source_file="lib/tweak_data/guitweakdata"/>
+		<hook file="musicmanager.lua" source_file="lib/managers/musicmanager"/>
 	</Hooks>
 	<Localization default="english.yaml" directory="loc">
 		<loc file="english.yaml" language="english"/>
