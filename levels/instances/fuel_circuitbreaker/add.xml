@@ -1,7 +1,20 @@
 <table directory="assets">
+	<add from_db="true" path="units/pd2_dlc_miami/props/ind_prop_mechanical_circuitbreaker/ind_prop_mechanical_circuitbreaker" type="unit">
+		<material_config path="units/pd2_dlc_miami/props/ind_prop_mechanical_circuitbreaker/ind_prop_mechanical_circuitbreaker"/>
+		<object path="units/pd2_dlc_miami/props/ind_prop_mechanical_circuitbreaker/ind_prop_mechanical_circuitbreaker"/>
+		<sequence_manager path="units/pd2_dlc_miami/props/ind_prop_mechanical_circuitbreaker/ind_prop_mechanical_circuitbreaker"/>
+		<unit path="units/pd2_dlc_miami/props/ind_prop_mechanical_circuitbreaker/ind_prop_mechanical_circuitbreaker"/>
+	</add>
 	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" type="unit">
-		<unit path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
-		<object path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
 		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/equipment/gen_interactable_pickup_harddrive/gen_interactable_place_harddrive" type="unit">
+		<unit path="units/payday2/equipment/gen_interactable_pickup_harddrive/gen_interactable_place_harddrive"/>
+		<object path="units/payday2/equipment/gen_interactable_pickup_harddrive/gen_interactable_place_harddrive"/>
+		<material_config path="units/payday2/equipment/gen_interactable_pickup_harddrive/gen_interactable_pickup_harddrive"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_pickup_harddrive/gen_interactable_place_harddrive"/>
+		<bnk path="soundbanks/regular_sfx"/>
 	</add>
 </table>
