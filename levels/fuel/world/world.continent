@@ -5845,9 +5845,9 @@
 			<unit_data continent="world" mesh_variation="" name="units/pd2_mod_custom/cus_loot_m4/cases/cus_loot_m4_case_z_axis" name_id="cus_loot_m4_case_z_axis_001" position="1983 349 -483" rotation="0 0 -0.793353 -0.608762" unit_id="102189"/>
 		</table>
 		<table>
-			<unit_data continent="world" name="core/units/light_omni/light_omni" name_id="light_omni_076" position="2159 -1668 -358" rotation="0 0 -0.707107 -0.707107" unit_id="101566">
+			<unit_data continent="world" name="core/units/light_omni/light_omni" name_id="light_omni_076" position="2137 -1666 -358" rotation="0 0 -0.707107 -0.707107" unit_id="101566">
 				<lights>
-					<table clipping_values="10000 -10000 0" color="0.972549 0.792157 0.592157" enabled="true" falloff_exponent="1" far_range="200" multiplier="@IDbca13ba1d306f87b@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+					<table clipping_values="10000 -10000 0" color="0.972549 0.792157 0.592157" enabled="true" falloff_exponent="1" far_range="250" multiplier="@IDbca13ba1d306f87b@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
 				</lights>
 			</unit_data>
 		</table>
@@ -8273,7 +8273,7 @@
 			<unit_data continent="world" name="units/payday2/props/gen_prop_methlab_bleach/gen_prop_methlab_bleach" name_id="basement_props_safehouse014" position="1173.38 -5039.39 850.336" rotation="8.42788e-008 -2.98447e-008 0.333808 0.942641" unit_id="101913"/>
 		</table>
 		<table>
-			<unit_data continent="world" name="units/payday2/props/com_prop_janitor_spray/com_prop_janitor_spray" name_id="basement_props_safehouse007" position="1096.02 -5029.24 903.336" rotation="1.0896e-008 -8.87406e-008 0.992546 0.121868" unit_id="101935"/>
+			<unit_data continent="world" name="units/payday2/props/com_prop_janitor_spray/com_prop_janitor_spray" name_id="basement_props_safehouse007" position="1094.57 -5035.06 898" rotation="1.0896e-008 -8.87409e-008 0.992546 0.121868" unit_id="101935"/>
 		</table>
 		<table>
 			<unit_data continent="world" name="units/payday2/props/gen_prop_methlab_methanol/gen_prop_methlab_methanol" name_id="basement_props_safehouse011" position="1097 -5041 803.696" rotation="-7.96622e-008 -4.059e-008 0.45399 -0.891007" unit_id="101936"/>
@@ -8668,9 +8668,6 @@
 			<unit_data continent="world" name="units/payday2/props/air_prop_hangar_worktable/air_prop_hangar_worktable" name_id="basement_props_safehouse003" position="2905 800 -485" rotation="0 0 1 -0" unit_id="101518"/>
 		</table>
 		<table>
-			<unit_data continent="world" mesh_variation="" name="units/pd2_mod_custom/cus_loot_m4/cases/cus_loot_m4_case_z_axis" name_id="cus_loot_m4_case_z_axis_002" position="2519.39 882.996 -394.065" rotation="0 0 -0.0871556 -0.996195" unit_id="101556"/>
-		</table>
-		<table>
 			<unit_data continent="world" mesh_variation="" name="units/pd2_mod_custom/cus_loot_m4/cases/cus_loot_m4_case_z_axis" name_id="cus_loot_m4_case_z_axis_003" position="981.581 -1523 -372.952" rotation="0 0 0.713251 -0.700909" unit_id="102040"/>
 		</table>
 		<table>
@@ -8750,7 +8747,7 @@
 			<unit_data continent="world" name="units/world/props/mansion/man_cover_int_shipping_box_pallet/man_cover_int_shipping_box_pallet" name_id="man_cover_int_shipping_box_pallet_020" position="2050 798 -441" rotation="-3.09086e-008 0.707107 -0.707107 3.09086e-008" unit_id="100620"/>
 		</table>
 		<table>
-			<unit_data continent="world" mesh_variation="" name="units/payday2/props/gen_prop_square_goal_marker_7x4/gen_prop_square_goal_marker_7x4" name_id="gen_prop_square_goal_marker_7x4_001" position="705 10 -19" rotation="0 0 -0.707107 -0.707107" unit_id="100860"/>
+			<unit_data continent="world" mesh_variation="" name="units/payday2/props/gen_prop_square_goal_marker_7x4/gen_prop_square_goal_marker_7x4" name_id="gen_prop_square_goal_marker_7x4_001" position="755 10 -19" rotation="0 0 -0.707107 -0.707107" unit_id="100860"/>
 		</table>
 		<table>
 			<unit_data continent="world" mesh_variation="power_on" name="units/payday2/props/bnk_prop_security_moneycounter/bnk_prop_security_moneycounter" name_id="bnk_prop_security_moneycounter_004" position="1763 -3263 788" rotation="0 0 -0.707107 -0.707107" unit_id="100017"/>
@@ -9894,6 +9891,9 @@
 		</table>
 		<table>
 			<unit_data continent="world" mesh_variation="" name="units/payday2/props/gen_prop_security_console/gen_prop_security_console" name_id="gen_prop_security_console_001" position="2992 -64 63" rotation="0 0 0.113203 -0.993572" unit_id="100820"/>
+		</table>
+		<table>
+			<unit_data continent="world" mesh_variation="" name="units/pd2_mod_custom/cus_loot_grenades/cases/cus_loot_grenades_case_z_axis" name_id="cus_loot_m4_case_z_axis_002" position="2519.39 882.996 -394.065" rotation="0 0 0.688355 -0.725374" unit_id="101556"/>
 		</table>
 	</statics>
 	<values>
