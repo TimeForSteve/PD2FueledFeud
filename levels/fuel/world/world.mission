@@ -58209,6 +58209,7 @@
 					<entry key="elements" type="table">
 						<entry index="1" type="number" value="101836"/>
 						<entry index="2" type="number" value="101911"/>
+						<entry index="3" type="number" value="102404"/>
 					</entry>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
@@ -58232,6 +58233,7 @@
 					<entry key="elements" type="table">
 						<entry index="1" type="number" value="101837"/>
 						<entry index="2" type="number" value="101914"/>
+						<entry index="3" type="number" value="102405"/>
 					</entry>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
@@ -58255,6 +58257,7 @@
 					<entry key="elements" type="table">
 						<entry index="1" type="number" value="101872"/>
 						<entry index="2" type="number" value="101915"/>
+						<entry index="3" type="number" value="102406"/>
 					</entry>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
@@ -58278,6 +58281,7 @@
 					<entry key="elements" type="table">
 						<entry index="1" type="number" value="101873"/>
 						<entry index="2" type="number" value="101916"/>
+						<entry index="3" type="number" value="102407"/>
 					</entry>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
@@ -58301,6 +58305,7 @@
 					<entry key="elements" type="table">
 						<entry index="1" type="number" value="101874"/>
 						<entry index="2" type="number" value="101917"/>
+						<entry index="3" type="number" value="102408"/>
 					</entry>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
@@ -58324,6 +58329,7 @@
 					<entry key="elements" type="table">
 						<entry index="1" type="number" value="101875"/>
 						<entry index="2" type="number" value="101918"/>
+						<entry index="3" type="number" value="102409"/>
 					</entry>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
@@ -58347,6 +58353,7 @@
 					<entry key="elements" type="table">
 						<entry index="1" type="number" value="101876"/>
 						<entry index="2" type="number" value="101919"/>
+						<entry index="3" type="number" value="102410"/>
 					</entry>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
@@ -66614,47 +66621,23 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="101836"/>
-						</entry>
-						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="101837"/>
-						</entry>
-						<entry index="3" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="101872"/>
-						</entry>
-						<entry index="4" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="101873"/>
-						</entry>
-						<entry index="5" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="101874"/>
-						</entry>
-						<entry index="6" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="101875"/>
-						</entry>
-						<entry index="7" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="101876"/>
-						</entry>
-						<entry index="8" type="table">
-							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="102143"/>
 						</entry>
-						<entry index="9" type="table">
+						<entry index="2" type="table">
 							<entry key="delay" type="number" value="80"/>
 							<entry key="id" type="number" value="101912"/>
 						</entry>
-						<entry index="10" type="table">
+						<entry index="3" type="table">
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="101923"/>
 						</entry>
-						<entry index="11" type="table">
-							<entry key="delay" type="number" value="1"/>
+						<entry index="4" type="table">
+							<entry key="delay" type="number" value="16"/>
 							<entry key="id" type="number" value="101676"/>
+						</entry>
+						<entry index="5" type="table">
+							<entry key="delay" type="number" value="0.2"/>
+							<entry key="id" type="number" value="102403"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-1318 -1977 145"/>
@@ -67788,12 +67771,20 @@
 					<entry key="no_arrest" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
-							<entry key="delay" type="number" value="8"/>
+							<entry key="delay" type="number" value="21"/>
 							<entry key="id" type="number" value="102170"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="8.2"/>
+							<entry key="delay" type="number" value="21.2"/>
 							<entry key="id" type="number" value="102174"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="2"/>
+							<entry key="id" type="number" value="102417"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="delay" type="number" value="18"/>
+							<entry key="id" type="number" value="102418"/>
 						</entry>
 					</entry>
 					<entry key="path_haste" type="string" value="run"/>
@@ -70690,6 +70681,11 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="102377"/>
 						</entry>
+						<entry index="6" type="table">
+							<entry key="alternative" type="string" value="interacted"/>
+							<entry key="delay" type="number" value="0.2"/>
+							<entry key="id" type="number" value="102411"/>
+						</entry>
 					</entry>
 					<entry key="override_timer" type="number" value="5"/>
 					<entry key="position" type="vector3" value="4100 -3875 89.0001"/>
@@ -71059,6 +71055,11 @@
 							<entry key="alternative" type="string" value="interacted"/>
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="102377"/>
+						</entry>
+						<entry index="6" type="table">
+							<entry key="alternative" type="string" value="interacted"/>
+							<entry key="delay" type="number" value="0.5"/>
+							<entry key="id" type="number" value="102412"/>
 						</entry>
 					</entry>
 					<entry key="override_timer" type="number" value="5"/>
@@ -71587,6 +71588,11 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="102377"/>
 						</entry>
+						<entry index="6" type="table">
+							<entry key="alternative" type="string" value="interacted"/>
+							<entry key="delay" type="number" value="0.5"/>
+							<entry key="id" type="number" value="102413"/>
+						</entry>
 					</entry>
 					<entry key="override_timer" type="number" value="5"/>
 					<entry key="position" type="vector3" value="3763 -3963 489"/>
@@ -71891,6 +71897,11 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="102377"/>
 						</entry>
+						<entry index="6" type="table">
+							<entry key="alternative" type="string" value="interacted"/>
+							<entry key="delay" type="number" value="0.5"/>
+							<entry key="id" type="number" value="102414"/>
+						</entry>
 					</entry>
 					<entry key="override_timer" type="number" value="5"/>
 					<entry key="position" type="vector3" value="2600 -5275 489"/>
@@ -72073,6 +72084,11 @@
 							<entry key="alternative" type="string" value="interacted"/>
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="102377"/>
+						</entry>
+						<entry index="6" type="table">
+							<entry key="alternative" type="string" value="interacted"/>
+							<entry key="delay" type="number" value="0.5"/>
+							<entry key="id" type="number" value="102415"/>
 						</entry>
 					</entry>
 					<entry key="override_timer" type="number" value="5"/>
@@ -75312,6 +75328,402 @@
 					<entry key="position" type="vector3" value="580 -288 160"/>
 					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
 					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="2405" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="Play_ton_fuel_01"/>
+				<entry key="id" type="number" value="102403"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="12.5"/>
+							<entry key="id" type="number" value="102404"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="12.5"/>
+							<entry key="id" type="number" value="102405"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="12.5"/>
+							<entry key="id" type="number" value="102406"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="delay" type="number" value="12.5"/>
+							<entry key="id" type="number" value="102407"/>
+						</entry>
+						<entry index="5" type="table">
+							<entry key="delay" type="number" value="12.5"/>
+							<entry key="id" type="number" value="102408"/>
+						</entry>
+						<entry index="6" type="table">
+							<entry key="delay" type="number" value="12.5"/>
+							<entry key="id" type="number" value="102409"/>
+						</entry>
+						<entry index="7" type="table">
+							<entry key="delay" type="number" value="12.5"/>
+							<entry key="id" type="number" value="102410"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="-1420 -1986 142.29"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_event" type="string" value="Play_ton_fuel_01"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2406" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="Play_ton_fuel_carl"/>
+				<entry key="id" type="number" value="102404"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="false"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-1420 -1986 142.29"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="sound_event" type="string" value="Play_ton_fuel_02_01"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2407" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="Play_ton_fuel_daniel"/>
+				<entry key="id" type="number" value="102405"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="false"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-1420 -1986 142.29"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="sound_event" type="string" value="Play_ton_fuel_02_02"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2408" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="Play_ton_fuel_barry"/>
+				<entry key="id" type="number" value="102406"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="false"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-1420 -1986 142.29"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="sound_event" type="string" value="Play_ton_fuel_02_03"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2409" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="Play_ton_fuel_henry"/>
+				<entry key="id" type="number" value="102407"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="false"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-1420 -1986 142.29"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="sound_event" type="string" value="Play_ton_fuel_02_04"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2410" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="Play_ton_fuel_erwan"/>
+				<entry key="id" type="number" value="102408"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="false"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-1420 -1986 142.29"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="sound_event" type="string" value="Play_ton_fuel_02_05"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2411" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="Play_ton_fuel_tommy"/>
+				<entry key="id" type="number" value="102409"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="false"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-1420 -1986 142.29"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="sound_event" type="string" value="Play_ton_fuel_02_06"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2412" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="Play_ton_fuel_mike"/>
+				<entry key="id" type="number" value="102410"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="false"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-1420 -1986 142.29"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="sound_event" type="string" value="Play_ton_fuel_02_07"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2413" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="Play_ton_fuel_03_001"/>
+				<entry key="id" type="number" value="102411"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="4101 -3877 110"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="sound_event" type="string" value="Play_ton_fuel_03"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2414" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="Play_ton_fuel_03_001"/>
+				<entry key="id" type="number" value="102412"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="3700 -4795 110"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="sound_event" type="string" value="Play_ton_fuel_03"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2415" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="Play_ton_fuel_03_003"/>
+				<entry key="id" type="number" value="102413"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="3756 -3960 500"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="sound_event" type="string" value="Play_ton_fuel_03"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2416" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="Play_ton_fuel_03_004"/>
+				<entry key="id" type="number" value="102414"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="2602 -5275 500"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="sound_event" type="string" value="Play_ton_fuel_03"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2417" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="Play_ton_fuel_03_005"/>
+				<entry key="id" type="number" value="102415"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="275 -4465 500"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="sound_event" type="string" value="Play_ton_fuel_03"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2418" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="Play_ton_fuel_03_005"/>
+				<entry key="id" type="number" value="102416"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="2602 -5275 500"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="sound_event" type="string" value="Play_ton_fuel_03"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2419" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="Play_ton_fuel_04"/>
+				<entry key="id" type="number" value="102417"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="636 -3471 -329"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="sound_event" type="string" value="Play_ton_fuel_04"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2420" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="Play_ton_fuel_05"/>
+				<entry key="id" type="number" value="102418"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="636 -3471 -329"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_event" type="string" value="Play_ton_fuel_05"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
 				</entry>
 			</entry>
 		</entry>
