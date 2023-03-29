@@ -1,4 +1,4 @@
-<table min_lib_ver="4.5" name="FueledFeud">
+<table min_lib_ver="4.84" name="FueledFeud">
 	<instance id="fuel_garage_door">
 		<packages/>
 	</instance>
@@ -97,7 +97,7 @@
 		</texture_rect>
 	</HUDIcon>
 	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="yaeger" name_id="contact_yaeger_name" package="packages/contact_bain"/>
-	<level ai_group_type="America" brief_id="heist_fuel_briefing" briefing_dialog="" ghost_bonus="0.06" id="fuel" intro_event="" load_screen="guis/mods/fuel/textures/loading/job_fuel_df" max_bags="25" player_style="generic">
+	<level ai_group_type="America" brief_id="heist_fuel_briefing" briefing_dialog="Play_ygr_fuel_brf_01" ghost_bonus="0.06" id="fuel" intro_event="" load_screen="guis/mods/fuel/textures/loading/job_fuel_df" max_bags="25" player_style="generic">
 		<assets/>
 		<equipments>
 			<special icon="equipment_electrical" id="fuel_jumper_cable" sync_possession="true"/>
@@ -171,7 +171,10 @@
 			<file path="scriptdata/job_c_fuel.sounds"/>
 		</xml>
 	</level>
-	<narrative brief_id="heist_fuel_crimenet" briefing_event="" contact="yaeger" icon="guis/mods/fuel/textures/pd2/crimenet/fuel" id="fuel">
+	<Sounds directory="assets/sounds/vo" unload="true">
+        <sound id="Play_ygr_fuel_cbf" path="ygr_fuel_cbf.ogg"/>
+	</Sounds>
+	<narrative brief_id="heist_fuel_crimenet" briefing_event="Play_ygr_fuel_cbf" contact="yaeger" icon="guis/mods/fuel/textures/pd2/crimenet/fuel" id="fuel">
 		<chain>
 			<table level_id="fuel" type="d" type_id="heist_type_assault"/>
 		</chain>
