@@ -3411,9 +3411,9 @@
 			<unit_data continent="world" name="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_beam_small_4m" name_id="ind_ext_dock_beam_small_4m_007" position="2434 -2489 400" rotation="0 0.707107 0.707107 0" unit_id="100917"/>
 		</table>
 		<table>
-			<unit_data continent="world" name="core/units/light_omni/light_omni" name_id="light_omni_018" position="2866.14 -2281.3 252" rotation="0 0 0 -1" unit_id="100974">
+			<unit_data continent="world" name="core/units/light_omni/light_omni" name_id="light_omni_018" position="2866.14 -2281.3 252" rotation="-0 0 -0 -1" unit_id="100974">
 				<lights>
-					<table clipping_values="10000 -10000 0" color="0.564706 0.603922 0.529412" enabled="true" falloff_exponent="1" far_range="650" multiplier="@IDbca13ba1d306f87b@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+					<table clipping_values="10000 -10000 0" color="0.564706 0.603922 0.529412" enabled="true" falloff_exponent="0.969242" far_range="650" multiplier="@IDbca13ba1d306f87b@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
 				</lights>
 			</unit_data>
 		</table>
@@ -4361,7 +4361,7 @@
 		<table>
 			<unit_data continent="world" name="core/units/light_omni/light_omni" name_id="light_omni_049" position="2765 -815 -350" rotation="-0 0 -0 -1" unit_id="101121">
 				<lights>
-					<table clipping_values="10000 -10000 0" color="0.972549 0.792157 0.592157" enabled="true" falloff_exponent="1" far_range="360" multiplier="@IDbca13ba1d306f87b@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+					<table clipping_values="10000 -10000 0" color="0.972549 0.792157 0.592157" enabled="true" falloff_exponent="0.969242" far_range="360" multiplier="@IDbca13ba1d306f87b@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
 				</lights>
 			</unit_data>
 		</table>
@@ -6164,9 +6164,9 @@
 			<unit_data continent="world" mesh_variation="" name="units/pd2_dlc_flat/props/flt_prop_apartment_front_door/flt_prop_apartment_front_door" name_id="flt_prop_apartment_front_door_002" position="-101 -4452 -9" rotation="0 0 0.707107 -0.707107" unit_id="102347"/>
 		</table>
 		<table>
-			<unit_data continent="world" name="core/units/light_omni/light_omni" name_id="light_omni_095" position="132 -4207 220" rotation="0 0 0 -1" unit_id="102553">
+			<unit_data continent="world" name="core/units/light_omni/light_omni" name_id="light_omni_095" position="132 -4231 147" rotation="-0 0 -0 -1" unit_id="102553">
 				<lights>
-					<table clipping_values="10000 -10000 0" color="0.584314 0.639216 0.556863" enabled="true" falloff_exponent="1" far_range="480" multiplier="@IDbca13ba1d306f87b@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+					<table clipping_values="10000 -10000 0" color="0.584314 0.639216 0.556863" enabled="true" falloff_exponent="0.969242" far_range="480" multiplier="@ID18ceffa252d5a43d@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
 				</lights>
 			</unit_data>
 		</table>
@@ -6953,9 +6953,9 @@
 			<unit_data continent="world" name="units/payday2/props/mcm_prop_basement_boxes_small/mcm_prop_basement_boxes_small" name_id="mcm_prop_basement_boxes_small_003" position="887.989 -3573.19 -484.304" rotation="0 0 0.707107 -0.707107" unit_id="102664"/>
 		</table>
 		<table>
-			<unit_data continent="world" name="core/units/light_omni/light_omni" name_id="light_omni_096" position="132 -3432 220" rotation="0 0 0 -1" unit_id="102557">
+			<unit_data continent="world" name="core/units/light_omni/light_omni" name_id="light_omni_096" position="132 -3356 105" rotation="-0 0 -0 -1" unit_id="102557">
 				<lights>
-					<table clipping_values="10000 -10000 0" color="0.584314 0.639216 0.556863" enabled="true" falloff_exponent="1" far_range="480" multiplier="@IDbca13ba1d306f87b@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+					<table clipping_values="10000 -10000 0" color="0.584314 0.639216 0.556863" enabled="true" falloff_exponent="1" far_range="480" multiplier="@ID18ceffa252d5a43d@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
 				</lights>
 			</unit_data>
 		</table>
@@ -9894,6 +9894,13 @@
 		</table>
 		<table>
 			<unit_data continent="world" mesh_variation="" name="units/pd2_mod_custom/cus_loot_grenades/cases/cus_loot_grenades_case_z_axis" name_id="cus_loot_m4_case_z_axis_002" position="2519.39 882.996 -394.065" rotation="0 0 0.688355 -0.725374" unit_id="101556"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="core/units/light_omni/light_omni" name_id="light_omni_133" position="132 -3910 147" rotation="-0 0 -0 -1" unit_id="102395">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.584314 0.639216 0.556863" enabled="true" falloff_exponent="0.969242" far_range="430" multiplier="@ID18ceffa252d5a43d@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
 		</table>
 	</statics>
 	<values>
