@@ -1022,7 +1022,7 @@
 			<unit_data continent="world" name="units/pd2_dlc1/architecture/str_ext_park/str_ext_park_wall_a_2x2m" name_id="str_ext_park_wall_a_2x2m_175" position="-1775 -1405 -12" rotation="-0 0 -0 -1" unit_id="100191"/>
 		</table>
 		<table>
-			<unit_data continent="world" name="units/pd2_dlc1/architecture/str_ext_park/str_ext_park_wall_a_2x2m" name_id="str_ext_park_wall_a_2x2m_192" position="1867.06 1267.85 -1.995" rotation="0 -0 0 -1" unit_id="100403"/>
+			<unit_data continent="world" name="units/pd2_dlc1/architecture/str_ext_park/str_ext_park_wall_a_2x2m" name_id="str_ext_park_wall_a_2x2m_192" position="1867.06 1267.75 -2.7" rotation="-0 0 -0 -1" unit_id="100403"/>
 		</table>
 		<table>
 			<unit_data continent="world" name="units/pd2_dlc1/architecture/str_ext_park/str_ext_park_wall_a_2x2m" name_id="str_ext_park_wall_a_2x2m_193" position="2067.06 1267.85 -1.995" rotation="0 -0 0 -1" unit_id="100404"/>
@@ -1061,7 +1061,7 @@
 			<unit_data continent="world" name="units/pd2_dlc1/architecture/str_ext_park/str_ext_park_wall_a_2x2m" name_id="str_ext_park_wall_a_2x2m_222" position="4017.06 -1178.15 -1.99499" rotation="0 0 0.707107 -0.707107" unit_id="100438"/>
 		</table>
 		<table>
-			<unit_data continent="world" name="units/pd2_dlc_flat/architecture/flt_facade/flt_facade_industrial_02_10m" name_id="flt_facade_industrial_02_10m_003" position="-2644.57 -154.234 0.000999451" rotation="0 0 1 -4.37114e-008" unit_id="100439"/>
+			<unit_data continent="world" name="units/pd2_dlc_flat/architecture/flt_facade/flt_facade_industrial_02_10m" name_id="flt_facade_industrial_02_10m_003" position="-2643.57 -154.134 0.001" rotation="0 0 1 -4.37114e-008" unit_id="100439"/>
 		</table>
 		<table>
 			<unit_data continent="world" name="units/pd2_dlc_flat/architecture/flt_facade/flt_facade_industrial_02_10m" name_id="flt_facade_industrial_02_10m_004" position="-2739 1387 0" rotation="-0 0 -0 -1" unit_id="100440"/>
@@ -1100,7 +1100,7 @@
 			<unit_data continent="world" name="units/pd2_dlc_flat/architecture/flt_ext_ground_road/flt_ext_ground_road_16x20" name_id="str_ext_road_16x16m_a_018" position="-7155 -825 0" rotation="0 0 0.707107 -0.707107" unit_id="100288"/>
 		</table>
 		<table>
-			<unit_data continent="world" name="units/pd2_dlc1/architecture/str_ext_park/str_ext_park_wall_a_corner_1x1m" name_id="str_ext_park_wall_a_corner_1x1m_013" position="1874.06 1267.85 -1.99499" rotation="0 0 1 -8.9407e-008" unit_id="100249"/>
+			<unit_data continent="world" name="units/pd2_dlc1/architecture/str_ext_park/str_ext_park_wall_a_corner_1x1m" name_id="str_ext_park_wall_a_corner_1x1m_013" position="1874.16 1267.85 -1.9" rotation="0 0 1 -4.37114e-008" unit_id="100249"/>
 		</table>
 		<table>
 			<unit_data continent="world" name="units/pd2_dlc1/architecture/str_ext_park/str_ext_park_wall_a_corner_1x1m" name_id="str_ext_park_wall_a_corner_1x1m_015" position="468 1168 -2" rotation="0 0 -0.707107 -0.707107" unit_id="100401"/>
@@ -2589,7 +2589,7 @@
 			<unit_data continent="world" name="units/pd2_dlc1/architecture/str_ext_park/str_ext_park_wall_a_2x2m" name_id="str_ext_park_wall_a_2x2m_195" position="1367 1117 -2.1" rotation="0 0 0 -1" unit_id="100714"/>
 		</table>
 		<table>
-			<unit_data continent="world" name="units/pd2_dlc1/architecture/str_ext_park/str_ext_park_wall_a_corner_1x1m" name_id="str_ext_park_wall_a_corner_1x1m_014" position="1649 1142.05 -2" rotation="-0 0 -0 -1" unit_id="100450"/>
+			<unit_data continent="world" name="units/pd2_dlc1/architecture/str_ext_park/str_ext_park_wall_a_corner_1x1m" name_id="str_ext_park_wall_a_corner_1x1m_014" position="1649.1 1142.15 -2" rotation="-0 0 -0 -1" unit_id="100450"/>
 		</table>
 		<table>
 			<unit_data continent="world" name="units/pd2_dlc1/architecture/str_ext_park/str_ext_park_wall_a_2x2m" name_id="str_ext_park_wall_a_2x2m_196" position="1567 1117 -2.1" rotation="-0 0 -0 -1" unit_id="100715"/>
@@ -9900,6 +9900,18 @@
 				<lights>
 					<table clipping_values="10000 -10000 0" color="0.584314 0.639216 0.556863" enabled="true" falloff_exponent="0.969242" far_range="430" multiplier="@ID18ceffa252d5a43d@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
 				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/dev_tools/editable_text_short/editable_text_short" name_id="editable_text_short_011" position="4029 -2539.07 128.008" rotation="0.545621 0.449775 0.545621 0.449775" unit_id="102396">
+				<editable_gui align="center" alpha="0.7" blend_mode="normal" font="fonts/font_medium_mf" font_color="0.603922 1 0.603922" font_size="1.84" render_template="Text" text="Free Flight Gang" vertical="center" word_wrap="false" wrap="true">
+					<shape>
+						<value_node value="0.146375"/>
+						<value_node value="0"/>
+						<value_node value="0.601325"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
 			</unit_data>
 		</table>
 	</statics>
