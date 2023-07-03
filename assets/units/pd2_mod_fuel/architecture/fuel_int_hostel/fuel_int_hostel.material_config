@@ -17,7 +17,7 @@
         <bump_normal_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_wall_tiles_blend_nm"/>
         <normal_layer0_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_wall_tiles_nm"/>
     </material>
-    <material version="2" render_template="generic:BLEND_DIFFUSE:BLEND_MASK_SEPERATE:BLEND_NORMAL:BLEND_SMOOTH:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" name="mat_int_wall01" decal_material="plaster">
+    <material name="mat_int_wall01" render_template="generic:BLEND_DIFFUSE:BLEND_MASK_SEPERATE:BLEND_NORMAL:BLEND_SMOOTH:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" decal_material="plaster" version="2">
         <diffuse_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_wall_blend_df"/>
         <diffuse_layer0_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_wall01_df"/>
         <diffuse_layer1_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_wall_mask_df"/>
@@ -32,7 +32,7 @@
         <normal_layer0_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_wall_nm"/>
     </material>
     <material render_template="generic:BLEND_DIFFUSE:BLEND_MASK_SEPERATE:BLEND_NORMAL:BLEND_SMOOTH:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" name="mat_int_wall_red" version="2">
-        <diffuse_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_wall_blend_df"/>
+        <diffuse_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_wall_blend_df" mip="1"/>
         <diffuse_layer0_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_wall04_df"/>
         <diffuse_layer1_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_wall_mask_df"/>
         <bump_normal_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_wall_blend_nm" mip="1"/>
@@ -45,51 +45,51 @@
         <bump_normal_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_wainscoting_blend_nm"/>
         <normal_layer0_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_wainscoting_nm"/>
     </material>
-    <material version="2" render_template="generic:BLEND_DIFFUSE:BLEND_MASK_SEPERATE:BLEND_NORMAL:BLEND_SMOOTH:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" name="mat_int_wallpaper_green" decal_material="plaster">
-        <diffuse_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_wallpaper02_blend_df"/>
+    <material name="mat_int_wallpaper_green" render_template="generic:BLEND_DIFFUSE:BLEND_MASK_SEPERATE:BLEND_NORMAL:BLEND_SMOOTH:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" decal_material="plaster" version="2">
+        <diffuse_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_wallpaper02_blend_df" mip="1"/>
         <diffuse_layer0_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_wallpaper02_df"/>
         <diffuse_layer1_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_wallpaper01_mask_df"/>
         <bump_normal_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_wallpaper01_blend_nm" mip="1"/>
         <normal_layer0_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_wallpaper01_nm"/>
     </material>
-    <material decal_material="plaster" render_template="generic:BLEND_DIFFUSE:BLEND_MASK_SEPERATE:BLEND_NORMAL:BLEND_SMOOTH:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" name="mat_int_wall_green" version="2">
+    <material name="mat_int_wall_green" render_template="generic:BLEND_DIFFUSE:BLEND_MASK_SEPERATE:BLEND_NORMAL:BLEND_SMOOTH:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" version="2" decal_material="plaster">
         <diffuse_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_wall_blend_df"/>
         <diffuse_layer0_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_wall03_df"/>
         <diffuse_layer1_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_wall_mask_df"/>
         <bump_normal_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_wall_blend_nm" mip="1"/>
         <normal_layer0_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_wall_nm"/>
     </material>
-    <material version="2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_int_wallpaper_yellow1" decal_material="plaster">
-        <diffuse_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_wallpaper01_df"/>
+    <material name="mat_int_wallpaper_yellow1" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" decal_material="plaster" version="2">
+        <diffuse_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_wallpaper01_df" mip="1"/>
         <bump_normal_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_wallpaper01_nm" mip="1"/>
     </material>
-    <material name="mat_int_celing" render_template="generic:BLEND_DIFFUSE:BLEND_MASK_SEPERATE:BLEND_NORMAL:BLEND_SMOOTH:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" decal_material="plaster" version="2">
+    <material decal_material="plaster" render_template="generic:BLEND_DIFFUSE:BLEND_MASK_SEPERATE:BLEND_NORMAL:BLEND_SMOOTH:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" version="2" name="mat_int_celing">
         <diffuse_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_celing02_blend_df"/>
         <diffuse_layer0_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_celing02_df"/>
         <diffuse_layer1_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_celing01_mask_df"/>
         <bump_normal_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_celing02_blend_nm"/>
         <normal_layer0_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_celing02_nm"/>
     </material>
-    <material name="mat_int_floor_wood01" render_template="generic:BLEND_DIFFUSE:BLEND_MASK_SEPERATE:BLEND_NORMAL:BLEND_SMOOTH:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" decal_material="wood" version="2">
+    <material decal_material="wood" render_template="generic:BLEND_DIFFUSE:BLEND_MASK_SEPERATE:BLEND_NORMAL:BLEND_SMOOTH:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" version="2" name="mat_int_floor_wood01">
         <diffuse_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_floor_wood01_blend_df"/>
         <diffuse_layer0_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_floor_wood01_df"/>
         <diffuse_layer1_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_floor_wood01_mask_df"/>
         <bump_normal_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_floor_wood01_blend_nm"/>
         <normal_layer0_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_floor_wood01_nm"/>
     </material>
-    <material name="mat_int_floor_wood02" render_template="generic:BLEND_DIFFUSE:BLEND_MASK_SEPERATE:BLEND_NORMAL:BLEND_SMOOTH:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" decal_material="wood" version="2">
+    <material decal_material="wood" render_template="generic:BLEND_DIFFUSE:BLEND_MASK_SEPERATE:BLEND_NORMAL:BLEND_SMOOTH:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" version="2" name="mat_int_floor_wood02">
         <diffuse_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_floor_wood02_blend_df"/>
         <diffuse_layer0_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_floor_wood02_df"/>
         <diffuse_layer1_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_floor_wood02_mask_df"/>
         <bump_normal_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_floor_wood02_blend_nm"/>
         <normal_layer0_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_floor_wood02_nm"/>
     </material>
-    <material version="2" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" name="mat_int_wall_toilet" decal_material="plaster">
-        <diffuse_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_wall_toilet_df"/>
+    <material name="mat_int_wall_toilet" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" decal_material="plaster" version="2">
+        <diffuse_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_wall_toilet_df" mip="1"/>
         <bump_normal_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_wall_toilet_nm" mip="1"/>
         <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_flat_bathroom"/>
     </material>
-    <material name="mat_stairs" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" decal_material="wood" version="2">
+    <material decal_material="wood" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2" name="mat_stairs">
         <diffuse_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_apartment_stairs_df"/>
         <bump_normal_texture file="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_int_apartment_stairs_nm" mip="1"/>
     </material>
