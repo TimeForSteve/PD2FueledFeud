@@ -13,17 +13,17 @@
         <diffuse_texture file="units/payday2/glass/glass_clear_small_df"/>
         <reflection_texture type="cube" global_texture="current_global_texture"/>
     </material>
-    <material name="mtr_light" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
-        <diffuse_texture file="units/payday2/vehicles/str_vehicle_car_suv_family/str_vehicle_car_suv_family_light_df"/>
-        <bump_normal_texture file="units/payday2/vehicles/str_vehicle_car_suv_family/str_vehicle_car_suv_family_light_nm"/>
-    </material>    
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mtr_light" version="2">
+        <diffuse_texture file="units/payday2/vehicles/str_vehicle_car_suv_family/str_vehicle_car_suv_family_light_df" mip="2"/>
+        <bump_normal_texture file="units/payday2/vehicles/str_vehicle_car_suv_family/str_vehicle_car_suv_family_light_nm" mip="2"/>
+    </material>
     <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mtr_light_skin" version="2">
-        <diffuse_texture file="units/payday2/vehicles/str_vehicle_car_suv_fbi/str_vehicle_car_suv_fbi_light_df"/>
-        <bump_normal_texture file="units/payday2/vehicles/str_vehicle_car_suv_fbi/str_vehicle_car_suv_fbi_light_nm"/>
+        <diffuse_texture file="units/payday2/vehicles/str_vehicle_car_suv_fbi/str_vehicle_car_suv_fbi_light_df" mip="2"/>
+        <bump_normal_texture file="units/payday2/vehicles/str_vehicle_car_suv_fbi/str_vehicle_car_suv_fbi_light_nm" mip="2"/>
     </material>
     <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" name="mat_bex_suv_grill" version="2">
-        <diffuse_texture file="units/pd2_mod_fuel/props/fuel_prop_winch/fuel_prop_winch_df"/>
-        <bump_normal_texture file="units/pd2_dlc_bex/vehicles/anim_vehicle_suv_bex/bex_vehicle_car_suv_fbi_grill_nm"/>
+        <diffuse_texture file="units/pd2_mod_fuel/props/fuel_prop_winch/fuel_prop_winch_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_bex/vehicles/anim_vehicle_suv_bex/bex_vehicle_car_suv_fbi_grill_nm" mip="2"/>
         <reflection_texture type="cube" global_texture="current_global_texture"/>
     </material>
     <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" name="mat_bex_suv_grill_lod" version="2">
@@ -32,8 +32,8 @@
         <reflection_texture type="cube" global_texture="current_global_texture"/>
     </material>
     <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GLOSS_CONTROL_VALUE:NORMALMAP" name="mtr_vehicle" version="2">
-        <diffuse_texture file="units/pd2_mod_fuel/vehicles/fps_vehicle_suv_fuel/fuel_vehicle_suv_kat_df"/>
-        <bump_normal_texture file="units/payday2/vehicles/str_vehicle_car_suv_family/str_vehicle_car_suv_family_nm"/>
+        <diffuse_texture file="units/pd2_mod_fuel/vehicles/fps_vehicle_suv_fuel/fuel_vehicle_suv_kat_df" mip="1"/>
+        <bump_normal_texture file="units/payday2/vehicles/str_vehicle_car_suv_family/str_vehicle_car_suv_family_nm" mip="2"/>
         <reflection_texture type="cube" global_texture="current_global_texture"/>
         <variable type="scalar" name="glossiness_control" value="0.12700000603218"/>
     </material>
@@ -56,15 +56,16 @@
         <variable type="vector3" name="contour_color" value="0 1 0"/>
         <variable type="scalar" name="contour_opacity" value="1"/>
         <opacity_texture file="units/transparent_op"/>
+        <variable type="scalar" name="contour_distance" value="1"/>
     </material>
     <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mtr_interior" version="2">
         <diffuse_texture file="units/pd2_dlc_pex/vehicles/fps_vehicle_suv_pex/interior_df" mip="2"/>
         <bump_normal_texture file="units/pd2_dlc_pex/vehicles/fps_vehicle_suv_pex/interior_nm" mip="4"/>
     </material>
-    <material name="mtr_head" render_template="generic:DIFFUSE_TEXTURE" version="2">
+    <material render_template="generic:DIFFUSE_TEXTURE" name="mtr_head" version="2">
         <diffuse_texture file="units/pd2_mod_fuel/characters/ene_fuel_hostage/alvarez_head_h_df" mip="2"/>
     </material>
-    <material name="mtr_body" render_template="generic:DIFFUSE_TEXTURE" version="2">
+    <material render_template="generic:DIFFUSE_TEXTURE" name="mtr_body" version="2">
         <diffuse_texture file="units/pd2_mod_fuel/characters/ene_fuel_hostage/alvarez_h_df" mip="2"/>
     </material>
 </materials>

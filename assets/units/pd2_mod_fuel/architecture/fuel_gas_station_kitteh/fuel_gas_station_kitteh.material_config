@@ -1,8 +1,8 @@
 <materials version="3">
-    <material name="mat_mat" render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" version="2" >
-		    <diffuse_texture file="units/pd2_dlc_smo/masks/smo_01/smo_01_df" mips="1" />
+    <material render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" name="mat_mat" version="2">
+        <diffuse_texture file="units/pd2_dlc_smo/masks/smo_01/smo_01_df" mips="1"/>
     </material>
-    <material name="mat_gascan" render_template="generic:DIFFUSE_TEXTURE" version="2">
-        <diffuse_texture file="units/world/props/desert/des_prop_gascan/des_prop_gascan_df"/>
+    <material render_template="generic:DIFFUSE_TEXTURE" name="mat_gascan" version="2">
+        <diffuse_texture file="units/world/props/desert/des_prop_gascan/des_prop_gascan_df" mip="2"/>
     </material>
 </materials>
