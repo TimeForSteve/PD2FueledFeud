@@ -21752,7 +21752,7 @@
 							<entry key="id" type="number" value="100796"/>
 						</entry>
 						<entry index="3" type="table">
-							<entry key="delay" type="number" value="0.8"/>
+							<entry key="delay" type="number" value="1.5"/>
 							<entry key="id" type="number" value="102578"/>
 						</entry>
 					</entry>
@@ -22428,6 +22428,10 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100710"/>
 						</entry>
+						<entry index="4" type="table">
+							<entry key="delay" type="number" value="0.4"/>
+							<entry key="id" type="number" value="102505"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="1290 420 3000"/>
 					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
@@ -22970,6 +22974,10 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100747"/>
 						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0.6"/>
+							<entry key="id" type="number" value="102597"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="369.466 339.37 -484.4"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
@@ -23049,6 +23057,10 @@
 						<entry index="2" type="table">
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100747"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0.2"/>
+							<entry key="id" type="number" value="102596"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="2054.99 -1198.38 -466.4"/>
@@ -23153,6 +23165,10 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100747"/>
 						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0.2"/>
+							<entry key="id" type="number" value="102564"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="320.589 -694.75 -484.4"/>
 					<entry key="rotation" type="quaternion" value="0 0 0.300706 -0.953717"/>
@@ -23232,6 +23248,10 @@
 						<entry index="2" type="table">
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100747"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0.2"/>
+							<entry key="id" type="number" value="102598"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="1414.65 1002.2 -484.4"/>
@@ -23492,25 +23512,21 @@
 							<entry key="id" type="number" value="101441"/>
 						</entry>
 						<entry index="8" type="table">
-							<entry key="delay" type="number" value="2"/>
-							<entry key="id" type="number" value="102505"/>
-						</entry>
-						<entry index="9" type="table">
 							<entry key="delay" type="number" value="22"/>
 							<entry key="delay_rand" type="number" value="6"/>
 							<entry key="id" type="number" value="102510"/>
 						</entry>
-						<entry index="10" type="table">
+						<entry index="9" type="table">
 							<entry key="delay" type="number" value="22"/>
 							<entry key="delay_rand" type="number" value="6"/>
 							<entry key="id" type="number" value="102511"/>
 						</entry>
-						<entry index="11" type="table">
+						<entry index="10" type="table">
 							<entry key="delay" type="number" value="22"/>
 							<entry key="delay_rand" type="number" value="6"/>
 							<entry key="id" type="number" value="102512"/>
 						</entry>
-						<entry index="12" type="table">
+						<entry index="11" type="table">
 							<entry key="delay" type="number" value="22"/>
 							<entry key="delay_rand" type="number" value="6"/>
 							<entry key="id" type="number" value="102513"/>
@@ -24315,8 +24331,8 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
-							<entry key="delay" type="number" value="35"/>
-							<entry key="delay_rand" type="number" value="12"/>
+							<entry key="delay" type="number" value="95"/>
+							<entry key="delay_rand" type="number" value="16"/>
 							<entry key="id" type="number" value="102526"/>
 						</entry>
 					</entry>
@@ -25264,6 +25280,14 @@
 							<entry key="delay" type="number" value="0.3"/>
 							<entry key="id" type="number" value="102576"/>
 						</entry>
+						<entry index="4" type="table">
+							<entry key="delay" type="number" value="13.5"/>
+							<entry key="id" type="number" value="102603"/>
+						</entry>
+						<entry index="5" type="table">
+							<entry key="delay" type="number" value="40"/>
+							<entry key="id" type="number" value="102580"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-760 -1380 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
@@ -25628,6 +25652,10 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="102361"/>
 						</entry>
+						<entry index="30" type="table">
+							<entry key="delay" type="number" value="5"/>
+							<entry key="id" type="number" value="102579"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-860 -1380 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
@@ -25877,7 +25905,7 @@
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="only_in_civilian" type="boolean" value="false"/>
-					<entry key="position" type="vector3" value="-1127.43 -1293.16 65.193"/>
+					<entry key="position" type="vector3" value="-1127.43 -1393.16 65.193"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="text_id" type="string" value="debug_none"/>
 					<entry key="trigger_times" type="number" value="0"/>
@@ -29181,13 +29209,17 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100963"/>
+							<entry key="id" type="number" value="102607"/>
 						</entry>
 						<entry index="2" type="table">
+							<entry key="delay" type="number" value="7"/>
+							<entry key="id" type="number" value="100963"/>
+						</entry>
+						<entry index="3" type="table">
 							<entry key="delay" type="number" value="1"/>
 							<entry key="id" type="number" value="102395"/>
 						</entry>
-						<entry index="3" type="table">
+						<entry index="4" type="table">
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100823"/>
 						</entry>
@@ -29229,6 +29261,10 @@
 						<entry index="3" type="table">
 							<entry key="delay" type="number" value="15"/>
 							<entry key="id" type="number" value="102369"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="delay" type="number" value="10"/>
+							<entry key="id" type="number" value="102600"/>
 						</entry>
 					</entry>
 					<entry key="orientation_elements" type="table">
@@ -30380,6 +30416,14 @@
 							<entry key="delay_rand" type="number" value="4"/>
 							<entry key="id" type="number" value="101002"/>
 						</entry>
+						<entry index="9" type="table">
+							<entry key="delay" type="number" value="0.4"/>
+							<entry key="id" type="number" value="102582"/>
+						</entry>
+						<entry index="10" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102583"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-960 -1380 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
@@ -30449,6 +30493,14 @@
 						<entry index="13" type="table">
 							<entry key="delay" type="number" value="5"/>
 							<entry key="id" type="number" value="100848"/>
+						</entry>
+						<entry index="14" type="table">
+							<entry key="delay" type="number" value="0.3"/>
+							<entry key="id" type="number" value="102584"/>
+						</entry>
+						<entry index="15" type="table">
+							<entry key="delay" type="number" value="2"/>
+							<entry key="id" type="number" value="102606"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-1060 -1380 3000"/>
@@ -31486,7 +31538,7 @@
 					<entry key="ai_group" type="string" value="none"/>
 					<entry key="align_position" type="boolean" value="true"/>
 					<entry key="align_rotation" type="boolean" value="true"/>
-					<entry key="attitude" type="string" value="none"/>
+					<entry key="attitude" type="string" value="avoid"/>
 					<entry key="base_chance" type="number" value="1"/>
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="chance_inc" type="number" value="0"/>
@@ -31503,11 +31555,11 @@
 					<entry key="no_arrest" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="path_haste" type="string" value="none"/>
-					<entry key="path_stance" type="string" value="none"/>
-					<entry key="path_style" type="string" value="none"/>
+					<entry key="path_haste" type="string" value="run"/>
+					<entry key="path_stance" type="string" value="cbt"/>
+					<entry key="path_style" type="string" value="precise"/>
 					<entry key="patrol_path" type="string" value="none"/>
-					<entry key="pose" type="string" value="none"/>
+					<entry key="pose" type="string" value="stand"/>
 					<entry key="position" type="vector3" value="2050 3950 0"/>
 					<entry key="repeatable" type="boolean" value="true"/>
 					<entry key="rotation" type="quaternion" value="0 0 0.707107 -0.707107"/>
@@ -33511,8 +33563,8 @@
 							<entry key="id" type="number" value="101582"/>
 						</entry>
 						<entry index="5" type="table">
-							<entry key="delay" type="number" value="1.2"/>
-							<entry key="id" type="number" value="102529"/>
+							<entry key="delay" type="number" value="0.2"/>
+							<entry key="id" type="number" value="102585"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-1160 -1380 3000"/>
@@ -39832,8 +39884,8 @@
 							<entry key="id" type="number" value="102211"/>
 						</entry>
 						<entry index="5" type="table">
-							<entry key="delay" type="number" value="6"/>
-							<entry key="id" type="number" value="102531"/>
+							<entry key="delay" type="number" value="2"/>
+							<entry key="id" type="number" value="102528"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-1260 -1380 3000"/>
@@ -42057,7 +42109,7 @@
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="followup_elements" type="table">
-						<entry index="1" type="number" value="100700"/>
+						<entry index="1" type="number" value="102580"/>
 					</entry>
 					<entry key="forced" type="boolean" value="true"/>
 					<entry key="interaction_voice" type="string" value="none"/>
@@ -42070,14 +42122,14 @@
 					</entry>
 					<entry key="path_haste" type="string" value="run"/>
 					<entry key="path_stance" type="string" value="cbt"/>
-					<entry key="path_style" type="string" value="precise"/>
-					<entry key="patrol_path" type="string" value="to_parking"/>
+					<entry key="path_style" type="string" value="destination"/>
+					<entry key="patrol_path" type="string" value="none"/>
 					<entry key="pose" type="string" value="stand"/>
-					<entry key="position" type="vector3" value="3225 200 -9.99986"/>
+					<entry key="position" type="vector3" value="3300 200 -9.99986"/>
 					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
 					<entry key="scan" type="boolean" value="true"/>
 					<entry key="search_distance" type="number" value="0"/>
-					<entry key="search_position" type="vector3" value="1558 -1154 -484"/>
+					<entry key="search_position" type="vector3" value="3300 200 -10"/>
 					<entry key="so_action" type="string" value="none"/>
 					<entry key="spawn_instigator_ids" type="table">
 						<entry index="1" type="number" value="100663"/>
@@ -42292,6 +42344,10 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="101369"/>
 						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0.5"/>
+							<entry key="id" type="number" value="102589"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-1365 970 3002"/>
 					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
@@ -42317,6 +42373,10 @@
 						<entry index="2" type="table">
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="101369"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0.5"/>
+							<entry key="id" type="number" value="102589"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-1465 970 3002"/>
@@ -42465,7 +42525,7 @@
 						</entry>
 						<entry index="5" type="table">
 							<entry key="delay" type="number" value="2"/>
-							<entry key="id" type="number" value="102533"/>
+							<entry key="id" type="number" value="102590"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-1360 -1380 3000"/>
@@ -42534,6 +42594,10 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="101285"/>
 						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0.5"/>
+							<entry key="id" type="number" value="102588"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-1365 1070 3002"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
@@ -42558,6 +42622,10 @@
 						<entry index="2" type="table">
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="101285"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0.5"/>
+							<entry key="id" type="number" value="102588"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-1465 1070 3002"/>
@@ -44045,8 +44113,8 @@
 							<entry key="id" type="number" value="102400"/>
 						</entry>
 						<entry index="6" type="table">
-							<entry key="delay" type="number" value="6"/>
-							<entry key="id" type="number" value="102536"/>
+							<entry key="delay" type="number" value="1"/>
+							<entry key="id" type="number" value="102595"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-1660 -1380 3000"/>
@@ -44465,6 +44533,10 @@
 						<entry index="3" type="table">
 							<entry key="delay" type="number" value="1"/>
 							<entry key="id" type="number" value="101435"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="delay" type="number" value="0.2"/>
+							<entry key="id" type="number" value="102593"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-1460 -1380 3000"/>
@@ -75539,6 +75611,8 @@
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="elements" type="table">
 						<entry index="1" type="number" value="102369"/>
+						<entry index="2" type="number" value="102599"/>
+						<entry index="3" type="number" value="102600"/>
 					</entry>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
@@ -76218,7 +76292,7 @@
 					</entry>
 					<entry key="position" type="vector3" value="-2260 -2630 3000"/>
 					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
-					<entry key="set_trigger_times" type="number" value="-1"/>
+					<entry key="set_trigger_times" type="number" value="1"/>
 					<entry key="toggle" type="string" value="toggle"/>
 					<entry key="trigger_times" type="number" value="1"/>
 				</entry>
@@ -76706,10 +76780,14 @@
 					<entry key="can_not_be_muted" type="boolean" value="false"/>
 					<entry key="dialogue" type="string" value="Play_ygr_fuel_28"/>
 					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="execute_on_executed_when_done" type="boolean" value="false"/>
+					<entry key="execute_on_executed_when_done" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="force_quit_current" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0.4"/>
+							<entry key="id" type="number" value="102599"/>
+						</entry>
 					</entry>
 					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
 					<entry key="position" type="vector3" value="-1660 -2230 3000"/>
@@ -77370,10 +77448,15 @@
 					<entry key="can_not_be_muted" type="boolean" value="false"/>
 					<entry key="dialogue" type="string" value="Play_ygr_fuel_39"/>
 					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="execute_on_executed_when_done" type="boolean" value="false"/>
+					<entry key="execute_on_executed_when_done" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="force_quit_current" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="5"/>
+							<entry key="delay_rand" type="number" value="2"/>
+							<entry key="id" type="number" value="102601"/>
+						</entry>
 					</entry>
 					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
 					<entry key="position" type="vector3" value="-2760 -2530 3000"/>
@@ -77977,6 +78060,11 @@
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="2"/>
 							<entry key="id" type="number" value="100922"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="4"/>
+							<entry key="delay_rand" type="number" value="5"/>
+							<entry key="id" type="number" value="102602"/>
 						</entry>
 					</entry>
 					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
@@ -78759,29 +78847,6 @@
 						</entry>
 					</entry>
 					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
-					<entry key="position" type="vector3" value="-4210 -2530 3000"/>
-					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-					<entry key="trigger_times" type="number" value="1"/>
-					<entry key="use_instigator" type="boolean" value="false"/>
-					<entry key="use_position" type="boolean" value="false"/>
-				</entry>
-			</entry>
-			<entry index="2529" type="table">
-				<entry key="class" type="string" value="ElementDialogue"/>
-				<entry key="editor_name" type="string" value="Play_ygr_fuel_65"/>
-				<entry key="id" type="number" value="102528"/>
-				<entry key="script" type="string" value="default"/>
-				<entry key="values" type="table">
-					<entry key="base_delay" type="number" value="0"/>
-					<entry key="can_not_be_muted" type="boolean" value="false"/>
-					<entry key="dialogue" type="string" value="Play_ygr_fuel_65"/>
-					<entry key="enabled" type="boolean" value="false"/>
-					<entry key="execute_on_executed_when_done" type="boolean" value="false"/>
-					<entry key="execute_on_startup" type="boolean" value="false"/>
-					<entry key="force_quit_current" type="boolean" value="false"/>
-					<entry key="on_executed" type="table">
-					</entry>
-					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
 					<entry key="position" type="vector3" value="-4310 -2530 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="1"/>
@@ -78789,7 +78854,7 @@
 					<entry key="use_position" type="boolean" value="false"/>
 				</entry>
 			</entry>
-			<entry index="2530" type="table">
+			<entry index="2529" type="table">
 				<entry key="class" type="string" value="ElementDialogue"/>
 				<entry key="editor_name" type="string" value="Play_ygr_fuel_66"/>
 				<entry key="id" type="number" value="102529"/>
@@ -78799,20 +78864,24 @@
 					<entry key="can_not_be_muted" type="boolean" value="false"/>
 					<entry key="dialogue" type="string" value="Play_ygr_fuel_66"/>
 					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="execute_on_executed_when_done" type="boolean" value="false"/>
+					<entry key="execute_on_executed_when_done" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
-					<entry key="force_quit_current" type="boolean" value="true"/>
+					<entry key="force_quit_current" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0.4"/>
+							<entry key="id" type="number" value="102586"/>
+						</entry>
 					</entry>
 					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
-					<entry key="position" type="vector3" value="-4410 -2530 3000"/>
+					<entry key="position" type="vector3" value="-4410 -2330 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="1"/>
 					<entry key="use_instigator" type="boolean" value="false"/>
 					<entry key="use_position" type="boolean" value="false"/>
 				</entry>
 			</entry>
-			<entry index="2531" type="table">
+			<entry index="2530" type="table">
 				<entry key="class" type="string" value="ElementDialogue"/>
 				<entry key="editor_name" type="string" value="Play_ygr_fuel_67"/>
 				<entry key="id" type="number" value="102530"/>
@@ -78828,14 +78897,14 @@
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
-					<entry key="position" type="vector3" value="-4210 -2430 3000"/>
+					<entry key="position" type="vector3" value="-4610 -2330 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="1"/>
 					<entry key="use_instigator" type="boolean" value="false"/>
 					<entry key="use_position" type="boolean" value="false"/>
 				</entry>
 			</entry>
-			<entry index="2532" type="table">
+			<entry index="2531" type="table">
 				<entry key="class" type="string" value="ElementDialogue"/>
 				<entry key="editor_name" type="string" value="Play_ygr_fuel_68"/>
 				<entry key="id" type="number" value="102531"/>
@@ -78847,22 +78916,22 @@
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_executed_when_done" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
-					<entry key="force_quit_current" type="boolean" value="true"/>
+					<entry key="force_quit_current" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
-							<entry key="delay" type="number" value="6"/>
-							<entry key="id" type="number" value="102532"/>
+							<entry key="delay" type="number" value="0.4"/>
+							<entry key="id" type="number" value="102587"/>
 						</entry>
 					</entry>
 					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
-					<entry key="position" type="vector3" value="-4310 -2430 3000"/>
+					<entry key="position" type="vector3" value="-4310 -2230 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="1"/>
 					<entry key="use_instigator" type="boolean" value="false"/>
 					<entry key="use_position" type="boolean" value="false"/>
 				</entry>
 			</entry>
-			<entry index="2533" type="table">
+			<entry index="2532" type="table">
 				<entry key="class" type="string" value="ElementDialogue"/>
 				<entry key="editor_name" type="string" value="Play_ygr_fuel_69"/>
 				<entry key="id" type="number" value="102532"/>
@@ -78878,14 +78947,14 @@
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
-					<entry key="position" type="vector3" value="-4410 -2430 3000"/>
+					<entry key="position" type="vector3" value="-4510 -2230 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="1"/>
 					<entry key="use_instigator" type="boolean" value="false"/>
 					<entry key="use_position" type="boolean" value="false"/>
 				</entry>
 			</entry>
-			<entry index="2534" type="table">
+			<entry index="2533" type="table">
 				<entry key="class" type="string" value="ElementDialogue"/>
 				<entry key="editor_name" type="string" value="Play_ygr_fuel_70"/>
 				<entry key="id" type="number" value="102533"/>
@@ -78897,22 +78966,22 @@
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_executed_when_done" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
-					<entry key="force_quit_current" type="boolean" value="true"/>
+					<entry key="force_quit_current" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
-							<entry key="delay" type="number" value="4.6"/>
-							<entry key="id" type="number" value="102534"/>
+							<entry key="delay" type="number" value="0.5"/>
+							<entry key="id" type="number" value="102591"/>
 						</entry>
 					</entry>
 					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
-					<entry key="position" type="vector3" value="-4210 -2330 3000"/>
+					<entry key="position" type="vector3" value="-4310 -1930 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="1"/>
 					<entry key="use_instigator" type="boolean" value="false"/>
 					<entry key="use_position" type="boolean" value="false"/>
 				</entry>
 			</entry>
-			<entry index="2535" type="table">
+			<entry index="2534" type="table">
 				<entry key="class" type="string" value="ElementDialogue"/>
 				<entry key="editor_name" type="string" value="Play_ygr_fuel_71"/>
 				<entry key="id" type="number" value="102534"/>
@@ -78928,14 +78997,14 @@
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
-					<entry key="position" type="vector3" value="-4310 -2330 3000"/>
+					<entry key="position" type="vector3" value="-4510 -1930 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="1"/>
 					<entry key="use_instigator" type="boolean" value="false"/>
 					<entry key="use_position" type="boolean" value="false"/>
 				</entry>
 			</entry>
-			<entry index="2536" type="table">
+			<entry index="2535" type="table">
 				<entry key="class" type="string" value="ElementDialogue"/>
 				<entry key="editor_name" type="string" value="Play_ygr_fuel_72"/>
 				<entry key="id" type="number" value="102535"/>
@@ -78945,20 +79014,24 @@
 					<entry key="can_not_be_muted" type="boolean" value="false"/>
 					<entry key="dialogue" type="string" value="Play_ygr_fuel_72"/>
 					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="execute_on_executed_when_done" type="boolean" value="false"/>
+					<entry key="execute_on_executed_when_done" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="force_quit_current" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="2.5"/>
+							<entry key="id" type="number" value="102594"/>
+						</entry>
 					</entry>
 					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
-					<entry key="position" type="vector3" value="-4410 -2330 3000"/>
+					<entry key="position" type="vector3" value="-4210 -1830 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="1"/>
 					<entry key="use_instigator" type="boolean" value="false"/>
 					<entry key="use_position" type="boolean" value="false"/>
 				</entry>
 			</entry>
-			<entry index="2537" type="table">
+			<entry index="2536" type="table">
 				<entry key="class" type="string" value="ElementDialogue"/>
 				<entry key="editor_name" type="string" value="Play_ygr_fuel_73"/>
 				<entry key="id" type="number" value="102536"/>
@@ -78970,18 +79043,18 @@
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_executed_when_done" type="boolean" value="false"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
-					<entry key="force_quit_current" type="boolean" value="true"/>
+					<entry key="force_quit_current" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
-					<entry key="position" type="vector3" value="-4210 -2230 3000"/>
+					<entry key="position" type="vector3" value="-4610 -1830 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="1"/>
 					<entry key="use_instigator" type="boolean" value="false"/>
 					<entry key="use_position" type="boolean" value="false"/>
 				</entry>
 			</entry>
-			<entry index="2538" type="table">
+			<entry index="2537" type="table">
 				<entry key="class" type="string" value="MissionScriptElement"/>
 				<entry key="editor_name" type="string" value="phone_name_carl"/>
 				<entry key="id" type="number" value="102537"/>
@@ -79010,7 +79083,7 @@
 					<entry key="trigger_times" type="number" value="1"/>
 				</entry>
 			</entry>
-			<entry index="2539" type="table">
+			<entry index="2538" type="table">
 				<entry key="class" type="string" value="MissionScriptElement"/>
 				<entry key="editor_name" type="string" value="phone_name_daniel"/>
 				<entry key="id" type="number" value="102538"/>
@@ -79039,7 +79112,7 @@
 					<entry key="trigger_times" type="number" value="1"/>
 				</entry>
 			</entry>
-			<entry index="2540" type="table">
+			<entry index="2539" type="table">
 				<entry key="class" type="string" value="MissionScriptElement"/>
 				<entry key="editor_name" type="string" value="phone_name_barry"/>
 				<entry key="id" type="number" value="102539"/>
@@ -79068,7 +79141,7 @@
 					<entry key="trigger_times" type="number" value="1"/>
 				</entry>
 			</entry>
-			<entry index="2541" type="table">
+			<entry index="2540" type="table">
 				<entry key="class" type="string" value="MissionScriptElement"/>
 				<entry key="editor_name" type="string" value="phone_name_henry"/>
 				<entry key="id" type="number" value="102540"/>
@@ -79097,7 +79170,7 @@
 					<entry key="trigger_times" type="number" value="1"/>
 				</entry>
 			</entry>
-			<entry index="2542" type="table">
+			<entry index="2541" type="table">
 				<entry key="class" type="string" value="MissionScriptElement"/>
 				<entry key="editor_name" type="string" value="phone_name_erwan"/>
 				<entry key="id" type="number" value="102541"/>
@@ -79126,7 +79199,7 @@
 					<entry key="trigger_times" type="number" value="1"/>
 				</entry>
 			</entry>
-			<entry index="2543" type="table">
+			<entry index="2542" type="table">
 				<entry key="class" type="string" value="MissionScriptElement"/>
 				<entry key="editor_name" type="string" value="phone_name_tommy"/>
 				<entry key="id" type="number" value="102542"/>
@@ -79155,7 +79228,7 @@
 					<entry key="trigger_times" type="number" value="1"/>
 				</entry>
 			</entry>
-			<entry index="2544" type="table">
+			<entry index="2543" type="table">
 				<entry key="class" type="string" value="MissionScriptElement"/>
 				<entry key="editor_name" type="string" value="phone_name_mike"/>
 				<entry key="id" type="number" value="102543"/>
@@ -79184,7 +79257,7 @@
 					<entry key="trigger_times" type="number" value="1"/>
 				</entry>
 			</entry>
-			<entry index="2545" type="table">
+			<entry index="2544" type="table">
 				<entry key="class" type="string" value="ElementEndscreenVariant"/>
 				<entry key="editor_name" type="string" value="endscreen_variant_001"/>
 				<entry key="id" type="number" value="102544"/>
@@ -79201,7 +79274,7 @@
 					<entry key="variant" type="number" value="2"/>
 				</entry>
 			</entry>
-			<entry index="2546" type="table">
+			<entry index="2545" type="table">
 				<entry key="class" type="string" value="ElementDialogue"/>
 				<entry key="editor_color" type="string" value="ffffff"/>
 				<entry key="editor_name" type="string" value="Play_alz_fuel_01"/>
@@ -79229,7 +79302,7 @@
 					<entry key="use_position" type="boolean" value="false"/>
 				</entry>
 			</entry>
-			<entry index="2547" type="table">
+			<entry index="2546" type="table">
 				<entry key="class" type="string" value="ElementDialogue"/>
 				<entry key="editor_color" type="string" value="ffffff"/>
 				<entry key="editor_name" type="string" value="Play_alz_fuel_02"/>
@@ -79253,7 +79326,7 @@
 					<entry key="use_position" type="boolean" value="false"/>
 				</entry>
 			</entry>
-			<entry index="2548" type="table">
+			<entry index="2547" type="table">
 				<entry key="class" type="string" value="ElementDialogue"/>
 				<entry key="editor_color" type="string" value="ffffff"/>
 				<entry key="editor_name" type="string" value="Play_alz_fuel_03"/>
@@ -79285,7 +79358,7 @@
 					<entry key="use_position" type="boolean" value="false"/>
 				</entry>
 			</entry>
-			<entry index="2549" type="table">
+			<entry index="2548" type="table">
 				<entry key="class" type="string" value="ElementSpecialObjectiveTrigger"/>
 				<entry key="editor_name" type="string" value="so_hostage_stealth_trigger_001"/>
 				<entry key="id" type="number" value="102548"/>
@@ -79309,7 +79382,7 @@
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="2550" type="table">
+			<entry index="2549" type="table">
 				<entry key="class" type="string" value="ElementDialogue"/>
 				<entry key="editor_color" type="string" value="ffffff"/>
 				<entry key="editor_name" type="string" value="Play_alz_fuel_04"/>
@@ -79337,7 +79410,7 @@
 					<entry key="use_position" type="boolean" value="false"/>
 				</entry>
 			</entry>
-			<entry index="2551" type="table">
+			<entry index="2550" type="table">
 				<entry key="class" type="string" value="ElementDialogue"/>
 				<entry key="editor_color" type="string" value="ffffff"/>
 				<entry key="editor_name" type="string" value="Play_alz_fuel_05"/>
@@ -79365,7 +79438,7 @@
 					<entry key="use_position" type="boolean" value="false"/>
 				</entry>
 			</entry>
-			<entry index="2552" type="table">
+			<entry index="2551" type="table">
 				<entry key="class" type="string" value="ElementDialogue"/>
 				<entry key="editor_color" type="string" value="ffffff"/>
 				<entry key="editor_name" type="string" value="Play_alz_fuel_06"/>
@@ -79389,7 +79462,7 @@
 					<entry key="use_position" type="boolean" value="false"/>
 				</entry>
 			</entry>
-			<entry index="2553" type="table">
+			<entry index="2552" type="table">
 				<entry key="class" type="string" value="ElementDialogue"/>
 				<entry key="editor_color" type="string" value="ffffff"/>
 				<entry key="editor_name" type="string" value="Play_alz_fuel_07"/>
@@ -79413,7 +79486,7 @@
 					<entry key="use_position" type="boolean" value="false"/>
 				</entry>
 			</entry>
-			<entry index="2554" type="table">
+			<entry index="2553" type="table">
 				<entry key="class" type="string" value="ElementDialogue"/>
 				<entry key="editor_color" type="string" value="ffffff"/>
 				<entry key="editor_name" type="string" value="Play_alz_fuel_08"/>
@@ -79445,7 +79518,7 @@
 					<entry key="use_position" type="boolean" value="false"/>
 				</entry>
 			</entry>
-			<entry index="2555" type="table">
+			<entry index="2554" type="table">
 				<entry key="class" type="string" value="ElementDialogue"/>
 				<entry key="editor_color" type="string" value="ffffff"/>
 				<entry key="editor_name" type="string" value="Play_alz_fuel_09"/>
@@ -79473,7 +79546,7 @@
 					<entry key="use_position" type="boolean" value="false"/>
 				</entry>
 			</entry>
-			<entry index="2556" type="table">
+			<entry index="2555" type="table">
 				<entry key="class" type="string" value="ElementDialogue"/>
 				<entry key="editor_color" type="string" value="ffffff"/>
 				<entry key="editor_name" type="string" value="Play_alz_fuel_10"/>
@@ -79501,7 +79574,7 @@
 					<entry key="use_position" type="boolean" value="false"/>
 				</entry>
 			</entry>
-			<entry index="2557" type="table">
+			<entry index="2556" type="table">
 				<entry key="class" type="string" value="ElementDialogue"/>
 				<entry key="editor_color" type="string" value="ffffff"/>
 				<entry key="editor_name" type="string" value="Play_alz_fuel_11"/>
@@ -79525,7 +79598,7 @@
 					<entry key="use_position" type="boolean" value="false"/>
 				</entry>
 			</entry>
-			<entry index="2558" type="table">
+			<entry index="2557" type="table">
 				<entry key="class" type="string" value="ElementDialogue"/>
 				<entry key="editor_color" type="string" value="ffffff"/>
 				<entry key="editor_name" type="string" value="Play_alz_fuel_12"/>
@@ -79553,7 +79626,7 @@
 					<entry key="use_position" type="boolean" value="false"/>
 				</entry>
 			</entry>
-			<entry index="2559" type="table">
+			<entry index="2558" type="table">
 				<entry key="class" type="string" value="ElementDialogue"/>
 				<entry key="editor_color" type="string" value="ffffff"/>
 				<entry key="editor_name" type="string" value="Play_alz_fuel_13"/>
@@ -79577,7 +79650,7 @@
 					<entry key="use_position" type="boolean" value="false"/>
 				</entry>
 			</entry>
-			<entry index="2560" type="table">
+			<entry index="2559" type="table">
 				<entry key="class" type="string" value="ElementDialogue"/>
 				<entry key="editor_color" type="string" value="ffffff"/>
 				<entry key="editor_name" type="string" value="Play_alz_fuel_14"/>
@@ -79605,7 +79678,7 @@
 					<entry key="use_position" type="boolean" value="false"/>
 				</entry>
 			</entry>
-			<entry index="2561" type="table">
+			<entry index="2560" type="table">
 				<entry key="class" type="string" value="ElementDialogue"/>
 				<entry key="editor_color" type="string" value="ffffff"/>
 				<entry key="editor_name" type="string" value="Play_alz_fuel_15"/>
@@ -79633,7 +79706,7 @@
 					<entry key="use_position" type="boolean" value="false"/>
 				</entry>
 			</entry>
-			<entry index="2562" type="table">
+			<entry index="2561" type="table">
 				<entry key="class" type="string" value="ElementDialogue"/>
 				<entry key="editor_color" type="string" value="ffffff"/>
 				<entry key="editor_name" type="string" value="Play_alz_fuel_16"/>
@@ -79661,7 +79734,7 @@
 					<entry key="use_position" type="boolean" value="false"/>
 				</entry>
 			</entry>
-			<entry index="2563" type="table">
+			<entry index="2562" type="table">
 				<entry key="class" type="string" value="ElementDialogue"/>
 				<entry key="editor_color" type="string" value="ffffff"/>
 				<entry key="editor_name" type="string" value="Play_alz_fuel_17"/>
@@ -79685,7 +79758,7 @@
 					<entry key="use_position" type="boolean" value="false"/>
 				</entry>
 			</entry>
-			<entry index="2564" type="table">
+			<entry index="2563" type="table">
 				<entry key="class" type="string" value="ElementDialogue"/>
 				<entry key="editor_color" type="string" value="ffffff"/>
 				<entry key="editor_name" type="string" value="Play_alz_fuel_18"/>
@@ -79709,7 +79782,7 @@
 					<entry key="use_position" type="boolean" value="false"/>
 				</entry>
 			</entry>
-			<entry index="2565" type="table">
+			<entry index="2564" type="table">
 				<entry key="class" type="string" value="ElementDialogue"/>
 				<entry key="editor_color" type="string" value="ffffff"/>
 				<entry key="editor_name" type="string" value="Play_alz_fuel_19"/>
@@ -79733,10 +79806,10 @@
 					<entry key="use_position" type="boolean" value="false"/>
 				</entry>
 			</entry>
-			<entry index="2566" type="table">
+			<entry index="2565" type="table">
 				<entry key="class" type="string" value="ElementDialogue"/>
 				<entry key="editor_color" type="string" value="ffffff"/>
-				<entry key="editor_name" type="string" value="Play_alz_fuel_21"/>
+				<entry key="editor_name" type="string" value="Play_alz_fuel_21_002"/>
 				<entry key="id" type="number" value="102564"/>
 				<entry key="script" type="string" value="default"/>
 				<entry key="values" type="table">
@@ -79750,14 +79823,14 @@
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
-					<entry key="position" type="vector3" value="-2860 -2030 3000"/>
+					<entry key="position" type="vector3" value="461 -669 -401.4"/>
 					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
 					<entry key="trigger_times" type="number" value="0"/>
-					<entry key="use_instigator" type="boolean" value="true"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
 					<entry key="use_position" type="boolean" value="true"/>
 				</entry>
 			</entry>
-			<entry index="2567" type="table">
+			<entry index="2566" type="table">
 				<entry key="class" type="string" value="ElementDialogue"/>
 				<entry key="editor_color" type="string" value="ffffff"/>
 				<entry key="editor_name" type="string" value="Play_alz_fuel_22"/>
@@ -79785,7 +79858,7 @@
 					<entry key="use_position" type="boolean" value="false"/>
 				</entry>
 			</entry>
-			<entry index="2568" type="table">
+			<entry index="2567" type="table">
 				<entry key="class" type="string" value="ElementDialogue"/>
 				<entry key="editor_color" type="string" value="ffffff"/>
 				<entry key="editor_name" type="string" value="Play_alz_fuel_23"/>
@@ -79814,7 +79887,7 @@
 					<entry key="use_position" type="boolean" value="false"/>
 				</entry>
 			</entry>
-			<entry index="2569" type="table">
+			<entry index="2568" type="table">
 				<entry key="class" type="string" value="ElementDialogue"/>
 				<entry key="editor_color" type="string" value="ffffff"/>
 				<entry key="editor_name" type="string" value="Play_alz_fuel_25a"/>
@@ -79842,7 +79915,7 @@
 					<entry key="use_position" type="boolean" value="false"/>
 				</entry>
 			</entry>
-			<entry index="2570" type="table">
+			<entry index="2569" type="table">
 				<entry key="class" type="string" value="ElementDialogue"/>
 				<entry key="editor_color" type="string" value="ffffff"/>
 				<entry key="editor_name" type="string" value="Play_alz_fuel_25b"/>
@@ -79870,7 +79943,7 @@
 					<entry key="use_position" type="boolean" value="false"/>
 				</entry>
 			</entry>
-			<entry index="2571" type="table">
+			<entry index="2570" type="table">
 				<entry key="class" type="string" value="ElementDialogue"/>
 				<entry key="editor_color" type="string" value="ffffff"/>
 				<entry key="editor_name" type="string" value="Play_alz_fuel_26b"/>
@@ -79898,7 +79971,7 @@
 					<entry key="use_position" type="boolean" value="false"/>
 				</entry>
 			</entry>
-			<entry index="2572" type="table">
+			<entry index="2571" type="table">
 				<entry key="class" type="string" value="ElementDialogue"/>
 				<entry key="editor_color" type="string" value="ffffff"/>
 				<entry key="editor_name" type="string" value="Play_alz_fuel_25c"/>
@@ -79926,7 +79999,7 @@
 					<entry key="use_position" type="boolean" value="false"/>
 				</entry>
 			</entry>
-			<entry index="2573" type="table">
+			<entry index="2572" type="table">
 				<entry key="class" type="string" value="ElementDialogue"/>
 				<entry key="editor_color" type="string" value="ffffff"/>
 				<entry key="editor_name" type="string" value="Play_alz_fuel_26c"/>
@@ -79954,7 +80027,7 @@
 					<entry key="use_position" type="boolean" value="false"/>
 				</entry>
 			</entry>
-			<entry index="2574" type="table">
+			<entry index="2573" type="table">
 				<entry key="class" type="string" value="ElementDialogue"/>
 				<entry key="editor_color" type="string" value="ffffff"/>
 				<entry key="editor_name" type="string" value="Play_alz_fuel_25d"/>
@@ -79982,7 +80055,7 @@
 					<entry key="use_position" type="boolean" value="false"/>
 				</entry>
 			</entry>
-			<entry index="2575" type="table">
+			<entry index="2574" type="table">
 				<entry key="class" type="string" value="ElementDialogue"/>
 				<entry key="editor_color" type="string" value="ffffff"/>
 				<entry key="editor_name" type="string" value="Play_alz_fuel_27"/>
@@ -80006,7 +80079,7 @@
 					<entry key="use_position" type="boolean" value="false"/>
 				</entry>
 			</entry>
-			<entry index="2576" type="table">
+			<entry index="2575" type="table">
 				<entry key="class" type="string" value="ElementDialogue"/>
 				<entry key="editor_color" type="string" value="ffffff"/>
 				<entry key="editor_name" type="string" value="Play_alz_fuel_28"/>
@@ -80027,14 +80100,14 @@
 						</entry>
 					</entry>
 					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
-					<entry key="position" type="vector3" value="-4210 -2030 3000"/>
+					<entry key="position" type="vector3" value="-4210 -2530 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="1"/>
 					<entry key="use_instigator" type="boolean" value="false"/>
 					<entry key="use_position" type="boolean" value="false"/>
 				</entry>
 			</entry>
-			<entry index="2577" type="table">
+			<entry index="2576" type="table">
 				<entry key="class" type="string" value="ElementDialogue"/>
 				<entry key="editor_color" type="string" value="ffffff"/>
 				<entry key="editor_name" type="string" value="Play_alz_fuel_29"/>
@@ -80051,14 +80124,14 @@
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
-					<entry key="position" type="vector3" value="-4310 -2030 3000"/>
+					<entry key="position" type="vector3" value="-4410 -2530 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="1"/>
 					<entry key="use_instigator" type="boolean" value="false"/>
 					<entry key="use_position" type="boolean" value="false"/>
 				</entry>
 			</entry>
-			<entry index="2578" type="table">
+			<entry index="2577" type="table">
 				<entry key="class" type="string" value="ElementDialogue"/>
 				<entry key="editor_color" type="string" value="ffffff"/>
 				<entry key="editor_name" type="string" value="Play_alz_fuel_31"/>
@@ -80075,14 +80148,14 @@
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
-					<entry key="position" type="vector3" value="-4410 -2030 3000"/>
+					<entry key="position" type="vector3" value="-4510 -2530 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="1"/>
 					<entry key="use_instigator" type="boolean" value="false"/>
 					<entry key="use_position" type="boolean" value="false"/>
 				</entry>
 			</entry>
-			<entry index="2579" type="table">
+			<entry index="2578" type="table">
 				<entry key="class" type="string" value="ElementDialogue"/>
 				<entry key="editor_color" type="string" value="ffffff"/>
 				<entry key="editor_name" type="string" value="Play_alz_fuel_32"/>
@@ -80093,20 +80166,24 @@
 					<entry key="can_not_be_muted" type="boolean" value="false"/>
 					<entry key="dialogue" type="string" value="Play_alz_fuel_32"/>
 					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="execute_on_executed_when_done" type="boolean" value="false"/>
+					<entry key="execute_on_executed_when_done" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="force_quit_current" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0.3"/>
+							<entry key="id" type="number" value="102604"/>
+						</entry>
 					</entry>
 					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
-					<entry key="position" type="vector3" value="-4210 -1930 3000"/>
+					<entry key="position" type="vector3" value="-4610 -2530 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="1"/>
 					<entry key="use_instigator" type="boolean" value="false"/>
 					<entry key="use_position" type="boolean" value="false"/>
 				</entry>
 			</entry>
-			<entry index="2580" type="table">
+			<entry index="2579" type="table">
 				<entry key="class" type="string" value="ElementDialogue"/>
 				<entry key="editor_color" type="string" value="ffffff"/>
 				<entry key="editor_name" type="string" value="Play_alz_fuel_33"/>
@@ -80123,11 +80200,815 @@
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
-					<entry key="position" type="vector3" value="-4310 -1930 3000"/>
+					<entry key="position" type="vector3" value="-4210 -2430 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="1"/>
 					<entry key="use_instigator" type="boolean" value="false"/>
 					<entry key="use_position" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2580" type="table">
+				<entry key="class" type="string" value="ElementDialogue"/>
+				<entry key="editor_color" type="string" value="ffffff"/>
+				<entry key="editor_name" type="string" value="Play_alz_fuel_34"/>
+				<entry key="id" type="number" value="102579"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="can_not_be_muted" type="boolean" value="false"/>
+					<entry key="dialogue" type="string" value="Play_alz_fuel_34"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_executed_when_done" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_quit_current" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0.5"/>
+							<entry key="id" type="number" value="102581"/>
+						</entry>
+					</entry>
+					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
+					<entry key="position" type="vector3" value="-4310 -2430 3000"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="1"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_position" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2581" type="table">
+				<entry key="class" type="string" value="ElementSpecialObjective"/>
+				<entry key="editor_name" type="string" value="so_hostage_loud_017"/>
+				<entry key="id" type="number" value="102580"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="SO_access" type="string" value="131072"/>
+					<entry key="action_duration_max" type="number" value="0"/>
+					<entry key="action_duration_min" type="number" value="0"/>
+					<entry key="ai_group" type="string" value="none"/>
+					<entry key="align_position" type="boolean" value="true"/>
+					<entry key="align_rotation" type="boolean" value="false"/>
+					<entry key="attitude" type="string" value="none"/>
+					<entry key="base_chance" type="number" value="1"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="chance_inc" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="followup_elements" type="table">
+						<entry index="1" type="number" value="100700"/>
+					</entry>
+					<entry key="forced" type="boolean" value="true"/>
+					<entry key="interaction_voice" type="string" value="none"/>
+					<entry key="interrupt_dis" type="number" value="0"/>
+					<entry key="interrupt_dmg" type="number" value="0"/>
+					<entry key="interrupt_objective" type="boolean" value="false"/>
+					<entry key="interval" type="number" value="-1"/>
+					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
+					<entry key="no_arrest" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="path_haste" type="string" value="run"/>
+					<entry key="path_stance" type="string" value="cbt"/>
+					<entry key="path_style" type="string" value="precise"/>
+					<entry key="patrol_path" type="string" value="to_parking"/>
+					<entry key="pose" type="string" value="stand"/>
+					<entry key="position" type="vector3" value="3125 200 -9.99986"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+					<entry key="scan" type="boolean" value="true"/>
+					<entry key="search_distance" type="number" value="0"/>
+					<entry key="search_position" type="vector3" value="3025 200 -10"/>
+					<entry key="so_action" type="string" value="none"/>
+					<entry key="spawn_instigator_ids" type="table">
+						<entry index="1" type="number" value="100663"/>
+					</entry>
+					<entry key="test_unit" type="string" value="units/pd2_mod_fuel/characters/ene_fuel_hostage/ene_fuel_hostage"/>
+					<entry key="trigger_on" type="string" value="none"/>
+					<entry key="trigger_times" type="number" value="1"/>
+					<entry key="use_instigator" type="boolean" value="true"/>
+				</entry>
+			</entry>
+			<entry index="2582" type="table">
+				<entry key="class" type="string" value="ElementDialogue"/>
+				<entry key="editor_color" type="string" value="ffffff"/>
+				<entry key="editor_name" type="string" value="Play_alz_fuel_35"/>
+				<entry key="id" type="number" value="102581"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="can_not_be_muted" type="boolean" value="false"/>
+					<entry key="dialogue" type="string" value="Play_alz_fuel_35"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_executed_when_done" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_quit_current" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="6"/>
+							<entry key="delay_rand" type="number" value="2"/>
+							<entry key="id" type="number" value="102605"/>
+						</entry>
+					</entry>
+					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
+					<entry key="position" type="vector3" value="-4410 -2430 3000"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="1"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_position" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2583" type="table">
+				<entry key="class" type="string" value="ElementDialogue"/>
+				<entry key="editor_color" type="string" value="ffffff"/>
+				<entry key="editor_name" type="string" value="Play_alz_fuel_36"/>
+				<entry key="id" type="number" value="102582"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="can_not_be_muted" type="boolean" value="false"/>
+					<entry key="dialogue" type="string" value="Play_alz_fuel_36"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_executed_when_done" type="boolean" value="false"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_quit_current" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
+					<entry key="position" type="vector3" value="-4510 -2430 3000"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="1"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_position" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2584" type="table">
+				<entry key="class" type="string" value="ElementDialogue"/>
+				<entry key="editor_color" type="string" value="ffffff"/>
+				<entry key="editor_name" type="string" value="Play_alz_fuel_38"/>
+				<entry key="id" type="number" value="102584"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="can_not_be_muted" type="boolean" value="false"/>
+					<entry key="dialogue" type="string" value="Play_alz_fuel_38"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_executed_when_done" type="boolean" value="false"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_quit_current" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
+					<entry key="position" type="vector3" value="-4210 -2330 3000"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="1"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_position" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2585" type="table">
+				<entry key="class" type="string" value="ElementDialogue"/>
+				<entry key="editor_color" type="string" value="ffffff"/>
+				<entry key="editor_name" type="string" value="Play_alz_fuel_39"/>
+				<entry key="id" type="number" value="102585"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="can_not_be_muted" type="boolean" value="false"/>
+					<entry key="dialogue" type="string" value="Play_alz_fuel_39"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_executed_when_done" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_quit_current" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0.6"/>
+							<entry key="id" type="number" value="102529"/>
+						</entry>
+					</entry>
+					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
+					<entry key="position" type="vector3" value="-4310 -2330 3000"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="1"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_position" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2586" type="table">
+				<entry key="class" type="string" value="ElementDialogue"/>
+				<entry key="editor_color" type="string" value="ffffff"/>
+				<entry key="editor_name" type="string" value="Play_alz_fuel_40"/>
+				<entry key="id" type="number" value="102586"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="can_not_be_muted" type="boolean" value="false"/>
+					<entry key="dialogue" type="string" value="Play_alz_fuel_40"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_executed_when_done" type="boolean" value="false"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_quit_current" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
+					<entry key="position" type="vector3" value="-4510 -2330 3000"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="1"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_position" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2587" type="table">
+				<entry key="class" type="string" value="ElementDialogue"/>
+				<entry key="editor_color" type="string" value="ffffff"/>
+				<entry key="editor_name" type="string" value="Play_alz_fuel_41"/>
+				<entry key="id" type="number" value="102528"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="can_not_be_muted" type="boolean" value="false"/>
+					<entry key="dialogue" type="string" value="Play_alz_fuel_41"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_executed_when_done" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_quit_current" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0.8"/>
+							<entry key="id" type="number" value="102531"/>
+						</entry>
+					</entry>
+					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
+					<entry key="position" type="vector3" value="-4210 -2230 3000"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="1"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_position" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2588" type="table">
+				<entry key="class" type="string" value="ElementDialogue"/>
+				<entry key="editor_color" type="string" value="ffffff"/>
+				<entry key="editor_name" type="string" value="Play_alz_fuel_42"/>
+				<entry key="id" type="number" value="102587"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="can_not_be_muted" type="boolean" value="false"/>
+					<entry key="dialogue" type="string" value="Play_alz_fuel_42"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_executed_when_done" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_quit_current" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="1"/>
+							<entry key="id" type="number" value="102532"/>
+						</entry>
+					</entry>
+					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
+					<entry key="position" type="vector3" value="-4410 -2230 3000"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="1"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_position" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2589" type="table">
+				<entry key="class" type="string" value="ElementDialogue"/>
+				<entry key="editor_color" type="string" value="ffffff"/>
+				<entry key="editor_name" type="string" value="Play_alz_fuel_43"/>
+				<entry key="id" type="number" value="102588"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="can_not_be_muted" type="boolean" value="false"/>
+					<entry key="dialogue" type="string" value="Play_alz_fuel_43"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_executed_when_done" type="boolean" value="false"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_quit_current" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
+					<entry key="position" type="vector3" value="-4210 -2030 3000"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="1"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_position" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2590" type="table">
+				<entry key="class" type="string" value="ElementDialogue"/>
+				<entry key="editor_color" type="string" value="ffffff"/>
+				<entry key="editor_name" type="string" value="Play_alz_fuel_44"/>
+				<entry key="id" type="number" value="102589"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="can_not_be_muted" type="boolean" value="false"/>
+					<entry key="dialogue" type="string" value="Play_alz_fuel_44"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_executed_when_done" type="boolean" value="false"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_quit_current" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
+					<entry key="position" type="vector3" value="-4310 -2030 3000"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="1"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_position" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2591" type="table">
+				<entry key="class" type="string" value="ElementDialogue"/>
+				<entry key="editor_color" type="string" value="ffffff"/>
+				<entry key="editor_name" type="string" value="Play_alz_fuel_45"/>
+				<entry key="id" type="number" value="102590"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="can_not_be_muted" type="boolean" value="false"/>
+					<entry key="dialogue" type="string" value="Play_alz_fuel_45"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_executed_when_done" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_quit_current" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="1"/>
+							<entry key="id" type="number" value="102533"/>
+						</entry>
+					</entry>
+					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
+					<entry key="position" type="vector3" value="-4210 -1930 3000"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="1"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_position" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2592" type="table">
+				<entry key="class" type="string" value="ElementDialogue"/>
+				<entry key="editor_color" type="string" value="ffffff"/>
+				<entry key="editor_name" type="string" value="Play_alz_fuel_46"/>
+				<entry key="id" type="number" value="102591"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="can_not_be_muted" type="boolean" value="false"/>
+					<entry key="dialogue" type="string" value="Play_alz_fuel_46"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_executed_when_done" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_quit_current" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0.8"/>
+							<entry key="id" type="number" value="102534"/>
+						</entry>
+					</entry>
+					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
+					<entry key="position" type="vector3" value="-4410 -1930 3000"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="1"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_position" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2593" type="table">
+				<entry key="class" type="string" value="ElementDialogue"/>
+				<entry key="editor_color" type="string" value="ffffff"/>
+				<entry key="editor_name" type="string" value="Play_alz_fuel_47"/>
+				<entry key="id" type="number" value="102592"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="can_not_be_muted" type="boolean" value="false"/>
+					<entry key="dialogue" type="string" value="Play_alz_fuel_47"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_executed_when_done" type="boolean" value="false"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_quit_current" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
+					<entry key="position" type="vector3" value="-4610 -1930 3000"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="1"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_position" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2594" type="table">
+				<entry key="class" type="string" value="ElementDialogue"/>
+				<entry key="editor_color" type="string" value="ffffff"/>
+				<entry key="editor_name" type="string" value="Play_alz_fuel_48"/>
+				<entry key="id" type="number" value="102593"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="can_not_be_muted" type="boolean" value="false"/>
+					<entry key="dialogue" type="string" value="Play_alz_fuel_48"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_executed_when_done" type="boolean" value="false"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_quit_current" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
+					<entry key="position" type="vector3" value="-4710 -1930 3000"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="1"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_position" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2595" type="table">
+				<entry key="class" type="string" value="ElementDialogue"/>
+				<entry key="editor_color" type="string" value="ffffff"/>
+				<entry key="editor_name" type="string" value="Play_alz_fuel_49"/>
+				<entry key="id" type="number" value="102594"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="can_not_be_muted" type="boolean" value="false"/>
+					<entry key="dialogue" type="string" value="Play_alz_fuel_49"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_executed_when_done" type="boolean" value="false"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_quit_current" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
+					<entry key="position" type="vector3" value="-4310 -1830 3000"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="1"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_position" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2596" type="table">
+				<entry key="class" type="string" value="ElementDialogue"/>
+				<entry key="editor_color" type="string" value="ffffff"/>
+				<entry key="editor_name" type="string" value="Play_alz_fuel_50"/>
+				<entry key="id" type="number" value="102595"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="can_not_be_muted" type="boolean" value="false"/>
+					<entry key="dialogue" type="string" value="Play_alz_fuel_50"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_executed_when_done" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_quit_current" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0.6"/>
+							<entry key="id" type="number" value="102536"/>
+						</entry>
+					</entry>
+					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
+					<entry key="position" type="vector3" value="-4510 -1830 3000"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="1"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_position" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2597" type="table">
+				<entry key="class" type="string" value="ElementDialogue"/>
+				<entry key="editor_color" type="string" value="ffffff"/>
+				<entry key="editor_name" type="string" value="Play_alz_fuel_21_001"/>
+				<entry key="id" type="number" value="102596"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="can_not_be_muted" type="boolean" value="false"/>
+					<entry key="dialogue" type="string" value="Play_alz_fuel_21"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_executed_when_done" type="boolean" value="false"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_quit_current" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
+					<entry key="position" type="vector3" value="2150 -1075 -409.4"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_position" type="boolean" value="true"/>
+				</entry>
+			</entry>
+			<entry index="2598" type="table">
+				<entry key="class" type="string" value="ElementDialogue"/>
+				<entry key="editor_color" type="string" value="ffffff"/>
+				<entry key="editor_name" type="string" value="Play_alz_fuel_21_003"/>
+				<entry key="id" type="number" value="102597"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="can_not_be_muted" type="boolean" value="false"/>
+					<entry key="dialogue" type="string" value="Play_alz_fuel_21"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_executed_when_done" type="boolean" value="false"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_quit_current" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
+					<entry key="position" type="vector3" value="475 437 -384.4"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_position" type="boolean" value="true"/>
+				</entry>
+			</entry>
+			<entry index="2599" type="table">
+				<entry key="class" type="string" value="ElementDialogue"/>
+				<entry key="editor_color" type="string" value="ffffff"/>
+				<entry key="editor_name" type="string" value="Play_alz_fuel_21_004"/>
+				<entry key="id" type="number" value="102598"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="can_not_be_muted" type="boolean" value="false"/>
+					<entry key="dialogue" type="string" value="Play_alz_fuel_21"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_executed_when_done" type="boolean" value="false"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_quit_current" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
+					<entry key="position" type="vector3" value="1439 873 -381.594"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_position" type="boolean" value="true"/>
+				</entry>
+			</entry>
+			<entry index="2600" type="table">
+				<entry key="class" type="string" value="ElementDialogue"/>
+				<entry key="editor_color" type="string" value="ff3c00"/>
+				<entry key="editor_name" type="string" value="Play_vic_fuel_01"/>
+				<entry key="id" type="number" value="102599"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="can_not_be_muted" type="boolean" value="false"/>
+					<entry key="dialogue" type="string" value="Play_vic_fuel_01"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_executed_when_done" type="boolean" value="false"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_quit_current" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
+					<entry key="position" type="vector3" value="-1960 -2030 3000"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="1"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_position" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2601" type="table">
+				<entry key="class" type="string" value="ElementDialogue"/>
+				<entry key="editor_color" type="string" value="ff3c00"/>
+				<entry key="editor_name" type="string" value="Play_vic_fuel_02"/>
+				<entry key="id" type="number" value="102600"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="can_not_be_muted" type="boolean" value="false"/>
+					<entry key="dialogue" type="string" value="Play_vic_fuel_02"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_executed_when_done" type="boolean" value="false"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_quit_current" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
+					<entry key="position" type="vector3" value="-1960 -2030 3100"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="1"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_position" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2602" type="table">
+				<entry key="class" type="string" value="ElementDialogue"/>
+				<entry key="editor_color" type="string" value="ff3c00"/>
+				<entry key="editor_name" type="string" value="Play_vic_fuel_03"/>
+				<entry key="id" type="number" value="102601"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="can_not_be_muted" type="boolean" value="false"/>
+					<entry key="dialogue" type="string" value="Play_vic_fuel_03"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_executed_when_done" type="boolean" value="false"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_quit_current" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
+					<entry key="position" type="vector3" value="-2660 -2330 3000"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="1"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_position" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2603" type="table">
+				<entry key="class" type="string" value="ElementDialogue"/>
+				<entry key="editor_color" type="string" value="ff3c00"/>
+				<entry key="editor_name" type="string" value="Play_vic_fuel_04"/>
+				<entry key="id" type="number" value="102602"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="can_not_be_muted" type="boolean" value="false"/>
+					<entry key="dialogue" type="string" value="Play_vic_fuel_04"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_executed_when_done" type="boolean" value="false"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_quit_current" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
+					<entry key="position" type="vector3" value="-2860 -2030 3000"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="1"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_position" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2604" type="table">
+				<entry key="class" type="string" value="ElementDialogue"/>
+				<entry key="editor_color" type="string" value="ff3c00"/>
+				<entry key="editor_name" type="string" value="Play_vic_fuel_05"/>
+				<entry key="id" type="number" value="102603"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="can_not_be_muted" type="boolean" value="false"/>
+					<entry key="dialogue" type="string" value="Play_vic_fuel_05"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_executed_when_done" type="boolean" value="false"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_quit_current" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
+					<entry key="position" type="vector3" value="-4660 -2230 3000"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="1"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_position" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2605" type="table">
+				<entry key="class" type="string" value="ElementDialogue"/>
+				<entry key="editor_color" type="string" value="ff3c00"/>
+				<entry key="editor_name" type="string" value="Play_vic_fuel_06"/>
+				<entry key="id" type="number" value="102604"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="can_not_be_muted" type="boolean" value="false"/>
+					<entry key="dialogue" type="string" value="Play_vic_fuel_06"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_executed_when_done" type="boolean" value="false"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_quit_current" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
+					<entry key="position" type="vector3" value="-3860 -1830 3000"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="1"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_position" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2606" type="table">
+				<entry key="class" type="string" value="ElementDialogue"/>
+				<entry key="editor_color" type="string" value="ff3c00"/>
+				<entry key="editor_name" type="string" value="Play_vic_fuel_07"/>
+				<entry key="id" type="number" value="102605"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="can_not_be_muted" type="boolean" value="false"/>
+					<entry key="dialogue" type="string" value="Play_vic_fuel_07"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_executed_when_done" type="boolean" value="false"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_quit_current" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
+					<entry key="position" type="vector3" value="-4060 -1830 3000"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="1"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_position" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2607" type="table">
+				<entry key="class" type="string" value="ElementToggle"/>
+				<entry key="editor_name" type="string" value="toggle_101"/>
+				<entry key="id" type="number" value="102583"/>
+				<entry key="module" type="string" value="CoreElementToggle"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="102605"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-4060 -1930 3000"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="set_trigger_times" type="number" value="1"/>
+					<entry key="toggle" type="string" value="off"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="2608" type="table">
+				<entry key="class" type="string" value="ElementDialogue"/>
+				<entry key="editor_color" type="string" value="ff3c00"/>
+				<entry key="editor_name" type="string" value="Play_vic_fuel_08"/>
+				<entry key="id" type="number" value="102606"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="can_not_be_muted" type="boolean" value="false"/>
+					<entry key="dialogue" type="string" value="Play_vic_fuel_08"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_executed_when_done" type="boolean" value="false"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_quit_current" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
+					<entry key="position" type="vector3" value="1300 -3875 950"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 4.37114e-008"/>
+					<entry key="trigger_times" type="number" value="1"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_position" type="boolean" value="true"/>
+				</entry>
+			</entry>
+			<entry index="2609" type="table">
+				<entry key="class" type="string" value="ElementSpecialObjective"/>
+				<entry key="editor_name" type="string" value="so_boss_sniper"/>
+				<entry key="id" type="number" value="102607"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="SO_access" type="string" value="16100"/>
+					<entry key="action_duration_max" type="number" value="0"/>
+					<entry key="action_duration_min" type="number" value="0"/>
+					<entry key="ai_group" type="string" value="enemies"/>
+					<entry key="align_position" type="boolean" value="true"/>
+					<entry key="align_rotation" type="boolean" value="true"/>
+					<entry key="attitude" type="string" value="engage"/>
+					<entry key="base_chance" type="number" value="1"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="chance_inc" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="followup_elements" type="table">
+					</entry>
+					<entry key="interaction_voice" type="string" value="none"/>
+					<entry key="interrupt_dis" type="number" value="0"/>
+					<entry key="interrupt_dmg" type="number" value="0"/>
+					<entry key="interrupt_objective" type="boolean" value="false"/>
+					<entry key="interval" type="number" value="-1"/>
+					<entry key="is_navigation_link" type="boolean" value="false"/>
+					<entry key="needs_pos_rsrv" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="path_haste" type="string" value="run"/>
+					<entry key="path_stance" type="string" value="hos"/>
+					<entry key="path_style" type="string" value="none"/>
+					<entry key="patrol_path" type="string" value="none"/>
+					<entry key="pose" type="string" value="stand"/>
+					<entry key="position" type="vector3" value="1303 -3875 788"/>
+					<entry key="repeatable" type="boolean" value="false"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 4.37114e-008"/>
+					<entry key="scan" type="boolean" value="true"/>
+					<entry key="search_distance" type="number" value="0"/>
+					<entry key="search_position" type="vector3" value="1290 80 -12"/>
+					<entry key="so_action" type="string" value="AI_sniper"/>
+					<entry key="spawn_instigator_ids" type="table">
+						<entry index="1" type="number" value="100926"/>
+					</entry>
+					<entry key="test_unit" type="string" value="default"/>
+					<entry key="trigger_on" type="string" value="none"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
 				</entry>
 			</entry>
 		</entry>

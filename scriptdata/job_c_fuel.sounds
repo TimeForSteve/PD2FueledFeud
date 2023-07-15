@@ -1,5 +1,6 @@
 <table>
     <Sounds directory="assets/sounds/vo" unload="true">
+        <!-- YAEGER -->
         <sound id="Play_ygr_fuel_brf_01" path="fuel_brf_01.ogg"/>
         <sound id="Play_ygr_fuel_end_01" path="fuel_end_01.ogg"/>
         <sound id="Play_ygr_fuel_end_02" path="fuel_end_02.ogg"/>
@@ -110,6 +111,7 @@
         <sound id="Play_mob_fuel_07" path="fuel_mob_01.ogg" subtitle_id="mob_fuel_01_07" max_distance="20"/>
         <sound id="katoil_branding" loop="true" path="katoil_branding.ogg" stop_id="katoil_branding_stop"/>
 
+        <!-- TONIS -->
         <sound id="Play_ton_fuel_01" path="ton_fuel_01.ogg" min_distance="4" max_distance="12"/>
         <sound id="Play_ton_fuel_02_01" path="ton_fuel_02_01.ogg" subtitle_id="ton_fuel_02_01" min_distance="4" max_distance="12"/>
         <sound id="Play_ton_fuel_02_02" path="ton_fuel_02_02.ogg" subtitle_id="ton_fuel_02_02" min_distance="4" max_distance="12"/>
@@ -127,12 +129,14 @@
         <sound id="Play_ton_fuel_04" path="ton_fuel_04.ogg" min_distance="4" max_distance="10"/>
         <sound id="Play_ton_fuel_05" path="ton_fuel_05.ogg" min_distance="4" max_distance="10"/>
 
+        <!-- NAOMI -->
         <sound id="Play_nao_fuel_01" path="nao_fuel_01.ogg" subtitle_id="nao_fuel_01"/>
         <sound id="Play_nao_fuel_02" path="nao_fuel_02.ogg" subtitle_id="nao_fuel_02"/>
         <sound id="Play_nao_fuel_03" path="nao_fuel_03.ogg" subtitle_id="nao_fuel_03"/>
         <sound id="Play_nao_fuel_04" path="nao_fuel_04.ogg" subtitle_id="nao_fuel_04"/>
         <sound id="Play_nao_fuel_05" path="nao_fuel_05.ogg" subtitle_id="nao_fuel_05"/>
 
+        <!-- ALVAREZ -->
         <sound id="Play_alz_fuel_01" path="alz_fuel_01.ogg" subtitle_id="alz_fuel_01"/>
         <sound id="Play_alz_fuel_02" path="alz_fuel_02.ogg" subtitle_id="alz_fuel_02"/>
         <sound id="Play_alz_fuel_03" path="alz_fuel_03.ogg" subtitle_id="alz_fuel_03"/>
@@ -179,7 +183,7 @@
         <sound id="Play_alz_fuel_34" path="alz_fuel_34.ogg" subtitle_id="alz_fuel_34"/>
         <sound id="Play_alz_fuel_35" path="alz_fuel_35.ogg" subtitle_id="alz_fuel_35"/>
         <sound id="Play_alz_fuel_36" path="alz_fuel_36.ogg" subtitle_id="alz_fuel_36"/>
-        <sound id="Play_alz_fuel_37" path="alz_fuel_37.ogg" subtitle_id="alz_fuel_37"/>
+        <!--<sound id="Play_alz_fuel_37" path="alz_fuel_37.ogg" subtitle_id="alz_fuel_37"/>-->
         <sound id="Play_alz_fuel_38" path="alz_fuel_38.ogg" subtitle_id="alz_fuel_38"/>
         <sound id="Play_alz_fuel_39" path="alz_fuel_39.ogg" subtitle_id="alz_fuel_39"/>
         <sound id="Play_alz_fuel_40" path="alz_fuel_40.ogg" subtitle_id="alz_fuel_40"/>
@@ -189,9 +193,50 @@
         <sound id="Play_alz_fuel_44" path="alz_fuel_44.ogg" subtitle_id="alz_fuel_44"/>
         <sound id="Play_alz_fuel_45" path="alz_fuel_45.ogg" subtitle_id="alz_fuel_45"/>
         <sound id="Play_alz_fuel_46" path="alz_fuel_46.ogg" subtitle_id="alz_fuel_46"/>
-        <sound id="Play_alz_fuel_47" path="alz_fuel_47.ogg" subtitle_id="alz_fuel_47"/>
+        <!--<sound id="Play_alz_fuel_47" path="alz_fuel_47.ogg" subtitle_id="alz_fuel_47"/>-->
         <sound id="Play_alz_fuel_48" path="alz_fuel_48.ogg" subtitle_id="alz_fuel_48"/>
         <sound id="Play_alz_fuel_49" path="alz_fuel_49.ogg" subtitle_id="alz_fuel_49"/>
         <sound id="Play_alz_fuel_50" path="alz_fuel_50.ogg" subtitle_id="alz_fuel_50"/>
+
+        <!-- VICTOR -->
+        <sound id="Play_vic_fuel_01" path="vic_fuel_01.ogg" subtitle_id="vic_fuel_01"/>
+        <sound id="Play_vic_fuel_02" path="vic_fuel_02.ogg" subtitle_id="vic_fuel_02"/>
+        <sound id="vic_fuel_03_01" path="vic_fuel_03_01.ogg" subtitle_id="vic_fuel_03_01"/>
+        <sound id="vic_fuel_03_02" path="vic_fuel_03_02.ogg" subtitle_id="vic_fuel_03_02"/>
+        <sound id="vic_fuel_03_03" path="vic_fuel_03_03.ogg" subtitle_id="vic_fuel_03_03"/>
+        <random id="Play_vic_fuel_03">
+            <sound id="vic_fuel_03_01"/>
+            <sound id="vic_fuel_03_02"/>  
+            <sound id="vic_fuel_03_03"/>  
+        </random>
+        <sound id="vic_fuel_04_01" path="vic_fuel_04_01.ogg" subtitle_id="vic_fuel_04_01"/>
+        <sound id="vic_fuel_04_02" path="vic_fuel_04_02.ogg" subtitle_id="vic_fuel_04_02"/>
+        <random id="Play_vic_fuel_04">
+            <sound id="vic_fuel_04_01"/>
+            <sound id="vic_fuel_04_02"/>   
+        </random>
+        <sound id="vic_fuel_05_01" path="vic_fuel_05_01.ogg" subtitle_id="vic_fuel_05_01"/>
+        <sound id="vic_fuel_05_02" path="vic_fuel_05_02.ogg" subtitle_id="vic_fuel_05_02"/>
+        <random id="Play_vic_fuel_05">
+            <sound id="vic_fuel_05_01"/>
+            <sound id="vic_fuel_05_02"/>   
+        </random>
+        <sound id="Play_vic_fuel_06" path="vic_fuel_06.ogg" subtitle_id="vic_fuel_06"/>
+        <sound id="vic_fuel_07_01" path="vic_fuel_07_01.ogg" subtitle_id="vic_fuel_07_01"/>
+        <sound id="vic_fuel_07_02" path="vic_fuel_07_02.ogg" subtitle_id="vic_fuel_07_02"/>
+        <sound id="vic_fuel_07_03" path="vic_fuel_07_03.ogg" subtitle_id="vic_fuel_07_03"/>
+        <sound id="vic_fuel_07_04" path="vic_fuel_07_04.ogg" subtitle_id="vic_fuel_07_04"/>
+        <random id="Play_vic_fuel_07">
+            <sound id="vic_fuel_07_01"/>
+            <sound id="vic_fuel_07_02"/>  
+            <sound id="vic_fuel_07_03"/>  
+            <sound id="vic_fuel_07_04"/>  
+        </random>
+        <sound id="vic_fuel_08_01" path="vic_fuel_08_01.ogg" min_distance="5" max_distance="13"/>
+        <sound id="vic_fuel_08_02" path="vic_fuel_08_02.ogg" min_distance="5" max_distance="13"/>
+        <random id="Play_vic_fuel_08">
+            <sound id="vic_fuel_08_01"/>
+            <sound id="vic_fuel_08_02"/>   
+        </random>
     </Sounds>
 </table>
