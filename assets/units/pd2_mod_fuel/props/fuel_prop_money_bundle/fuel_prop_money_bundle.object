@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/pd2_mod_fuel/props/fuel_prop_money_bundle/fuel_prop_money_bundle" orientation_object="rp_item_money_bundle" />
+	<sequence_manager file="units/pd2_mod_fuel/props/fuel_prop_money_bundle/fuel_prop_money_bundle" />
+	<bodies>
+		<body collides_with_mover="false" name="static_body" enabled="true" template="static" collision_class="disabled">
+			<object name="rp_item_money_bundle" />
+			<object name="c_money" collision_type="box" padding="-2"/>
+		</body>
+	</bodies>
+
+	<decal_surfaces default_material="thin_layer" static="true">
+	<decal_mesh material="thin_layer" name="c_money" enabled="true" />
+	</decal_surfaces>
+
+	<graphics>
+		<object name="g_money_1"	enabled="true"  />
+		<object name="g_money_2"	enabled="false" />
+		<object name="g_outline"	enabled="false" />
+	</graphics>
+</dynamic_object>
