@@ -2994,8 +2994,61 @@
 		<unit path="units/dev_tools/level_tools/dev_ai_vis_blocker_1x1/dev_ai_vis_blocker_1x1"/>
 	</add>
 	<add from_db="true" path="units/payday2/architecture/lcm_int_barista_corner/lcm_int_barista_corner" type="unit">
-		<unit path="units/payday2/architecture/lcm_int_barista_corner/lcm_int_barista_corner"/>
-		<object path="units/payday2/architecture/lcm_int_barista_corner/lcm_int_barista_corner"/>
 		<material_config path="units/payday2/architecture/lcm_int_barista_corner/lcm_int_barista_corner"/>
+		<object path="units/payday2/architecture/lcm_int_barista_corner/lcm_int_barista_corner"/>
+		<unit path="units/payday2/architecture/lcm_int_barista_corner/lcm_int_barista_corner"/>
+	</add>
+	<add from_db="true" path="units/payday2/vehicles/str_vehicle_car_crossover/str_vehicle_car_crossover" type="unit">
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/payday2/vehicles/str_vehicle_car_crossover/str_vehicle_car_crossover"/>
+		<sequence_manager path="units/payday2/vehicles/str_vehicle_car_crossover/str_vehicle_car_crossover"/>
+		<unit path="units/payday2/vehicles/str_vehicle_car_crossover/str_vehicle_car_crossover"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/civ_male_casual_1/civ_male_casual_1" type="unit">
+		<unit path="units/payday2/characters/civ_male_casual_1/civ_male_casual_1"/>
+		<unit load="true" path="units/payday2/characters/civ_male_casual_1/civ_male_casual_1_husk"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_help/props/hlp_black_plane/hlp_black_plane" type="unit">
+		<material_config path="units/pd2_dlc_help/props/hlp_black_plane/hlp_black_plane"/>
+		<object path="units/pd2_dlc_help/props/hlp_black_plane/hlp_black_plane"/>
+		<unit path="units/pd2_dlc_help/props/hlp_black_plane/hlp_black_plane"/>
+	</add>
+	<add from_db="true" path="units/vehicles/animated_cars/prisoner_truck_drill_event/prisoner_truck_drill_event_ford" type="unit">
+		<material_config path="units/vehicles/animated_cars/prisoner_truck_drill_event/vehicle_ford_noinstance"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/vehicles/animated_cars/prisoner_truck_drill_event/prisoner_truck_drill_event_ford"/>
+		<sequence_manager path="units/vehicles/animated_cars/prisoner_truck_drill_event/prisoner_truck_drill_event_ford"/>
+		<unit path="units/vehicles/animated_cars/prisoner_truck_drill_event/prisoner_truck_drill_event_ford"/>
+	</add>
+	<add from_db="true" path="units/vehicles/animated_cars/vehicle_suburbia_police_event/vehicle_suburbia_police_event" type="unit">
+		<material_config path="units/vehicles/animated_cars/police_ny_suburbia"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<effect load="true" path="effects/particles/environment/cop_car_lights"/>
+		<object path="units/vehicles/animated_cars/vehicle_suburbia_police_event/vehicle_suburbia_police_event"/>
+		<sequence_manager path="units/vehicles/animated_cars/vehicle_suburbia_police_event/vehicle_suburbia_police_event"/>
+		<unit path="units/vehicles/animated_cars/vehicle_suburbia_police_event/vehicle_suburbia_police_event"/>
+	</add>
+	<add from_db="true" path="units/vehicles/apartment/mercedes/vehicle_mercedes_animated_low/mercedes_apartment_animated_low" type="unit">
+		<effect load="true" path="effects/particles/window/vehicle_window"/>
+		<material_config path="units/vehicles/apartment/mercedes/vehicle_mercedes_animated_low/mercedes_apartment_animated_low"/>
+		<object path="units/vehicles/apartment/mercedes/vehicle_mercedes_animated_low/mercedes_apartment_animated_low"/>
+		<sequence_manager path="units/vehicles/apartment/mercedes/vehicle_mercedes_animated_low/mercedes_apartment_animated_low"/>
+		<unit path="units/vehicles/apartment/mercedes/vehicle_mercedes_animated_low/mercedes_apartment_animated_low"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_vehicles/cara_95sedan" type="unit">
+		<object path="units/pd2_dlc2/csgo_models/props_vehicles/cara_95sedan"/>
+		<sequence_manager path="units/pd2_dlc2/csgo_models/props_vehicles/cara_95sedan"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_vehicles/cara_95sedan"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_brb/vehicles/brb_vehicle_car_suv_family/brb_vehicle_car_suv_family" type="unit">
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/pd2_dlc_brb/vehicles/brb_vehicle_car_suv_family/brb_vehicle_car_suv_family"/>
+		<unit path="units/pd2_dlc_brb/vehicles/brb_vehicle_car_suv_family/brb_vehicle_car_suv_family"/>
+	</add>
+	<add from_db="true" path="units/payday2/vehicles/str_vehicle_car_suv_family/str_vehicle_car_suv_family" type="unit">
+		<unit path="units/payday2/vehicles/str_vehicle_car_suv_family/str_vehicle_car_suv_family"/>
+		<object path="units/payday2/vehicles/str_vehicle_car_suv_family/str_vehicle_car_suv_family"/>
+		<sequence_manager path="units/payday2/vehicles/str_vehicle_car_suv_family/str_vehicle_car_suv_family"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
 	</add>
 </table>

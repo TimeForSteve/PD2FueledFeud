@@ -1,2 +1,186 @@
 <generic_scriptdata type="table">
+	<entry key="sequences" type="table">
+		<entry key="trailer" type="table">
+			<entry index="1" type="table">
+				<entry key="name" type="string" value="start"/>
+				<entry key="start" type="number" value="0"/>
+				<entry key="stop" type="number" value="1"/>
+			</entry>
+			<entry index="2" type="table">
+				<entry key="name" type="string" value="2nd"/>
+				<entry key="start" type="number" value="0"/>
+				<entry key="stop" type="number" value="1"/>
+			</entry>
+			<entry index="3" type="table">
+				<entry key="name" type="string" value="inside"/>
+				<entry key="start" type="number" value="0"/>
+				<entry key="stop" type="number" value="1"/>
+			</entry>
+			<entry index="4" type="table">
+				<entry key="name" type="string" value="avarez"/>
+				<entry key="start" type="number" value="0"/>
+				<entry key="stop" type="number" value="1"/>
+			</entry>
+			<entry index="5" type="table">
+				<entry key="name" type="string" value="drug"/>
+				<entry key="start" type="number" value="0"/>
+				<entry key="stop" type="number" value="1"/>
+			</entry>
+		</entry>
+	</entry>
+	<entry key="worldcameras" type="table">
+		<entry key="2nd" type="table">
+			<entry key="curve_type" type="string" value="bezier"/>
+			<entry key="delay" type="number" value="0.6"/>
+			<entry key="dof_clamp" type="number" value="1"/>
+			<entry key="dof_padding" type="number" value="100"/>
+			<entry key="duration" type="number" value="3.5"/>
+			<entry key="in_acc" type="number" value="0.33"/>
+			<entry key="keys" type="table">
+				<entry index="1" type="table">
+					<entry key="far_dof" type="number" value="10000"/>
+					<entry key="fov" type="number" value="75"/>
+					<entry key="near_dof" type="number" value="150"/>
+					<entry key="roll" type="number" value="0"/>
+					<entry key="time" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry key="name" type="string" value="2nd"/>
+			<entry key="out_acc" type="number" value="1"/>
+			<entry key="positions" type="table">
+				<entry index="1" type="vector3" value="-114.028 -983.037 324.311"/>
+				<entry index="2" type="vector3" value="159.325 -1039.16 314.811"/>
+			</entry>
+			<entry key="target_positions" type="table">
+				<entry index="1" type="vector3" value="596.734 -312.1 112.979"/>
+				<entry index="2" type="vector3" value="525.347 -124.097 145.453"/>
+			</entry>
+		</entry>
+		<entry key="avarez" type="table">
+			<entry key="curve_type" type="string" value="bezier"/>
+			<entry key="delay" type="number" value="0"/>
+			<entry key="dof_clamp" type="number" value="1"/>
+			<entry key="dof_padding" type="number" value="100"/>
+			<entry key="duration" type="number" value="0.8"/>
+			<entry key="in_acc" type="number" value="0"/>
+			<entry key="keys" type="table">
+				<entry index="1" type="table">
+					<entry key="far_dof" type="number" value="10000"/>
+					<entry key="fov" type="number" value="75"/>
+					<entry key="near_dof" type="number" value="150"/>
+					<entry key="roll" type="number" value="0"/>
+					<entry key="time" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry key="name" type="string" value="avarez"/>
+			<entry key="out_acc" type="number" value="0.66"/>
+			<entry key="positions" type="table">
+				<entry index="1" type="vector3" value="1820.87 346.498 297.328"/>
+				<entry index="2" type="vector3" value="1820.87 346.498 167.096"/>
+				<entry index="3" type="vector3" value="1820.87 346.498 -58.7567"/>
+			</entry>
+			<entry key="target_positions" type="table">
+				<entry index="1" type="vector3" value="2201.43 -444.252 -182.143"/>
+				<entry index="2" type="vector3" value="2233.04 -523.495 -103.519"/>
+				<entry index="3" type="vector3" value="2152.98 -596.584 -76.2247"/>
+			</entry>
+		</entry>
+		<entry key="drug" type="table">
+			<entry key="curve_type" type="string" value="bezier"/>
+			<entry key="delay" type="number" value="1.5"/>
+			<entry key="dof_clamp" type="number" value="1"/>
+			<entry key="dof_padding" type="number" value="100"/>
+			<entry key="duration" type="number" value="1.6"/>
+			<entry key="in_acc" type="number" value="0.5"/>
+			<entry key="keys" type="table">
+				<entry index="1" type="table">
+					<entry key="far_dof" type="number" value="10000"/>
+					<entry key="fov" type="number" value="75"/>
+					<entry key="near_dof" type="number" value="150"/>
+					<entry key="roll" type="number" value="0"/>
+					<entry key="time" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry key="name" type="string" value="drug"/>
+			<entry key="out_acc" type="number" value="1"/>
+			<entry key="positions" type="table">
+				<entry index="1" type="vector3" value="1973.76 -360.324 -85.5684"/>
+				<entry index="2" type="vector3" value="1904.13 -386.218 -324.498"/>
+			</entry>
+			<entry key="target_positions" type="table">
+				<entry index="1" type="vector3" value="2861.14 79.1968 -224.752"/>
+				<entry index="2" type="vector3" value="2835.2 -39.9705 -439.446"/>
+			</entry>
+		</entry>
+		<entry key="inside" type="table">
+			<entry key="curve_type" type="string" value="bezier"/>
+			<entry key="delay" type="number" value="0"/>
+			<entry key="dof_clamp" type="number" value="1"/>
+			<entry key="dof_padding" type="number" value="100"/>
+			<entry key="duration" type="number" value="4.2"/>
+			<entry key="in_acc" type="number" value="0"/>
+			<entry key="keys" type="table">
+				<entry index="1" type="table">
+					<entry key="far_dof" type="number" value="10000"/>
+					<entry key="fov" type="number" value="75"/>
+					<entry key="near_dof" type="number" value="150"/>
+					<entry key="roll" type="number" value="0"/>
+					<entry key="time" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry key="name" type="string" value="inside"/>
+			<entry key="out_acc" type="number" value="0.66"/>
+			<entry key="positions" type="table">
+				<entry index="1" type="vector3" value="1820.87 346.498 297.328"/>
+				<entry index="2" type="vector3" value="1820.87 346.498 297.328"/>
+			</entry>
+			<entry key="target_positions" type="table">
+				<entry index="1" type="vector3" value="2403.71 -313.445 -176.773"/>
+				<entry index="2" type="vector3" value="2201.43 -444.252 -182.143"/>
+			</entry>
+		</entry>
+		<entry key="start" type="table">
+			<entry key="curve_type" type="string" value="bezier"/>
+			<entry key="delay" type="number" value="0.5"/>
+			<entry key="dof_clamp" type="number" value="1"/>
+			<entry key="dof_padding" type="number" value="100"/>
+			<entry key="duration" type="number" value="10"/>
+			<entry key="in_acc" type="number" value="0"/>
+			<entry key="keys" type="table">
+				<entry index="1" type="table">
+					<entry key="far_dof" type="number" value="10000"/>
+					<entry key="fov" type="number" value="50.0704"/>
+					<entry key="near_dof" type="number" value="150"/>
+					<entry key="roll" type="number" value="0"/>
+					<entry key="time" type="number" value="0"/>
+				</entry>
+				<entry index="2" type="table">
+					<entry key="far_dof" type="number" value="10000"/>
+					<entry key="fov" type="number" value="75"/>
+					<entry key="near_dof" type="number" value="150"/>
+					<entry key="roll" type="number" value="0"/>
+					<entry key="time" type="number" value="0.526415"/>
+				</entry>
+				<entry index="3" type="table">
+					<entry key="far_dof" type="number" value="10000"/>
+					<entry key="fov" type="number" value="74.9745"/>
+					<entry key="near_dof" type="number" value="150"/>
+					<entry key="roll" type="number" value="0"/>
+					<entry key="time" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry key="name" type="string" value="start"/>
+			<entry key="out_acc" type="number" value="1"/>
+			<entry key="positions" type="table">
+				<entry index="1" type="vector3" value="-1312.03 1554.34 678.521"/>
+				<entry index="2" type="vector3" value="-1218.13 1095.93 678.62"/>
+				<entry index="3" type="vector3" value="-1466.3 532.692 629.255"/>
+			</entry>
+			<entry key="target_positions" type="table">
+				<entry index="1" type="vector3" value="-312.98 1510.71 679.392"/>
+				<entry index="2" type="vector3" value="-219.087 1052.3 679.491"/>
+				<entry index="3" type="vector3" value="-559.518 118.468 550.792"/>
+			</entry>
+		</entry>
+	</entry>
 </generic_scriptdata>
