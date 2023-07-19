@@ -9,10 +9,10 @@
 		<packages/>
 	</instance>
 	<instance id="fuel_tape_locker">
-		<packages/>
 		<equipments>
 			<special icon="equipment_casette" id="fuel_casette" sync_possession="true" text_id="hud_equipment_fuel_casette"/>
 		</equipments>
+		<packages/>
 	</instance>
 	<instance id="fuel_ticket_logic">
 		<packages/>
@@ -20,13 +20,23 @@
 	<instance id="fuel_circuitbreaker">
 		<packages/>
 	</instance>
-	<HeistMusic directory="assets/sounds/music" id="track_fuel" volume="0.6">
-        <event name="setup" source="stealth.ogg" start_source="stealth_intro.ogg"/>
-        <event name="anticipation" source="anticipation.ogg"/>
-        <event name="assault" source="assault.ogg" start_source="assault_intro.ogg"/>
-        <event name="control" source="control.ogg" start_source="control_intro.ogg"/>
-    </HeistMusic>
-	<Achievements icon="guis/mods/fuel/textures/achievements/fuel_pack" id="achievements_fuel" banner="guis/mods/fuel/textures/achievements/fuel_banner">
+	<HUDIcon id="equipment_pizzabox" texture="guis/mods/fuel/textures/pd2/hud_pickups_fuel">
+		<texture_rect>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="32"/>
+			<value_node value="32"/>
+		</texture_rect>
+	</HUDIcon>
+	<HUDIcon id="equipment_casette" texture="guis/mods/fuel/textures/pd2/hud_pickups_fuel">
+		<texture_rect>
+			<value_node value="32"/>
+			<value_node value="0"/>
+			<value_node value="32"/>
+			<value_node value="32"/>
+		</texture_rect>
+	</HUDIcon>
+	<Achievements banner="guis/mods/fuel/textures/achievements/fuel_banner" icon="guis/mods/fuel/textures/achievements/fuel_pack" id="achievements_fuel">
 		<achievement desc_id="achievement_fuel_wd_0_desc" icon="guis/mods/fuel/textures/achievements/fuel_normal" id="achievement_fuel_wd_0" name_id="achievement_fuel_wd_0" rank="1"/>
 		<achievement desc_id="achievement_fuel_wd_1_desc" icon="guis/mods/fuel/textures/achievements/fuel_hard" id="achievement_fuel_wd_1" name_id="achievement_fuel_wd_1" rank="1"/>
 		<achievement desc_id="achievement_fuel_wd_2_desc" icon="guis/mods/fuel/textures/achievements/fuel_veryhard" id="achievement_fuel_wd_2" name_id="achievement_fuel_wd_2" rank="1"/>
@@ -58,6 +68,12 @@
 		<texture path="guis/mods/fuel/textures/achievements/fuel_pay"/>
 		<texture path="guis/mods/fuel/textures/achievements/fuel_ks"/>
 	</AddFiles>
+	<HeistMusic directory="assets/sounds/music" id="track_fuel" volume="0.6">
+		<event name="setup" source="stealth.ogg" start_source="stealth_intro.ogg"/>
+		<event name="anticipation" source="anticipation.ogg"/>
+		<event name="assault" source="assault.ogg" start_source="assault_intro.ogg"/>
+		<event name="control" source="control.ogg" start_source="control_intro.ogg"/>
+	</HeistMusic>
 	<Hooks directory="hooks">
 		<hook file="guitweakdata.lua" source_file="lib/tweak_data/guitweakdata"/>
 		<hook file="musicmanager.lua" source_file="lib/managers/musicmanager"/>
@@ -80,24 +96,11 @@
 			<type budget_cost="3" category="mission_equipment" cost="8000" icon="93" id="fuel_plane" pos_not_important="true" post_event="preplan_13" prio="3" total="1"/>
 		</types>
 	</PrePlanning>
-	<HUDIcon id="equipment_pizzabox" texture="guis/mods/fuel/textures/pd2/hud_pickups_fuel">
-		<texture_rect>
-			<value_node value="0"/>
-			<value_node value="0"/>
-			<value_node value="32"/>
-			<value_node value="32"/>
-		</texture_rect>
-	</HUDIcon>
-	<HUDIcon id="equipment_casette" texture="guis/mods/fuel/textures/pd2/hud_pickups_fuel">
-		<texture_rect>
-			<value_node value="32"/>
-			<value_node value="0"/>
-			<value_node value="32"/>
-			<value_node value="32"/>
-		</texture_rect>
-	</HUDIcon>
+	<Sounds directory="assets/sounds/vo" unload="true">
+		<sound id="Play_ygr_fuel_cbf" path="ygr_fuel_cbf.ogg"/>
+	</Sounds>
 	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="yaeger" name_id="contact_yaeger_name" package="packages/contact_bain"/>
-	<level ai_group_type="America" brief_id="heist_fuel_briefing" briefing_dialog="Play_ygr_fuel_brf_01" ghost_bonus="0.06" id="fuel" intro_event="" load_screen="guis/mods/fuel/textures/loading/job_fuel_df" max_bags="25" player_style="generic">
+	<level ai_group_type="america" brief_id="heist_fuel_briefing" briefing_dialog="Play_ygr_fuel_brf_01" id="fuel" intro_event="" max_bags="25" player_style="generic" team_ai_off="true">
 		<assets/>
 		<equipments>
 			<special icon="equipment_electrical" id="fuel_jumper_cable" sync_possession="true"/>
@@ -127,21 +130,21 @@
 			<interaction based_on="hold_pickup_lance" id="fuel_hold_pickup_generator" interact_distance="200"/>
 			<interaction based_on="hold_pickup_lance" id="fuel_hold_pickup_winch" interact_distance="200"/>
 			<interaction id="fuel_take_pizzabox" interact_distance="200"/>
-			<interaction id="fuel_hold_place_pizzabox" interact_distance="200" timer="2" equipment_text_id="hud_int_requires_pizzabox" special_equipment="fuel_pizzabox" equipment_consume="true"/>
-			<interaction id="fuel_hold_spike_pizza" interact_distance="200" timer="5" equipment_text_id="hint_no_laxative" special_equipment="laxative" equipment_consume="true" start_active="false"/>
-			<interaction id="fuel_hold_call_1" interact_distance="200" timer="3" sound_start="bar_train_panel_hacking" sound_interupt="bar_train_panel_hacking_cancel" sound_done="bar_train_panel_hacking_finished"/>
-			<interaction id="fuel_hold_call_2" based_on="fuel_hold_call_1"/>
-			<interaction id="fuel_hold_call_3" based_on="fuel_hold_call_1"/>
+			<interaction equipment_consume="true" equipment_text_id="hud_int_requires_pizzabox" id="fuel_hold_place_pizzabox" interact_distance="200" special_equipment="fuel_pizzabox" timer="2"/>
+			<interaction equipment_consume="true" equipment_text_id="hint_no_laxative" id="fuel_hold_spike_pizza" interact_distance="200" special_equipment="laxative" start_active="false" timer="5"/>
+			<interaction id="fuel_hold_call_1" interact_distance="200" sound_done="bar_train_panel_hacking_finished" sound_interupt="bar_train_panel_hacking_cancel" sound_start="bar_train_panel_hacking" timer="3"/>
+			<interaction based_on="fuel_hold_call_1" id="fuel_hold_call_2"/>
+			<interaction based_on="fuel_hold_call_1" id="fuel_hold_call_3"/>
 			<interaction based_on="chca_hold_pour_diesel" equipment_consume="true" id="fuel_hold_fuel_gen" interact_distance="100"/>
 			<interaction based_on="born_plug_in_powercord" equipment_consume="true" equipment_text_id="hud_int_requires_pizzabox" id="fuel_use_jumper_cable" special_equipment="fuel_jumper_cable"/>
-			<interaction based_on="bex_take_cupprint" equipment_consume="true" equipment_text_id="hud_int_requires_casette" id="fuel_use_tape" action_text_id="hud_action_generic" special_equipment="fuel_casette"/>
+			<interaction action_text_id="hud_action_generic" based_on="bex_take_cupprint" equipment_consume="true" equipment_text_id="hud_int_requires_casette" id="fuel_use_tape" special_equipment="fuel_casette"/>
 			<interaction based_on="huge_lance" equipment_consume="true" equipment_text_id="hud_int_equipment_no_winch_part" id="fuel_repair_winch" special_equipment="fuel_winch_part" timer="6"/>
 			<interaction axis="z" force_update_position="true" id="fuel_hold_push_car" interact_distance="250" timer="2.5"/>
 		</interactions>
 		<lootbags>
-			<carry based_on="winch_part" type="medium" id="fuel_generator" name_id="hud_carry_fuel_generator"/>
-			<carry based_on="winch_part" type="medium" id="fuel_winch" name_id="hud_carry_fuel_winch"/>
-			<carry based_on="weapon" id="fuel_grenades" type="medium" name_id="hud_carry_grenades">
+			<carry based_on="winch_part" id="fuel_generator" name_id="hud_carry_fuel_generator" type="medium"/>
+			<carry based_on="winch_part" id="fuel_winch" name_id="hud_carry_fuel_winch" type="medium"/>
+			<carry based_on="weapon" id="fuel_grenades" name_id="hud_carry_grenades" type="medium">
 				<AI_carry SO_category="enemies"/>
 			</carry>
 		</lootbags>
@@ -172,9 +175,6 @@
 			<file path="scriptdata/job_c_fuel.sounds"/>
 		</xml>
 	</level>
-	<Sounds directory="assets/sounds/vo" unload="true">
-        <sound id="Play_ygr_fuel_cbf" path="ygr_fuel_cbf.ogg"/>
-	</Sounds>
 	<narrative brief_id="heist_fuel_crimenet" briefing_event="Play_ygr_fuel_cbf" contact="yaeger" icon="guis/mods/fuel/textures/pd2/crimenet/fuel" id="fuel">
 		<chain>
 			<table level_id="fuel" type="d" type_id="heist_type_assault"/>

@@ -3046,9 +3046,16 @@
 		<unit path="units/pd2_dlc_brb/vehicles/brb_vehicle_car_suv_family/brb_vehicle_car_suv_family"/>
 	</add>
 	<add from_db="true" path="units/payday2/vehicles/str_vehicle_car_suv_family/str_vehicle_car_suv_family" type="unit">
-		<unit path="units/payday2/vehicles/str_vehicle_car_suv_family/str_vehicle_car_suv_family"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
 		<object path="units/payday2/vehicles/str_vehicle_car_suv_family/str_vehicle_car_suv_family"/>
 		<sequence_manager path="units/payday2/vehicles/str_vehicle_car_suv_family/str_vehicle_car_suv_family"/>
-		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<unit path="units/payday2/vehicles/str_vehicle_car_suv_family/str_vehicle_car_suv_family"/>
+	</add>
+	<add from_db="true" path="effects/particles/environment/fire_smoke_plane_crash" type="effect">
+		<effect load="true" path="effects/particles/environment/fire_smoke_plane_crash"/>
+	</add>
+	<add from_db="true" path="effects/particles/dest/bruce_crash" type="effect">
+		<effect load="true" path="effects/particles/dest/bruce_crash"/>
+		<effect load="true" path="effects/particles/environment/bruce_crash_puffspawn"/>
 	</add>
 </table>

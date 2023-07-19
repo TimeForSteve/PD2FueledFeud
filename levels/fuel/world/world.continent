@@ -723,7 +723,7 @@
 			<unit_data continent="world" name="units/pd2_dlc1/props/res_prop_store/res_prop_store_chipsbags_a" name_id="res_prop_store_chipsbags_a_001" position="2144.01 -224.996 11" rotation="-4.46859e-015 1.52469e-014 -0.732544 -0.68072" unit_id="100129"/>
 		</table>
 		<table>
-			<unit_data continent="world" name="units/pd2_dlc1/props/res_prop_store/res_prop_store_chipsbag_a" name_id="res_prop_store_chipsbag_a_002" position="2181.31 -229.765 -6.8561" rotation="-0.11835 0.992921 -0.00978541 0.00219912" unit_id="100130"/>
+			<unit_data continent="world" name="units/pd2_dlc1/props/res_prop_store/res_prop_store_chipsbag_a" name_id="res_prop_store_chipsbag_a_002" position="2453 -447 59.5574" rotation="-0.11835 0.992921 -0.00978541 0.00219912" unit_id="100130"/>
 		</table>
 		<table>
 			<unit_data continent="world" name="units/pd2_dlc1/props/res_prop_store/res_prop_store_chips_b" name_id="res_prop_store_chips_b_001" position="2131 -286.996 8" rotation="-1.50729e-014 -5.02436e-015 0.707108 -0.707106" unit_id="100131"/>
@@ -735,7 +735,7 @@
 			<unit_data continent="world" name="units/pd2_dlc1/props/res_prop_store/res_prop_store_chips_a" name_id="res_prop_store_chips_a_001" position="2131.01 -346.996 9" rotation="-1.50729e-014 -5.02436e-015 0.707108 -0.707106" unit_id="100133"/>
 		</table>
 		<table>
-			<unit_data continent="world" name="units/pd2_dlc1/props/res_prop_store/res_prop_store_shelf_c" name_id="res_prop_store_shelf_c_003" position="2114.01 -373.994 -12" rotation="-5.02439e-015 1.50729e-014 -0.70711 -0.707104" unit_id="100134"/>
+			<unit_data continent="world" name="units/pd2_dlc1/props/res_prop_store/res_prop_store_shelf_c" name_id="res_prop_store_shelf_c_003" position="2114.01 -373.994 -12" rotation="0 0 -0.707107 -0.707107" unit_id="100134"/>
 		</table>
 		<table>
 			<unit_data continent="world" name="units/pd2_dlc1/props/res_prop_store/res_prop_store_shelf_c" name_id="res_prop_store_shelf_c_002" position="2114.01 -273.994 -12" rotation="-5.02436e-015 1.50729e-014 -0.707108 -0.707105" unit_id="100135"/>
@@ -2104,14 +2104,6 @@
 		</table>
 		<table>
 			<unit_data continent="world" name="units/pd2_dlc_flat/architecture/flt_facade/flt_facade_industrial_02_10m" name_id="flt_facade_industrial_02_10m_006" position="-4705.57 -154.234 0.000999451" rotation="0 0 1 -4.37114e-008" unit_id="100557"/>
-		</table>
-		<table>
-			<unit_data continent="world" disable_on_ai_graph="true" mesh_variation="state_police_officers_on" name="units/payday2/vehicles/bnk_vehicle_car_police_anim_1/bnk_vehicle_car_police_anim_1" name_id="police_car_001" position="1649 1354 10" rotation="0 0 1 4.37114e-008" unit_id="100558">
-				<lights>
-					<table clipping_values="10000 -10000 0" color="0.109804 0.513726 1" enabled="true" falloff_exponent="4" far_range="350" multiplier="@IDd07c4dc12188729d@" name="li_light_blue" near_range="0" spot_angle_end="1" spot_angle_start="1"/>
-					<table clipping_values="10000 -10000 0" color="1 0.118 0.118" enabled="true" falloff_exponent="4" far_range="350" multiplier="@ID90cc6917c5799ad8@" name="li_light_red" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
-				</lights>
-			</unit_data>
 		</table>
 		<table>
 			<unit_data continent="world" name="core/units/light_omni/light_omni" name_id="light_omni_013" position="4267.81 -1152.53 200" rotation="0 0 0 -1" unit_id="100559">
@@ -3509,9 +3501,6 @@
 		</table>
 		<table>
 			<unit_data continent="world" disable_on_ai_graph="true" mesh_variation="interaction_disable" name="units/pd2_mod_fuel/pickups/fuel_pku_generator/fuel_pku_generator" name_id="fuel_pku_generator_004" position="-551 -1484 100" rotation="0 0 -0.608761 -0.793353" unit_id="100792"/>
-		</table>
-		<table>
-			<unit_data continent="world" mesh_variation="release" name="units/pd2_dlc1/props/res_prop_store/res_prop_store_chips_a" name_id="res_prop_store_chips_a_005" position="2270.5 -342.967 123" rotation="-0.192388 -0.132224 0.550759 -0.801354" unit_id="101079"/>
 		</table>
 		<table>
 			<unit_data continent="world" name="units/pd2_dlc_jerry/props/jry_prop_garage_cartirechanger/jry_prop_garage_cartirechanger" name_id="jry_prop_garage_cartirechanger_001" position="-1018.86 -1696.35 11.9987" rotation="0 0 -0.707107 -0.707107" unit_id="101080"/>
@@ -9735,6 +9724,20 @@
 		</table>
 		<table>
 			<unit_data continent="world" mesh_variation="" name="units/pd2_mod_custom/cus_loot_m4/cases/cus_loot_m4_case_z_axis" name_id="cus_loot_m4_case_z_axis_009" position="2515.24 -52.0021 -445.4" rotation="0 0 0.743145 -0.66913" unit_id="101036"/>
+		</table>
+		<table>
+			<unit_data continent="world" mesh_variation="" name="units/payday2/vehicles/str_vehicle_car_crossover/str_vehicle_car_crossover" name_id="str_vehicle_car_crossover_002" position="1137.04 -250.47 -11.7103" rotation="0 0 -0.0958458 -0.995396" unit_id="101037">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 0 0" enabled="false" falloff_exponent="4" far_range="350" multiplier="@ID748ce7d9371994d6@" name="li_light_back" near_range="0" spot_angle_end="1" spot_angle_start="1"/>
+					<table clipping_values="10000 -10000 0" color="1 1 0.84" enabled="false" falloff_exponent="4" far_range="350" multiplier="@ID748ce7d9371994d6@" name="li_light_front" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data continent="world" disable_on_ai_graph="true" mesh_variation="state_vis_tinted_windows" name="units/payday2/vehicles/str_vehicle_van_anim_shouse/str_vehicle_van_anim_shouse" name_id="str_vehicle_van_anim_shouse_004" position="879.871 3941 8" rotation="0 0 0.999962 0.00872683" unit_id="101038"/>
+		</table>
+		<table>
+			<unit_data continent="world" disable_on_ai_graph="true" name="units/pd2_dlc_holly/river/vehicles/lxa_vehicle_car_crossover_wrecked/lxa_vehicle_car_crossover_wrecked" name_id="lxa_vehicle_car_crossover_wrecked_003" position="1138 350 -12" rotation="0 0 0 -1" unit_id="100558"/>
 		</table>
 	</statics>
 	<values>
