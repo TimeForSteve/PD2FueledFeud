@@ -2998,11 +2998,14 @@
 		<object path="units/payday2/architecture/lcm_int_barista_corner/lcm_int_barista_corner"/>
 		<unit path="units/payday2/architecture/lcm_int_barista_corner/lcm_int_barista_corner"/>
 	</add>
-	<add from_db="true" path="units/payday2/vehicles/str_vehicle_car_crossover/str_vehicle_car_crossover" type="unit">
-		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
-		<object path="units/payday2/vehicles/str_vehicle_car_crossover/str_vehicle_car_crossover"/>
-		<sequence_manager path="units/payday2/vehicles/str_vehicle_car_crossover/str_vehicle_car_crossover"/>
-		<unit path="units/payday2/vehicles/str_vehicle_car_crossover/str_vehicle_car_crossover"/>
+	<add path="units/payday2/vehicles/str_vehicle_car_crossover/str_vehicle_car_crossover" type="unit">
+		<material_config from_db="true" path="units/payday2/props/dest_glass/glass_shatter"/>
+		<material_config path="units/payday2/vehicles/str_vehicle_car_crossover/str_vehicle_car_crossover_orange"/>
+		<texture path="units/payday2/vehicles/str_vehicle_car_crossover/str_vehicle_car_crossover_orange_df"/>
+		<texture from_db="true" path="units/payday2/vehicles/str_vehicle_car_crossover/str_vehicle_car_crossover_df"/>
+		<object from_db="true" path="units/payday2/vehicles/str_vehicle_car_crossover/str_vehicle_car_crossover"/>
+		<sequence_manager from_db="true" path="units/payday2/vehicles/str_vehicle_car_crossover/str_vehicle_car_crossover"/>
+		<unit from_db="true" path="units/payday2/vehicles/str_vehicle_car_crossover/str_vehicle_car_crossover"/>
 	</add>
 	<add from_db="true" path="units/payday2/characters/civ_male_casual_1/civ_male_casual_1" type="unit">
 		<unit path="units/payday2/characters/civ_male_casual_1/civ_male_casual_1"/>
@@ -3057,5 +3060,8 @@
 	<add from_db="true" path="effects/particles/dest/bruce_crash" type="effect">
 		<effect load="true" path="effects/particles/dest/bruce_crash"/>
 		<effect load="true" path="effects/particles/environment/bruce_crash_puffspawn"/>
+	</add>
+	<add from_db="true" path="effects/particles/environment/heavy_smoke_and_fire" type="effect">
+		<effect load="true" path="effects/particles/environment/heavy_smoke_and_fire"/>
 	</add>
 </table>
