@@ -1,0 +1,13 @@
+<unit type="des" slot="1">
+	<network sync="spawn"/>
+	<object file="units/pd2_mod_fuel/props/movie_tv/movie_tv" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="tv_gui" class="TvGui">
+	 		<var name="_gui_object" value="screen" />
+			<var name="_video" value="units/pd2_mod_fuel/props/movie_tv/movie" />
+			<var name="_playing" value="true" />
+ 		</extension>
+	</extensions>
+</unit>

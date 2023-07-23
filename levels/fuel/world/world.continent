@@ -420,7 +420,6 @@
 				<value_node value="102817"/>
 				<value_node value="102833"/>
 				<value_node value="102822"/>
-				<value_node value="102803"/>
 				<value_node value="102804"/>
 				<value_node value="102798"/>
 				<value_node value="102799"/>
@@ -6978,9 +6977,6 @@
 			<unit_data continent="world" name="units/world/props/office/filecabinet/prop_filecabinet_02" name_id="basement_props_safehouse008" position="2323 -3754 789" rotation="0 0 0.398749 -0.91706" unit_id="102802"/>
 		</table>
 		<table>
-			<unit_data continent="world" mesh_variation="break_signal" name="units/world/props/gym/stn_prop_monitor/stn_prop_monitor" name_id="basement_props_safehouse005" position="1356 -3636 893.393" rotation="0 0 0.95882 -0.284015" unit_id="102803"/>
-		</table>
-		<table>
 			<unit_data continent="world" name="units/world/props/gym/stn_prop_taperecorder/stn_prop_taperecorder" name_id="basement_props_safehouse004" position="1664 -3791 864" rotation="0 0 0.986286 -0.165048" unit_id="102804"/>
 		</table>
 		<table>
@@ -9668,6 +9664,16 @@
 		</table>
 		<table>
 			<unit_data continent="world" disable_on_ai_graph="true" name="units/pd2_dlc_holly/river/vehicles/lxa_vehicle_car_crossover_wrecked/lxa_vehicle_car_crossover_wrecked" name_id="lxa_vehicle_car_crossover_wrecked_003" position="1138 350 -12" rotation="0 0 0 -1" unit_id="100558"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="core/units/light_omni/light_omni" name_id="light_omni_016" position="917 269 -359.4" rotation="-0 0 -0 -1" unit_id="101040">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.603922 0.603922 0.529412" enabled="true" falloff_exponent="1" far_range="450" multiplier="@ID748ce7d9371994d6@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data continent="world" mesh_variation="state_video_stop" name="units/pd2_mod_fuel/props/movie_tv/movie_tv" name_id="movie_tv_001" position="1356 -3636 893.393" rotation="0 0 0.95882 -0.284015" unit_id="101041"/>
 		</table>
 	</statics>
 	<values>

@@ -345,22 +345,22 @@
 		</entry>
 		<entry key="torture" type="table">
 			<entry key="curve_type" type="string" value="bezier"/>
-			<entry key="delay" type="number" value="6"/>
+			<entry key="delay" type="number" value="12"/>
 			<entry key="dof_clamp" type="number" value="1"/>
 			<entry key="dof_padding" type="number" value="100"/>
-			<entry key="duration" type="number" value="7"/>
+			<entry key="duration" type="number" value="10"/>
 			<entry key="in_acc" type="number" value="0"/>
 			<entry key="keys" type="table">
 				<entry index="1" type="table">
 					<entry key="far_dof" type="number" value="10000"/>
-					<entry key="fov" type="number" value="25"/>
+					<entry key="fov" type="number" value="20"/>
 					<entry key="near_dof" type="number" value="150"/>
 					<entry key="roll" type="number" value="0"/>
 					<entry key="time" type="number" value="0"/>
 				</entry>
 				<entry index="2" type="table">
 					<entry key="far_dof" type="number" value="10000"/>
-					<entry key="fov" type="number" value="75"/>
+					<entry key="fov" type="number" value="35.3123"/>
 					<entry key="near_dof" type="number" value="150"/>
 					<entry key="roll" type="number" value="0"/>
 					<entry key="time" type="number" value="1"/>
@@ -372,7 +372,7 @@
 				<entry index="1" type="vector3" value="695.123 241.269 -367.571"/>
 			</entry>
 			<entry key="target_positions" type="table">
-				<entry index="1" type="vector3" value="1693.29 264.775 -311.751"/>
+				<entry index="1" type="vector3" value="1691.75 258.644 -287.374"/>
 			</entry>
 		</entry>
 		<entry key="torture_idle" type="table">
@@ -397,7 +397,7 @@
 				<entry index="1" type="vector3" value="695.123 241.269 -367.571"/>
 			</entry>
 			<entry key="target_positions" type="table">
-				<entry index="1" type="vector3" value="1693.29 264.775 -311.751"/>
+				<entry index="1" type="vector3" value="1691.75 258.644 -287.374"/>
 			</entry>
 		</entry>
 		<entry key="vicy" type="table">
@@ -410,20 +410,27 @@
 			<entry key="keys" type="table">
 				<entry index="1" type="table">
 					<entry key="far_dof" type="number" value="10000"/>
-					<entry key="fov" type="number" value="75"/>
+					<entry key="fov" type="number" value="80"/>
 					<entry key="near_dof" type="number" value="150"/>
 					<entry key="roll" type="number" value="0"/>
 					<entry key="time" type="number" value="0"/>
+				</entry>
+				<entry index="2" type="table">
+					<entry key="far_dof" type="number" value="10000"/>
+					<entry key="fov" type="number" value="75"/>
+					<entry key="near_dof" type="number" value="150"/>
+					<entry key="roll" type="number" value="0"/>
+					<entry key="time" type="number" value="0.25"/>
 				</entry>
 			</entry>
 			<entry key="name" type="string" value="vicy"/>
 			<entry key="out_acc" type="number" value="1"/>
 			<entry key="positions" type="table">
-				<entry index="1" type="vector3" value="1333.1 -3602.25 930"/>
+				<entry index="1" type="vector3" value="1333.5 -3602.8 926.261"/>
 				<entry index="2" type="vector3" value="1246.06 -3528.59 960.521"/>
 			</entry>
 			<entry key="target_positions" type="table">
-				<entry index="1" type="vector3" value="1886.45 -4435.17 936.974"/>
+				<entry index="1" type="vector3" value="1886.84 -4435.7 916.662"/>
 				<entry index="2" type="vector3" value="2004.26 -4179.63 924.736"/>
 			</entry>
 		</entry>

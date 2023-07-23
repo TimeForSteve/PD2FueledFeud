@@ -1,0 +1,15 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name="'state_video_start'" triggable="true">
+			<function extension="'tv_gui'" function="'start'"/>
+			<object enabled="false" name="'g_screen'"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_video_pause'" triggable="true">
+			<function extension="'tv_gui'" function="'pause'"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_video_stop'" triggable="true">
+			<function extension="'tv_gui'" function="'stop'"/>
+			<object enabled="true" name="'g_screen'"/>
+		</sequence>
+	</unit>
+</table>
