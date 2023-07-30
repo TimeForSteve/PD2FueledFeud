@@ -80803,6 +80803,10 @@
 							<entry key="delay" type="number" value="8"/>
 							<entry key="id" type="number" value="102677"/>
 						</entry>
+						<entry index="5" type="table">
+							<entry key="delay" type="number" value="8"/>
+							<entry key="id" type="number" value="102682"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="2200 4100 100.1"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
@@ -83348,7 +83352,7 @@
 				<entry key="script" type="string" value="trailer"/>
 				<entry key="values" type="table">
 					<entry key="base_delay" type="number" value="0"/>
-					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="enabled" type="boolean" value="false"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
@@ -83493,6 +83497,72 @@
 					<entry key="trigger_on" type="string" value="none"/>
 					<entry key="trigger_times" type="number" value="0"/>
 					<entry key="use_instigator" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="82" type="table">
+				<entry key="class" type="string" value="ElementWorldCamera"/>
+				<entry key="editor_name" type="string" value="start_movie5"/>
+				<entry key="id" type="number" value="102682"/>
+				<entry key="module" type="string" value="CoreElementWorldCamera"/>
+				<entry key="script" type="string" value="trailer"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102683"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="2050 4250 250.1"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="worldcamera" type="string" value="hatch_stare"/>
+					<entry key="worldcamera_sequence" type="string" value="none"/>
+				</entry>
+			</entry>
+			<entry index="83" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="movie_sequence_hatch"/>
+				<entry key="id" type="number" value="102683"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="trailer"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="2032 4200 350.1"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100545"/>
+							<entry key="notify_unit_sequence" type="string" value="state_door_open"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="101344"/>
+							<entry key="notify_unit_sequence" type="string" value="anim_pull_cable"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="101344"/>
+							<entry key="notify_unit_sequence" type="string" value="anim_release_hatch"/>
+							<entry key="time" type="number" value="0.3"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100894"/>
+							<entry key="notify_unit_sequence" type="string" value="state_hide"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
 		</entry>
