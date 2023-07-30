@@ -433,7 +433,7 @@
 		<table continent="world" folder="levels/instances/mods/FueledFeud/fuel_manhole/world" index_size="250" name="fuel_manhole_001" position="2730 893 -10" rotation="0 0 -1 4.37114e-008" script="default" start_index="750"/>
 		<table continent="world" folder="levels/instances/mods/FueledFeud/fuel_manhole/world" index_size="250" name="fuel_manhole_002" position="200 1024 -10" rotation="0 0 0 -1" script="default" start_index="1000"/>
 		<table continent="world" folder="levels/instances/mods/FueledFeud/fuel_manhole/world" index_size="250" name="fuel_manhole_003" position="400 -790 -10" rotation="-0 0 -0 -1" script="default" start_index="1250"/>
-		<table continent="world" folder="levels/instances/mods/FueledFeud/fuel_freezer/world" index_size="250" mission_placed="true" name="fuel_freezer" position="1110 20 4000" rotation="0 0 -0.707107 -0.707107" script="default" start_index="1500"/>
+		<table continent="world" folder="levels/instances/mods/FueledFeud/fuel_freezer/world" index_size="250" mission_placed="true" name="fuel_freezer" position="1110 20 -2800" rotation="0 0 -0.707107 -0.707107" script="default" start_index="1500"/>
 		<table continent="world" folder="levels/instances/mods/FueledFeud/fuel_tape_locker/world" index_size="250" name="fuel_tape_locker_001" position="1510 850 -485" rotation="0 0 -1 4.37114e-008" script="default" start_index="1750"/>
 		<table continent="world" folder="levels/instances/mods/FueledFeud/fuel_tape_locker/world" index_size="250" name="fuel_tape_locker_002" position="1610 850 -485" rotation="0 0 -1 4.37114e-008" script="default" start_index="2000"/>
 		<table continent="world" folder="levels/instances/mods/FueledFeud/fuel_tape_locker/world" index_size="250" name="fuel_tape_locker_003" position="1710 850 -485" rotation="0 0 -1 4.37114e-008" script="default" start_index="2250"/>
@@ -5224,7 +5224,7 @@
 			<unit_data continent="world" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_fence_pole_2m_grey" name_id="ind_ext_fence_pole_2m_grey_006" position="1690 -1470 -85" rotation="-4.37114e-008 1 -4.37114e-008 1.91069e-015" unit_id="101905"/>
 		</table>
 		<table>
-			<unit_data continent="world" mesh_variation="state_whole" name="units/pd2_mod_fuel/architecture/fuel_basement/fuel_basement_wall_explosion" name_id="fuel_basement_wall_explosion_002" position="2948 873.999 -484.4" rotation="0 0 -0.707107 -0.707107" unit_id="101103"/>
+			<unit_data continent="world" mesh_variation="destroy" name="units/pd2_mod_fuel/architecture/fuel_basement/fuel_basement_wall_explosion" name_id="fuel_basement_wall_explosion_002" position="2948 873.999 -484.4" rotation="0 0 -0.707107 -0.707107" unit_id="101103"/>
 		</table>
 		<table>
 			<unit_data continent="world" mesh_variation="show" name="units/equipment/c4_charge/c4_plantable" name_id="c4_plantable_006" position="2965.5 1084.77 -345.636" rotation="-0.5 -0.5 -0.5 -0.5" unit_id="101109"/>
@@ -5481,9 +5481,6 @@
 			<unit_data continent="world" disable_on_ai_graph="true" mesh_variation="close_door" name="units/pd2_dlc_flat/props/flt_prop_apartment_front_door/flt_prop_apartment_front_door" name_id="flt_prop_apartment_front_door_010" position="1302 -3178 790" rotation="0 0 1 -4.37114e-008" unit_id="102026"/>
 		</table>
 		<table>
-			<unit_data continent="world" name="units/pd2_dlc_chico/weapons/gen_prop_contraband/gen_prop_contraband" name_id="gen_prop_contraband_001" position="2144.49 -1735.89 -398.292" rotation="0.50874 -0.491102 0.508743 0.491104" unit_id="101197"/>
-		</table>
-		<table>
 			<unit_data continent="world" name="units/payday2/props/air_prop_hangar_worktable/air_prop_hangar_worktable" name_id="basement_props_safehouse002" position="2153 -1759 -484" rotation="0 0 0.707107 -0.707107" unit_id="102025"/>
 		</table>
 		<table>
@@ -5500,16 +5497,10 @@
 			<unit_data continent="world" mesh_variation="state_show" name="units/pd2_mod_custom/cus_loot_grenades/cases/cus_loot_grenades_case_z_axis" name_id="cus_loot_grenades_case_z_axis_001" position="2212 -1759 -409" rotation="0 0 -0.725374 -0.688355" unit_id="102035"/>
 		</table>
 		<table>
-			<unit_data continent="world" name="units/payday2/props/gen_prop_weapon_case/gen_prop_weapon_case_2x1_open" name_id="gen_prop_weapon_case_2x1_open_002" position="2131 -1740 -412" rotation="0 0 -0.71325 -0.700909" unit_id="102053"/>
-		</table>
-		<table>
-			<unit_data continent="world" name="units/payday2/props/gen_prop_weapon_case/gen_prop_weapon_case_2x1_closed" name_id="gen_prop_weapon_case_2x1_closed_001" position="2131 -1740 -412" rotation="0 0 -0.71325 -0.700909" unit_id="102075"/>
-		</table>
-		<table>
 			<unit_data continent="world" mesh_variation="" name="units/pd2_mod_custom/cus_loot_m4/cases/cus_loot_m4_case_z_axis" name_id="cus_loot_m4_case_z_axis_001" position="1983 349 -483" rotation="0 0 -0.793353 -0.608762" unit_id="102189"/>
 		</table>
 		<table>
-			<unit_data continent="world" name="core/units/light_omni/light_omni" name_id="light_omni_076" position="2137 -1666 -358" rotation="0 0 -0.707107 -0.707107" unit_id="101566">
+			<unit_data continent="world" name="core/units/light_omni/light_omni" name_id="light_omni_076" position="2138 -1746 -332" rotation="0 0 -0.707107 -0.707107" unit_id="101566">
 				<lights>
 					<table clipping_values="10000 -10000 0" color="0.972549 0.792157 0.592157" enabled="true" falloff_exponent="1" far_range="250" multiplier="@IDbca13ba1d306f87b@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
 				</lights>
@@ -9674,6 +9665,48 @@
 		</table>
 		<table>
 			<unit_data continent="world" mesh_variation="state_video_pause" name="units/pd2_mod_fuel/props/movie_tv/movie_tv" name_id="movie_tv_001" position="1356 -3636 893.393" rotation="0 0 0.95882 -0.284015" unit_id="101041"/>
+		</table>
+		<table>
+			<unit_data continent="world" mesh_variation="state_show" name="units/pd2_mod_custom/cus_loot_m4/cases/cus_loot_m4_case_z_axis" name_id="cus_loot_m4_case_z_axis_002" position="2131 -1740 -387" rotation="0 0 -0.71325 -0.700909" unit_id="101045"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x4x3" name_id="dev_door_blocker_1x4x3_004_stealthnavblocker001" position="1350 -1350 -11.7103" rotation="0 0 0 -1" unit_id="101047"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x4x3" name_id="dev_door_blocker_1x4x3_004_stealthnavblocker002" position="1750 -1450 -11.7103" rotation="0 0 -0.707107 -0.707107" unit_id="101048"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x4x3" name_id="dev_door_blocker_1x4x3_004_stealthnavblocker003" position="1750 -1000 -11.7103" rotation="0 0 -0.707107 -0.707107" unit_id="101049"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x4x3" name_id="dev_door_blocker_1x4x3_004_stealthnavblocker004" position="1650 -1350 -11.7103" rotation="0 0 0 -1" unit_id="101050"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x4x3" name_id="dev_door_blocker_1x4x3_004_stealthnavblocker005" position="1083 -1874 -11.7103" rotation="0 0 -0.707107 -0.707107" unit_id="101051"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x4x3" name_id="dev_door_blocker_1x4x3_004_stealthnavblocker006" position="983 -2274 -11.7103" rotation="0 0 0 -1" unit_id="101052"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x4x3" name_id="dev_door_blocker_1x4x3_004_stealthnavblocker007" position="1083 -2374 -11.7103" rotation="0 0 -0.707107 -0.707107" unit_id="101053"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x4x3" name_id="dev_door_blocker_1x4x3_004_stealthnavblocker008" position="683 -2274 -11.7103" rotation="0 0 0 -1" unit_id="101054"/>
+		</table>
+		<table>
+			<unit_data continent="world" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x4x3" name_id="dev_door_blocker_1x4x3_004_stealthnavblocker009" position="550 -1350 -11.7103" rotation="0 0 0 -1" unit_id="101055"/>
+		</table>
+		<table>
+			<unit_data continent="world" mesh_variation="enable_vision_blocker" name="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_005x2x2m" name_id="dev_ai_vis_blocker_005x2x2m_020" position="1218 -1701 -11.71" rotation="0 0 -0.350207 -0.936672" unit_id="101056"/>
+		</table>
+		<table>
+			<unit_data continent="world" mesh_variation="enable_vision_blocker" name="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_005x2x2m" name_id="dev_ai_vis_blocker_005x2x2m_021" position="1086.79 -1550.06 -11.71" rotation="0 0 -0.350207 -0.936672" unit_id="101057"/>
+		</table>
+		<table>
+			<unit_data continent="world" mesh_variation="enable_vision_blocker" name="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_005x2x2m" name_id="dev_ai_vis_blocker_005x2x2m_028" position="1218 -1701 188.29" rotation="0 0 -0.350207 -0.936672" unit_id="101079"/>
+		</table>
+		<table>
+			<unit_data continent="world" mesh_variation="enable_vision_blocker" name="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_005x2x2m" name_id="dev_ai_vis_blocker_005x2x2m_029" position="1086.79 -1550.06 188.29" rotation="0 0 -0.350207 -0.936672" unit_id="101151"/>
 		</table>
 	</statics>
 	<values>
