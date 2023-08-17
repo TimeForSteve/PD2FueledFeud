@@ -29269,11 +29269,11 @@
 							<entry key="id" type="number" value="102332"/>
 						</entry>
 						<entry index="3" type="table">
-							<entry key="delay" type="number" value="15"/>
+							<entry key="delay" type="number" value="19"/>
 							<entry key="id" type="number" value="102369"/>
 						</entry>
 						<entry index="4" type="table">
-							<entry key="delay" type="number" value="10"/>
+							<entry key="delay" type="number" value="15"/>
 							<entry key="id" type="number" value="102600"/>
 						</entry>
 					</entry>
@@ -39894,7 +39894,7 @@
 							<entry key="id" type="number" value="102211"/>
 						</entry>
 						<entry index="5" type="table">
-							<entry key="delay" type="number" value="4"/>
+							<entry key="delay" type="number" value="2.5"/>
 							<entry key="id" type="number" value="102528"/>
 						</entry>
 					</entry>
@@ -41127,7 +41127,7 @@
 							<entry key="id" type="number" value="102339"/>
 						</entry>
 						<entry index="3" type="table">
-							<entry key="delay" type="number" value="24"/>
+							<entry key="delay" type="number" value="22"/>
 							<entry key="id" type="number" value="102340"/>
 						</entry>
 						<entry index="4" type="table">
@@ -45980,8 +45980,8 @@
 					<entry key="apply_settings" type="boolean" value="true"/>
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="camera_u_id" type="number" value="100010"/>
-					<entry key="detection_delay_max" type="number" value="3"/>
-					<entry key="detection_delay_min" type="number" value="2"/>
+					<entry key="detection_delay_max" type="number" value="2"/>
+					<entry key="detection_delay_min" type="number" value="1"/>
 					<entry key="detection_range" type="number" value="8"/>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
@@ -45991,7 +45991,7 @@
 					<entry key="pitch" type="number" value="-60"/>
 					<entry key="position" type="vector3" value="2850 -450 231.361"/>
 					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
-					<entry key="suspicion_range" type="number" value="5"/>
+					<entry key="suspicion_range" type="number" value="6"/>
 					<entry key="trigger_times" type="number" value="0"/>
 					<entry key="yaw" type="number" value="-40"/>
 				</entry>
@@ -46032,8 +46032,8 @@
 					<entry key="apply_settings" type="boolean" value="true"/>
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="camera_u_id" type="number" value="101364"/>
-					<entry key="detection_delay_max" type="number" value="3"/>
-					<entry key="detection_delay_min" type="number" value="2"/>
+					<entry key="detection_delay_max" type="number" value="2"/>
+					<entry key="detection_delay_min" type="number" value="1"/>
 					<entry key="detection_range" type="number" value="8"/>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
@@ -46043,7 +46043,7 @@
 					<entry key="pitch" type="number" value="-60"/>
 					<entry key="position" type="vector3" value="1850 195 231.361"/>
 					<entry key="rotation" type="quaternion" value="0 0 0.707107 -0.707107"/>
-					<entry key="suspicion_range" type="number" value="5"/>
+					<entry key="suspicion_range" type="number" value="6"/>
 					<entry key="trigger_times" type="number" value="0"/>
 					<entry key="yaw" type="number" value="-35"/>
 				</entry>
@@ -74253,11 +74253,11 @@
 					<entry key="path_style" type="string" value="precise"/>
 					<entry key="patrol_path" type="string" value="none"/>
 					<entry key="pose" type="string" value="none"/>
-					<entry key="position" type="vector3" value="1459 -4706 788.062"/>
-					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="position" type="vector3" value="1300 -4200 789"/>
+					<entry key="rotation" type="quaternion" value="-0 -0 0 -1"/>
 					<entry key="scan" type="boolean" value="false"/>
 					<entry key="search_distance" type="number" value="0"/>
-					<entry key="search_position" type="vector3" value="1459 -4706 788.062"/>
+					<entry key="search_position" type="vector3" value="1300 -4200 789"/>
 					<entry key="so_action" type="string" value="e_so_sneak_wait_stand"/>
 					<entry key="spawn_instigator_ids" type="table">
 						<entry index="1" type="number" value="100663"/>
@@ -74823,6 +74823,10 @@
 					<entry key="interval" type="number" value="1"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102614"/>
+						</entry>
 					</entry>
 					<entry key="path_haste" type="string" value="walk"/>
 					<entry key="path_stance" type="string" value="cbt"/>
@@ -81225,6 +81229,56 @@
 						</entry>
 					</entry>
 					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="2616" type="table">
+				<entry key="class" type="string" value="ElementSpecialObjective"/>
+				<entry key="editor_name" type="string" value="so_hostage_stealth_013"/>
+				<entry key="id" type="number" value="102614"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="SO_access" type="string" value="131072"/>
+					<entry key="action_duration_max" type="number" value="0"/>
+					<entry key="action_duration_min" type="number" value="0"/>
+					<entry key="ai_group" type="string" value="none"/>
+					<entry key="align_position" type="boolean" value="true"/>
+					<entry key="align_rotation" type="boolean" value="true"/>
+					<entry key="attitude" type="string" value="none"/>
+					<entry key="base_chance" type="number" value="1"/>
+					<entry key="base_delay" type="number" value="0.5"/>
+					<entry key="chance_inc" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="followup_elements" type="table">
+					</entry>
+					<entry key="forced" type="boolean" value="true"/>
+					<entry key="interaction_voice" type="string" value="none"/>
+					<entry key="interrupt_dis" type="number" value="0"/>
+					<entry key="interrupt_dmg" type="number" value="1"/>
+					<entry key="interrupt_objective" type="boolean" value="false"/>
+					<entry key="interval" type="number" value="-1"/>
+					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
+					<entry key="no_arrest" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="path_haste" type="string" value="run"/>
+					<entry key="path_stance" type="string" value="ntl"/>
+					<entry key="path_style" type="string" value="precise"/>
+					<entry key="patrol_path" type="string" value="none"/>
+					<entry key="pose" type="string" value="none"/>
+					<entry key="position" type="vector3" value="975 -4150 788"/>
+					<entry key="rotation" type="quaternion" value="0 0 0.707107 -0.707107"/>
+					<entry key="scan" type="boolean" value="false"/>
+					<entry key="search_distance" type="number" value="0"/>
+					<entry key="search_position" type="vector3" value="975 -4150 788"/>
+					<entry key="so_action" type="string" value="e_so_sneak_wait_crh_var3"/>
+					<entry key="spawn_instigator_ids" type="table">
+						<entry index="1" type="number" value="100663"/>
+					</entry>
+					<entry key="test_unit" type="string" value="units/pd2_mod_fuel/characters/ene_fuel_hostage/ene_fuel_hostage"/>
+					<entry key="trigger_on" type="string" value="none"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
 				</entry>
 			</entry>
 		</entry>
