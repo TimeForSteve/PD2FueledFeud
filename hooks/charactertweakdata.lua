@@ -45,6 +45,13 @@ Hooks:PostHook(CharacterTweakData, "init", "fuel_init_characters", function(self
 	self.fuel_boss.headshot_dmg_mul = 1
 	self.fuel_boss.no_headshot_add_mul = true
 	self.fuel_boss.player_health_scaling_mul = 1.1
+	self.fuel_boss.ecm_vulnerability = 0
+	self.fuel_boss.ecm_hurts = {
+		ears = {
+			max_duration = 0,
+			min_duration = 0
+		}
+	}
 	
 	self.fuel_boss_no_armor = deep_clone(self.hector_boss_no_armor)
 	self.fuel_boss_no_armor.allowed_poses = {
