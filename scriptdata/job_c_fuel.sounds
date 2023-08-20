@@ -2,6 +2,14 @@
     <Sounds directory="assets/sounds/vo" unload="true" auto_pause="true">
         <!-- YAEGER -->
         <sound id="Play_ygr_fuel_brf_01" path="fuel_brf_01.ogg"/>
+        <sound id="Play_ygr_fuel_intro_01" path="fuel_intro_01.ogg">
+            <markers>
+                <table position="1.4" label="ygr_fuel_intro_01"/>
+                <table position="11.6" label="ygr_fuel_intro_02"/>
+                <table position="19.7" label="ygr_fuel_intro_03"/>
+                <table position="26.1" label="ygr_fuel_intro_04"/>
+            </markers>
+        </sound>
         <sound id="Play_ygr_fuel_end_01" path="fuel_end_01.ogg"/>
         <sound id="Play_ygr_fuel_end_02" path="fuel_end_02.ogg"/>
         <sound id="Play_ygr_fuel_01" path="ygr_fuel_01.ogg" subtitle_id="ygr_fuel_01"/>

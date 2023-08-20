@@ -98,7 +98,7 @@
 		</texture_rect>
 	</HUDIcon>
 	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="yaeger" name_id="contact_yaeger_name" package="packages/contact_bain"/>
-	<level ai_group_type="America" brief_id="heist_fuel_briefing" briefing_dialog="Play_ygr_fuel_brf_01" ghost_bonus="0.06" id="fuel" intro_event="" load_screen="guis/mods/fuel/textures/loading/job_fuel_df" max_bags="25" player_style="generic">
+	<level ai_group_type="America" brief_id="heist_fuel_briefing" briefing_dialog="Play_ygr_fuel_brf_01" ghost_bonus="0.06" id="fuel" intro_event="Play_ygr_fuel_intro_01" load_screen="guis/mods/fuel/textures/loading/job_fuel_df" max_bags="25" player_style="generic">
 		<assets/>
 		<equipments>
 			<special icon="equipment_electrical" id="fuel_jumper_cable" sync_possession="true"/>
