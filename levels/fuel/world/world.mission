@@ -30434,6 +30434,10 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="102583"/>
 						</entry>
+						<entry index="11" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102620"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-960 -1380 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
@@ -42119,7 +42123,7 @@
 					<entry key="action_duration_min" type="number" value="0"/>
 					<entry key="ai_group" type="string" value="none"/>
 					<entry key="align_position" type="boolean" value="true"/>
-					<entry key="align_rotation" type="boolean" value="false"/>
+					<entry key="align_rotation" type="boolean" value="true"/>
 					<entry key="attitude" type="string" value="none"/>
 					<entry key="base_chance" type="number" value="1"/>
 					<entry key="base_delay" type="number" value="0"/>
@@ -42135,7 +42139,7 @@
 					<entry key="interrupt_dmg" type="number" value="0"/>
 					<entry key="interval" type="number" value="-1"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
-					<entry key="no_arrest" type="boolean" value="false"/>
+					<entry key="no_arrest" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="path_haste" type="string" value="run"/>
@@ -42145,7 +42149,7 @@
 					<entry key="pose" type="string" value="stand"/>
 					<entry key="position" type="vector3" value="3300 200 -9.99986"/>
 					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
-					<entry key="scan" type="boolean" value="true"/>
+					<entry key="scan" type="boolean" value="false"/>
 					<entry key="search_distance" type="number" value="0"/>
 					<entry key="search_position" type="vector3" value="3300 200 -10"/>
 					<entry key="so_action" type="string" value="none"/>
@@ -42154,8 +42158,8 @@
 					</entry>
 					<entry key="test_unit" type="string" value="units/pd2_mod_fuel/characters/ene_fuel_hostage/ene_fuel_hostage"/>
 					<entry key="trigger_on" type="string" value="none"/>
-					<entry key="trigger_times" type="number" value="0"/>
-					<entry key="use_instigator" type="boolean" value="true"/>
+					<entry key="trigger_times" type="number" value="1"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
 				</entry>
 			</entry>
 			<entry index="1331" type="table">
@@ -49404,7 +49408,7 @@
 					<entry key="difficulty_overkill" type="boolean" value="false"/>
 					<entry key="difficulty_overkill_145" type="boolean" value="false"/>
 					<entry key="difficulty_overkill_290" type="boolean" value="false"/>
-					<entry key="difficulty_sm_wish" type="boolean" value="true"/>
+					<entry key="difficulty_sm_wish" type="boolean" value="false"/>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="mode_assault" type="boolean" value="true"/>
@@ -67938,7 +67942,7 @@
 							<entry key="id" type="number" value="102171"/>
 						</entry>
 						<entry index="4" type="table">
-							<entry key="delay" type="number" value="2.2"/>
+							<entry key="delay" type="number" value="1.6"/>
 							<entry key="id" type="number" value="102173"/>
 						</entry>
 					</entry>
@@ -68169,7 +68173,7 @@
 					<entry key="interaction_voice" type="string" value="none"/>
 					<entry key="interrupt_dis" type="number" value="0"/>
 					<entry key="interrupt_dmg" type="number" value="1"/>
-					<entry key="interrupt_objective" type="boolean" value="true"/>
+					<entry key="interrupt_objective" type="boolean" value="false"/>
 					<entry key="interval" type="number" value="-1"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
 					<entry key="no_arrest" type="boolean" value="true"/>
@@ -68189,9 +68193,9 @@
 					</entry>
 					<entry key="path_haste" type="string" value="run"/>
 					<entry key="path_stance" type="string" value="ntl"/>
-					<entry key="path_style" type="string" value="precise"/>
+					<entry key="path_style" type="string" value="destination"/>
 					<entry key="patrol_path" type="string" value="none"/>
-					<entry key="pose" type="string" value="crouch"/>
+					<entry key="pose" type="string" value="stand"/>
 					<entry key="position" type="vector3" value="726.865 -3438.68 -484.304"/>
 					<entry key="rotation" type="quaternion" value="0 0 -0.848048 -0.529919"/>
 					<entry key="scan" type="boolean" value="false"/>
@@ -68955,7 +68959,7 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0.5"/>
-							<entry key="id" type="number" value="102325"/>
+							<entry key="id" type="number" value="102195"/>
 						</entry>
 					</entry>
 					<entry key="participate_to_group_ai" type="boolean" value="false"/>
@@ -79365,7 +79369,7 @@
 							<entry key="id" type="number" value="102181"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="5.6"/>
+							<entry key="delay" type="number" value="5.9"/>
 							<entry key="id" type="number" value="102549"/>
 						</entry>
 					</entry>
@@ -80243,8 +80247,9 @@
 					<entry key="force_quit_current" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
-							<entry key="delay" type="number" value="18.7"/>
-							<entry key="id" type="number" value="102581"/>
+							<entry key="delay" type="number" value="20"/>
+							<entry key="delay_rand" type="number" value="3"/>
+							<entry key="id" type="number" value="102605"/>
 						</entry>
 					</entry>
 					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
@@ -80266,7 +80271,7 @@
 					<entry key="action_duration_min" type="number" value="0"/>
 					<entry key="ai_group" type="string" value="none"/>
 					<entry key="align_position" type="boolean" value="true"/>
-					<entry key="align_rotation" type="boolean" value="false"/>
+					<entry key="align_rotation" type="boolean" value="true"/>
 					<entry key="attitude" type="string" value="none"/>
 					<entry key="base_chance" type="number" value="1"/>
 					<entry key="base_delay" type="number" value="0"/>
@@ -80283,7 +80288,7 @@
 					<entry key="interrupt_objective" type="boolean" value="false"/>
 					<entry key="interval" type="number" value="-1"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
-					<entry key="no_arrest" type="boolean" value="false"/>
+					<entry key="no_arrest" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="path_haste" type="string" value="run"/>
@@ -80293,7 +80298,7 @@
 					<entry key="pose" type="string" value="stand"/>
 					<entry key="position" type="vector3" value="3125 200 -9.99986"/>
 					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
-					<entry key="scan" type="boolean" value="true"/>
+					<entry key="scan" type="boolean" value="false"/>
 					<entry key="search_distance" type="number" value="0"/>
 					<entry key="search_position" type="vector3" value="3025 200 -10"/>
 					<entry key="so_action" type="string" value="none"/>
@@ -80303,7 +80308,7 @@
 					<entry key="test_unit" type="string" value="units/pd2_mod_fuel/characters/ene_fuel_hostage/ene_fuel_hostage"/>
 					<entry key="trigger_on" type="string" value="none"/>
 					<entry key="trigger_times" type="number" value="1"/>
-					<entry key="use_instigator" type="boolean" value="true"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
 				</entry>
 			</entry>
 			<entry index="2581" type="table">
@@ -80319,18 +80324,17 @@
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_executed_when_done" type="boolean" value="false"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
-					<entry key="force_quit_current" type="boolean" value="true"/>
+					<entry key="force_quit_current" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="19"/>
-							<entry key="delay_rand" type="number" value="2"/>
-							<entry key="id" type="number" value="102605"/>
+							<entry key="id" type="number" value="102619"/>
 						</entry>
 					</entry>
 					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
 					<entry key="position" type="vector3" value="-4410 -2430 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-					<entry key="trigger_times" type="number" value="1"/>
+					<entry key="trigger_times" type="number" value="0"/>
 					<entry key="use_instigator" type="boolean" value="false"/>
 					<entry key="use_position" type="boolean" value="false"/>
 				</entry>
@@ -80926,6 +80930,10 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="force_quit_current" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102619"/>
+						</entry>
 					</entry>
 					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
 					<entry key="position" type="vector3" value="-4060 -1830 3000"/>
@@ -81397,6 +81405,75 @@
 					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
 					<entry key="set_trigger_times" type="number" value="1"/>
 					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="2621" type="table">
+				<entry key="class" type="string" value="MissionScriptElement"/>
+				<entry key="editor_name" type="string" value="reminder_hostages_loud"/>
+				<entry key="id" type="number" value="102619"/>
+				<entry key="module" type="string" value="CoreMissionScriptElement"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="48"/>
+							<entry key="delay_rand" type="number" value="12"/>
+							<entry key="id" type="number" value="102581"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="-4410 -2455 3075"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="2622" type="table">
+				<entry key="class" type="string" value="ElementToggle"/>
+				<entry key="editor_name" type="string" value="toggle_104"/>
+				<entry key="id" type="number" value="102620"/>
+				<entry key="module" type="string" value="CoreElementToggle"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="102619"/>
+						<entry index="2" type="number" value="102581"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-4410 -2455 3175"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="set_trigger_times" type="number" value="-1"/>
+					<entry key="toggle" type="string" value="off"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="2623" type="table">
+				<entry key="class" type="string" value="ElementSpecialObjectiveTrigger"/>
+				<entry key="editor_name" type="string" value="special_objective_trigger_012"/>
+				<entry key="id" type="number" value="102621"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="101347"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event" type="string" value="complete"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102580"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="3200 300 -9.99986"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
